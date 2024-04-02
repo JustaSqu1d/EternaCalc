@@ -1,0 +1,2613 @@
+{
+    "WRAP": {
+        "uniqueId": "WRAP",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 60.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "HYPER_BEAM": {
+        "uniqueId": "HYPER_BEAM",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 150.0,
+        "energyDelta": 80,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DARK_PULSE": {
+        "uniqueId": "DARK_PULSE",
+        "type": "POKEMON_TYPE_DARK",
+        "power": 80.0,
+        "energyDelta": 50,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SLUDGE": {
+        "uniqueId": "SLUDGE",
+        "type": "POKEMON_TYPE_POISON",
+        "power": 50.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "VICE_GRIP": {
+        "uniqueId": "VICE_GRIP",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 40.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "FLAME_WHEEL": {
+        "uniqueId": "FLAME_WHEEL",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 60.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "MEGAHORN": {
+        "uniqueId": "MEGAHORN",
+        "type": "POKEMON_TYPE_BUG",
+        "power": 110.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "FLAMETHROWER": {
+        "uniqueId": "FLAMETHROWER",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 90.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DIG": {
+        "uniqueId": "DIG",
+        "type": "POKEMON_TYPE_GROUND",
+        "power": 80.0,
+        "energyDelta": 50,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "CROSS_CHOP": {
+        "uniqueId": "CROSS_CHOP",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 55.0,
+        "energyDelta": 35,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "PSYBEAM": {
+        "uniqueId": "PSYBEAM",
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "power": 70.0,
+        "energyDelta": 60,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "EARTHQUAKE": {
+        "uniqueId": "EARTHQUAKE",
+        "type": "POKEMON_TYPE_GROUND",
+        "power": 110.0,
+        "energyDelta": 65,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "STONE_EDGE": {
+        "uniqueId": "STONE_EDGE",
+        "type": "POKEMON_TYPE_ROCK",
+        "power": 100.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "ICE_PUNCH": {
+        "uniqueId": "ICE_PUNCH",
+        "type": "POKEMON_TYPE_ICE",
+        "power": 55.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "HEART_STAMP": {
+        "uniqueId": "HEART_STAMP",
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "power": 40.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DISCHARGE": {
+        "uniqueId": "DISCHARGE",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "power": 65.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "FLASH_CANNON": {
+        "uniqueId": "FLASH_CANNON",
+        "type": "POKEMON_TYPE_STEEL",
+        "power": 110.0,
+        "energyDelta": 70,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DRILL_PECK": {
+        "uniqueId": "DRILL_PECK",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 65.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "ICE_BEAM": {
+        "uniqueId": "ICE_BEAM",
+        "type": "POKEMON_TYPE_ICE",
+        "power": 90.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "BLIZZARD": {
+        "uniqueId": "BLIZZARD",
+        "type": "POKEMON_TYPE_ICE",
+        "power": 140.0,
+        "energyDelta": 75,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "HEAT_WAVE": {
+        "uniqueId": "HEAT_WAVE",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 95.0,
+        "energyDelta": 75,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "AERIAL_ACE": {
+        "uniqueId": "AERIAL_ACE",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 55.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DRILL_RUN": {
+        "uniqueId": "DRILL_RUN",
+        "type": "POKEMON_TYPE_GROUND",
+        "power": 80.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "PETAL_BLIZZARD": {
+        "uniqueId": "PETAL_BLIZZARD",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 110.0,
+        "energyDelta": 65,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "MEGA_DRAIN": {
+        "uniqueId": "MEGA_DRAIN",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 25.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "BUG_BUZZ": {
+        "uniqueId": "BUG_BUZZ",
+        "type": "POKEMON_TYPE_BUG",
+        "power": 100.0,
+        "energyDelta": 60,
+        "buffs": {
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 0.3
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "POISON_FANG": {
+        "uniqueId": "POISON_FANG",
+        "type": "POKEMON_TYPE_POISON",
+        "power": 45.0,
+        "energyDelta": 40,
+        "buffs": {
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "NIGHT_SLASH": {
+        "uniqueId": "NIGHT_SLASH",
+        "type": "POKEMON_TYPE_DARK",
+        "power": 50.0,
+        "energyDelta": 35,
+        "buffs": {
+            "attackerAttackStatStageChange": 2,
+            "buffActivationChance": 0.125
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "BUBBLE_BEAM": {
+        "uniqueId": "BUBBLE_BEAM",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 25.0,
+        "energyDelta": 40,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SUBMISSION": {
+        "uniqueId": "SUBMISSION",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 60.0,
+        "energyDelta": 50,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "LOW_SWEEP": {
+        "uniqueId": "LOW_SWEEP",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 40.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "AQUA_JET": {
+        "uniqueId": "AQUA_JET",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 45.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "AQUA_TAIL": {
+        "uniqueId": "AQUA_TAIL",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 55.0,
+        "energyDelta": 35,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SEED_BOMB": {
+        "uniqueId": "SEED_BOMB",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 60.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "PSYSHOCK": {
+        "uniqueId": "PSYSHOCK",
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "power": 70.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "ANCIENT_POWER": {
+        "uniqueId": "ANCIENT_POWER",
+        "type": "POKEMON_TYPE_ROCK",
+        "power": 60.0,
+        "energyDelta": 45,
+        "buffs": {
+            "attackerAttackStatStageChange": 1,
+            "attackerDefenseStatStageChange": 1,
+            "buffActivationChance": 0.1
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "ROCK_TOMB": {
+        "uniqueId": "ROCK_TOMB",
+        "type": "POKEMON_TYPE_ROCK",
+        "power": 70.0,
+        "energyDelta": 60,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "ROCK_SLIDE": {
+        "uniqueId": "ROCK_SLIDE",
+        "type": "POKEMON_TYPE_ROCK",
+        "power": 75.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "POWER_GEM": {
+        "uniqueId": "POWER_GEM",
+        "type": "POKEMON_TYPE_ROCK",
+        "power": 80.0,
+        "energyDelta": 60,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SHADOW_SNEAK": {
+        "uniqueId": "SHADOW_SNEAK",
+        "type": "POKEMON_TYPE_GHOST",
+        "power": 50.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SHADOW_PUNCH": {
+        "uniqueId": "SHADOW_PUNCH",
+        "type": "POKEMON_TYPE_GHOST",
+        "power": 40.0,
+        "energyDelta": 35,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "OMINOUS_WIND": {
+        "uniqueId": "OMINOUS_WIND",
+        "type": "POKEMON_TYPE_GHOST",
+        "power": 45.0,
+        "energyDelta": 45,
+        "buffs": {
+            "attackerAttackStatStageChange": 1,
+            "attackerDefenseStatStageChange": 1,
+            "buffActivationChance": 0.1
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SHADOW_BALL": {
+        "uniqueId": "SHADOW_BALL",
+        "type": "POKEMON_TYPE_GHOST",
+        "power": 100.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "MAGNET_BOMB": {
+        "uniqueId": "MAGNET_BOMB",
+        "type": "POKEMON_TYPE_STEEL",
+        "power": 70.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "IRON_HEAD": {
+        "uniqueId": "IRON_HEAD",
+        "type": "POKEMON_TYPE_STEEL",
+        "power": 70.0,
+        "energyDelta": 50,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "PARABOLIC_CHARGE": {
+        "uniqueId": "PARABOLIC_CHARGE",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "power": 65.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "THUNDER_PUNCH": {
+        "uniqueId": "THUNDER_PUNCH",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "power": 55.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "THUNDER": {
+        "uniqueId": "THUNDER",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "power": 100.0,
+        "energyDelta": 60,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "THUNDERBOLT": {
+        "uniqueId": "THUNDERBOLT",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "power": 90.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "TWISTER": {
+        "uniqueId": "TWISTER",
+        "type": "POKEMON_TYPE_DRAGON",
+        "power": 45.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DRAGON_PULSE": {
+        "uniqueId": "DRAGON_PULSE",
+        "type": "POKEMON_TYPE_DRAGON",
+        "power": 90.0,
+        "energyDelta": 60,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DRAGON_CLAW": {
+        "uniqueId": "DRAGON_CLAW",
+        "type": "POKEMON_TYPE_DRAGON",
+        "power": 50.0,
+        "energyDelta": 35,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DISARMING_VOICE": {
+        "uniqueId": "DISARMING_VOICE",
+        "type": "POKEMON_TYPE_FAIRY",
+        "power": 70.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DRAINING_KISS": {
+        "uniqueId": "DRAINING_KISS",
+        "type": "POKEMON_TYPE_FAIRY",
+        "power": 60.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DAZZLING_GLEAM": {
+        "uniqueId": "DAZZLING_GLEAM",
+        "type": "POKEMON_TYPE_FAIRY",
+        "power": 110.0,
+        "energyDelta": 70,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "MOONBLAST": {
+        "uniqueId": "MOONBLAST",
+        "type": "POKEMON_TYPE_FAIRY",
+        "power": 110.0,
+        "energyDelta": 60,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 0.1
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "PLAY_ROUGH": {
+        "uniqueId": "PLAY_ROUGH",
+        "type": "POKEMON_TYPE_FAIRY",
+        "power": 90.0,
+        "energyDelta": 60,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "CROSS_POISON": {
+        "uniqueId": "CROSS_POISON",
+        "type": "POKEMON_TYPE_POISON",
+        "power": 50.0,
+        "energyDelta": 35,
+        "buffs": {
+            "attackerAttackStatStageChange": 2,
+            "buffActivationChance": 0.125
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SLUDGE_BOMB": {
+        "uniqueId": "SLUDGE_BOMB",
+        "type": "POKEMON_TYPE_POISON",
+        "power": 80.0,
+        "energyDelta": 50,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SLUDGE_WAVE": {
+        "uniqueId": "SLUDGE_WAVE",
+        "type": "POKEMON_TYPE_POISON",
+        "power": 110.0,
+        "energyDelta": 65,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "GUNK_SHOT": {
+        "uniqueId": "GUNK_SHOT",
+        "type": "POKEMON_TYPE_POISON",
+        "power": 130.0,
+        "energyDelta": 75,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "BONE_CLUB": {
+        "uniqueId": "BONE_CLUB",
+        "type": "POKEMON_TYPE_GROUND",
+        "power": 40.0,
+        "energyDelta": 35,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "BULLDOZE": {
+        "uniqueId": "BULLDOZE",
+        "type": "POKEMON_TYPE_GROUND",
+        "power": 80.0,
+        "energyDelta": 60,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "MUD_BOMB": {
+        "uniqueId": "MUD_BOMB",
+        "type": "POKEMON_TYPE_GROUND",
+        "power": 60.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SIGNAL_BEAM": {
+        "uniqueId": "SIGNAL_BEAM",
+        "type": "POKEMON_TYPE_BUG",
+        "power": 75.0,
+        "energyDelta": 55,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 0.2
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "X_SCISSOR": {
+        "uniqueId": "X_SCISSOR",
+        "type": "POKEMON_TYPE_BUG",
+        "power": 65.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "FLAME_CHARGE": {
+        "uniqueId": "FLAME_CHARGE",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 65.0,
+        "energyDelta": 50,
+        "buffs": {
+            "attackerAttackStatStageChange": 1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "FLAME_BURST": {
+        "uniqueId": "FLAME_BURST",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 70.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "FIRE_BLAST": {
+        "uniqueId": "FIRE_BLAST",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 140.0,
+        "energyDelta": 80,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "BRINE": {
+        "uniqueId": "BRINE",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 60.0,
+        "energyDelta": 50,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "WATER_PULSE": {
+        "uniqueId": "WATER_PULSE",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 80.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SCALD": {
+        "uniqueId": "SCALD",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 85.0,
+        "energyDelta": 50,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 0.5
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "HYDRO_PUMP": {
+        "uniqueId": "HYDRO_PUMP",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 130.0,
+        "energyDelta": 75,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "PSYCHIC": {
+        "uniqueId": "PSYCHIC",
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "power": 75.0,
+        "energyDelta": 55,
+        "buffs": {
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 0.1
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "PSYSTRIKE": {
+        "uniqueId": "PSYSTRIKE",
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "power": 90.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "ICY_WIND": {
+        "uniqueId": "ICY_WIND",
+        "type": "POKEMON_TYPE_ICE",
+        "power": 60.0,
+        "energyDelta": 45,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "GIGA_DRAIN": {
+        "uniqueId": "GIGA_DRAIN",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 50.0,
+        "energyDelta": 80,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "FIRE_PUNCH": {
+        "uniqueId": "FIRE_PUNCH",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 55.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SOLAR_BEAM": {
+        "uniqueId": "SOLAR_BEAM",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 150.0,
+        "energyDelta": 80,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "LEAF_BLADE": {
+        "uniqueId": "LEAF_BLADE",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 70.0,
+        "energyDelta": 35,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "POWER_WHIP": {
+        "uniqueId": "POWER_WHIP",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 90.0,
+        "energyDelta": 50,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "AIR_CUTTER": {
+        "uniqueId": "AIR_CUTTER",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 60.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "HURRICANE": {
+        "uniqueId": "HURRICANE",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 110.0,
+        "energyDelta": 65,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "BRICK_BREAK": {
+        "uniqueId": "BRICK_BREAK",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 40.0,
+        "energyDelta": 40,
+        "buffs": {
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SWIFT": {
+        "uniqueId": "SWIFT",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 60.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "HORN_ATTACK": {
+        "uniqueId": "HORN_ATTACK",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 40.0,
+        "energyDelta": 35,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "STOMP": {
+        "uniqueId": "STOMP",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 55.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "HYPER_FANG": {
+        "uniqueId": "HYPER_FANG",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 80.0,
+        "energyDelta": 50,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "BODY_SLAM": {
+        "uniqueId": "BODY_SLAM",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 60.0,
+        "energyDelta": 35,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "REST": {
+        "uniqueId": "REST",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 50.0,
+        "energyDelta": 35,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "STRUGGLE": {
+        "uniqueId": "STRUGGLE",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 35.0,
+        "energyDelta": 100,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SCALD_BLASTOISE": {
+        "uniqueId": "SCALD_BLASTOISE",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 50.0,
+        "energyDelta": 80,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "HYDRO_PUMP_BLASTOISE": {
+        "uniqueId": "HYDRO_PUMP_BLASTOISE",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 90.0,
+        "energyDelta": 80,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "WRAP_GREEN": {
+        "uniqueId": "WRAP_GREEN",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 25.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "WRAP_PINK": {
+        "uniqueId": "WRAP_PINK",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 25.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "FURY_CUTTER_FAST": {
+        "uniqueId": "FURY_CUTTER_FAST",
+        "type": "POKEMON_TYPE_BUG",
+        "power": 2.0,
+        "energyDelta": 4,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "BUG_BITE_FAST": {
+        "uniqueId": "BUG_BITE_FAST",
+        "type": "POKEMON_TYPE_BUG",
+        "power": 3.0,
+        "energyDelta": 3,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "BITE_FAST": {
+        "uniqueId": "BITE_FAST",
+        "type": "POKEMON_TYPE_DARK",
+        "power": 4.0,
+        "energyDelta": 2,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "SUCKER_PUNCH_FAST": {
+        "uniqueId": "SUCKER_PUNCH_FAST",
+        "type": "POKEMON_TYPE_DARK",
+        "power": 5.0,
+        "energyDelta": 7,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "DRAGON_BREATH_FAST": {
+        "uniqueId": "DRAGON_BREATH_FAST",
+        "type": "POKEMON_TYPE_DRAGON",
+        "power": 4.0,
+        "energyDelta": 3,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "THUNDER_SHOCK_FAST": {
+        "uniqueId": "THUNDER_SHOCK_FAST",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "power": 3.0,
+        "energyDelta": 9,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "SPARK_FAST": {
+        "uniqueId": "SPARK_FAST",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "power": 6.0,
+        "energyDelta": 7,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "LOW_KICK_FAST": {
+        "uniqueId": "LOW_KICK_FAST",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 4.0,
+        "energyDelta": 5,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "KARATE_CHOP_FAST": {
+        "uniqueId": "KARATE_CHOP_FAST",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 5.0,
+        "energyDelta": 8,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "EMBER_FAST": {
+        "uniqueId": "EMBER_FAST",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 7.0,
+        "energyDelta": 6,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "WING_ATTACK_FAST": {
+        "uniqueId": "WING_ATTACK_FAST",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 5.0,
+        "energyDelta": 8,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "PECK_FAST": {
+        "uniqueId": "PECK_FAST",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 6.0,
+        "energyDelta": 5,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "LICK_FAST": {
+        "uniqueId": "LICK_FAST",
+        "type": "POKEMON_TYPE_GHOST",
+        "power": 3.0,
+        "energyDelta": 3,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "SHADOW_CLAW_FAST": {
+        "uniqueId": "SHADOW_CLAW_FAST",
+        "type": "POKEMON_TYPE_GHOST",
+        "power": 6.0,
+        "energyDelta": 8,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "VINE_WHIP_FAST": {
+        "uniqueId": "VINE_WHIP_FAST",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 5.0,
+        "energyDelta": 8,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "RAZOR_LEAF_FAST": {
+        "uniqueId": "RAZOR_LEAF_FAST",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 10.0,
+        "energyDelta": 4,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "MUD_SHOT_FAST": {
+        "uniqueId": "MUD_SHOT_FAST",
+        "type": "POKEMON_TYPE_GROUND",
+        "power": 3.0,
+        "energyDelta": 9,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "ICE_SHARD_FAST": {
+        "uniqueId": "ICE_SHARD_FAST",
+        "type": "POKEMON_TYPE_ICE",
+        "power": 9.0,
+        "energyDelta": 10,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "FROST_BREATH_FAST": {
+        "uniqueId": "FROST_BREATH_FAST",
+        "type": "POKEMON_TYPE_ICE",
+        "power": 7.0,
+        "energyDelta": 5,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "QUICK_ATTACK_FAST": {
+        "uniqueId": "QUICK_ATTACK_FAST",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 5.0,
+        "energyDelta": 8,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "SCRATCH_FAST": {
+        "uniqueId": "SCRATCH_FAST",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 4.0,
+        "energyDelta": 2,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "TACKLE_FAST": {
+        "uniqueId": "TACKLE_FAST",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 3.0,
+        "energyDelta": 3,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "POUND_FAST": {
+        "uniqueId": "POUND_FAST",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 4.0,
+        "energyDelta": 4,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "CUT_FAST": {
+        "uniqueId": "CUT_FAST",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 3.0,
+        "energyDelta": 2,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "POISON_JAB_FAST": {
+        "uniqueId": "POISON_JAB_FAST",
+        "type": "POKEMON_TYPE_POISON",
+        "power": 7.0,
+        "energyDelta": 7,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "ACID_FAST": {
+        "uniqueId": "ACID_FAST",
+        "type": "POKEMON_TYPE_POISON",
+        "power": 6.0,
+        "energyDelta": 5,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "PSYCHO_CUT_FAST": {
+        "uniqueId": "PSYCHO_CUT_FAST",
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "power": 3.0,
+        "energyDelta": 9,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "ROCK_THROW_FAST": {
+        "uniqueId": "ROCK_THROW_FAST",
+        "type": "POKEMON_TYPE_ROCK",
+        "power": 8.0,
+        "energyDelta": 5,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "METAL_CLAW_FAST": {
+        "uniqueId": "METAL_CLAW_FAST",
+        "type": "POKEMON_TYPE_STEEL",
+        "power": 5.0,
+        "energyDelta": 6,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "BULLET_PUNCH_FAST": {
+        "uniqueId": "BULLET_PUNCH_FAST",
+        "type": "POKEMON_TYPE_STEEL",
+        "power": 6.0,
+        "energyDelta": 7,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "WATER_GUN_FAST": {
+        "uniqueId": "WATER_GUN_FAST",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 3.0,
+        "energyDelta": 3,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "SPLASH_FAST": {
+        "uniqueId": "SPLASH_FAST",
+        "type": "POKEMON_TYPE_WATER",
+        "energyDelta": 12,
+        "power": 0,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "WATER_GUN_FAST_BLASTOISE": {
+        "uniqueId": "WATER_GUN_FAST_BLASTOISE",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 6.0,
+        "energyDelta": 4,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "MUD_SLAP_FAST": {
+        "uniqueId": "MUD_SLAP_FAST",
+        "type": "POKEMON_TYPE_GROUND",
+        "power": 11.0,
+        "energyDelta": 9,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "ZEN_HEADBUTT_FAST": {
+        "uniqueId": "ZEN_HEADBUTT_FAST",
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "power": 8.0,
+        "energyDelta": 6,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "CONFUSION_FAST": {
+        "uniqueId": "CONFUSION_FAST",
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "power": 16.0,
+        "energyDelta": 12,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "POISON_STING_FAST": {
+        "uniqueId": "POISON_STING_FAST",
+        "type": "POKEMON_TYPE_POISON",
+        "power": 3.0,
+        "energyDelta": 9,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "BUBBLE_FAST": {
+        "uniqueId": "BUBBLE_FAST",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 8.0,
+        "energyDelta": 11,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "FEINT_ATTACK_FAST": {
+        "uniqueId": "FEINT_ATTACK_FAST",
+        "type": "POKEMON_TYPE_DARK",
+        "power": 6.0,
+        "energyDelta": 6,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "STEEL_WING_FAST": {
+        "uniqueId": "STEEL_WING_FAST",
+        "type": "POKEMON_TYPE_STEEL",
+        "power": 7.0,
+        "energyDelta": 7,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "FIRE_FANG_FAST": {
+        "uniqueId": "FIRE_FANG_FAST",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 8.0,
+        "energyDelta": 5,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "ROCK_SMASH_FAST": {
+        "uniqueId": "ROCK_SMASH_FAST",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 9.0,
+        "energyDelta": 7,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "TRANSFORM_FAST": {
+        "uniqueId": "TRANSFORM_FAST",
+        "type": "POKEMON_TYPE_NORMAL",
+        "energyDelta": 0,
+        "power": 0,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "COUNTER_FAST": {
+        "uniqueId": "COUNTER_FAST",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 8.0,
+        "energyDelta": 7,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "POWDER_SNOW_FAST": {
+        "uniqueId": "POWDER_SNOW_FAST",
+        "type": "POKEMON_TYPE_ICE",
+        "power": 5.0,
+        "energyDelta": 8,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "CLOSE_COMBAT": {
+        "uniqueId": "CLOSE_COMBAT",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 100.0,
+        "energyDelta": 45,
+        "buffs": {
+            "attackerDefenseStatStageChange": -2,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DYNAMIC_PUNCH": {
+        "uniqueId": "DYNAMIC_PUNCH",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 90.0,
+        "energyDelta": 50,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "FOCUS_BLAST": {
+        "uniqueId": "FOCUS_BLAST",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 150.0,
+        "energyDelta": 75,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "AURORA_BEAM": {
+        "uniqueId": "AURORA_BEAM",
+        "type": "POKEMON_TYPE_ICE",
+        "power": 80.0,
+        "energyDelta": 60,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "CHARGE_BEAM_FAST": {
+        "uniqueId": "CHARGE_BEAM_FAST",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "power": 5.0,
+        "energyDelta": 11,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "VOLT_SWITCH_FAST": {
+        "uniqueId": "VOLT_SWITCH_FAST",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "power": 12.0,
+        "energyDelta": 16,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "WILD_CHARGE": {
+        "uniqueId": "WILD_CHARGE",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "power": 100.0,
+        "energyDelta": 45,
+        "buffs": {
+            "attackerDefenseStatStageChange": -2,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "ZAP_CANNON": {
+        "uniqueId": "ZAP_CANNON",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "power": 150.0,
+        "energyDelta": 80,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 0.66
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DRAGON_TAIL_FAST": {
+        "uniqueId": "DRAGON_TAIL_FAST",
+        "type": "POKEMON_TYPE_DRAGON",
+        "power": 13.0,
+        "energyDelta": 9,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "AVALANCHE": {
+        "uniqueId": "AVALANCHE",
+        "type": "POKEMON_TYPE_ICE",
+        "power": 90.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "AIR_SLASH_FAST": {
+        "uniqueId": "AIR_SLASH_FAST",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 9.0,
+        "energyDelta": 9,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "BRAVE_BIRD": {
+        "uniqueId": "BRAVE_BIRD",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 130.0,
+        "energyDelta": 55,
+        "buffs": {
+            "attackerDefenseStatStageChange": -3,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SKY_ATTACK": {
+        "uniqueId": "SKY_ATTACK",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 75.0,
+        "energyDelta": 50,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SAND_TOMB": {
+        "uniqueId": "SAND_TOMB",
+        "type": "POKEMON_TYPE_GROUND",
+        "power": 25.0,
+        "energyDelta": 40,
+        "buffs": {
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "ROCK_BLAST": {
+        "uniqueId": "ROCK_BLAST",
+        "type": "POKEMON_TYPE_ROCK",
+        "power": 50.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "INFESTATION_FAST": {
+        "uniqueId": "INFESTATION_FAST",
+        "type": "POKEMON_TYPE_BUG",
+        "power": 6.0,
+        "energyDelta": 12,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "STRUGGLE_BUG_FAST": {
+        "uniqueId": "STRUGGLE_BUG_FAST",
+        "type": "POKEMON_TYPE_BUG",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "SILVER_WIND": {
+        "uniqueId": "SILVER_WIND",
+        "type": "POKEMON_TYPE_BUG",
+        "power": 60.0,
+        "energyDelta": 45,
+        "buffs": {
+            "attackerAttackStatStageChange": 1,
+            "attackerDefenseStatStageChange": 1,
+            "buffActivationChance": 0.1
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "ASTONISH_FAST": {
+        "uniqueId": "ASTONISH_FAST",
+        "type": "POKEMON_TYPE_GHOST",
+        "power": 9.0,
+        "energyDelta": 10,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "HEX_FAST": {
+        "uniqueId": "HEX_FAST",
+        "type": "POKEMON_TYPE_GHOST",
+        "power": 6.0,
+        "energyDelta": 12,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "NIGHT_SHADE": {
+        "uniqueId": "NIGHT_SHADE",
+        "type": "POKEMON_TYPE_GHOST",
+        "power": 60.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "IRON_TAIL_FAST": {
+        "uniqueId": "IRON_TAIL_FAST",
+        "type": "POKEMON_TYPE_STEEL",
+        "power": 10.0,
+        "energyDelta": 7,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "GYRO_BALL": {
+        "uniqueId": "GYRO_BALL",
+        "type": "POKEMON_TYPE_STEEL",
+        "power": 80.0,
+        "energyDelta": 60,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "HEAVY_SLAM": {
+        "uniqueId": "HEAVY_SLAM",
+        "type": "POKEMON_TYPE_STEEL",
+        "power": 70.0,
+        "energyDelta": 50,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "FIRE_SPIN_FAST": {
+        "uniqueId": "FIRE_SPIN_FAST",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 10.0,
+        "energyDelta": 10,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "OVERHEAT": {
+        "uniqueId": "OVERHEAT",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 130.0,
+        "energyDelta": 55,
+        "buffs": {
+            "attackerAttackStatStageChange": -2,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "BULLET_SEED_FAST": {
+        "uniqueId": "BULLET_SEED_FAST",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 5.0,
+        "energyDelta": 13,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "GRASS_KNOT": {
+        "uniqueId": "GRASS_KNOT",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 90.0,
+        "energyDelta": 50,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "ENERGY_BALL": {
+        "uniqueId": "ENERGY_BALL",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 90.0,
+        "energyDelta": 55,
+        "buffs": {
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 0.1
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "EXTRASENSORY_FAST": {
+        "uniqueId": "EXTRASENSORY_FAST",
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "power": 8.0,
+        "energyDelta": 10,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "FUTURESIGHT": {
+        "uniqueId": "FUTURESIGHT",
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "power": 120.0,
+        "energyDelta": 65,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "MIRROR_COAT": {
+        "uniqueId": "MIRROR_COAT",
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "power": 60.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "OUTRAGE": {
+        "uniqueId": "OUTRAGE",
+        "type": "POKEMON_TYPE_DRAGON",
+        "power": 110.0,
+        "energyDelta": 60,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SNARL_FAST": {
+        "uniqueId": "SNARL_FAST",
+        "type": "POKEMON_TYPE_DARK",
+        "power": 5.0,
+        "energyDelta": 13,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "CRUNCH": {
+        "uniqueId": "CRUNCH",
+        "type": "POKEMON_TYPE_DARK",
+        "power": 70.0,
+        "energyDelta": 45,
+        "buffs": {
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 0.3
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "FOUL_PLAY": {
+        "uniqueId": "FOUL_PLAY",
+        "type": "POKEMON_TYPE_DARK",
+        "power": 70.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "HIDDEN_POWER_FAST": {
+        "uniqueId": "HIDDEN_POWER_FAST",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "TAKE_DOWN_FAST": {
+        "uniqueId": "TAKE_DOWN_FAST",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 5.0,
+        "energyDelta": 8,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "WATERFALL_FAST": {
+        "uniqueId": "WATERFALL_FAST",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 12.0,
+        "energyDelta": 8,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "SURF": {
+        "uniqueId": "SURF",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 65.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DRACO_METEOR": {
+        "uniqueId": "DRACO_METEOR",
+        "type": "POKEMON_TYPE_DRAGON",
+        "power": 150.0,
+        "energyDelta": 65,
+        "buffs": {
+            "attackerAttackStatStageChange": -2,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DOOM_DESIRE": {
+        "uniqueId": "DOOM_DESIRE",
+        "type": "POKEMON_TYPE_STEEL",
+        "power": 75.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "YAWN_FAST": {
+        "uniqueId": "YAWN_FAST",
+        "type": "POKEMON_TYPE_NORMAL",
+        "energyDelta": 12,
+        "power": 0,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "PSYCHO_BOOST": {
+        "uniqueId": "PSYCHO_BOOST",
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "power": 70.0,
+        "energyDelta": 35,
+        "buffs": {
+            "attackerAttackStatStageChange": -2,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "ORIGIN_PULSE": {
+        "uniqueId": "ORIGIN_PULSE",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 130.0,
+        "energyDelta": 60,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "PRECIPICE_BLADES": {
+        "uniqueId": "PRECIPICE_BLADES",
+        "type": "POKEMON_TYPE_GROUND",
+        "power": 130.0,
+        "energyDelta": 60,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "PRESENT_FAST": {
+        "uniqueId": "PRESENT_FAST",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 3.0,
+        "energyDelta": 12,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "WEATHER_BALL_FIRE": {
+        "uniqueId": "WEATHER_BALL_FIRE",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 55.0,
+        "energyDelta": 35,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "WEATHER_BALL_ICE": {
+        "uniqueId": "WEATHER_BALL_ICE",
+        "type": "POKEMON_TYPE_ICE",
+        "power": 55.0,
+        "energyDelta": 35,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "WEATHER_BALL_ROCK": {
+        "uniqueId": "WEATHER_BALL_ROCK",
+        "type": "POKEMON_TYPE_ROCK",
+        "power": 55.0,
+        "energyDelta": 35,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "WEATHER_BALL_WATER": {
+        "uniqueId": "WEATHER_BALL_WATER",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 55.0,
+        "energyDelta": 35,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "FRENZY_PLANT": {
+        "uniqueId": "FRENZY_PLANT",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 100.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SMACK_DOWN_FAST": {
+        "uniqueId": "SMACK_DOWN_FAST",
+        "type": "POKEMON_TYPE_ROCK",
+        "power": 12.0,
+        "energyDelta": 8,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "BLAST_BURN": {
+        "uniqueId": "BLAST_BURN",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 110.0,
+        "energyDelta": 50,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "HYDRO_CANNON": {
+        "uniqueId": "HYDRO_CANNON",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 80.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "LAST_RESORT": {
+        "uniqueId": "LAST_RESORT",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 90.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "METEOR_MASH": {
+        "uniqueId": "METEOR_MASH",
+        "type": "POKEMON_TYPE_STEEL",
+        "power": 100.0,
+        "energyDelta": 50,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SKULL_BASH": {
+        "uniqueId": "SKULL_BASH",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 130.0,
+        "energyDelta": 75,
+        "buffs": {
+            "attackerDefenseStatStageChange": 1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "ACID_SPRAY": {
+        "uniqueId": "ACID_SPRAY",
+        "type": "POKEMON_TYPE_POISON",
+        "power": 20.0,
+        "energyDelta": 45,
+        "buffs": {
+            "targetDefenseStatStageChange": -2,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "EARTH_POWER": {
+        "uniqueId": "EARTH_POWER",
+        "type": "POKEMON_TYPE_GROUND",
+        "power": 90.0,
+        "energyDelta": 55,
+        "buffs": {
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 0.1
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "CRABHAMMER": {
+        "uniqueId": "CRABHAMMER",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 85.0,
+        "energyDelta": 50,
+        "buffs": {
+            "attackerAttackStatStageChange": 2,
+            "buffActivationChance": 0.125
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "LUNGE": {
+        "uniqueId": "LUNGE",
+        "type": "POKEMON_TYPE_BUG",
+        "power": 60.0,
+        "energyDelta": 45,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "OCTAZOOKA": {
+        "uniqueId": "OCTAZOOKA",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 50.0,
+        "energyDelta": 50,
+        "buffs": {
+            "targetAttackStatStageChange": -2,
+            "buffActivationChance": 0.5
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "MIRROR_SHOT": {
+        "uniqueId": "MIRROR_SHOT",
+        "type": "POKEMON_TYPE_STEEL",
+        "power": 35.0,
+        "energyDelta": 35,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 0.3
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SUPER_POWER": {
+        "uniqueId": "SUPER_POWER",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 85.0,
+        "energyDelta": 40,
+        "buffs": {
+            "attackerAttackStatStageChange": -1,
+            "attackerDefenseStatStageChange": -1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "FELL_STINGER": {
+        "uniqueId": "FELL_STINGER",
+        "type": "POKEMON_TYPE_BUG",
+        "power": 20.0,
+        "energyDelta": 35,
+        "buffs": {
+            "attackerAttackStatStageChange": 1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "LEAF_TORNADO": {
+        "uniqueId": "LEAF_TORNADO",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 45.0,
+        "energyDelta": 40,
+        "buffs": {
+            "targetAttackStatStageChange": -2,
+            "buffActivationChance": 0.5
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DRAIN_PUNCH": {
+        "uniqueId": "DRAIN_PUNCH",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 20.0,
+        "energyDelta": 40,
+        "buffs": {
+            "attackerDefenseStatStageChange": 1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SHADOW_BONE": {
+        "uniqueId": "SHADOW_BONE",
+        "type": "POKEMON_TYPE_GHOST",
+        "power": 80.0,
+        "energyDelta": 45,
+        "buffs": {
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 0.2
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "MUDDY_WATER": {
+        "uniqueId": "MUDDY_WATER",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 35.0,
+        "energyDelta": 35,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 0.3
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "BLAZE_KICK": {
+        "uniqueId": "BLAZE_KICK",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 60.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "RAZOR_SHELL": {
+        "uniqueId": "RAZOR_SHELL",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 35.0,
+        "energyDelta": 35,
+        "buffs": {
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 0.5
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "POWER_UP_PUNCH": {
+        "uniqueId": "POWER_UP_PUNCH",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 20.0,
+        "energyDelta": 35,
+        "buffs": {
+            "attackerAttackStatStageChange": 1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "CHARM_FAST": {
+        "uniqueId": "CHARM_FAST",
+        "type": "POKEMON_TYPE_FAIRY",
+        "power": 15.0,
+        "energyDelta": 6,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "GIGA_IMPACT": {
+        "uniqueId": "GIGA_IMPACT",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 150.0,
+        "energyDelta": 80,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "FRUSTRATION": {
+        "uniqueId": "FRUSTRATION",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 10.0,
+        "energyDelta": 70,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "RETURN": {
+        "uniqueId": "RETURN",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 130.0,
+        "energyDelta": 70,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SYNCHRONOISE": {
+        "uniqueId": "SYNCHRONOISE",
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "power": 80.0,
+        "energyDelta": 50,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "LOCK_ON_FAST": {
+        "uniqueId": "LOCK_ON_FAST",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 1.0,
+        "energyDelta": 5,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "THUNDER_FANG_FAST": {
+        "uniqueId": "THUNDER_FANG_FAST",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "power": 8.0,
+        "energyDelta": 5,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "ICE_FANG_FAST": {
+        "uniqueId": "ICE_FANG_FAST",
+        "type": "POKEMON_TYPE_ICE",
+        "power": 8.0,
+        "energyDelta": 5,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "SACRED_SWORD": {
+        "uniqueId": "SACRED_SWORD",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 60.0,
+        "energyDelta": 35,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "FLYING_PRESS": {
+        "uniqueId": "FLYING_PRESS",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 90.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "AURA_SPHERE": {
+        "uniqueId": "AURA_SPHERE",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 100.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "PAYBACK": {
+        "uniqueId": "PAYBACK",
+        "type": "POKEMON_TYPE_DARK",
+        "power": 110.0,
+        "energyDelta": 60,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "ROCK_WRECKER": {
+        "uniqueId": "ROCK_WRECKER",
+        "type": "POKEMON_TYPE_ROCK",
+        "power": 110.0,
+        "energyDelta": 50,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "AEROBLAST": {
+        "uniqueId": "AEROBLAST",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 170.0,
+        "energyDelta": 75,
+        "buffs": {
+            "attackerAttackStatStageChange": 2,
+            "buffActivationChance": 0.125
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "TECHNO_BLAST_NORMAL": {
+        "uniqueId": "TECHNO_BLAST_NORMAL",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 120.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "TECHNO_BLAST_BURN": {
+        "uniqueId": "TECHNO_BLAST_BURN",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 120.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "TECHNO_BLAST_CHILL": {
+        "uniqueId": "TECHNO_BLAST_CHILL",
+        "type": "POKEMON_TYPE_ICE",
+        "power": 120.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "TECHNO_BLAST_WATER": {
+        "uniqueId": "TECHNO_BLAST_WATER",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 120.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "TECHNO_BLAST_SHOCK": {
+        "uniqueId": "TECHNO_BLAST_SHOCK",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "power": 120.0,
+        "energyDelta": 55,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "FLY": {
+        "uniqueId": "FLY",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 80.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "V_CREATE": {
+        "uniqueId": "V_CREATE",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 95.0,
+        "energyDelta": 40,
+        "buffs": {
+            "attackerDefenseStatStageChange": -3,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "LEAF_STORM": {
+        "uniqueId": "LEAF_STORM",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 130.0,
+        "energyDelta": 55,
+        "buffs": {
+            "attackerAttackStatStageChange": -2,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "TRI_ATTACK": {
+        "uniqueId": "TRI_ATTACK",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 65.0,
+        "energyDelta": 50,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 0.5
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "GUST_FAST": {
+        "uniqueId": "GUST_FAST",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 16.0,
+        "energyDelta": 12,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "INCINERATE_FAST": {
+        "uniqueId": "INCINERATE_FAST",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 20.0,
+        "energyDelta": 20,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "FEATHER_DANCE": {
+        "uniqueId": "FEATHER_DANCE",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 35.0,
+        "energyDelta": 50,
+        "buffs": {
+            "targetAttackStatStageChange": -2,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "FAIRY_WIND_FAST": {
+        "uniqueId": "FAIRY_WIND_FAST",
+        "type": "POKEMON_TYPE_FAIRY",
+        "power": 3.0,
+        "energyDelta": 9,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "WEATHER_BALL_NORMAL": {
+        "uniqueId": "WEATHER_BALL_NORMAL",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 55.0,
+        "energyDelta": 35,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "PSYCHIC_FANGS": {
+        "uniqueId": "PSYCHIC_FANGS",
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "power": 40.0,
+        "energyDelta": 35,
+        "buffs": {
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DOUBLE_KICK_FAST": {
+        "uniqueId": "DOUBLE_KICK_FAST",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 8.0,
+        "energyDelta": 12,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "MAGICAL_LEAF_FAST": {
+        "uniqueId": "MAGICAL_LEAF_FAST",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 10.0,
+        "energyDelta": 10,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "SACRED_FIRE": {
+        "uniqueId": "SACRED_FIRE",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 130.0,
+        "energyDelta": 65,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 0.5
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "ICICLE_SPEAR": {
+        "uniqueId": "ICICLE_SPEAR",
+        "type": "POKEMON_TYPE_ICE",
+        "power": 65.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "AEROBLAST_PLUS": {
+        "uniqueId": "AEROBLAST_PLUS",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 170.0,
+        "energyDelta": 75,
+        "buffs": {
+            "attackerAttackStatStageChange": 2,
+            "buffActivationChance": 0.125
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "AEROBLAST_PLUS_PLUS": {
+        "uniqueId": "AEROBLAST_PLUS_PLUS",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 170.0,
+        "energyDelta": 75,
+        "buffs": {
+            "attackerAttackStatStageChange": 2,
+            "buffActivationChance": 0.125
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SACRED_FIRE_PLUS": {
+        "uniqueId": "SACRED_FIRE_PLUS",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 130.0,
+        "energyDelta": 65,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 0.5
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SACRED_FIRE_PLUS_PLUS": {
+        "uniqueId": "SACRED_FIRE_PLUS_PLUS",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 130.0,
+        "energyDelta": 65,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 0.5
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "ACROBATICS": {
+        "uniqueId": "ACROBATICS",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 110.0,
+        "energyDelta": 60,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "LUSTER_PURGE": {
+        "uniqueId": "LUSTER_PURGE",
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "power": 120.0,
+        "energyDelta": 60,
+        "buffs": {
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 0.5
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "MIST_BALL": {
+        "uniqueId": "MIST_BALL",
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "power": 120.0,
+        "energyDelta": 60,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 0.5
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "BRUTAL_SWING": {
+        "uniqueId": "BRUTAL_SWING",
+        "type": "POKEMON_TYPE_DARK",
+        "power": 65.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "ROLLOUT_FAST": {
+        "uniqueId": "ROLLOUT_FAST",
+        "type": "POKEMON_TYPE_ROCK",
+        "power": 5.0,
+        "energyDelta": 13,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "SEED_FLARE": {
+        "uniqueId": "SEED_FLARE",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 130.0,
+        "energyDelta": 75,
+        "buffs": {
+            "targetDefenseStatStageChange": -2,
+            "buffActivationChance": 0.4
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "OBSTRUCT": {
+        "uniqueId": "OBSTRUCT",
+        "type": "POKEMON_TYPE_DARK",
+        "power": 15.0,
+        "energyDelta": 40,
+        "buffs": {
+            "attackerDefenseStatStageChange": 1,
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SHADOW_FORCE": {
+        "uniqueId": "SHADOW_FORCE",
+        "type": "POKEMON_TYPE_GHOST",
+        "power": 120.0,
+        "energyDelta": 90,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "METEOR_BEAM": {
+        "uniqueId": "METEOR_BEAM",
+        "type": "POKEMON_TYPE_ROCK",
+        "power": 120.0,
+        "energyDelta": 60,
+        "buffs": {
+            "attackerAttackStatStageChange": 1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "WATER_SHURIKEN_FAST": {
+        "uniqueId": "WATER_SHURIKEN_FAST",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 6.0,
+        "energyDelta": 14,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "FUSION_BOLT": {
+        "uniqueId": "FUSION_BOLT",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "power": 90.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "FUSION_FLARE": {
+        "uniqueId": "FUSION_FLARE",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 90.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "POLTERGEIST": {
+        "uniqueId": "POLTERGEIST",
+        "type": "POKEMON_TYPE_GHOST",
+        "power": 150.0,
+        "energyDelta": 75,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "HIGH_HORSEPOWER": {
+        "uniqueId": "HIGH_HORSEPOWER",
+        "type": "POKEMON_TYPE_GROUND",
+        "power": 100.0,
+        "energyDelta": 60,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "GLACIATE": {
+        "uniqueId": "GLACIATE",
+        "type": "POKEMON_TYPE_ICE",
+        "power": 60.0,
+        "energyDelta": 40,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "BREAKING_SWIPE": {
+        "uniqueId": "BREAKING_SWIPE",
+        "type": "POKEMON_TYPE_DRAGON",
+        "power": 50.0,
+        "energyDelta": 35,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 0.5
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "BOOMBURST": {
+        "uniqueId": "BOOMBURST",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 150.0,
+        "energyDelta": 70,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DOUBLE_IRON_BASH": {
+        "uniqueId": "DOUBLE_IRON_BASH",
+        "type": "POKEMON_TYPE_STEEL",
+        "power": 50.0,
+        "energyDelta": 35,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "MYSTICAL_FIRE": {
+        "uniqueId": "MYSTICAL_FIRE",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 60.0,
+        "energyDelta": 45,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "LIQUIDATION": {
+        "uniqueId": "LIQUIDATION",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 70.0,
+        "energyDelta": 45,
+        "buffs": {
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 0.3
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DRAGON_ASCENT": {
+        "uniqueId": "DRAGON_ASCENT",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 150.0,
+        "energyDelta": 70,
+        "buffs": {
+            "attackerDefenseStatStageChange": -1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "LEAFAGE_FAST": {
+        "uniqueId": "LEAFAGE_FAST",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 6.0,
+        "energyDelta": 7,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "MAGMA_STORM": {
+        "uniqueId": "MAGMA_STORM",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 65.0,
+        "energyDelta": 40,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "GEOMANCY_FAST": {
+        "uniqueId": "GEOMANCY_FAST",
+        "type": "POKEMON_TYPE_FAIRY",
+        "power": 4.0,
+        "energyDelta": 13,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "SPACIAL_REND": {
+        "uniqueId": "SPACIAL_REND",
+        "type": "POKEMON_TYPE_DRAGON",
+        "power": 95.0,
+        "energyDelta": 50,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "OBLIVION_WING": {
+        "uniqueId": "OBLIVION_WING",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 85.0,
+        "energyDelta": 50,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "NATURES_MADNESS": {
+        "uniqueId": "NATURES_MADNESS",
+        "type": "POKEMON_TYPE_FAIRY",
+        "power": 80.0,
+        "energyDelta": 50,
+        "buffs": {
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "TRIPLE_AXEL": {
+        "uniqueId": "TRIPLE_AXEL",
+        "type": "POKEMON_TYPE_ICE",
+        "power": 60.0,
+        "energyDelta": 45,
+        "buffs": {
+            "attackerAttackStatStageChange": 1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "TRAILBLAZE": {
+        "uniqueId": "TRAILBLAZE",
+        "type": "POKEMON_TYPE_GRASS",
+        "power": 65.0,
+        "energyDelta": 50,
+        "buffs": {
+            "attackerAttackStatStageChange": 1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SCORCHING_SANDS": {
+        "uniqueId": "SCORCHING_SANDS",
+        "type": "POKEMON_TYPE_GROUND",
+        "power": 80.0,
+        "energyDelta": 50,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 0.3
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "ROAR_OF_TIME": {
+        "uniqueId": "ROAR_OF_TIME",
+        "type": "POKEMON_TYPE_DRAGON",
+        "power": 150.0,
+        "energyDelta": 65,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "BLEAKWIND_STORM": {
+        "uniqueId": "BLEAKWIND_STORM",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 60.0,
+        "energyDelta": 45,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SANDSEAR_STORM": {
+        "uniqueId": "SANDSEAR_STORM",
+        "type": "POKEMON_TYPE_GROUND",
+        "power": 60.0,
+        "energyDelta": 45,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "WILDBOLT_STORM": {
+        "uniqueId": "WILDBOLT_STORM",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "power": 60.0,
+        "energyDelta": 45,
+        "buffs": {
+            "targetAttackStatStageChange": -1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "SPIRIT_SHACKLE": {
+        "uniqueId": "SPIRIT_SHACKLE",
+        "type": "POKEMON_TYPE_GHOST",
+        "power": 50.0,
+        "energyDelta": 40,
+        "buffs": {
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 0.33
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "VOLT_TACKLE": {
+        "uniqueId": "VOLT_TACKLE",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "power": 90.0,
+        "energyDelta": 50,
+        "buffs": {
+            "attackerDefenseStatStageChange": -1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "DARKEST_LARIAT": {
+        "uniqueId": "DARKEST_LARIAT",
+        "type": "POKEMON_TYPE_DARK",
+        "power": 120.0,
+        "energyDelta": 60,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "PSYWAVE_FAST": {
+        "uniqueId": "PSYWAVE_FAST",
+        "type": "POKEMON_TYPE_PSYCHIC",
+        "power": 3.0,
+        "energyDelta": 2,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "METAL_SOUND_FAST": {
+        "uniqueId": "METAL_SOUND_FAST",
+        "type": "POKEMON_TYPE_STEEL",
+        "power": 3.0,
+        "energyDelta": 8,
+        "turns": 1,
+        "usageType": "fast"
+    },
+    "SAND_ATTACK_FAST": {
+        "uniqueId": "SAND_ATTACK_FAST",
+        "type": "POKEMON_TYPE_GROUND",
+        "power": 2.0,
+        "energyDelta": 4,
+        "turns": 1,
+        "usageType": "fast"
+    }
+}

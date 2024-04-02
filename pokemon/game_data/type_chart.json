@@ -1,0 +1,159 @@
+{
+    "Normal": {
+        "Rock": "NOT_VERY_EFFECTIVE",
+        "Ghost": "IMMUNE",
+        "Steel": "NOT_VERY_EFFECTIVE"
+    },
+    "Fire": {
+        "Fire": "NOT_VERY_EFFECTIVE",
+        "Water": "NOT_VERY_EFFECTIVE",
+        "Grass": "SUPER_EFFECTIVE",
+        "Ice": "SUPER_EFFECTIVE",
+        "Bug": "SUPER_EFFECTIVE",
+        "Rock": "NOT_VERY_EFFECTIVE",
+        "Dragon": "NOT_VERY_EFFECTIVE",
+        "Steel": "SUPER_EFFECTIVE"
+    },
+    "Water": {
+        "Fire": "SUPER_EFFECTIVE",
+        "Water": "NOT_VERY_EFFECTIVE",
+        "Grass": "NOT_VERY_EFFECTIVE",
+        "Ground": "SUPER_EFFECTIVE",
+        "Rock": "SUPER_EFFECTIVE",
+        "Dragon": "NOT_VERY_EFFECTIVE"
+    },
+    "Grass": {
+        "Fire": "NOT_VERY_EFFECTIVE",
+        "Water": "SUPER_EFFECTIVE",
+        "Grass": "NOT_VERY_EFFECTIVE",
+        "Poison": "NOT_VERY_EFFECTIVE",
+        "Ground": "SUPER_EFFECTIVE",
+        "Flying": "NOT_VERY_EFFECTIVE",
+        "Bug": "NOT_VERY_EFFECTIVE",
+        "Rock": "SUPER_EFFECTIVE",
+        "Dragon": "NOT_VERY_EFFECTIVE",
+        "Steel": "NOT_VERY_EFFECTIVE"
+    },
+    "Electric": {
+        "Water": "SUPER_EFFECTIVE",
+        "Electric": "NOT_VERY_EFFECTIVE",
+        "Grass": "NOT_VERY_EFFECTIVE",
+        "Ground": "IMMUNE",
+        "Flying": "SUPER_EFFECTIVE",
+        "Dragon": "NOT_VERY_EFFECTIVE"
+    },
+    "Ice": {
+        "Fire": "NOT_VERY_EFFECTIVE",
+        "Water": "NOT_VERY_EFFECTIVE",
+        "Grass": "SUPER_EFFECTIVE",
+        "Ice": "NOT_VERY_EFFECTIVE",
+        "Ground": "SUPER_EFFECTIVE",
+        "Flying": "SUPER_EFFECTIVE",
+        "Dragon": "SUPER_EFFECTIVE",
+        "Steel": "NOT_VERY_EFFECTIVE"
+    },
+    "Fighting": {
+        "Normal": "SUPER_EFFECTIVE",
+        "Ice": "SUPER_EFFECTIVE",
+        "Poison": "NOT_VERY_EFFECTIVE",
+        "Flying": "NOT_VERY_EFFECTIVE",
+        "Psychic": "NOT_VERY_EFFECTIVE",
+        "Bug": "NOT_VERY_EFFECTIVE",
+        "Rock": "SUPER_EFFECTIVE",
+        "Ghost": "IMMUNE",
+        "Dark": "SUPER_EFFECTIVE",
+        "Steel": "SUPER_EFFECTIVE",
+        "Fairy": "NOT_VERY_EFFECTIVE"
+    },
+    "Poison": {
+        "Grass": "SUPER_EFFECTIVE",
+        "Poison": "NOT_VERY_EFFECTIVE",
+        "Ground": "NOT_VERY_EFFECTIVE",
+        "Rock": "NOT_VERY_EFFECTIVE",
+        "Ghost": "NOT_VERY_EFFECTIVE",
+        "Steel": "IMMUNE",
+        "Fairy": "SUPER_EFFECTIVE"
+    },
+    "Ground": {
+        "Fire": "SUPER_EFFECTIVE",
+        "Electric": "SUPER_EFFECTIVE",
+        "Grass": "NOT_VERY_EFFECTIVE",
+        "Poison": "SUPER_EFFECTIVE",
+        "Flying": "IMMUNE",
+        "Bug": "NOT_VERY_EFFECTIVE",
+        "Rock": "SUPER_EFFECTIVE",
+        "Steel": "SUPER_EFFECTIVE"
+    },
+    "Flying": {
+        "Electric": "NOT_VERY_EFFECTIVE",
+        "Grass": "SUPER_EFFECTIVE",
+        "Fighting": "SUPER_EFFECTIVE",
+        "Bug": "SUPER_EFFECTIVE",
+        "Rock": "NOT_VERY_EFFECTIVE",
+        "Steel": "NOT_VERY_EFFECTIVE"
+    },
+    "Psychic": {
+        "Fighting": "SUPER_EFFECTIVE",
+        "Poison": "SUPER_EFFECTIVE",
+        "Psychic": "NOT_VERY_EFFECTIVE",
+        "Dark": "IMMUNE",
+        "Steel": "NOT_VERY_EFFECTIVE"
+    },
+    "Bug": {
+        "Fire": "NOT_VERY_EFFECTIVE",
+        "Grass": "SUPER_EFFECTIVE",
+        "Fighting": "NOT_VERY_EFFECTIVE",
+        "Poison": "NOT_VERY_EFFECTIVE",
+        "Flying": "NOT_VERY_EFFECTIVE",
+        "Psychic": "SUPER_EFFECTIVE",
+        "Ghost": "NOT_VERY_EFFECTIVE",
+        "Dark": "SUPER_EFFECTIVE",
+        "Steel": "NOT_VERY_EFFECTIVE",
+        "Fairy": "NOT_VERY_EFFECTIVE"
+    },
+    "Rock": {
+        "Fire": "SUPER_EFFECTIVE",
+        "Ice": "NOT_VERY_EFFECTIVE",
+        "Fighting": "NOT_VERY_EFFECTIVE",
+        "Ground": "NOT_VERY_EFFECTIVE",
+        "Flying": "SUPER_EFFECTIVE",
+        "Bug": "SUPER_EFFECTIVE",
+        "Steel": "NOT_VERY_EFFECTIVE"
+    },
+    "Ghost": {
+        "Normal": "IMMUNE",
+        "Psychic": "SUPER_EFFECTIVE",
+        "Ghost": "SUPER_EFFECTIVE",
+        "Dark": "NOT_VERY_EFFECTIVE"
+    },
+    "Dragon": {
+        "Dragon": "SUPER_EFFECTIVE",
+        "Steel": "NOT_VERY_EFFECTIVE",
+        "Fairy": "IMMUNE"
+    },
+    "Dark": {
+        "Fighting": "NOT_VERY_EFFECTIVE",
+        "Psychic": "SUPER_EFFECTIVE",
+        "Ghost": "SUPER_EFFECTIVE",
+        "Dark": "NOT_VERY_EFFECTIVE",
+        "Fairy": "NOT_VERY_EFFECTIVE"
+    },
+    "Steel": {
+        "Fire": "NOT_VERY_EFFECTIVE",
+        "Water": "NOT_VERY_EFFECTIVE",
+        "Electric": "NOT_VERY_EFFECTIVE",
+        "Ice": "SUPER_EFFECTIVE",
+        "Rock": "SUPER_EFFECTIVE",
+        "Steel": "NOT_VERY_EFFECTIVE",
+        "Fairy": "SUPER_EFFECTIVE"
+    },
+    "Fairy": {
+        "Fire": "NOT_VERY_EFFECTIVE",
+        "Fighting": "SUPER_EFFECTIVE",
+        "Poison": "NOT_VERY_EFFECTIVE",
+        "Bug": "SUPER_EFFECTIVE",
+        "Dragon": "SUPER_EFFECTIVE",
+        "Dark": "SUPER_EFFECTIVE",
+        "Steel": "NOT_VERY_EFFECTIVE"
+    }
+}
