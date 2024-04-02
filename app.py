@@ -97,7 +97,7 @@ if __name__ == "__main__":
 
     pokemon_moves_dict, pokemon_moves_list, pokemon_species_dict, pokemon_species_list, pokemon_forms_dict = load_data()
 
-    TITLE = "PoGO Damage Calculator"
+    TITLE = "EternaCalc"
     DESCRIPTION = "A simple damage calculator for Pokémon GO PvP."
 
     st.set_page_config(page_title=TITLE, page_icon=":zap:", layout="wide")
