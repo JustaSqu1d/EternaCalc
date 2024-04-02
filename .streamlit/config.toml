@@ -1,5 +1,9 @@
 [browser]
 gatherUsageStats = false
+[server]
+enableCORS = false
+enableXsrfProtection = false
+enableWebsocketCompression = false
 [client]
 showErrorDetails = false
 [theme]
