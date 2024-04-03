@@ -77,7 +77,7 @@ def display_calculated_damage(st, move, attacker, target):
 
     target_string = f"**{target.hp_iv} HP / {target.defense_iv} Def IVs Level {target.level} {target}**"
     if target.shadow:
-        target_string += " (Shadow)"
+        target_string += " :violet[(Shadow)]"
     if target.defense_stages > 0:
         target_string = f"+{target.defense_stages} {target_string}"
     elif target.defense_stages < 0:
