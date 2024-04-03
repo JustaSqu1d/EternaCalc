@@ -303,18 +303,18 @@ if __name__ == "__main__":
                     attack1 = round(pokemon1.get_true_attack(), 1)
 
                     if pokemon1.attack_stages > 0:
-                        st.write(f"Attack :green[{attack1}]")
+                        st.write(f"Attack: :green[{attack1}]")
                     elif pokemon1.attack_stages < 0:
-                        st.write(f"Attack :red[{attack1}]")
+                        st.write(f"Attack: :red[{attack1}]")
                     else:
                         st.write(f"Attack: {attack1}")
 
                     defense1 = round(pokemon1.get_true_defense(), 1)
 
                     if pokemon1.defense_stages > 0:
-                        st.write(f"Defense :green[{defense1}]")
+                        st.write(f"Defense: :green[{defense1}]")
                     elif pokemon1.defense_stages < 0:
-                        st.write(f"Defense :red[{defense1}]")
+                        st.write(f"Defense: :red[{defense1}]")
                     else:
                         st.write(f"Defense: {defense1}")
 
@@ -349,18 +349,18 @@ if __name__ == "__main__":
                     attack2 = round(pokemon2.get_true_attack(), 1)
 
                     if pokemon2.attack_stages > 0:
-                        st.write(f"Attack :green[{attack2}]")
+                        st.write(f"Attack: :green[{attack2}]")
                     elif pokemon2.attack_stages < 0:
-                        st.write(f"Attack :red[{attack2}]")
+                        st.write(f"Attack: :red[{attack2}]")
                     else:
                         st.write(f"Attack: {attack2}")
 
                     defense2 = round(pokemon2.get_true_defense(), 1)
 
                     if pokemon2.defense_stages > 0:
-                        st.write(f"Defense :green[{defense2}]")
+                        st.write(f"Defense: :green[{defense2}]")
                     elif pokemon2.defense_stages < 0:
-                        st.write(f"Defense :red[{defense2}]")
+                        st.write(f"Defense: :red[{defense2}]")
                     else:
                         st.write(f"Defense: {defense2}")
 
