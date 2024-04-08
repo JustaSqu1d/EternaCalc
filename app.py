@@ -117,7 +117,9 @@ if __name__ == "__main__":
             input_column, spacing_column = st.columns([4, 1])
             with input_column:
 
-                species1 = st.selectbox("Pokémon 1", pokemon_species_list, index=None,
+                species1 = st.selectbox("Pokémon 1",
+                                        pokemon_species_list,
+                                        index=None,
                                         placeholder="Select a Pokémon...")
 
                 if species1:
@@ -125,15 +127,23 @@ if __name__ == "__main__":
                         "Move",
                         list(species1.charged_move_pool + species1.fast_move_pool + ["Custom existing move...",
                                                                                      "Custom new move...!"]),
-                        index=None, placeholder="Select a move..."
+                        index=None,
+                        placeholder="Select a move..."
                     )
 
                     if move1 == "Custom existing move...":
-                        move1 = st.selectbox("Custom existing move", pokemon_moves_list)
+                        move1 = st.selectbox("Custom existing move",
+                                             pokemon_moves_list,
+                                             index=None,
+                                             placeholder="Select a move...")
 
                     if move1 == "Custom new move...!":
                         move1_name = st.text_input("Move name")
-                        move1_type = Type(st.selectbox("Type", list(Type)))
+                        move1_type = Type(st.selectbox("Type",
+                                                       list(Type),
+                                                       index=None,
+                                                       placeholder="Select a type...")
+                                          )
                         move1_power = st.number_input("Power", min_value=0, max_value=200, value=0)
                         move1_energy = st.number_input("Energy", min_value=0, max_value=100, value=0)
                         move1 = Move(
@@ -146,7 +156,7 @@ if __name__ == "__main__":
                         )
 
                     st.write("##### Configurations")
-                    level1 = st.number_input("Level ", min_value=1.0, max_value=51.0, value=40.0, step=0.5,
+                    level1 = st.number_input("Level", min_value=1.0, max_value=51.0, value=40.0, step=0.5,
                                              format="%.1f")
                     level1 = int(level1 * 2) / 2  # Round to nearest 0.5
                 else:
@@ -169,16 +179,16 @@ if __name__ == "__main__":
                     st.write(" ")
                     st.write(f"**{species1.base_hp}**")
                 with ivs_column:
-                    atk_iv1 = st.number_input("IVs ", min_value=0, max_value=15, value=15)
-                    def_iv1 = st.number_input("Defense IV ", min_value=0, max_value=15, value=15,
+                    atk_iv1 = st.number_input("IVs", min_value=0, max_value=15, value=15)
+                    def_iv1 = st.number_input("Defense IV", min_value=0, max_value=15, value=15,
                                               label_visibility="collapsed")
-                    hp_iv1 = st.number_input("HP IV ", min_value=0, max_value=15, value=15,
+                    hp_iv1 = st.number_input("HP IV", min_value=0, max_value=15, value=15,
                                              label_visibility="collapsed")
                 with stages_column:
-                    atk_stages1 = st.number_input("Stages ", min_value=-4, max_value=4, value=0)
-                    def_stages1 = st.number_input("Defense stages ", min_value=-4, max_value=4, value=0,
+                    atk_stages1 = st.number_input("Stages", min_value=-4, max_value=4, value=0)
+                    def_stages1 = st.number_input("Defense stages", min_value=-4, max_value=4, value=0,
                                                   label_visibility="collapsed")
-                is_shadow1 = st.checkbox("Is it a Shadow Pokémon? ", value=False)
+                is_shadow1 = st.checkbox("Is it a Shadow Pokémon?", value=False)
 
                 pokemon1 = Pokemon(
                     species=species1,
@@ -198,7 +208,9 @@ if __name__ == "__main__":
             input_column2, spacing_column2 = st.columns([4, 1])
             with input_column2:
 
-                species2 = st.selectbox("Pokémon 2", pokemon_species_list, index=None,
+                species2 = st.selectbox("Pokémon 2",
+                                        pokemon_species_list,
+                                        index=None,
                                         placeholder="Select a Pokémon...")
 
                 if species2:
@@ -211,11 +223,18 @@ if __name__ == "__main__":
                     )
 
                     if move2 == "Custom existing move...":
-                        move2 = st.selectbox("Custom existing move", pokemon_moves_list)
+                        move2 = st.selectbox("Custom existing move ",
+                                             pokemon_moves_list,
+                                             index=None,
+                                             placeholder="Select a move...")
 
                     if move2 == "Custom new move...!":
                         move2_name = st.text_input("Move name ")
-                        move2_type = Type(st.selectbox("Type ", list(Type)))
+                        move2_type = Type(st.selectbox("Type ",
+                                                       list(Type),
+                                                       index=None,
+                                                       placeholder="Select a type...")
+                                          )
                         move2_power = st.number_input("Power ", min_value=0, max_value=200, value=0)
                         move2_energy = st.number_input("Energy ", min_value=0, max_value=100, value=0)
                         move2 = Move(
@@ -228,7 +247,7 @@ if __name__ == "__main__":
                         )
 
                     st.write("##### Configurations")
-                    level2 = st.number_input("Level", min_value=1.0, max_value=51.0, value=40.0, step=0.5,
+                    level2 = st.number_input("Level ", min_value=1.0, max_value=51.0, value=40.0, step=0.5,
                                              format="%.1f")
                     level2 = int(level2 * 2) / 2  # Round to nearest 0.5
                 else:
@@ -251,15 +270,16 @@ if __name__ == "__main__":
                     st.write(" ")
                     st.write(f"**{species2.base_hp}**")
                 with ivs_column2:
-                    atk_iv2 = st.number_input("IVs", min_value=0, max_value=15, value=15)
-                    def_iv2 = st.number_input("Defense IV", min_value=0, max_value=15, value=15,
+                    atk_iv2 = st.number_input("IVs ", min_value=0, max_value=15, value=15)
+                    def_iv2 = st.number_input("Defense IV ", min_value=0, max_value=15, value=15,
                                               label_visibility="collapsed")
-                    hp_iv2 = st.number_input("HP IV", min_value=0, max_value=15, value=15, label_visibility="collapsed")
+                    hp_iv2 = st.number_input("HP IV ", min_value=0, max_value=15, value=15,
+                                             label_visibility="collapsed")
                 with stages_column2:
-                    atk_stages2 = st.number_input("Stages", min_value=-4, max_value=4, value=0)
-                    def_stages2 = st.number_input("Defense stages", min_value=-4, max_value=4, value=0,
+                    atk_stages2 = st.number_input("Stages ", min_value=-4, max_value=4, value=0)
+                    def_stages2 = st.number_input("Defense stages ", min_value=-4, max_value=4, value=0,
                                                   label_visibility="collapsed")
-                is_shadow2 = st.checkbox("Is it a Shadow Pokémon?", value=False)
+                is_shadow2 = st.checkbox("Is it a Shadow Pokémon? ", value=False)
 
                 pokemon2 = Pokemon(
                     species=species2,
