@@ -124,9 +124,6 @@ class Pokemon:
         return self.get_true_hp()
 
     def get_cp_multiplier(self) -> float:
-        if int(self.level) - self.level == 0:
-            return float(cpms[str(int(self.level))])
-
         return float(cpms[str(self.level)])
 
     def get_cp(self):
