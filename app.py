@@ -298,7 +298,6 @@ if __name__ == "__main__":
                         st.write(pokemon1.species.name)
                     st.write(f"CP: {pokemon1.get_cp()}")
                     st.write(f"Level: {pokemon1.level}")
-                    st.write(f"HP: {pokemon1.current_hp}")
 
                     attack1 = round(pokemon1.get_true_attack(), 1)
 
@@ -344,7 +343,6 @@ if __name__ == "__main__":
                         st.write(pokemon2.species.name)
                     st.write(f"CP: {pokemon2.get_cp()}")
                     st.write(f"Level: {pokemon2.level}")
-                    st.write(f"HP: {pokemon2.current_hp}")
 
                     attack2 = round(pokemon2.get_true_attack(), 1)
 
