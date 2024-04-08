@@ -15,8 +15,8 @@ def load_data():
     with open("pokemon/game_data/moves.json", "r") as f:
         moves_json = json.load(f)
 
-    pokemon_moves_dict = {}
-    pokemon_moves_list = []
+    moves_dict = {}
+    moves_list = []
 
     for move_json_key in moves_json:
         unique_id = moves_json[move_json_key]["uniqueId"]
@@ -40,12 +40,12 @@ def load_data():
             usage_type=usage_type
         )
 
-        pokemon_moves_dict.update({unique_id: move})
-        pokemon_moves_list.append(move)
+        moves_dict.update({unique_id: move})
+        moves_list.append(move)
 
-    pokemon_species_dict = {}
-    pokemon_species_list = []
-    pokemon_forms_dict = {}
+    species_dict = {}
+    species_list = []
+    forms_dict = {}
 
     for pokemon_json_key in pokemon_json:
         name = parse_pokemon_string(pokemon_json[pokemon_json_key]["name"])
@@ -62,12 +62,12 @@ def load_data():
 
         fast_move_pool = []
         for raw_move_string in pokemon_json[pokemon_json_key]["fast_move_pool"]:
-            move = pokemon_moves_dict[raw_move_string]
+            move = moves_dict[raw_move_string]
             fast_move_pool.append(move)
 
         charged_move_pool = []
         for raw_move_string in pokemon_json[pokemon_json_key]["charged_move_pool"]:
-            move = pokemon_moves_dict[raw_move_string]
+            move = moves_dict[raw_move_string]
             charged_move_pool.append(move)
 
         species = Species(
@@ -81,16 +81,16 @@ def load_data():
             charged_move_pool=charged_move_pool
         )
 
-        pokemon_species_dict.update({name: species})
+        species_dict.update({name: species})
 
-        pokemon_species_list.append(species)
+        species_list.append(species)
 
-        if species_name in pokemon_forms_dict:
-            pokemon_forms_dict[species_name].append(name)
+        if species_name in forms_dict:
+            forms_dict[species_name].append(name)
         else:
-            pokemon_forms_dict[species_name] = [name]
+            forms_dict[species_name] = [name]
 
-    return pokemon_moves_dict, pokemon_moves_list, pokemon_species_dict, pokemon_species_list, pokemon_forms_dict
+    return moves_dict, moves_list, species_dict, species_list, forms_dict
 
 
 if __name__ == "__main__":
