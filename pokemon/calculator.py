@@ -90,8 +90,10 @@ def display_calculated_damage(st, move, attacker, target):
         effectiveness_text = ":green[It's super effective!]"
     elif get_type_multiplier(move.type, target.species.types) < 1:
         effectiveness_text = ":red[It's not very effective...]"
+
     damage_rolls_string = "Possible damage amounts: (" + ", ".join(
         [str(damage_roll) for damage_roll in damage]) + ")"
+
     st.write(
         f"**{attacker_string} {move.name} vs. {target_string}**"
     )

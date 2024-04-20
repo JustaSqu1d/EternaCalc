@@ -405,7 +405,6 @@ if __name__ == "__main__":
         elif species1 is None or species2 is None:
             st.write("Select 2 Pokémon to show damage details.")
         else:
-
             if move1 and move2:
                 left_damage_results, right_damage_results = st.columns(2)
                 with left_damage_results:
