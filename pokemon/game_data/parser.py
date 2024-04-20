@@ -1,5 +1,15 @@
 import json
 
+import requests
+
+raw_data = requests.get(
+    "https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json").json()
+
+data_dict = {"main": raw_data}
+
+with open("raw_game_data.json", "w") as f:
+    json.dump(data_dict, f, indent=4)
+
 with open("raw_game_data.json", "r") as f:
     data = json.load(f)
 
@@ -12,10 +22,41 @@ BLACKLISTED_POKEMON_FORMS = ["UNOWN", "SPINDA", "CASTFORM", "BURMY", "WORMADAM",
 BLACKLISTED_WORDS = ["FAMILY", "MOVE", "SMEARGLE", "HOME_FORM_REVERSION", "HOME_REVERSION", "FALL_2019", "COPY_2019",
                      "_NORMAL", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "COSTUME"]
 
-BLACKLISTED_POKEMON = ["SPEWPA", "VIVILLON", "FLABEBE", "PIKACHU", "SQUAWKABILLY", "TOXTRICITY", "MINIOR", "FURFROU",
-                       "SINISTEA", "MAGEARNA", "MIMIKYU", "RAIKOU", "ENTEI", "SUICUNE", "HO_OH", "LUGIA", "CASTFORM",
-                       "BURMY", "WORMADAM", "CHERRIM", "SHELLOS", "GASTRODON", "BASCULIN", "DEERLING", "SAWSBUCK",
-                       "POLTEAGEIST", "ORICORIO0", "FLOETTE", "FLORGES", "FRILLISH", "JELLICENT"]
+WHITELISTED_POKEMON = ["KYUREM", "KYUREM_WHITE", "KYUREM_BLACK"]
+
+MANUAL_NAME_CHANGES = {
+    "MINIOR_BLUE": "MINIOR",
+    "URSHIFU": "URSHIFU_SINGLE_STRIKE",
+    "GREATTUSK": "GREAT_TUSK",
+    "SCREAMTAIL": "SCREAM_TAIL",
+    "BRUTEBONNET": "BRUTE_BONNET",
+    "FLUTTERMANE": "FLUTTER_MANE",
+    "SLITHERWING": "SLITHER_WING",
+    "SANDYSHOCKS": "SANDY_SHOCKS",
+    "IRONTREADS": "IRON_TREADS",
+    "IRONHANDS": "IRON_HANDS",
+    "IRONJUGULIS": "IRON_JUGULIS",
+    "IRONMOTH": "IRON_MOTH",
+    "IRONTHORNS": "IRON_THORNS",
+    "WOCHIEN": "WO-CHIEN",
+    "CHIENPAO": "CHIEN-PAO",
+    "TINGLU": "TING-LU",
+    "CHIYU": "CHI-YU",
+    "ROARINGMOON": "ROARING_MOON",
+    "IRONVALIANT": "IRON_VALIANT"
+}
+
+
+def is_same(pokemon1, pokemon2):
+    return (pokemon1["species"] == pokemon2["species"] and
+            pokemon1["types"] == pokemon2["types"] and
+            pokemon1["base_attack"] == pokemon2["base_attack"] and
+            pokemon1["base_defense"] == pokemon2["base_defense"] and
+            pokemon1["base_hp"] == pokemon2["base_hp"] and
+            pokemon1["fast_move_pool"] == pokemon2["fast_move_pool"] and
+            pokemon1["charged_move_pool"] == pokemon2["charged_move_pool"]
+            )
+
 
 if __name__ == "__main__":
     for entry in data["main"]:
@@ -40,9 +81,33 @@ if __name__ == "__main__":
             fast_move_pool = data.get("pokemonSettings", {}).get("quickMoves")
             charged_move_pool = data.get("pokemonSettings", {}).get("cinematicMoves")
 
-            if any(species == pokemon_json[pokemon]["species"] and any(word in name for word in BLACKLISTED_POKEMON) for
-                   pokemon in pokemon_json):
+            skip = False
+            # check if a similar pokemon already exists
+            for pokemon in pokemon_json:
+
+                if name in WHITELISTED_POKEMON:
+                    break
+
+                pokemon_compared = pokemon_json[pokemon]
+
+                if is_same(pokemon_compared, {
+                    "name": name,
+                    "species": species,
+                    "types": types,
+                    "base_attack": base_attack,
+                    "base_defense": base_defense,
+                    "base_hp": base_hp,
+                    "fast_move_pool": fast_move_pool,
+                    "charged_move_pool": charged_move_pool
+                }):
+                    skip = True
+                    break
+
+            if skip:
                 continue
+
+            if name in MANUAL_NAME_CHANGES:
+                name = MANUAL_NAME_CHANGES[name]
 
             pokemon_json[name] = {
                 "name": name,
@@ -94,35 +159,3 @@ if __name__ == "__main__":
 
     with open("pokemon.json", "w") as f:
         json.dump(pokemon_json, f, indent=4)
-
-"""
-Pokémon removed manually:
-Latias S
-Latios S
-Giratina
-Shaymin
-Darmantian
-Tornadus
-Thundurus
-Landorus
-Meloetta
-Scatterbug (o)
-Pumpkaboo
-Gourgeist
-Zygarde
-Hoopa
-Oricorio
-Rockruff Dusk
-Lycanroc
-Wishiwashi
-Eiscue
-Indeedee
-Morpeko
-Zacian
-Zamazenta
-Urshifu
-Enamorus
-Palafin
-Tatsugiri
-Dudunsparce (o)
-"""
