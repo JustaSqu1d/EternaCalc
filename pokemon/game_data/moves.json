@@ -2609,5 +2609,21 @@
         "energyDelta": 4,
         "turns": 1,
         "usageType": "fast"
+    },
+    "SUNSTEEL_STRIKE": {
+        "uniqueId": "SUNSTEEL_STRIKE",
+        "type": "POKEMON_TYPE_STEEL",
+        "power": 1.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "MOONGEIST_BEAM": {
+        "uniqueId": "MOONGEIST_BEAM",
+        "type": "POKEMON_TYPE_GHOST",
+        "power": 1.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
     }
 }

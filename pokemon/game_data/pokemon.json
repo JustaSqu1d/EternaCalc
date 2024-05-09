@@ -56,7 +56,8 @@
         "charged_move_pool": [
             "SLUDGE_BOMB",
             "PETAL_BLIZZARD",
-            "SOLAR_BEAM"
+            "SOLAR_BEAM",
+            "FRENZY_PLANT"
         ]
     },
     "CHARMANDER": {
@@ -91,7 +92,8 @@
         "base_hp": 151,
         "fast_move_pool": [
             "EMBER_FAST",
-            "FIRE_FANG_FAST"
+            "FIRE_FANG_FAST",
+            "SCRATCH_FAST"
         ],
         "charged_move_pool": [
             "FIRE_PUNCH",
@@ -111,12 +113,17 @@
         "base_hp": 186,
         "fast_move_pool": [
             "FIRE_SPIN_FAST",
-            "AIR_SLASH_FAST"
+            "AIR_SLASH_FAST",
+            "EMBER_FAST",
+            "WING_ATTACK_FAST",
+            "DRAGON_BREATH_FAST"
         ],
         "charged_move_pool": [
             "FIRE_BLAST",
             "DRAGON_CLAW",
-            "OVERHEAT"
+            "OVERHEAT",
+            "BLAST_BURN",
+            "FLAMETHROWER"
         ]
     },
     "SQUIRTLE": {
@@ -177,7 +184,8 @@
             "FLASH_CANNON",
             "ICE_BEAM",
             "HYDRO_PUMP",
-            "SKULL_BASH"
+            "SKULL_BASH",
+            "HYDRO_CANNON"
         ]
     },
     "CATERPIE": {
@@ -228,7 +236,8 @@
         "base_hp": 155,
         "fast_move_pool": [
             "STRUGGLE_BUG_FAST",
-            "CONFUSION_FAST"
+            "CONFUSION_FAST",
+            "BUG_BITE_FAST"
         ],
         "charged_move_pool": [
             "BUG_BUZZ",
@@ -284,13 +293,15 @@
         "base_hp": 163,
         "fast_move_pool": [
             "INFESTATION_FAST",
-            "POISON_JAB_FAST"
+            "POISON_JAB_FAST",
+            "BUG_BITE_FAST"
         ],
         "charged_move_pool": [
             "SLUDGE_BOMB",
             "AERIAL_ACE",
             "X_SCISSOR",
-            "FELL_STINGER"
+            "FELL_STINGER",
+            "DRILL_RUN"
         ]
     },
     "PIDGEY": {
@@ -345,13 +356,16 @@
         "base_hp": 195,
         "fast_move_pool": [
             "AIR_SLASH_FAST",
-            "STEEL_WING_FAST"
+            "STEEL_WING_FAST",
+            "WING_ATTACK_FAST",
+            "GUST_FAST"
         ],
         "charged_move_pool": [
             "HURRICANE",
             "AERIAL_ACE",
             "BRAVE_BIRD",
-            "FEATHER_DANCE"
+            "FEATHER_DANCE",
+            "AIR_CUTTER"
         ]
     },
     "RATTATA": {
@@ -451,7 +465,8 @@
         "charged_move_pool": [
             "AERIAL_ACE",
             "DRILL_PECK",
-            "SKY_ATTACK"
+            "SKY_ATTACK",
+            "TWISTER"
         ]
     },
     "FEAROW": {
@@ -471,7 +486,8 @@
         "charged_move_pool": [
             "AERIAL_ACE",
             "DRILL_RUN",
-            "SKY_ATTACK"
+            "SKY_ATTACK",
+            "TWISTER"
         ]
     },
     "EKANS": {
@@ -491,7 +507,8 @@
         "charged_move_pool": [
             "WRAP",
             "POISON_FANG",
-            "SLUDGE_BOMB"
+            "SLUDGE_BOMB",
+            "GUNK_SHOT"
         ]
     },
     "ARBOK": {
@@ -528,12 +545,15 @@
         "base_hp": 111,
         "fast_move_pool": [
             "THUNDER_SHOCK_FAST",
-            "QUICK_ATTACK_FAST"
+            "QUICK_ATTACK_FAST",
+            "PRESENT_FAST"
         ],
         "charged_move_pool": [
             "DISCHARGE",
             "THUNDERBOLT",
-            "WILD_CHARGE"
+            "WILD_CHARGE",
+            "SURF",
+            "THUNDER"
         ]
     },
     "PIKACHU_DOCTOR": {
@@ -548,7 +568,8 @@
         "base_hp": 111,
         "fast_move_pool": [
             "THUNDER_SHOCK_FAST",
-            "CHARM_FAST"
+            "CHARM_FAST",
+            "PRESENT_FAST"
         ],
         "charged_move_pool": [
             "THUNDER_PUNCH",
@@ -567,6 +588,28 @@
         "base_hp": 111,
         "fast_move_pool": [
             "THUNDER_SHOCK_FAST",
+            "QUICK_ATTACK_FAST",
+            "PRESENT_FAST"
+        ],
+        "charged_move_pool": [
+            "DISCHARGE",
+            "THUNDERBOLT",
+            "WILD_CHARGE",
+            "FLY"
+        ]
+    },
+    "PIKACHU_FLYING_OKINAWA": {
+        "name": "PIKACHU_FLYING_OKINAWA",
+        "species": "PIKACHU",
+        "types": [
+            "POKEMON_TYPE_ELECTRIC",
+            null
+        ],
+        "base_attack": 112,
+        "base_defense": 96,
+        "base_hp": 111,
+        "fast_move_pool": [
+            "THUNDER_SHOCK_FAST",
             "QUICK_ATTACK_FAST"
         ],
         "charged_move_pool": [
@@ -574,6 +617,47 @@
             "THUNDERBOLT",
             "WILD_CHARGE",
             "FLY"
+        ]
+    },
+    "PIKACHU_GOTOUR_2024_A": {
+        "name": "PIKACHU_GOTOUR_2024_A",
+        "species": "PIKACHU",
+        "types": [
+            "POKEMON_TYPE_ELECTRIC",
+            null
+        ],
+        "base_attack": 112,
+        "base_defense": 96,
+        "base_hp": 111,
+        "fast_move_pool": [
+            "THUNDER_SHOCK_FAST",
+            "QUICK_ATTACK_FAST"
+        ],
+        "charged_move_pool": [
+            "DISCHARGE",
+            "THUNDERBOLT",
+            "WILD_CHARGE"
+        ]
+    },
+    "PIKACHU_HORIZONS": {
+        "name": "PIKACHU_HORIZONS",
+        "species": "PIKACHU",
+        "types": [
+            "POKEMON_TYPE_ELECTRIC",
+            null
+        ],
+        "base_attack": 112,
+        "base_defense": 96,
+        "base_hp": 111,
+        "fast_move_pool": [
+            "THUNDER_SHOCK_FAST",
+            "QUICK_ATTACK_FAST"
+        ],
+        "charged_move_pool": [
+            "DISCHARGE",
+            "THUNDERBOLT",
+            "WILD_CHARGE",
+            "VOLT_TACKLE"
         ]
     },
     "PIKACHU_POP_STAR": {
@@ -637,7 +721,8 @@
             "THUNDER_PUNCH",
             "WILD_CHARGE",
             "SKULL_BASH",
-            "TRAILBLAZE"
+            "TRAILBLAZE",
+            "THUNDER"
         ]
     },
     "RAICHU_ALOLA": {
@@ -681,7 +766,8 @@
         "charged_move_pool": [
             "DIG",
             "ROCK_SLIDE",
-            "SAND_TOMB"
+            "SAND_TOMB",
+            "ROCK_TOMB"
         ]
     },
     "SANDSHREW_ALOLA": {
@@ -723,7 +809,8 @@
             "EARTHQUAKE",
             "ROCK_TOMB",
             "BULLDOZE",
-            "SCORCHING_SANDS"
+            "SCORCHING_SANDS",
+            "NIGHT_SLASH"
         ]
     },
     "SANDSLASH_ALOLA": {
@@ -738,7 +825,8 @@
         "base_hp": 181,
         "fast_move_pool": [
             "METAL_CLAW_FAST",
-            "POWDER_SNOW_FAST"
+            "POWDER_SNOW_FAST",
+            "SHADOW_CLAW_FAST"
         ],
         "charged_move_pool": [
             "BLIZZARD",
@@ -846,7 +934,8 @@
         "fast_move_pool": [
             "POISON_JAB_FAST",
             "IRON_TAIL_FAST",
-            "DOUBLE_KICK_FAST"
+            "DOUBLE_KICK_FAST",
+            "FURY_CUTTER_FAST"
         ],
         "charged_move_pool": [
             "EARTHQUAKE",
@@ -890,7 +979,8 @@
             "CHARGE_BEAM_FAST",
             "ZEN_HEADBUTT_FAST",
             "CHARM_FAST",
-            "FAIRY_WIND_FAST"
+            "FAIRY_WIND_FAST",
+            "POUND_FAST"
         ],
         "charged_move_pool": [
             "DAZZLING_GLEAM",
@@ -953,7 +1043,8 @@
         "base_hp": 177,
         "fast_move_pool": [
             "FEINT_ATTACK_FAST",
-            "FIRE_SPIN_FAST"
+            "FIRE_SPIN_FAST",
+            "EMBER_FAST"
         ],
         "charged_move_pool": [
             "HEAT_WAVE",
@@ -961,7 +1052,9 @@
             "SOLAR_BEAM",
             "PSYSHOCK",
             "WEATHER_BALL_FIRE",
-            "SCORCHING_SANDS"
+            "SCORCHING_SANDS",
+            "FIRE_BLAST",
+            "FLAMETHROWER"
         ]
     },
     "NINETALES_ALOLA": {
@@ -1004,7 +1097,9 @@
         "charged_move_pool": [
             "DISARMING_VOICE",
             "GYRO_BALL",
-            "DAZZLING_GLEAM"
+            "DAZZLING_GLEAM",
+            "PLAY_ROUGH",
+            "BODY_SLAM"
         ]
     },
     "WIGGLYTUFF": {
@@ -1048,7 +1143,8 @@
         "charged_move_pool": [
             "POISON_FANG",
             "AIR_CUTTER",
-            "SWIFT"
+            "SWIFT",
+            "SLUDGE_BOMB"
         ]
     },
     "GOLBAT": {
@@ -1068,7 +1164,8 @@
         "charged_move_pool": [
             "SHADOW_BALL",
             "AIR_CUTTER",
-            "POISON_FANG"
+            "POISON_FANG",
+            "OMINOUS_WIND"
         ]
     },
     "ODDISH": {
@@ -1164,7 +1261,8 @@
         "base_hp": 155,
         "fast_move_pool": [
             "STRUGGLE_BUG_FAST",
-            "FURY_CUTTER_FAST"
+            "FURY_CUTTER_FAST",
+            "BUG_BITE_FAST"
         ],
         "charged_move_pool": [
             "CROSS_POISON",
@@ -1204,7 +1302,8 @@
         "base_hp": 172,
         "fast_move_pool": [
             "INFESTATION_FAST",
-            "CONFUSION_FAST"
+            "CONFUSION_FAST",
+            "BUG_BITE_FAST"
         ],
         "charged_move_pool": [
             "SILVER_WIND",
@@ -1314,7 +1413,8 @@
         "charged_move_pool": [
             "NIGHT_SLASH",
             "DARK_PULSE",
-            "FOUL_PLAY"
+            "FOUL_PLAY",
+            "BODY_SLAM"
         ]
     },
     "MEOWTH_ALOLA": {
@@ -1377,7 +1477,8 @@
             "FOUL_PLAY",
             "POWER_GEM",
             "PLAY_ROUGH",
-            "PAYBACK"
+            "PAYBACK",
+            "NIGHT_SLASH"
         ]
     },
     "PERSIAN_ALOLA": {
@@ -1478,13 +1579,15 @@
         "base_hp": 163,
         "fast_move_pool": [
             "LOW_KICK_FAST",
-            "COUNTER_FAST"
+            "COUNTER_FAST",
+            "KARATE_CHOP_FAST"
         ],
         "charged_move_pool": [
             "CLOSE_COMBAT",
             "LOW_SWEEP",
             "NIGHT_SLASH",
-            "ICE_PUNCH"
+            "ICE_PUNCH",
+            "CROSS_CHOP"
         ]
     },
     "GROWLITHE": {
@@ -1540,7 +1643,8 @@
         "fast_move_pool": [
             "FIRE_FANG_FAST",
             "SNARL_FAST",
-            "THUNDER_FANG_FAST"
+            "THUNDER_FANG_FAST",
+            "BITE_FAST"
         ],
         "charged_move_pool": [
             "FIRE_BLAST",
@@ -1548,7 +1652,8 @@
             "CRUNCH",
             "FLAMETHROWER",
             "PSYCHIC_FANGS",
-            "SCORCHING_SANDS"
+            "SCORCHING_SANDS",
+            "BULLDOZE"
         ]
     },
     "ARCANINE_HISUIAN": {
@@ -1610,7 +1715,8 @@
         "charged_move_pool": [
             "WATER_PULSE",
             "MUD_BOMB",
-            "BUBBLE_BEAM"
+            "BUBBLE_BEAM",
+            "SCALD"
         ]
     },
     "POLIWRATH": {
@@ -1626,7 +1732,8 @@
         "fast_move_pool": [
             "BUBBLE_FAST",
             "ROCK_SMASH_FAST",
-            "MUD_SHOT_FAST"
+            "MUD_SHOT_FAST",
+            "COUNTER_FAST"
         ],
         "charged_move_pool": [
             "HYDRO_PUMP",
@@ -1634,7 +1741,8 @@
             "ICE_PUNCH",
             "POWER_UP_PUNCH",
             "SCALD",
-            "ICY_WIND"
+            "ICY_WIND",
+            "SUBMISSION"
         ]
     },
     "ABRA": {
@@ -1689,13 +1797,16 @@
         "base_hp": 146,
         "fast_move_pool": [
             "PSYCHO_CUT_FAST",
-            "CONFUSION_FAST"
+            "CONFUSION_FAST",
+            "COUNTER_FAST"
         ],
         "charged_move_pool": [
             "FUTURESIGHT",
             "FOCUS_BLAST",
             "SHADOW_BALL",
-            "FIRE_PUNCH"
+            "FIRE_PUNCH",
+            "DAZZLING_GLEAM",
+            "PSYCHIC"
         ]
     },
     "MACHOP": {
@@ -1710,7 +1821,8 @@
         "base_hp": 172,
         "fast_move_pool": [
             "ROCK_SMASH_FAST",
-            "KARATE_CHOP_FAST"
+            "KARATE_CHOP_FAST",
+            "LOW_KICK_FAST"
         ],
         "charged_move_pool": [
             "LOW_SWEEP",
@@ -1735,7 +1847,8 @@
         "charged_move_pool": [
             "SUBMISSION",
             "BRICK_BREAK",
-            "DYNAMIC_PUNCH"
+            "DYNAMIC_PUNCH",
+            "CROSS_CHOP"
         ]
     },
     "MACHAMP": {
@@ -1750,14 +1863,18 @@
         "base_hp": 207,
         "fast_move_pool": [
             "BULLET_PUNCH_FAST",
-            "COUNTER_FAST"
+            "COUNTER_FAST",
+            "KARATE_CHOP_FAST"
         ],
         "charged_move_pool": [
             "HEAVY_SLAM",
             "DYNAMIC_PUNCH",
             "CLOSE_COMBAT",
             "ROCK_SLIDE",
-            "CROSS_CHOP"
+            "CROSS_CHOP",
+            "STONE_EDGE",
+            "SUBMISSION",
+            "PAYBACK"
         ]
     },
     "BELLSPROUT": {
@@ -1792,7 +1909,8 @@
         "base_hp": 163,
         "fast_move_pool": [
             "BULLET_SEED_FAST",
-            "ACID_FAST"
+            "ACID_FAST",
+            "RAZOR_LEAF_FAST"
         ],
         "charged_move_pool": [
             "POWER_WHIP",
@@ -1812,7 +1930,8 @@
         "base_hp": 190,
         "fast_move_pool": [
             "RAZOR_LEAF_FAST",
-            "ACID_FAST"
+            "ACID_FAST",
+            "MAGICAL_LEAF_FAST"
         ],
         "charged_move_pool": [
             "LEAF_BLADE",
@@ -1922,7 +2041,8 @@
         "charged_move_pool": [
             "DIG",
             "STONE_EDGE",
-            "ROCK_BLAST"
+            "ROCK_BLAST",
+            "ROCK_SLIDE"
         ]
     },
     "GRAVELER_ALOLA": {
@@ -1979,7 +2099,8 @@
         "base_hp": 190,
         "fast_move_pool": [
             "ROCK_THROW_FAST",
-            "VOLT_SWITCH_FAST"
+            "VOLT_SWITCH_FAST",
+            "ROLLOUT_FAST"
         ],
         "charged_move_pool": [
             "STONE_EDGE",
@@ -2004,7 +2125,8 @@
         "charged_move_pool": [
             "FLAME_CHARGE",
             "FLAME_WHEEL",
-            "STOMP"
+            "STOMP",
+            "FIRE_BLAST"
         ]
     },
     "PONYTA_GALARIAN": {
@@ -2040,7 +2162,8 @@
         "fast_move_pool": [
             "LOW_KICK_FAST",
             "FIRE_SPIN_FAST",
-            "INCINERATE_FAST"
+            "INCINERATE_FAST",
+            "EMBER_FAST"
         ],
         "charged_move_pool": [
             "FIRE_BLAST",
@@ -2131,7 +2254,8 @@
             "WATER_PULSE",
             "PSYCHIC",
             "ICE_BEAM",
-            "SCALD"
+            "SCALD",
+            "SURF"
         ]
     },
     "SLOWBRO_GALARIAN": {
@@ -2152,7 +2276,8 @@
             "FOCUS_BLAST",
             "PSYCHIC",
             "SLUDGE_BOMB",
-            "SCALD"
+            "SCALD",
+            "SURF"
         ]
     },
     "MAGNEMITE": {
@@ -2213,7 +2338,8 @@
         "base_hp": 141,
         "fast_move_pool": [
             "AIR_SLASH_FAST",
-            "FURY_CUTTER_FAST"
+            "FURY_CUTTER_FAST",
+            "CUT_FAST"
         ],
         "charged_move_pool": [
             "AERIAL_ACE",
@@ -2258,7 +2384,8 @@
         "charged_move_pool": [
             "DRILL_PECK",
             "AERIAL_ACE",
-            "BRAVE_BIRD"
+            "BRAVE_BIRD",
+            "SWIFT"
         ]
     },
     "DODRIO": {
@@ -2278,7 +2405,8 @@
         "charged_move_pool": [
             "DRILL_PECK",
             "AERIAL_ACE",
-            "BRAVE_BIRD"
+            "BRAVE_BIRD",
+            "AIR_CUTTER"
         ]
     },
     "SEEL": {
@@ -2293,12 +2421,14 @@
         "base_hp": 163,
         "fast_move_pool": [
             "ICE_SHARD_FAST",
-            "LICK_FAST"
+            "LICK_FAST",
+            "WATER_GUN_FAST"
         ],
         "charged_move_pool": [
             "AURORA_BEAM",
             "ICY_WIND",
-            "AQUA_TAIL"
+            "AQUA_TAIL",
+            "AQUA_JET"
         ]
     },
     "DEWGONG": {
@@ -2313,14 +2443,17 @@
         "base_hp": 207,
         "fast_move_pool": [
             "FROST_BREATH_FAST",
-            "IRON_TAIL_FAST"
+            "IRON_TAIL_FAST",
+            "ICE_SHARD_FAST"
         ],
         "charged_move_pool": [
             "AURORA_BEAM",
             "WATER_PULSE",
             "BLIZZARD",
             "DRILL_RUN",
-            "LIQUIDATION"
+            "LIQUIDATION",
+            "AQUA_JET",
+            "ICY_WIND"
         ]
     },
     "GRIMER": {
@@ -2375,7 +2508,8 @@
         "base_hp": 233,
         "fast_move_pool": [
             "INFESTATION_FAST",
-            "POISON_JAB_FAST"
+            "POISON_JAB_FAST",
+            "LICK_FAST"
         ],
         "charged_move_pool": [
             "DARK_PULSE",
@@ -2448,7 +2582,8 @@
             "AVALANCHE",
             "ICY_WIND",
             "LIQUIDATION",
-            "RAZOR_SHELL"
+            "RAZOR_SHELL",
+            "BLIZZARD"
         ]
     },
     "GASTLY": {
@@ -2463,12 +2598,14 @@
         "base_hp": 102,
         "fast_move_pool": [
             "LICK_FAST",
-            "ASTONISH_FAST"
+            "ASTONISH_FAST",
+            "SUCKER_PUNCH_FAST"
         ],
         "charged_move_pool": [
             "NIGHT_SHADE",
             "DARK_PULSE",
-            "SLUDGE_BOMB"
+            "SLUDGE_BOMB",
+            "OMINOUS_WIND"
         ]
     },
     "HAUNTER": {
@@ -2483,7 +2620,8 @@
         "base_hp": 128,
         "fast_move_pool": [
             "SHADOW_CLAW_FAST",
-            "ASTONISH_FAST"
+            "ASTONISH_FAST",
+            "LICK_FAST"
         ],
         "charged_move_pool": [
             "SHADOW_PUNCH",
@@ -2506,12 +2644,17 @@
         "fast_move_pool": [
             "SUCKER_PUNCH_FAST",
             "HEX_FAST",
-            "SHADOW_CLAW_FAST"
+            "SHADOW_CLAW_FAST",
+            "LICK_FAST"
         ],
         "charged_move_pool": [
             "SHADOW_BALL",
             "FOCUS_BLAST",
-            "SLUDGE_BOMB"
+            "SLUDGE_BOMB",
+            "SLUDGE_WAVE",
+            "DARK_PULSE",
+            "PSYCHIC",
+            "SHADOW_PUNCH"
         ]
     },
     "ONIX": {
@@ -2532,7 +2675,9 @@
             "SAND_TOMB",
             "STONE_EDGE",
             "HEAVY_SLAM",
-            "BREAKING_SWIPE"
+            "BREAKING_SWIPE",
+            "IRON_HEAD",
+            "ROCK_SLIDE"
         ]
     },
     "DROWZEE": {
@@ -2576,7 +2721,8 @@
             "FIRE_PUNCH",
             "ICE_PUNCH",
             "THUNDER_PUNCH",
-            "SHADOW_BALL"
+            "SHADOW_BALL",
+            "PSYSHOCK"
         ]
     },
     "KRABBY": {
@@ -2612,7 +2758,8 @@
         "base_hp": 146,
         "fast_move_pool": [
             "BUBBLE_FAST",
-            "METAL_CLAW_FAST"
+            "METAL_CLAW_FAST",
+            "MUD_SHOT_FAST"
         ],
         "charged_move_pool": [
             "VICE_GRIP",
@@ -2639,7 +2786,8 @@
         "charged_move_pool": [
             "DISCHARGE",
             "THUNDERBOLT",
-            "GYRO_BALL"
+            "GYRO_BALL",
+            "SIGNAL_BEAM"
         ]
     },
     "VOLTORB_HISUIAN": {
@@ -2674,7 +2822,8 @@
         "base_hp": 155,
         "fast_move_pool": [
             "SPARK_FAST",
-            "VOLT_SWITCH_FAST"
+            "VOLT_SWITCH_FAST",
+            "TACKLE_FAST"
         ],
         "charged_move_pool": [
             "DISCHARGE",
@@ -2736,7 +2885,8 @@
         "fast_move_pool": [
             "BULLET_SEED_FAST",
             "EXTRASENSORY_FAST",
-            "CONFUSION_FAST"
+            "CONFUSION_FAST",
+            "ZEN_HEADBUTT_FAST"
         ],
         "charged_move_pool": [
             "SEED_BOMB",
@@ -2761,7 +2911,8 @@
         "charged_move_pool": [
             "SEED_BOMB",
             "DRAGON_PULSE",
-            "SOLAR_BEAM"
+            "SOLAR_BEAM",
+            "DRACO_METEOR"
         ]
     },
     "CUBONE": {
@@ -2824,7 +2975,8 @@
             "BONE_CLUB",
             "SHADOW_BALL",
             "FIRE_BLAST",
-            "FLAME_WHEEL"
+            "FLAME_WHEEL",
+            "SHADOW_BONE"
         ]
     },
     "HITMONLEE": {
@@ -2846,7 +2998,9 @@
             "CLOSE_COMBAT",
             "LOW_SWEEP",
             "STONE_EDGE",
-            "BLAZE_KICK"
+            "BLAZE_KICK",
+            "STOMP",
+            "BRICK_BREAK"
         ]
     },
     "HITMONCHAN": {
@@ -2861,14 +3015,16 @@
         "base_hp": 137,
         "fast_move_pool": [
             "BULLET_PUNCH_FAST",
-            "COUNTER_FAST"
+            "COUNTER_FAST",
+            "ROCK_SMASH_FAST"
         ],
         "charged_move_pool": [
             "FIRE_PUNCH",
             "ICE_PUNCH",
             "THUNDER_PUNCH",
             "CLOSE_COMBAT",
-            "POWER_UP_PUNCH"
+            "POWER_UP_PUNCH",
+            "BRICK_BREAK"
         ]
     },
     "LICKITUNG": {
@@ -2888,7 +3044,8 @@
         "charged_move_pool": [
             "HYPER_BEAM",
             "STOMP",
-            "POWER_WHIP"
+            "POWER_WHIP",
+            "BODY_SLAM"
         ]
     },
     "KOFFING": {
@@ -2993,7 +3150,8 @@
             "SURF",
             "EARTHQUAKE",
             "STONE_EDGE",
-            "BREAKING_SWIPE"
+            "BREAKING_SWIPE",
+            "MEGAHORN"
         ]
     },
     "CHANSEY": {
@@ -3033,7 +3191,8 @@
         "charged_move_pool": [
             "GRASS_KNOT",
             "SLUDGE_BOMB",
-            "SOLAR_BEAM"
+            "SOLAR_BEAM",
+            "POWER_WHIP"
         ]
     },
     "KANGASKHAN": {
@@ -3054,7 +3213,9 @@
             "CRUNCH",
             "EARTHQUAKE",
             "OUTRAGE",
-            "POWER_UP_PUNCH"
+            "POWER_UP_PUNCH",
+            "BRICK_BREAK",
+            "STOMP"
         ]
     },
     "HORSEA": {
@@ -3094,7 +3255,8 @@
         "charged_move_pool": [
             "AURORA_BEAM",
             "DRAGON_PULSE",
-            "HYDRO_PUMP"
+            "HYDRO_PUMP",
+            "BLIZZARD"
         ]
     },
     "GOLDEEN": {
@@ -3129,12 +3291,15 @@
         "base_hp": 190,
         "fast_move_pool": [
             "PECK_FAST",
-            "WATERFALL_FAST"
+            "WATERFALL_FAST",
+            "POISON_JAB_FAST"
         ],
         "charged_move_pool": [
             "ICE_BEAM",
             "WATER_PULSE",
-            "MEGAHORN"
+            "MEGAHORN",
+            "ICY_WIND",
+            "DRILL_RUN"
         ]
     },
     "STARYU": {
@@ -3169,7 +3334,8 @@
         "base_hp": 155,
         "fast_move_pool": [
             "HIDDEN_POWER_FAST",
-            "WATER_GUN_FAST"
+            "WATER_GUN_FAST",
+            "TACKLE_FAST"
         ],
         "charged_move_pool": [
             "HYDRO_PUMP",
@@ -3235,13 +3401,15 @@
         "base_hp": 172,
         "fast_move_pool": [
             "FURY_CUTTER_FAST",
-            "AIR_SLASH_FAST"
+            "AIR_SLASH_FAST",
+            "STEEL_WING_FAST"
         ],
         "charged_move_pool": [
             "NIGHT_SLASH",
             "X_SCISSOR",
             "AERIAL_ACE",
-            "TRAILBLAZE"
+            "TRAILBLAZE",
+            "BUG_BUZZ"
         ]
     },
     "JYNX": {
@@ -3256,13 +3424,15 @@
         "base_hp": 163,
         "fast_move_pool": [
             "FROST_BREATH_FAST",
-            "CONFUSION_FAST"
+            "CONFUSION_FAST",
+            "POUND_FAST"
         ],
         "charged_move_pool": [
             "DRAINING_KISS",
             "AVALANCHE",
             "PSYSHOCK",
-            "FOCUS_BLAST"
+            "FOCUS_BLAST",
+            "ICE_PUNCH"
         ]
     },
     "ELECTABUZZ": {
@@ -3325,7 +3495,8 @@
             "VICE_GRIP",
             "X_SCISSOR",
             "CLOSE_COMBAT",
-            "SUPER_POWER"
+            "SUPER_POWER",
+            "SUBMISSION"
         ]
     },
     "TAUROS": {
@@ -3379,13 +3550,16 @@
         "fast_move_pool": [
             "BITE_FAST",
             "WATERFALL_FAST",
-            "DRAGON_BREATH_FAST"
+            "DRAGON_BREATH_FAST",
+            "DRAGON_TAIL_FAST"
         ],
         "charged_move_pool": [
             "HYDRO_PUMP",
             "CRUNCH",
             "OUTRAGE",
-            "TWISTER"
+            "TWISTER",
+            "DRAGON_PULSE",
+            "AQUA_TAIL"
         ]
     },
     "LAPRAS": {
@@ -3400,13 +3574,16 @@
         "base_hp": 277,
         "fast_move_pool": [
             "FROST_BREATH_FAST",
-            "WATER_GUN_FAST"
+            "WATER_GUN_FAST",
+            "ICE_SHARD_FAST"
         ],
         "charged_move_pool": [
             "HYDRO_PUMP",
             "SURF",
             "BLIZZARD",
-            "SKULL_BASH"
+            "SKULL_BASH",
+            "DRAGON_PULSE",
+            "ICE_BEAM"
         ]
     },
     "DITTO": {
@@ -3442,7 +3619,9 @@
         ],
         "charged_move_pool": [
             "DIG",
-            "SWIFT"
+            "SWIFT",
+            "LAST_RESORT",
+            "BODY_SLAM"
         ]
     },
     "VAPOREON": {
@@ -3462,7 +3641,9 @@
             "WATER_PULSE",
             "HYDRO_PUMP",
             "AQUA_TAIL",
-            "LIQUIDATION"
+            "LIQUIDATION",
+            "LAST_RESORT",
+            "SCALD"
         ]
     },
     "JOLTEON": {
@@ -3482,7 +3663,9 @@
         "charged_move_pool": [
             "DISCHARGE",
             "THUNDERBOLT",
-            "THUNDER"
+            "THUNDER",
+            "LAST_RESORT",
+            "ZAP_CANNON"
         ]
     },
     "FLAREON": {
@@ -3502,7 +3685,10 @@
         "charged_move_pool": [
             "FIRE_BLAST",
             "FLAMETHROWER",
-            "OVERHEAT"
+            "OVERHEAT",
+            "LAST_RESORT",
+            "HEAT_WAVE",
+            "SUPER_POWER"
         ]
     },
     "PORYGON": {
@@ -3517,12 +3703,17 @@
         "base_hp": 163,
         "fast_move_pool": [
             "CHARGE_BEAM_FAST",
-            "HIDDEN_POWER_FAST"
+            "HIDDEN_POWER_FAST",
+            "TACKLE_FAST",
+            "ZEN_HEADBUTT_FAST"
         ],
         "charged_move_pool": [
             "SOLAR_BEAM",
             "HYPER_BEAM",
-            "ZAP_CANNON"
+            "ZAP_CANNON",
+            "SIGNAL_BEAM",
+            "PSYBEAM",
+            "DISCHARGE"
         ]
     },
     "OMANYTE": {
@@ -3542,7 +3733,9 @@
         "charged_move_pool": [
             "ANCIENT_POWER",
             "BUBBLE_BEAM",
-            "ROCK_BLAST"
+            "ROCK_BLAST",
+            "ROCK_TOMB",
+            "BRINE"
         ]
     },
     "OMASTAR": {
@@ -3557,12 +3750,14 @@
         "base_hp": 172,
         "fast_move_pool": [
             "MUD_SHOT_FAST",
-            "WATER_GUN_FAST"
+            "WATER_GUN_FAST",
+            "ROCK_THROW_FAST"
         ],
         "charged_move_pool": [
             "ANCIENT_POWER",
             "HYDRO_PUMP",
-            "ROCK_BLAST"
+            "ROCK_BLAST",
+            "ROCK_SLIDE"
         ]
     },
     "KABUTO": {
@@ -3598,7 +3793,8 @@
         "fast_move_pool": [
             "MUD_SHOT_FAST",
             "ROCK_SMASH_FAST",
-            "WATERFALL_FAST"
+            "WATERFALL_FAST",
+            "FURY_CUTTER_FAST"
         ],
         "charged_move_pool": [
             "ANCIENT_POWER",
@@ -3641,7 +3837,8 @@
         "base_hp": 330,
         "fast_move_pool": [
             "ZEN_HEADBUTT_FAST",
-            "LICK_FAST"
+            "LICK_FAST",
+            "YAWN_FAST"
         ],
         "charged_move_pool": [
             "HEAVY_SLAM",
@@ -3672,7 +3869,8 @@
             "ICY_WIND",
             "BLIZZARD",
             "ANCIENT_POWER",
-            "TRIPLE_AXEL"
+            "TRIPLE_AXEL",
+            "HURRICANE"
         ]
     },
     "ARTICUNO_GALARIAN": {
@@ -3706,7 +3904,8 @@
         "base_defense": 185,
         "base_hp": 207,
         "fast_move_pool": [
-            "CHARGE_BEAM_FAST"
+            "CHARGE_BEAM_FAST",
+            "THUNDER_SHOCK_FAST"
         ],
         "charged_move_pool": [
             "ZAP_CANNON",
@@ -3753,7 +3952,8 @@
             "FIRE_BLAST",
             "HEAT_WAVE",
             "OVERHEAT",
-            "ANCIENT_POWER"
+            "ANCIENT_POWER",
+            "SKY_ATTACK"
         ]
     },
     "MOLTRES_GALARIAN": {
@@ -3837,7 +4037,9 @@
             "HYPER_BEAM",
             "OUTRAGE",
             "DRAGON_CLAW",
-            "SUPER_POWER"
+            "SUPER_POWER",
+            "DRACO_METEOR",
+            "DRAGON_PULSE"
         ]
     },
     "MEWTWO": {
@@ -3859,7 +4061,10 @@
             "THUNDERBOLT",
             "ICE_BEAM",
             "FOCUS_BLAST",
-            "FLAMETHROWER"
+            "FLAMETHROWER",
+            "PSYSTRIKE",
+            "SHADOW_BALL",
+            "HYPER_BEAM"
         ]
     },
     "MEWTWO_A": {
@@ -3880,7 +4085,8 @@
             "ROCK_SLIDE",
             "DYNAMIC_PUNCH",
             "EARTHQUAKE",
-            "FUTURESIGHT"
+            "FUTURESIGHT",
+            "PSYSTRIKE"
         ]
     },
     "MEW": {
@@ -3997,7 +4203,8 @@
         "charged_move_pool": [
             "PETAL_BLIZZARD",
             "SOLAR_BEAM",
-            "EARTHQUAKE"
+            "EARTHQUAKE",
+            "FRENZY_PLANT"
         ]
     },
     "CYNDAQUIL": {
@@ -4058,7 +4265,8 @@
         "charged_move_pool": [
             "FIRE_BLAST",
             "OVERHEAT",
-            "SOLAR_BEAM"
+            "SOLAR_BEAM",
+            "BLAST_BURN"
         ]
     },
     "TYPHLOSION_HISUIAN": {
@@ -4136,12 +4344,14 @@
             "WATERFALL_FAST",
             "BITE_FAST",
             "ICE_FANG_FAST",
-            "SHADOW_CLAW_FAST"
+            "SHADOW_CLAW_FAST",
+            "WATER_GUN_FAST"
         ],
         "charged_move_pool": [
             "CRUNCH",
             "HYDRO_PUMP",
-            "ICE_BEAM"
+            "ICE_BEAM",
+            "HYDRO_CANNON"
         ]
     },
     "SENTRET": {
@@ -4408,7 +4618,9 @@
         "charged_move_pool": [
             "GRASS_KNOT",
             "PSYSHOCK",
-            "SIGNAL_BEAM"
+            "SIGNAL_BEAM",
+            "PSYCHIC",
+            "BODY_SLAM"
         ]
     },
     "IGGLYBUFF": {
@@ -4428,7 +4640,8 @@
         "charged_move_pool": [
             "WILD_CHARGE",
             "SHADOW_BALL",
-            "PSYCHIC"
+            "PSYCHIC",
+            "BODY_SLAM"
         ]
     },
     "TOGEPI": {
@@ -4443,7 +4656,8 @@
         "base_hp": 111,
         "fast_move_pool": [
             "HIDDEN_POWER_FAST",
-            "PECK_FAST"
+            "PECK_FAST",
+            "ZEN_HEADBUTT_FAST"
         ],
         "charged_move_pool": [
             "ANCIENT_POWER",
@@ -4464,7 +4678,9 @@
         "fast_move_pool": [
             "EXTRASENSORY_FAST",
             "HIDDEN_POWER_FAST",
-            "FAIRY_WIND_FAST"
+            "FAIRY_WIND_FAST",
+            "STEEL_WING_FAST",
+            "ZEN_HEADBUTT_FAST"
         ],
         "charged_move_pool": [
             "ANCIENT_POWER",
@@ -4575,7 +4791,8 @@
             "POWER_GEM",
             "THUNDER_PUNCH",
             "BRUTAL_SWING",
-            "TRAILBLAZE"
+            "TRAILBLAZE",
+            "DRAGON_PULSE"
         ]
     },
     "BELLOSSOM": {
@@ -4682,7 +4899,9 @@
             "BLIZZARD",
             "SURF",
             "WEATHER_BALL_WATER",
-            "SCALD"
+            "SCALD",
+            "EARTHQUAKE",
+            "ICE_BEAM"
         ]
     },
     "HOPPIP": {
@@ -4744,7 +4963,8 @@
             "ENERGY_BALL",
             "DAZZLING_GLEAM",
             "SOLAR_BEAM",
-            "AERIAL_ACE"
+            "AERIAL_ACE",
+            "ACROBATICS"
         ]
     },
     "AIPOM": {
@@ -4887,7 +5107,8 @@
             "EARTHQUAKE",
             "STONE_EDGE",
             "ACID_SPRAY",
-            "MUD_BOMB"
+            "MUD_BOMB",
+            "AQUA_TAIL"
         ]
     },
     "ESPEON": {
@@ -4908,7 +5129,9 @@
             "PSYBEAM",
             "PSYCHIC",
             "FUTURESIGHT",
-            "PSYCHIC_FANGS"
+            "PSYCHIC_FANGS",
+            "LAST_RESORT",
+            "SHADOW_BALL"
         ]
     },
     "UMBREON": {
@@ -4927,7 +5150,9 @@
         ],
         "charged_move_pool": [
             "DARK_PULSE",
-            "FOUL_PLAY"
+            "FOUL_PLAY",
+            "LAST_RESORT",
+            "PSYCHIC"
         ]
     },
     "MURKROW": {
@@ -4968,7 +5193,8 @@
             "BLIZZARD",
             "PSYCHIC",
             "FIRE_BLAST",
-            "SCALD"
+            "SCALD",
+            "SURF"
         ]
     },
     "SLOWKING_GALARIAN": {
@@ -4990,7 +5216,8 @@
             "FUTURESIGHT",
             "SHADOW_BALL",
             "SLUDGE_WAVE",
-            "SCALD"
+            "SCALD",
+            "SURF"
         ]
     },
     "MISDREAVUS": {
@@ -5673,7 +5900,8 @@
         "base_hp": 181,
         "fast_move_pool": [
             "WATERFALL_FAST",
-            "DRAGON_BREATH_FAST"
+            "DRAGON_BREATH_FAST",
+            "WATER_GUN_FAST"
         ],
         "charged_move_pool": [
             "HYDRO_PUMP",
@@ -5822,7 +6050,8 @@
         "base_hp": 128,
         "fast_move_pool": [
             "POWDER_SNOW_FAST",
-            "POUND_FAST"
+            "POUND_FAST",
+            "FROST_BREATH_FAST"
         ],
         "charged_move_pool": [
             "ICE_BEAM",
@@ -5847,7 +6076,8 @@
         "charged_move_pool": [
             "THUNDER_PUNCH",
             "BRICK_BREAK",
-            "DISCHARGE"
+            "DISCHARGE",
+            "THUNDERBOLT"
         ]
     },
     "MAGBY": {
@@ -5867,7 +6097,8 @@
         "charged_move_pool": [
             "BRICK_BREAK",
             "FIRE_PUNCH",
-            "FLAME_BURST"
+            "FLAME_BURST",
+            "FLAMETHROWER"
         ]
     },
     "MILTANK": {
@@ -5910,7 +6141,8 @@
         "charged_move_pool": [
             "PSYCHIC",
             "HYPER_BEAM",
-            "DAZZLING_GLEAM"
+            "DAZZLING_GLEAM",
+            "WILD_CHARGE"
         ]
     },
     "RAIKOU": {
@@ -5970,7 +6202,8 @@
         "fast_move_pool": [
             "EXTRASENSORY_FAST",
             "SNARL_FAST",
-            "ICE_FANG_FAST"
+            "ICE_FANG_FAST",
+            "HIDDEN_POWER_FAST"
         ],
         "charged_move_pool": [
             "HYDRO_PUMP",
@@ -6032,7 +6265,8 @@
         "base_hp": 225,
         "fast_move_pool": [
             "BITE_FAST",
-            "IRON_TAIL_FAST"
+            "IRON_TAIL_FAST",
+            "SMACK_DOWN_FAST"
         ],
         "charged_move_pool": [
             "FIRE_BLAST",
@@ -6058,7 +6292,8 @@
         "charged_move_pool": [
             "SKY_ATTACK",
             "HYDRO_PUMP",
-            "FUTURESIGHT"
+            "FUTURESIGHT",
+            "AEROBLAST"
         ]
     },
     "HO_OH": {
@@ -6080,7 +6315,9 @@
         "charged_move_pool": [
             "BRAVE_BIRD",
             "FIRE_BLAST",
-            "SOLAR_BEAM"
+            "SOLAR_BEAM",
+            "EARTHQUAKE",
+            "SACRED_FIRE"
         ]
     },
     "CELEBI": {
@@ -6095,7 +6332,8 @@
         "base_hp": 225,
         "fast_move_pool": [
             "CONFUSION_FAST",
-            "CHARGE_BEAM_FAST"
+            "CHARGE_BEAM_FAST",
+            "MAGICAL_LEAF_FAST"
         ],
         "charged_move_pool": [
             "HYPER_BEAM",
@@ -6164,7 +6402,8 @@
             "AERIAL_ACE",
             "EARTHQUAKE",
             "DRAGON_CLAW",
-            "BREAKING_SWIPE"
+            "BREAKING_SWIPE",
+            "FRENZY_PLANT"
         ]
     },
     "TORCHIC": {
@@ -6225,7 +6464,9 @@
             "FOCUS_BLAST",
             "OVERHEAT",
             "BRAVE_BIRD",
-            "BLAZE_KICK"
+            "BLAZE_KICK",
+            "BLAST_BURN",
+            "STONE_EDGE"
         ]
     },
     "MUDKIP": {
@@ -6286,7 +6527,8 @@
             "EARTHQUAKE",
             "SLUDGE_WAVE",
             "SURF",
-            "MUDDY_WATER"
+            "MUDDY_WATER",
+            "HYDRO_CANNON"
         ]
     },
     "POOCHYENA": {
@@ -6625,7 +6867,8 @@
         "fast_move_pool": [
             "RAZOR_LEAF_FAST",
             "FEINT_ATTACK_FAST",
-            "SNARL_FAST"
+            "SNARL_FAST",
+            "BULLET_SEED_FAST"
         ],
         "charged_move_pool": [
             "LEAF_BLADE",
@@ -6776,7 +7019,8 @@
             "PSYCHIC",
             "DAZZLING_GLEAM",
             "SHADOW_BALL",
-            "TRIPLE_AXEL"
+            "TRIPLE_AXEL",
+            "SYNCHRONOISE"
         ]
     },
     "SURSKIT": {
@@ -6858,7 +7102,8 @@
         "charged_move_pool": [
             "DYNAMIC_PUNCH",
             "SEED_BOMB",
-            "SLUDGE_BOMB"
+            "SLUDGE_BOMB",
+            "GRASS_KNOT"
         ]
     },
     "SLAKOTH": {
@@ -6917,7 +7162,8 @@
         "charged_move_pool": [
             "HYPER_BEAM",
             "PLAY_ROUGH",
-            "EARTHQUAKE"
+            "EARTHQUAKE",
+            "BODY_SLAM"
         ]
     },
     "NINCADA": {
@@ -6972,7 +7218,8 @@
         "base_hp": 1,
         "fast_move_pool": [
             "BUG_BITE_FAST",
-            "SHADOW_CLAW_FAST"
+            "SHADOW_CLAW_FAST",
+            "STRUGGLE_BUG_FAST"
         ],
         "charged_move_pool": [
             "SHADOW_SNEAK",
@@ -7768,7 +8015,8 @@
             "DRAGON_CLAW",
             "STONE_EDGE",
             "BOOMBURST",
-            "SCORCHING_SANDS"
+            "SCORCHING_SANDS",
+            "EARTH_POWER"
         ]
     },
     "CACNEA": {
@@ -7854,7 +8102,8 @@
         "charged_move_pool": [
             "SKY_ATTACK",
             "DAZZLING_GLEAM",
-            "DRAGON_PULSE"
+            "DRAGON_PULSE",
+            "MOONBLAST"
         ]
     },
     "ZANGOOSE": {
@@ -8549,12 +8798,14 @@
         "base_hp": 242,
         "fast_move_pool": [
             "WATERFALL_FAST",
-            "FROST_BREATH_FAST"
+            "FROST_BREATH_FAST",
+            "POWDER_SNOW_FAST"
         ],
         "charged_move_pool": [
             "BLIZZARD",
             "EARTHQUAKE",
-            "WATER_PULSE"
+            "WATER_PULSE",
+            "ICICLE_SPEAR"
         ]
     },
     "CLAMPERL": {
@@ -8714,7 +8965,8 @@
         "charged_move_pool": [
             "FIRE_BLAST",
             "HYDRO_PUMP",
-            "DRACO_METEOR"
+            "DRACO_METEOR",
+            "OUTRAGE"
         ]
     },
     "BELDUM": {
@@ -8771,7 +9023,8 @@
         "charged_move_pool": [
             "PSYCHIC",
             "FLASH_CANNON",
-            "EARTHQUAKE"
+            "EARTHQUAKE",
+            "METEOR_MASH"
         ]
     },
     "REGIROCK": {
@@ -8792,7 +9045,8 @@
         "charged_move_pool": [
             "STONE_EDGE",
             "ZAP_CANNON",
-            "FOCUS_BLAST"
+            "FOCUS_BLAST",
+            "EARTHQUAKE"
         ]
     },
     "REGICE": {
@@ -8813,7 +9067,8 @@
         "charged_move_pool": [
             "BLIZZARD",
             "EARTHQUAKE",
-            "FOCUS_BLAST"
+            "FOCUS_BLAST",
+            "THUNDER"
         ]
     },
     "REGISTEEL": {
@@ -8834,7 +9089,8 @@
         "charged_move_pool": [
             "FLASH_CANNON",
             "HYPER_BEAM",
-            "FOCUS_BLAST"
+            "FOCUS_BLAST",
+            "ZAP_CANNON"
         ]
     },
     "LATIAS": {
@@ -8855,7 +9111,8 @@
         "charged_move_pool": [
             "PSYCHIC",
             "OUTRAGE",
-            "THUNDER"
+            "THUNDER",
+            "MIST_BALL"
         ]
     },
     "LATIOS": {
@@ -8875,7 +9132,8 @@
         "charged_move_pool": [
             "PSYCHIC",
             "DRAGON_CLAW",
-            "SOLAR_BEAM"
+            "SOLAR_BEAM",
+            "LUSTER_PURGE"
         ]
     },
     "KYOGRE": {
@@ -8895,7 +9153,8 @@
             "HYDRO_PUMP",
             "BLIZZARD",
             "THUNDER",
-            "SURF"
+            "SURF",
+            "ORIGIN_PULSE"
         ]
     },
     "GROUDON": {
@@ -8915,7 +9174,9 @@
         "charged_move_pool": [
             "EARTHQUAKE",
             "FIRE_BLAST",
-            "SOLAR_BEAM"
+            "SOLAR_BEAM",
+            "FIRE_PUNCH",
+            "PRECIPICE_BLADES"
         ]
     },
     "RAYQUAZA": {
@@ -8935,7 +9196,9 @@
         "charged_move_pool": [
             "OUTRAGE",
             "AERIAL_ACE",
-            "ANCIENT_POWER"
+            "ANCIENT_POWER",
+            "HURRICANE",
+            "BREAKING_SWIPE"
         ]
     },
     "JIRACHI": {
@@ -9096,7 +9359,8 @@
             "STONE_EDGE",
             "SOLAR_BEAM",
             "EARTHQUAKE",
-            "SAND_TOMB"
+            "SAND_TOMB",
+            "FRENZY_PLANT"
         ]
     },
     "CHIMCHAR": {
@@ -9156,7 +9420,8 @@
         "charged_move_pool": [
             "SOLAR_BEAM",
             "FLAMETHROWER",
-            "CLOSE_COMBAT"
+            "CLOSE_COMBAT",
+            "BLAST_BURN"
         ]
     },
     "PIPLUP": {
@@ -9218,7 +9483,8 @@
             "HYDRO_PUMP",
             "BLIZZARD",
             "FLASH_CANNON",
-            "DRILL_PECK"
+            "DRILL_PECK",
+            "HYDRO_CANNON"
         ]
     },
     "STARLY": {
@@ -9277,7 +9543,8 @@
         "fast_move_pool": [
             "WING_ATTACK_FAST",
             "QUICK_ATTACK_FAST",
-            "SAND_ATTACK_FAST"
+            "SAND_ATTACK_FAST",
+            "GUST_FAST"
         ],
         "charged_move_pool": [
             "BRAVE_BIRD",
@@ -9303,7 +9570,11 @@
         "charged_move_pool": [
             "HYPER_FANG",
             "CRUNCH",
-            "GRASS_KNOT"
+            "GRASS_KNOT",
+            "SHADOW_BALL",
+            "THUNDERBOLT",
+            "ICE_BEAM",
+            "SUPER_POWER"
         ]
     },
     "BIBAREL": {
@@ -9422,7 +9693,8 @@
         "charged_move_pool": [
             "HYPER_BEAM",
             "WILD_CHARGE",
-            "CRUNCH"
+            "CRUNCH",
+            "PSYCHIC_FANGS"
         ]
     },
     "BUDEW": {
@@ -9457,14 +9729,16 @@
         "fast_move_pool": [
             "POISON_JAB_FAST",
             "RAZOR_LEAF_FAST",
-            "MAGICAL_LEAF_FAST"
+            "MAGICAL_LEAF_FAST",
+            "BULLET_SEED_FAST"
         ],
         "charged_move_pool": [
             "SOLAR_BEAM",
             "SLUDGE_BOMB",
             "DAZZLING_GLEAM",
             "GRASS_KNOT",
-            "LEAF_STORM"
+            "LEAF_STORM",
+            "WEATHER_BALL_FIRE"
         ]
     },
     "CRANIDOS": {
@@ -10336,7 +10610,8 @@
             "OUTRAGE",
             "EARTHQUAKE",
             "FIRE_BLAST",
-            "SAND_TOMB"
+            "SAND_TOMB",
+            "EARTH_POWER"
         ]
     },
     "MUNCHLAX": {
@@ -10723,7 +10998,8 @@
             "HYPER_BEAM",
             "EARTHQUAKE",
             "SOLAR_BEAM",
-            "SHADOW_BALL"
+            "SHADOW_BALL",
+            "BODY_SLAM"
         ]
     },
     "RHYPERIOR": {
@@ -10746,7 +11022,8 @@
             "STONE_EDGE",
             "SKULL_BASH",
             "SUPER_POWER",
-            "BREAKING_SWIPE"
+            "BREAKING_SWIPE",
+            "ROCK_WRECKER"
         ]
     },
     "TANGROWTH": {
@@ -10789,7 +11066,8 @@
             "THUNDER_PUNCH",
             "WILD_CHARGE",
             "THUNDER",
-            "ICE_PUNCH"
+            "ICE_PUNCH",
+            "FLAMETHROWER"
         ]
     },
     "MAGMORTAR": {
@@ -10811,7 +11089,8 @@
             "FIRE_PUNCH",
             "FIRE_BLAST",
             "PSYCHIC",
-            "SCORCHING_SANDS"
+            "SCORCHING_SANDS",
+            "THUNDERBOLT"
         ]
     },
     "TOGEKISS": {
@@ -10833,7 +11112,8 @@
             "ANCIENT_POWER",
             "DAZZLING_GLEAM",
             "AERIAL_ACE",
-            "FLAMETHROWER"
+            "FLAMETHROWER",
+            "AURA_SPHERE"
         ]
     },
     "YANMEGA": {
@@ -10868,12 +11148,14 @@
         "base_hp": 163,
         "fast_move_pool": [
             "RAZOR_LEAF_FAST",
-            "QUICK_ATTACK_FAST"
+            "QUICK_ATTACK_FAST",
+            "BULLET_SEED_FAST"
         ],
         "charged_move_pool": [
             "SOLAR_BEAM",
             "LEAF_BLADE",
-            "ENERGY_BALL"
+            "ENERGY_BALL",
+            "LAST_RESORT"
         ]
     },
     "GLACEON": {
@@ -10893,7 +11175,9 @@
         "charged_move_pool": [
             "AVALANCHE",
             "ICY_WIND",
-            "ICE_BEAM"
+            "ICE_BEAM",
+            "LAST_RESORT",
+            "WATER_PULSE"
         ]
     },
     "GLISCOR": {
@@ -10935,7 +11219,8 @@
             "AVALANCHE",
             "BULLDOZE",
             "STONE_EDGE",
-            "HIGH_HORSEPOWER"
+            "HIGH_HORSEPOWER",
+            "ANCIENT_POWER"
         ]
     },
     "PORYGON_Z": {
@@ -10957,7 +11242,8 @@
             "SOLAR_BEAM",
             "HYPER_BEAM",
             "ZAP_CANNON",
-            "BLIZZARD"
+            "BLIZZARD",
+            "TRI_ATTACK"
         ]
     },
     "GALLADE": {
@@ -10979,7 +11265,8 @@
         "charged_move_pool": [
             "CLOSE_COMBAT",
             "PSYCHIC",
-            "LEAF_BLADE"
+            "LEAF_BLADE",
+            "SYNCHRONOISE"
         ]
     },
     "PROBOPASS": {
@@ -11021,7 +11308,8 @@
             "OMINOUS_WIND",
             "PSYCHIC",
             "DARK_PULSE",
-            "POLTERGEIST"
+            "POLTERGEIST",
+            "SHADOW_BALL"
         ]
     },
     "FROSLASS": {
@@ -11326,7 +11614,8 @@
             "IRON_HEAD",
             "STONE_EDGE",
             "FLAMETHROWER",
-            "EARTH_POWER"
+            "EARTH_POWER",
+            "MAGMA_STORM"
         ]
     },
     "REGIGIGAS": {
@@ -11366,7 +11655,8 @@
         "charged_move_pool": [
             "DRAGON_CLAW",
             "ANCIENT_POWER",
-            "SHADOW_SNEAK"
+            "SHADOW_SNEAK",
+            "SHADOW_FORCE"
         ]
     },
     "GIRATINA_ORIGIN": {
@@ -11386,7 +11676,8 @@
         "charged_move_pool": [
             "DRAGON_PULSE",
             "OMINOUS_WIND",
-            "SHADOW_BALL"
+            "SHADOW_BALL",
+            "SHADOW_FORCE"
         ]
     },
     "CRESSELIA": {
@@ -11406,7 +11697,8 @@
         "charged_move_pool": [
             "AURORA_BEAM",
             "MOONBLAST",
-            "FUTURESIGHT"
+            "FUTURESIGHT",
+            "GRASS_KNOT"
         ]
     },
     "PHIONE": {
@@ -11466,7 +11758,8 @@
         "charged_move_pool": [
             "FOCUS_BLAST",
             "SHADOW_BALL",
-            "DARK_PULSE"
+            "DARK_PULSE",
+            "SLUDGE_BOMB"
         ]
     },
     "SHAYMIN": {
@@ -11502,7 +11795,8 @@
         "base_hp": 225,
         "fast_move_pool": [
             "HIDDEN_POWER_FAST",
-            "ZEN_HEADBUTT_FAST"
+            "ZEN_HEADBUTT_FAST",
+            "MAGICAL_LEAF_FAST"
         ],
         "charged_move_pool": [
             "ENERGY_BALL",
@@ -11949,7 +12243,8 @@
         "charged_move_pool": [
             "GRASS_KNOT",
             "LEAF_TORNADO",
-            "AERIAL_ACE"
+            "AERIAL_ACE",
+            "FRENZY_PLANT"
         ]
     },
     "TEPIG": {
@@ -12010,7 +12305,8 @@
             "HEAT_WAVE",
             "ROCK_SLIDE",
             "FOCUS_BLAST",
-            "FLAME_CHARGE"
+            "FLAME_CHARGE",
+            "BLAST_BURN"
         ]
     },
     "OSHAWOTT": {
@@ -12072,7 +12368,8 @@
             "BLIZZARD",
             "MEGAHORN",
             "RAZOR_SHELL",
-            "LIQUIDATION"
+            "LIQUIDATION",
+            "HYDRO_CANNON"
         ]
     },
     "SAMUROTT_HISUIAN": {
@@ -12560,7 +12857,8 @@
             "ROCK_SLIDE",
             "SOLAR_BEAM",
             "SUPER_POWER",
-            "HEAVY_SLAM"
+            "HEAVY_SLAM",
+            "METEOR_BEAM"
         ]
     },
     "WOOBAT": {
@@ -12724,7 +13022,8 @@
         "charged_move_pool": [
             "DYNAMIC_PUNCH",
             "FOCUS_BLAST",
-            "STONE_EDGE"
+            "STONE_EDGE",
+            "BRUTAL_SWING"
         ]
     },
     "TYMPOLE": {
@@ -14355,7 +14654,8 @@
             "ENERGY_BALL",
             "SHADOW_BALL",
             "OVERHEAT",
-            "FLAME_CHARGE"
+            "FLAME_CHARGE",
+            "POLTERGEIST"
         ]
     },
     "AXEW": {
@@ -14416,7 +14716,8 @@
             "DRAGON_CLAW",
             "SURF",
             "NIGHT_SLASH",
-            "EARTHQUAKE"
+            "EARTHQUAKE",
+            "BREAKING_SWIPE"
         ]
     },
     "CUBCHOO": {
@@ -14932,7 +15233,8 @@
         "charged_move_pool": [
             "DRAGON_PULSE",
             "DARK_PULSE",
-            "FLASH_CANNON"
+            "FLASH_CANNON",
+            "BRUTAL_SWING"
         ]
     },
     "LARVESTA": {
@@ -14994,7 +15296,8 @@
         "charged_move_pool": [
             "CLOSE_COMBAT",
             "IRON_HEAD",
-            "STONE_EDGE"
+            "STONE_EDGE",
+            "SACRED_SWORD"
         ]
     },
     "TERRAKION": {
@@ -15015,7 +15318,8 @@
         "charged_move_pool": [
             "CLOSE_COMBAT",
             "EARTHQUAKE",
-            "ROCK_SLIDE"
+            "ROCK_SLIDE",
+            "SACRED_SWORD"
         ]
     },
     "VIRIZION": {
@@ -15036,7 +15340,8 @@
         "charged_move_pool": [
             "CLOSE_COMBAT",
             "LEAF_BLADE",
-            "STONE_EDGE"
+            "STONE_EDGE",
+            "SACRED_SWORD"
         ]
     },
     "TORNADUS": {
@@ -15078,7 +15383,8 @@
             "HEAT_WAVE",
             "PSYCHIC",
             "FOCUS_BLAST",
-            "HURRICANE"
+            "HURRICANE",
+            "BLEAKWIND_STORM"
         ]
     },
     "THUNDURUS": {
@@ -15120,7 +15426,8 @@
             "SLUDGE_WAVE",
             "THUNDER",
             "FOCUS_BLAST",
-            "THUNDERBOLT"
+            "THUNDERBOLT",
+            "WILDBOLT_STORM"
         ]
     },
     "RESHIRAM": {
@@ -15141,7 +15448,8 @@
             "CRUNCH",
             "OVERHEAT",
             "DRACO_METEOR",
-            "STONE_EDGE"
+            "STONE_EDGE",
+            "FUSION_FLARE"
         ]
     },
     "ZEKROM": {
@@ -15162,7 +15470,8 @@
             "OUTRAGE",
             "WILD_CHARGE",
             "FLASH_CANNON",
-            "CRUNCH"
+            "CRUNCH",
+            "FUSION_BOLT"
         ]
     },
     "LANDORUS": {
@@ -15204,7 +15513,8 @@
             "EARTHQUAKE",
             "BULLDOZE",
             "STONE_EDGE",
-            "SUPER_POWER"
+            "SUPER_POWER",
+            "SANDSEAR_STORM"
         ]
     },
     "KYUREM": {
@@ -15224,7 +15534,8 @@
         "charged_move_pool": [
             "DRAGON_CLAW",
             "BLIZZARD",
-            "DRACO_METEOR"
+            "DRACO_METEOR",
+            "GLACIATE"
         ]
     },
     "KYUREM_BLACK": {
@@ -15391,7 +15702,8 @@
         "charged_move_pool": [
             "X_SCISSOR",
             "MAGNET_BOMB",
-            "FLAMETHROWER"
+            "FLAMETHROWER",
+            "TECHNO_BLAST_BURN"
         ]
     },
     "GENESECT_CHILL": {
@@ -15411,7 +15723,8 @@
         "charged_move_pool": [
             "X_SCISSOR",
             "MAGNET_BOMB",
-            "ICE_BEAM"
+            "ICE_BEAM",
+            "TECHNO_BLAST_CHILL"
         ]
     },
     "GENESECT_DOUSE": {
@@ -15431,7 +15744,8 @@
         "charged_move_pool": [
             "X_SCISSOR",
             "MAGNET_BOMB",
-            "GUNK_SHOT"
+            "GUNK_SHOT",
+            "TECHNO_BLAST_WATER"
         ]
     },
     "GENESECT_SHOCK": {
@@ -15451,7 +15765,8 @@
         "charged_move_pool": [
             "X_SCISSOR",
             "MAGNET_BOMB",
-            "ZAP_CANNON"
+            "ZAP_CANNON",
+            "TECHNO_BLAST_SHOCK"
         ]
     },
     "CHESPIN": {
@@ -15513,7 +15828,8 @@
             "GYRO_BALL",
             "ENERGY_BALL",
             "SUPER_POWER",
-            "SOLAR_BEAM"
+            "SOLAR_BEAM",
+            "FRENZY_PLANT"
         ]
     },
     "FENNEKIN": {
@@ -15576,7 +15892,8 @@
             "FLAMETHROWER",
             "FLAME_CHARGE",
             "FIRE_BLAST",
-            "MYSTICAL_FIRE"
+            "MYSTICAL_FIRE",
+            "BLAST_BURN"
         ]
     },
     "FROAKIE": {
@@ -15638,7 +15955,8 @@
             "NIGHT_SLASH",
             "AERIAL_ACE",
             "SURF",
-            "HYDRO_PUMP"
+            "HYDRO_PUMP",
+            "HYDRO_CANNON"
         ]
     },
     "BUNNELBY": {
@@ -15739,7 +16057,8 @@
         "fast_move_pool": [
             "PECK_FAST",
             "FIRE_SPIN_FAST",
-            "STEEL_WING_FAST"
+            "STEEL_WING_FAST",
+            "INCINERATE_FAST"
         ],
         "charged_move_pool": [
             "BRAVE_BIRD",
@@ -16533,7 +16852,9 @@
         "charged_move_pool": [
             "MOONBLAST",
             "DAZZLING_GLEAM",
-            "DRAINING_KISS"
+            "DRAINING_KISS",
+            "LAST_RESORT",
+            "PSYSHOCK"
         ]
     },
     "HAWLUCHA": {
@@ -16992,7 +17313,8 @@
             "DRACO_METEOR",
             "HURRICANE",
             "HEAT_WAVE",
-            "PSYCHIC"
+            "PSYCHIC",
+            "BOOMBURST"
         ]
     },
     "XERNEAS": {
@@ -17007,7 +17329,8 @@
         "base_hp": 246,
         "fast_move_pool": [
             "TACKLE_FAST",
-            "ZEN_HEADBUTT_FAST"
+            "ZEN_HEADBUTT_FAST",
+            "GEOMANCY_FAST"
         ],
         "charged_move_pool": [
             "MOONBLAST",
@@ -17037,7 +17360,8 @@
             "HURRICANE",
             "FOCUS_BLAST",
             "HYPER_BEAM",
-            "PSYCHIC"
+            "PSYCHIC",
+            "OBLIVION_WING"
         ]
     },
     "ZYGARDE": {
@@ -17254,7 +17578,8 @@
             "SHADOW_SNEAK",
             "ENERGY_BALL",
             "BRAVE_BIRD",
-            "SPIRIT_SHACKLE"
+            "SPIRIT_SHACKLE",
+            "FRENZY_PLANT"
         ]
     },
     "DECIDUEYE_HISUIAN": {
@@ -17338,7 +17663,8 @@
             "FLAME_CHARGE",
             "DARK_PULSE",
             "BLAZE_KICK",
-            "DARKEST_LARIAT"
+            "DARKEST_LARIAT",
+            "BLAST_BURN"
         ]
     },
     "POPPLIO": {
@@ -17535,7 +17861,8 @@
         "base_hp": 149,
         "fast_move_pool": [
             "BUG_BITE_FAST",
-            "SPARK_FAST"
+            "SPARK_FAST",
+            "VOLT_SWITCH_FAST"
         ],
         "charged_move_pool": [
             "X_SCISSOR",
@@ -17556,7 +17883,8 @@
         "fast_move_pool": [
             "BUG_BITE_FAST",
             "SPARK_FAST",
-            "MUD_SLAP_FAST"
+            "MUD_SLAP_FAST",
+            "VOLT_SWITCH_FAST"
         ],
         "charged_move_pool": [
             "X_SCISSOR",
@@ -18136,7 +18464,8 @@
         "charged_move_pool": [
             "SUPER_POWER",
             "PAYBACK",
-            "STOMP"
+            "STOMP",
+            "DRAIN_PUNCH"
         ]
     },
     "BOUNSWEET": {
@@ -18790,26 +19119,6 @@
             "POKEMON_TYPE_ROCK",
             "POKEMON_TYPE_FLYING"
         ],
-        "base_attack": 116,
-        "base_defense": 194,
-        "base_hp": 155,
-        "fast_move_pool": [
-            "ROLLOUT_FAST",
-            "TAKE_DOWN_FAST"
-        ],
-        "charged_move_pool": [
-            "POWER_GEM",
-            "ANCIENT_POWER",
-            "ACROBATICS"
-        ]
-    },
-    "MINIOR_BLUE": {
-        "name": "MINIOR_BLUE",
-        "species": "MINIOR",
-        "types": [
-            "POKEMON_TYPE_ROCK",
-            "POKEMON_TYPE_FLYING"
-        ],
         "base_attack": 218,
         "base_defense": 131,
         "base_hp": 155,
@@ -19047,7 +19356,8 @@
             "THUNDERBOLT",
             "DAZZLING_GLEAM",
             "BRAVE_BIRD",
-            "THUNDER"
+            "THUNDER",
+            "NATURES_MADNESS"
         ]
     },
     "TAPU_LELE": {
@@ -19068,7 +19378,8 @@
             "PSYSHOCK",
             "MOONBLAST",
             "FOCUS_BLAST",
-            "FUTURESIGHT"
+            "FUTURESIGHT",
+            "NATURES_MADNESS"
         ]
     },
     "TAPU_BULU": {
@@ -19089,7 +19400,8 @@
             "GRASS_KNOT",
             "DAZZLING_GLEAM",
             "MEGAHORN",
-            "SOLAR_BEAM"
+            "SOLAR_BEAM",
+            "NATURES_MADNESS"
         ]
     },
     "TAPU_FINI": {
@@ -19348,10 +19660,13 @@
         "base_defense": 195,
         "base_hp": 219,
         "fast_move_pool": [
-            "STRUGGLE"
+            "CONFUSION_FAST",
+            "PSYCHO_CUT_FAST"
         ],
         "charged_move_pool": [
-            "STRUGGLE"
+            "ROCK_BLAST",
+            "POWER_GEM",
+            "NIGHT_SLASH"
         ]
     },
     "NECROZMA_DAWN_WINGS": {
@@ -19365,10 +19680,13 @@
         "base_defense": 220,
         "base_hp": 200,
         "fast_move_pool": [
-            "STRUGGLE"
+            "CONFUSION_FAST",
+            "PSYCHO_CUT_FAST"
         ],
         "charged_move_pool": [
-            "STRUGGLE"
+            "ROCK_BLAST",
+            "POWER_GEM",
+            "NIGHT_SLASH"
         ]
     },
     "NECROZMA_DUSK_MANE": {
@@ -19382,10 +19700,13 @@
         "base_defense": 220,
         "base_hp": 200,
         "fast_move_pool": [
-            "STRUGGLE"
+            "CONFUSION_FAST",
+            "PSYCHO_CUT_FAST"
         ],
         "charged_move_pool": [
-            "STRUGGLE"
+            "ROCK_BLAST",
+            "POWER_GEM",
+            "NIGHT_SLASH"
         ]
     },
     "NECROZMA_ULTRA": {
@@ -19576,7 +19897,8 @@
             "THUNDERBOLT",
             "HYPER_BEAM",
             "ROCK_SLIDE",
-            "SUPER_POWER"
+            "SUPER_POWER",
+            "DOUBLE_IRON_BASH"
         ]
     },
     "GROOKEY": {
@@ -20626,7 +20948,8 @@
             "CROSS_CHOP",
             "NIGHT_SLASH",
             "HYPER_BEAM",
-            "GUNK_SHOT"
+            "GUNK_SHOT",
+            "OBSTRUCT"
         ]
     },
     "PERRSERKER": {
@@ -21369,24 +21692,26 @@
             "CLOSE_COMBAT"
         ]
     },
-    "URSHIFU": {
-        "name": "URSHIFU",
+    "URSHIFU_SINGLE_STRIKE": {
+        "name": "URSHIFU_SINGLE_STRIKE",
         "species": "URSHIFU",
         "types": [
             "POKEMON_TYPE_FIGHTING",
-            null
+            "POKEMON_TYPE_DARK"
         ],
         "base_attack": 254,
         "base_defense": 177,
         "base_hp": 225,
         "fast_move_pool": [
             "ROCK_SMASH_FAST",
-            "COUNTER_FAST"
+            "COUNTER_FAST",
+            "SUCKER_PUNCH_FAST"
         ],
         "charged_move_pool": [
             "BRICK_BREAK",
             "DYNAMIC_PUNCH",
-            "CLOSE_COMBAT"
+            "CLOSE_COMBAT",
+            "PAYBACK"
         ]
     },
     "URSHIFU_RAPID_STRIKE": {
@@ -21409,28 +21734,6 @@
             "DYNAMIC_PUNCH",
             "CLOSE_COMBAT",
             "AQUA_JET"
-        ]
-    },
-    "URSHIFU_SINGLE_STRIKE": {
-        "name": "URSHIFU_SINGLE_STRIKE",
-        "species": "URSHIFU",
-        "types": [
-            "POKEMON_TYPE_FIGHTING",
-            "POKEMON_TYPE_DARK"
-        ],
-        "base_attack": 254,
-        "base_defense": 177,
-        "base_hp": 225,
-        "fast_move_pool": [
-            "ROCK_SMASH_FAST",
-            "COUNTER_FAST",
-            "SUCKER_PUNCH_FAST"
-        ],
-        "charged_move_pool": [
-            "BRICK_BREAK",
-            "DYNAMIC_PUNCH",
-            "CLOSE_COMBAT",
-            "PAYBACK"
         ]
     },
     "ZARUDE": {
@@ -21658,7 +21961,8 @@
             "THUNDER_PUNCH",
             "AERIAL_ACE",
             "ICE_PUNCH",
-            "TRAILBLAZE"
+            "TRAILBLAZE",
+            "HIGH_HORSEPOWER"
         ]
     },
     "SNEASLER": {
@@ -23316,7 +23620,8 @@
             "EARTHQUAKE",
             "STONE_EDGE",
             "ACID_SPRAY",
-            "WATER_PULSE"
+            "WATER_PULSE",
+            "MEGAHORN"
         ]
     },
     "FARIGIRAF": {
