@@ -46,6 +46,11 @@ MANUAL_NAME_CHANGES = {
     "IRONVALIANT": "IRON_VALIANT"
 }
 
+MANUAL_MOVE_CHANGES = {
+    404: "SUNSTEEL_STRIKE",
+    405: "MOONGEIST_BEAM"
+}
+
 
 def is_same(pokemon1, pokemon2):
     return (pokemon1["species"] == pokemon2["species"] and
@@ -78,8 +83,20 @@ if __name__ == "__main__":
             base_attack = data.get("pokemonSettings", {}).get("stats", {}).get("baseAttack")
             base_defense = data.get("pokemonSettings", {}).get("stats", {}).get("baseDefense")
             base_hp = data.get("pokemonSettings", {}).get("stats", {}).get("baseStamina")
-            fast_move_pool = data.get("pokemonSettings", {}).get("quickMoves")
-            charged_move_pool = data.get("pokemonSettings", {}).get("cinematicMoves")
+
+            fast_move_pool = []
+
+            for move in data.get("pokemonSettings", {}).get("quickMoves", {}):
+                fast_move_pool.append(move)
+            for move in data.get("pokemonSettings", {}).get("eliteQuickMove", {}):
+                fast_move_pool.append(move)
+
+            charged_move_pool = []
+
+            for move in data.get("pokemonSettings", {}).get("cinematicMoves", {}):
+                charged_move_pool.append(move)
+            for move in data.get("pokemonSettings", {}).get("eliteCinematicMove", {}):
+                charged_move_pool.append(move)
 
             skip = False
             # check if a similar pokemon already exists
@@ -129,11 +146,14 @@ if __name__ == "__main__":
 
             move_name = move_data["uniqueId"]
 
+            if move_name in MANUAL_MOVE_CHANGES:
+                move_name = move_data["uniqueId"] = MANUAL_MOVE_CHANGES[move_name]
+
             move_data["energyDelta"] = abs(move_data.get("energyDelta", 0))
             move_data["power"] = move_data.get("power", 0)
 
-            turns = move_data.get("durationTurns", 0)
-            move_data["turns"] = turns
+            move_data["turns"] = move_data.get("durationTurns", 0)
+
             if move_name.endswith("_FAST"):
                 move_data["usageType"] = "fast"
                 move_data["turns"] += 1
