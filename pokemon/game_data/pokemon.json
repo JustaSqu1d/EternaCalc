@@ -619,8 +619,8 @@
             "FLY"
         ]
     },
-    "PIKACHU_GOTOUR_2024_A": {
-        "name": "PIKACHU_GOTOUR_2024_A",
+    "PIKACHU_GOFEST_2024_MTIARA": {
+        "name": "PIKACHU_GOFEST_2024_MTIARA",
         "species": "PIKACHU",
         "types": [
             "POKEMON_TYPE_ELECTRIC",
@@ -19422,7 +19422,8 @@
             "SURF",
             "MOONBLAST",
             "ICE_BEAM",
-            "HYDRO_PUMP"
+            "HYDRO_PUMP",
+            "NATURES_MADNESS"
         ]
     },
     "COSMOG": {
@@ -19660,13 +19661,15 @@
         "base_defense": 195,
         "base_hp": 219,
         "fast_move_pool": [
-            "CONFUSION_FAST",
-            "PSYCHO_CUT_FAST"
+            "METAL_CLAW_FAST",
+            "PSYCHO_CUT_FAST",
+            "SHADOW_CLAW_FAST"
         ],
         "charged_move_pool": [
-            "ROCK_BLAST",
-            "POWER_GEM",
-            "NIGHT_SLASH"
+            "DARK_PULSE",
+            "FUTURESIGHT",
+            "IRON_HEAD",
+            "OUTRAGE"
         ]
     },
     "NECROZMA_DAWN_WINGS": {
@@ -19680,13 +19683,15 @@
         "base_defense": 220,
         "base_hp": 200,
         "fast_move_pool": [
-            "CONFUSION_FAST",
-            "PSYCHO_CUT_FAST"
+            "METAL_CLAW_FAST",
+            "PSYCHO_CUT_FAST",
+            "SHADOW_CLAW_FAST"
         ],
         "charged_move_pool": [
-            "ROCK_BLAST",
-            "POWER_GEM",
-            "NIGHT_SLASH"
+            "DARK_PULSE",
+            "FUTURESIGHT",
+            "IRON_HEAD",
+            "OUTRAGE"
         ]
     },
     "NECROZMA_DUSK_MANE": {
@@ -19700,13 +19705,15 @@
         "base_defense": 220,
         "base_hp": 200,
         "fast_move_pool": [
-            "CONFUSION_FAST",
-            "PSYCHO_CUT_FAST"
+            "METAL_CLAW_FAST",
+            "PSYCHO_CUT_FAST",
+            "SHADOW_CLAW_FAST"
         ],
         "charged_move_pool": [
-            "ROCK_BLAST",
-            "POWER_GEM",
-            "NIGHT_SLASH"
+            "DARK_PULSE",
+            "FUTURESIGHT",
+            "IRON_HEAD",
+            "OUTRAGE"
         ]
     },
     "NECROZMA_ULTRA": {
