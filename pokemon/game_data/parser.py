@@ -83,6 +83,7 @@ if __name__ == "__main__":
             base_attack = data.get("pokemonSettings", {}).get("stats", {}).get("baseAttack")
             base_defense = data.get("pokemonSettings", {}).get("stats", {}).get("baseDefense")
             base_hp = data.get("pokemonSettings", {}).get("stats", {}).get("baseStamina")
+            pokedex_number = int(template_id.split("V")[1].split("_POKEMON")[0])
 
             fast_move_pool = []
 
@@ -115,7 +116,8 @@ if __name__ == "__main__":
                     "base_defense": base_defense,
                     "base_hp": base_hp,
                     "fast_move_pool": fast_move_pool,
-                    "charged_move_pool": charged_move_pool
+                    "charged_move_pool": charged_move_pool,
+                    "pokedex_number": pokedex_number
                 }):
                     skip = True
                     break
@@ -134,7 +136,8 @@ if __name__ == "__main__":
                 "base_defense": base_defense,
                 "base_hp": base_hp,
                 "fast_move_pool": fast_move_pool,
-                "charged_move_pool": charged_move_pool
+                "charged_move_pool": charged_move_pool,
+                "pokedex_number": pokedex_number
             }
 
         elif template_id.startswith("COMBAT_V"):
