@@ -510,6 +510,7 @@
             "AERIAL_ACE",
             "DRILL_RUN",
             "SKY_ATTACK",
+            "FLY",
             "TWISTER"
         ],
         "pokedex_number": 22
@@ -1007,7 +1008,8 @@
         "charged_move_pool": [
             "DISARMING_VOICE",
             "BODY_SLAM",
-            "MOONBLAST"
+            "MOONBLAST",
+            "SWIFT"
         ],
         "pokedex_number": 35
     },
@@ -1032,7 +1034,8 @@
             "DAZZLING_GLEAM",
             "PSYCHIC",
             "MOONBLAST",
-            "METEOR_MASH"
+            "METEOR_MASH",
+            "SWIFT"
         ],
         "pokedex_number": 36
     },
@@ -1149,6 +1152,7 @@
             "DISARMING_VOICE",
             "GYRO_BALL",
             "DAZZLING_GLEAM",
+            "SWIFT",
             "PLAY_ROUGH",
             "BODY_SLAM"
         ],
@@ -1175,7 +1179,8 @@
             "PLAY_ROUGH",
             "ICE_BEAM",
             "DISARMING_VOICE",
-            "ICY_WIND"
+            "ICY_WIND",
+            "SWIFT"
         ],
         "pokedex_number": 40
     },
@@ -4462,6 +4467,7 @@
             "FIRE_BLAST",
             "OVERHEAT",
             "SOLAR_BEAM",
+            "THUNDER_PUNCH",
             "BLAST_BURN"
         ],
         "pokedex_number": 157
@@ -4832,6 +4838,7 @@
             "GRASS_KNOT",
             "PSYSHOCK",
             "SIGNAL_BEAM",
+            "SWIFT",
             "PSYCHIC",
             "BODY_SLAM"
         ],
@@ -4855,6 +4862,7 @@
             "WILD_CHARGE",
             "SHADOW_BALL",
             "PSYCHIC",
+            "SWIFT",
             "BODY_SLAM"
         ],
         "pokedex_number": 174
@@ -5873,7 +5881,8 @@
             "CROSS_CHOP",
             "CRUNCH",
             "PLAY_ROUGH",
-            "TRAILBLAZE"
+            "TRAILBLAZE",
+            "SWIFT"
         ],
         "pokedex_number": 216
     },
@@ -5896,7 +5905,8 @@
             "CLOSE_COMBAT",
             "HYPER_BEAM",
             "PLAY_ROUGH",
-            "TRAILBLAZE"
+            "TRAILBLAZE",
+            "SWIFT"
         ],
         "pokedex_number": 217
     },
@@ -9387,6 +9397,7 @@
             "FIRE_BLAST",
             "HYDRO_PUMP",
             "DRACO_METEOR",
+            "FLY",
             "OUTRAGE"
         ],
         "pokedex_number": 373
@@ -10616,27 +10627,6 @@
         "charged_move_pool": [
             "WATER_PULSE",
             "EARTH_POWER",
-            "BODY_SLAM"
-        ],
-        "pokedex_number": 423
-    },
-    "GASTRODON_EAST_SEA": {
-        "name": "GASTRODON_EAST_SEA",
-        "species": "GASTRODON",
-        "types": [
-            "POKEMON_TYPE_WATER",
-            "POKEMON_TYPE_GROUND"
-        ],
-        "base_attack": 169,
-        "base_defense": 143,
-        "base_hp": 244,
-        "fast_move_pool": [
-            "MUD_SLAP_FAST",
-            "HIDDEN_POWER_FAST"
-        ],
-        "charged_move_pool": [
-            "WATER_PULSE",
-            "EARTH_POWER",
             "BODY_SLAM",
             "EARTHQUAKE"
         ],
@@ -11155,7 +11145,8 @@
             "BRICK_BREAK",
             "LOW_SWEEP",
             "CROSS_CHOP",
-            "BLAZE_KICK"
+            "BLAZE_KICK",
+            "THUNDER_PUNCH"
         ],
         "pokedex_number": 447
     },
@@ -11179,7 +11170,8 @@
             "CLOSE_COMBAT",
             "POWER_UP_PUNCH",
             "AURA_SPHERE",
-            "BLAZE_KICK"
+            "BLAZE_KICK",
+            "THUNDER_PUNCH"
         ],
         "pokedex_number": 448
     },
@@ -13510,7 +13502,8 @@
             "PSYCHIC",
             "AERIAL_ACE",
             "FUTURESIGHT",
-            "PSYCHIC_FANGS"
+            "PSYCHIC_FANGS",
+            "FLY"
         ],
         "pokedex_number": 528
     },
@@ -14260,7 +14253,8 @@
         "charged_move_pool": [
             "ACID_SPRAY",
             "BRICK_BREAK",
-            "FOUL_PLAY"
+            "FOUL_PLAY",
+            "THUNDER_PUNCH"
         ],
         "pokedex_number": 559
     },
@@ -14281,7 +14275,8 @@
         "charged_move_pool": [
             "ACID_SPRAY",
             "POWER_UP_PUNCH",
-            "FOUL_PLAY"
+            "FOUL_PLAY",
+            "THUNDER_PUNCH"
         ],
         "pokedex_number": 560
     },
@@ -14745,7 +14740,8 @@
         "charged_move_pool": [
             "ICE_BEAM",
             "BUBBLE_BEAM",
-            "HURRICANE"
+            "HURRICANE",
+            "FLY"
         ],
         "pokedex_number": 581
     },
@@ -16582,6 +16578,7 @@
             "ENERGY_BALL",
             "SUPER_POWER",
             "SOLAR_BEAM",
+            "THUNDER_PUNCH",
             "FRENZY_PLANT"
         ],
         "pokedex_number": 652
@@ -19410,7 +19407,8 @@
             "DRAINING_KISS",
             "GRASS_KNOT",
             "STOMP",
-            "TRIPLE_AXEL"
+            "TRIPLE_AXEL",
+            "HIGH_JUMP_KICK"
         ],
         "pokedex_number": 763
     },
@@ -20231,8 +20229,7 @@
         "charged_move_pool": [
             "DRAGON_CLAW",
             "BRICK_BREAK",
-            "DRAGON_PULSE",
-            "BRICK_BREAK"
+            "DRAGON_PULSE"
         ],
         "pokedex_number": 783
     },
@@ -20702,10 +20699,16 @@
         "base_defense": 190,
         "base_hp": 207,
         "fast_move_pool": [
-            "STRUGGLE"
+            "SUCKER_PUNCH_FAST",
+            "COUNTER_FAST",
+            "POISON_JAB_FAST"
         ],
         "charged_move_pool": [
-            "STRUGGLE"
+            "CLOSE_COMBAT",
+            "FIRE_PUNCH",
+            "THUNDER_PUNCH",
+            "ICE_PUNCH",
+            "ROCK_SLIDE"
         ],
         "pokedex_number": 802
     },
@@ -20748,7 +20751,8 @@
             "SLUDGE_BOMB",
             "ACROBATICS",
             "FELL_STINGER",
-            "DRAGON_PULSE"
+            "DRAGON_PULSE",
+            "DRAGON_CLAW"
         ],
         "pokedex_number": 804
     },
@@ -23019,6 +23023,7 @@
             "AERIAL_ACE",
             "ICE_PUNCH",
             "TRAILBLAZE",
+            "SWIFT",
             "HIGH_HORSEPOWER"
         ],
         "pokedex_number": 901
@@ -23443,7 +23448,8 @@
         "base_hp": 174,
         "fast_move_pool": [
             "BUG_BITE_FAST",
-            "SUCKER_PUNCH_FAST"
+            "SUCKER_PUNCH_FAST",
+            "COUNTER_FAST"
         ],
         "charged_move_pool": [
             "X_SCISSOR",
@@ -23491,7 +23497,8 @@
         "charged_move_pool": [
             "THUNDERBOLT",
             "DISCHARGE",
-            "WILD_CHARGE"
+            "WILD_CHARGE",
+            "THUNDER_PUNCH"
         ],
         "pokedex_number": 922
     },
@@ -23514,7 +23521,8 @@
             "THUNDERBOLT",
             "DISCHARGE",
             "WILD_CHARGE",
-            "CLOSE_COMBAT"
+            "CLOSE_COMBAT",
+            "THUNDER_PUNCH"
         ],
         "pokedex_number": 923
     },
@@ -24620,7 +24628,8 @@
         "base_hp": 239,
         "fast_move_pool": [
             "ICE_SHARD_FAST",
-            "TACKLE_FAST"
+            "TACKLE_FAST",
+            "POWDER_SNOW_FAST"
         ],
         "charged_move_pool": [
             "BODY_SLAM",
@@ -24641,7 +24650,8 @@
         "base_hp": 347,
         "fast_move_pool": [
             "ICE_SHARD_FAST",
-            "TACKLE_FAST"
+            "TACKLE_FAST",
+            "POWDER_SNOW_FAST"
         ],
         "charged_move_pool": [
             "BODY_SLAM",

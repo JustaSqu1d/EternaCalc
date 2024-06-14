@@ -282,7 +282,7 @@
     "SEED_BOMB": {
         "uniqueId": "SEED_BOMB",
         "type": "POKEMON_TYPE_GRASS",
-        "power": 60.0,
+        "power": 65.0,
         "energyDelta": 45,
         "turns": 0,
         "usageType": "charge"
@@ -621,7 +621,7 @@
         "energyDelta": 50,
         "buffs": {
             "targetAttackStatStageChange": -1,
-            "buffActivationChance": 0.5
+            "buffActivationChance": 0.3
         },
         "turns": 0,
         "usageType": "charge"
@@ -737,8 +737,8 @@
     "SWIFT": {
         "uniqueId": "SWIFT",
         "type": "POKEMON_TYPE_NORMAL",
-        "power": 60.0,
-        "energyDelta": 55,
+        "power": 55.0,
+        "energyDelta": 40,
         "turns": 0,
         "usageType": "charge"
     },
@@ -873,7 +873,7 @@
     "SPARK_FAST": {
         "uniqueId": "SPARK_FAST",
         "type": "POKEMON_TYPE_ELECTRIC",
-        "power": 6.0,
+        "power": 5.0,
         "energyDelta": 7,
         "turns": 1,
         "usageType": "fast"
@@ -2613,16 +2613,28 @@
     "SUNSTEEL_STRIKE": {
         "uniqueId": "SUNSTEEL_STRIKE",
         "type": "POKEMON_TYPE_STEEL",
-        "power": 1.0,
-        "energyDelta": 45,
+        "power": 135.0,
+        "energyDelta": 65,
         "turns": 0,
         "usageType": "charge"
     },
     "MOONGEIST_BEAM": {
         "uniqueId": "MOONGEIST_BEAM",
         "type": "POKEMON_TYPE_GHOST",
-        "power": 1.0,
-        "energyDelta": 45,
+        "power": 135.0,
+        "energyDelta": 65,
+        "turns": 0,
+        "usageType": "charge"
+    },
+    "HIGH_JUMP_KICK": {
+        "uniqueId": "HIGH_JUMP_KICK",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 110.0,
+        "energyDelta": 55,
+        "buffs": {
+            "attackerDefenseStatStageChange": -4,
+            "buffActivationChance": 0.1
+        },
         "turns": 0,
         "usageType": "charge"
     }
