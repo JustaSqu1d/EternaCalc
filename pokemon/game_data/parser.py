@@ -146,8 +146,6 @@ if __name__ == "__main__":
 
                 for evolution in data.get("pokemonSettings", {}).get("tempEvoOverrides"):
 
-                    print(evolution)
-
                     new_name = name
 
                     if evolution.get("tempEvoId") == "TEMP_EVOLUTION_MEGA":
