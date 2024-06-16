@@ -3,7 +3,7 @@ from __future__ import annotations
 from math import ceil
 from typing import TYPE_CHECKING
 
-from .type import get_type_multiplier
+from .type import get_type_multiplier, get_type_circle
 
 if TYPE_CHECKING:
     from pokemon import Pokemon
@@ -22,7 +22,6 @@ def calculate_damage_ranges(attacker: Pokemon, defender: Pokemon, move: Move) ->
     Returns:
         The list of damage rolls at no charge, min. nice charge, min. great charge, and max excellent charge.
     """
-    charge_multipliers = [0.25, 0.5, 0.75, 1.0]
 
     half_circle_rule = 0.5  # I made the name up
 
@@ -40,15 +39,21 @@ def calculate_damage_ranges(attacker: Pokemon, defender: Pokemon, move: Move) ->
 
     if move.usage_type == "charge":
 
-        damage_rolls = []
+        damage_rolls = set()
 
-        for charge_multiplier in charge_multipliers:
+        circles = get_type_circle(move.type)
+
+        base_percentage = 0.25
+
+        for _ in range(circles + 1):
             damage = int(
-                half_circle_rule * move.power * attack / defense * charge_multiplier * modifiers
+                half_circle_rule * move.power * attack / defense * base_percentage * modifiers
             ) + 1
-            damage_rolls.append(damage)
+            damage_rolls.add(damage)
+            base_percentage += 0.75 / circles
+            base_percentage = min(base_percentage, 1.0)
 
-        return damage_rolls
+        return sorted(list(damage_rolls))  # cast set to list
 
     else:
         return [int(half_circle_rule * move.power * attack / defense * modifiers) + 1]
@@ -83,7 +88,10 @@ def display_calculated_damage(st, move, attacker, target):
     elif target.defense_stages < 0:
         target_string = f"{target.defense_stages} {target_string}"
 
-    damage_per_energy = round(high_damage / move.energy, 1)
+    try:
+        damage_per_energy = round(high_damage / move.energy, 1)
+    except ZeroDivisionError:
+        damage_per_energy = "∞"
 
     effectiveness_text = ""
     if get_type_multiplier(move.type, target.species.types) > 1:

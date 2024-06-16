@@ -34,6 +34,53 @@ class Type(Enum):
         return self.value
 
 
+type_circles = {
+    Type.FLYING: 23,
+    Type.FIGHTING: 23,
+    Type.GRASS: 23,
+    Type.STEEL: 24,
+    Type.GHOST: 25,
+    Type.BUG: 27,
+    Type.POISON: 28,
+    Type.FIRE: 28,
+    Type.WATER: 28,
+    Type.ELECTRIC: 28,
+    Type.GROUND: 29,
+    Type.ROCK: 32,
+    Type.ICE: 32,
+    Type.DARK: 32,
+    Type.DRAGON: 35,
+    Type.PSYCHIC: 37,
+    Type.FAIRY: 37,
+    Type.NORMAL: 45
+}
+
+type_excellent_thresholds = {
+    Type.FLYING: 23,
+    Type.FIGHTING: 23,
+    Type.GRASS: 23,
+    Type.STEEL: 23,
+    Type.GHOST: 24,
+    Type.BUG: 26,
+    Type.POISON: 27,
+    Type.FIRE: 27,
+    Type.WATER: 27,
+    Type.ELECTRIC: 27,
+    Type.GROUND: 28,
+    Type.ROCK: 31,
+    Type.ICE: 31,
+    Type.DARK: 31,
+    Type.DRAGON: 34,
+    Type.PSYCHIC: 36,
+    Type.FAIRY: 36,
+    Type.NORMAL: 43
+}
+
+
+def get_type_circle(type: Type):
+    return type_excellent_thresholds.get(type, 1)
+
+
 def list_types():
     return [_.value for _ in Type]
 
