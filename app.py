@@ -144,7 +144,7 @@ if __name__ == "__main__":
                                                        index=None,
                                                        placeholder="Select a type...")
                                           )
-                        move1_power = st.number_input("Power", min_value=0, max_value=200, value=0)
+                        move1_power = st.number_input("Power", min_value=0, max_value=1000, value=0)
                         move1_energy = st.number_input("Energy", min_value=0, max_value=100, value=0)
                         move1 = Move(
                             name=move1_name,
@@ -152,7 +152,7 @@ if __name__ == "__main__":
                             power=move1_power,
                             energy=move1_energy,
                             turns=1,
-                            usage_type="CHARGE"
+                            usage_type="charge"
                         )
 
                     st.write("##### Configurations")
@@ -235,7 +235,7 @@ if __name__ == "__main__":
                                                        index=None,
                                                        placeholder="Select a type...")
                                           )
-                        move2_power = st.number_input("Power ", min_value=0, max_value=200, value=0)
+                        move2_power = st.number_input("Power ", min_value=0, max_value=1000, value=0)
                         move2_energy = st.number_input("Energy ", min_value=0, max_value=100, value=0)
                         move2 = Move(
                             name=move2_name,
@@ -243,7 +243,7 @@ if __name__ == "__main__":
                             power=move2_power,
                             energy=move2_energy,
                             turns=1,
-                            usage_type="CHARGE"
+                            usage_type="charge"
                         )
 
                     st.write("##### Configurations")
