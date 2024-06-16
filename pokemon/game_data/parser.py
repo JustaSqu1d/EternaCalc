@@ -98,6 +98,8 @@ if __name__ == "__main__":
                 charged_move_pool.append(move)
             for move in data.get("pokemonSettings", {}).get("eliteCinematicMove", {}):
                 charged_move_pool.append(move)
+            for move in data.get("pokemonSettings", {}).get("nonTmCinematicMoves", {}):
+                charged_move_pool.append(move)
 
             skip = False
             # check if a similar pokemon already exists
@@ -139,6 +141,47 @@ if __name__ == "__main__":
                 "charged_move_pool": charged_move_pool,
                 "pokedex_number": pokedex_number
             }
+
+            if data.get("pokemonSettings", {}).get("tempEvoOverrides"):
+
+                for evolution in data.get("pokemonSettings", {}).get("tempEvoOverrides"):
+
+                    print(evolution)
+
+                    new_name = name
+
+                    if evolution.get("tempEvoId") == "TEMP_EVOLUTION_MEGA":
+                        new_name = "MEGA_" + name
+                    if evolution.get("tempEvoId") == "TEMP_EVOLUTION_MEGAX":
+                        new_name = "MEGA_" + name + "_X"
+                    if evolution.get("tempEvoId") == "TEMP_EVOLUTION_MEGAY":
+                        new_name = "MEGA_" + name + "_Y"
+                    if evolution.get("tempEvoId") == "TEMP_EVOLUTION_PRIMAL":
+                        new_name = "PRIMAL_" + name
+
+                    new_types = [
+                        types[0] or evolution.get("typeOverride1"),
+                        types[1] or evolution.get("typeOverride2")
+                    ]
+
+                    if not evolution.get("stats"):
+                        continue
+
+                    new_base_attack, new_base_defense, new_base_hp = evolution.get("stats").get(
+                        "baseAttack"), evolution.get("stats").get("baseDefense"), evolution.get("stats").get(
+                        "baseStamina")
+
+                    pokemon_json[new_name] = {
+                        "name": new_name,
+                        "species": species,
+                        "types": new_types,
+                        "base_attack": new_base_attack,
+                        "base_defense": new_base_defense,
+                        "base_hp": new_base_hp,
+                        "fast_move_pool": fast_move_pool,
+                        "charged_move_pool": charged_move_pool,
+                        "pokedex_number": pokedex_number
+                    }
 
         elif template_id.startswith("COMBAT_V"):
 

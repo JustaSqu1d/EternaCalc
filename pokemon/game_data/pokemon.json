@@ -63,6 +63,28 @@
         ],
         "pokedex_number": 3
     },
+    "MEGA_VENUSAUR": {
+        "name": "MEGA_VENUSAUR",
+        "species": "VENUSAUR",
+        "types": [
+            "POKEMON_TYPE_GRASS",
+            "POKEMON_TYPE_POISON"
+        ],
+        "base_attack": 241,
+        "base_defense": 246,
+        "base_hp": 190,
+        "fast_move_pool": [
+            "RAZOR_LEAF_FAST",
+            "VINE_WHIP_FAST"
+        ],
+        "charged_move_pool": [
+            "SLUDGE_BOMB",
+            "PETAL_BLIZZARD",
+            "SOLAR_BEAM",
+            "FRENZY_PLANT"
+        ],
+        "pokedex_number": 3
+    },
     "CHARMANDER": {
         "name": "CHARMANDER",
         "species": "CHARMANDER",
@@ -113,8 +135,8 @@
             "POKEMON_TYPE_FIRE",
             "POKEMON_TYPE_FLYING"
         ],
-        "base_attack": 223,
-        "base_defense": 173,
+        "base_attack": 319,
+        "base_defense": 212,
         "base_hp": 186,
         "fast_move_pool": [
             "FIRE_SPIN_FAST",
@@ -183,6 +205,29 @@
         ],
         "base_attack": 171,
         "base_defense": 207,
+        "base_hp": 188,
+        "fast_move_pool": [
+            "WATER_GUN_FAST",
+            "BITE_FAST"
+        ],
+        "charged_move_pool": [
+            "FLASH_CANNON",
+            "ICE_BEAM",
+            "HYDRO_PUMP",
+            "SKULL_BASH",
+            "HYDRO_CANNON"
+        ],
+        "pokedex_number": 9
+    },
+    "MEGA_BLASTOISE": {
+        "name": "MEGA_BLASTOISE",
+        "species": "BLASTOISE",
+        "types": [
+            "POKEMON_TYPE_WATER",
+            null
+        ],
+        "base_attack": 264,
+        "base_defense": 237,
         "base_hp": 188,
         "fast_move_pool": [
             "WATER_GUN_FAST",
@@ -319,6 +364,30 @@
         ],
         "pokedex_number": 15
     },
+    "MEGA_BEEDRILL": {
+        "name": "MEGA_BEEDRILL",
+        "species": "BEEDRILL",
+        "types": [
+            "POKEMON_TYPE_BUG",
+            "POKEMON_TYPE_POISON"
+        ],
+        "base_attack": 303,
+        "base_defense": 148,
+        "base_hp": 163,
+        "fast_move_pool": [
+            "INFESTATION_FAST",
+            "POISON_JAB_FAST",
+            "BUG_BITE_FAST"
+        ],
+        "charged_move_pool": [
+            "SLUDGE_BOMB",
+            "AERIAL_ACE",
+            "X_SCISSOR",
+            "FELL_STINGER",
+            "DRILL_RUN"
+        ],
+        "pokedex_number": 15
+    },
     "PIDGEY": {
         "name": "PIDGEY",
         "species": "PIDGEY",
@@ -370,6 +439,31 @@
         ],
         "base_attack": 166,
         "base_defense": 154,
+        "base_hp": 195,
+        "fast_move_pool": [
+            "AIR_SLASH_FAST",
+            "STEEL_WING_FAST",
+            "WING_ATTACK_FAST",
+            "GUST_FAST"
+        ],
+        "charged_move_pool": [
+            "HURRICANE",
+            "AERIAL_ACE",
+            "BRAVE_BIRD",
+            "FEATHER_DANCE",
+            "AIR_CUTTER"
+        ],
+        "pokedex_number": 18
+    },
+    "MEGA_PIDGEOT": {
+        "name": "MEGA_PIDGEOT",
+        "species": "PIDGEOT",
+        "types": [
+            "POKEMON_TYPE_NORMAL",
+            "POKEMON_TYPE_FLYING"
+        ],
+        "base_attack": 280,
+        "base_defense": 175,
         "base_hp": 195,
         "fast_move_pool": [
             "AIR_SLASH_FAST",
@@ -1899,6 +1993,31 @@
         ],
         "pokedex_number": 65
     },
+    "MEGA_ALAKAZAM": {
+        "name": "MEGA_ALAKAZAM",
+        "species": "ALAKAZAM",
+        "types": [
+            "POKEMON_TYPE_PSYCHIC",
+            null
+        ],
+        "base_attack": 367,
+        "base_defense": 207,
+        "base_hp": 146,
+        "fast_move_pool": [
+            "PSYCHO_CUT_FAST",
+            "CONFUSION_FAST",
+            "COUNTER_FAST"
+        ],
+        "charged_move_pool": [
+            "FUTURESIGHT",
+            "FOCUS_BLAST",
+            "SHADOW_BALL",
+            "FIRE_PUNCH",
+            "DAZZLING_GLEAM",
+            "PSYCHIC"
+        ],
+        "pokedex_number": 65
+    },
     "MACHOP": {
         "name": "MACHOP",
         "species": "MACHOP",
@@ -2369,6 +2488,29 @@
         ],
         "pokedex_number": 80
     },
+    "MEGA_SLOWBRO": {
+        "name": "MEGA_SLOWBRO",
+        "species": "SLOWBRO",
+        "types": [
+            "POKEMON_TYPE_WATER",
+            "POKEMON_TYPE_PSYCHIC"
+        ],
+        "base_attack": 224,
+        "base_defense": 259,
+        "base_hp": 216,
+        "fast_move_pool": [
+            "WATER_GUN_FAST",
+            "CONFUSION_FAST"
+        ],
+        "charged_move_pool": [
+            "WATER_PULSE",
+            "PSYCHIC",
+            "ICE_BEAM",
+            "SCALD",
+            "SURF"
+        ],
+        "pokedex_number": 80
+    },
     "SLOWBRO_GALARIAN": {
         "name": "SLOWBRO_GALARIAN",
         "species": "SLOWBRO",
@@ -2768,6 +2910,33 @@
         ],
         "base_attack": 261,
         "base_defense": 149,
+        "base_hp": 155,
+        "fast_move_pool": [
+            "SUCKER_PUNCH_FAST",
+            "HEX_FAST",
+            "SHADOW_CLAW_FAST",
+            "LICK_FAST"
+        ],
+        "charged_move_pool": [
+            "SHADOW_BALL",
+            "FOCUS_BLAST",
+            "SLUDGE_BOMB",
+            "SLUDGE_WAVE",
+            "DARK_PULSE",
+            "PSYCHIC",
+            "SHADOW_PUNCH"
+        ],
+        "pokedex_number": 94
+    },
+    "MEGA_GENGAR": {
+        "name": "MEGA_GENGAR",
+        "species": "GENGAR",
+        "types": [
+            "POKEMON_TYPE_GHOST",
+            "POKEMON_TYPE_POISON"
+        ],
+        "base_attack": 349,
+        "base_defense": 199,
         "base_hp": 155,
         "fast_move_pool": [
             "SUCKER_PUNCH_FAST",
@@ -3373,6 +3542,30 @@
         ],
         "pokedex_number": 115
     },
+    "MEGA_KANGASKHAN": {
+        "name": "MEGA_KANGASKHAN",
+        "species": "KANGASKHAN",
+        "types": [
+            "POKEMON_TYPE_NORMAL",
+            null
+        ],
+        "base_attack": 246,
+        "base_defense": 210,
+        "base_hp": 233,
+        "fast_move_pool": [
+            "MUD_SLAP_FAST",
+            "LOW_KICK_FAST"
+        ],
+        "charged_move_pool": [
+            "CRUNCH",
+            "EARTHQUAKE",
+            "OUTRAGE",
+            "POWER_UP_PUNCH",
+            "BRICK_BREAK",
+            "STOMP"
+        ],
+        "pokedex_number": 115
+    },
     "HORSEA": {
         "name": "HORSEA",
         "species": "HORSEA",
@@ -3667,6 +3860,30 @@
         ],
         "pokedex_number": 127
     },
+    "MEGA_PINSIR": {
+        "name": "MEGA_PINSIR",
+        "species": "PINSIR",
+        "types": [
+            "POKEMON_TYPE_BUG",
+            "POKEMON_TYPE_FLYING"
+        ],
+        "base_attack": 305,
+        "base_defense": 231,
+        "base_hp": 163,
+        "fast_move_pool": [
+            "ROCK_SMASH_FAST",
+            "BUG_BITE_FAST",
+            "FURY_CUTTER_FAST"
+        ],
+        "charged_move_pool": [
+            "VICE_GRIP",
+            "X_SCISSOR",
+            "CLOSE_COMBAT",
+            "SUPER_POWER",
+            "SUBMISSION"
+        ],
+        "pokedex_number": 127
+    },
     "TAUROS": {
         "name": "TAUROS",
         "species": "TAUROS",
@@ -3716,6 +3933,32 @@
         ],
         "base_attack": 237,
         "base_defense": 186,
+        "base_hp": 216,
+        "fast_move_pool": [
+            "BITE_FAST",
+            "WATERFALL_FAST",
+            "DRAGON_BREATH_FAST",
+            "DRAGON_TAIL_FAST"
+        ],
+        "charged_move_pool": [
+            "HYDRO_PUMP",
+            "CRUNCH",
+            "OUTRAGE",
+            "TWISTER",
+            "DRAGON_PULSE",
+            "AQUA_TAIL"
+        ],
+        "pokedex_number": 130
+    },
+    "MEGA_GYARADOS": {
+        "name": "MEGA_GYARADOS",
+        "species": "GYARADOS",
+        "types": [
+            "POKEMON_TYPE_WATER",
+            "POKEMON_TYPE_FLYING"
+        ],
+        "base_attack": 292,
+        "base_defense": 247,
         "base_hp": 216,
         "fast_move_pool": [
             "BITE_FAST",
@@ -3993,6 +4236,30 @@
         ],
         "base_attack": 221,
         "base_defense": 159,
+        "base_hp": 190,
+        "fast_move_pool": [
+            "STEEL_WING_FAST",
+            "BITE_FAST",
+            "ROCK_THROW_FAST"
+        ],
+        "charged_move_pool": [
+            "ANCIENT_POWER",
+            "IRON_HEAD",
+            "HYPER_BEAM",
+            "ROCK_SLIDE",
+            "EARTH_POWER"
+        ],
+        "pokedex_number": 142
+    },
+    "MEGA_AERODACTYL": {
+        "name": "MEGA_AERODACTYL",
+        "species": "AERODACTYL",
+        "types": [
+            "POKEMON_TYPE_ROCK",
+            "POKEMON_TYPE_FLYING"
+        ],
+        "base_attack": 292,
+        "base_defense": 210,
         "base_hp": 190,
         "fast_move_pool": [
             "STEEL_WING_FAST",
@@ -5025,6 +5292,32 @@
         ],
         "pokedex_number": 181
     },
+    "MEGA_AMPHAROS": {
+        "name": "MEGA_AMPHAROS",
+        "species": "AMPHAROS",
+        "types": [
+            "POKEMON_TYPE_ELECTRIC",
+            "POKEMON_TYPE_DRAGON"
+        ],
+        "base_attack": 294,
+        "base_defense": 203,
+        "base_hp": 207,
+        "fast_move_pool": [
+            "CHARGE_BEAM_FAST",
+            "VOLT_SWITCH_FAST"
+        ],
+        "charged_move_pool": [
+            "ZAP_CANNON",
+            "FOCUS_BLAST",
+            "THUNDER",
+            "POWER_GEM",
+            "THUNDER_PUNCH",
+            "BRUTAL_SWING",
+            "TRAILBLAZE",
+            "DRAGON_PULSE"
+        ],
+        "pokedex_number": 181
+    },
     "BELLOSSOM": {
         "name": "BELLOSSOM",
         "species": "BELLOSSOM",
@@ -5665,6 +5958,30 @@
         ],
         "pokedex_number": 208
     },
+    "MEGA_STEELIX": {
+        "name": "MEGA_STEELIX",
+        "species": "STEELIX",
+        "types": [
+            "POKEMON_TYPE_STEEL",
+            "POKEMON_TYPE_GROUND"
+        ],
+        "base_attack": 212,
+        "base_defense": 327,
+        "base_hp": 181,
+        "fast_move_pool": [
+            "IRON_TAIL_FAST",
+            "DRAGON_TAIL_FAST",
+            "THUNDER_FANG_FAST"
+        ],
+        "charged_move_pool": [
+            "EARTHQUAKE",
+            "HEAVY_SLAM",
+            "CRUNCH",
+            "PSYCHIC_FANGS",
+            "BREAKING_SWIPE"
+        ],
+        "pokedex_number": 208
+    },
     "SNUBBULL": {
         "name": "SNUBBULL",
         "species": "SNUBBULL",
@@ -5777,6 +6094,28 @@
         ],
         "pokedex_number": 212
     },
+    "MEGA_SCIZOR": {
+        "name": "MEGA_SCIZOR",
+        "species": "SCIZOR",
+        "types": [
+            "POKEMON_TYPE_BUG",
+            "POKEMON_TYPE_STEEL"
+        ],
+        "base_attack": 279,
+        "base_defense": 250,
+        "base_hp": 172,
+        "fast_move_pool": [
+            "BULLET_PUNCH_FAST",
+            "FURY_CUTTER_FAST"
+        ],
+        "charged_move_pool": [
+            "X_SCISSOR",
+            "IRON_HEAD",
+            "NIGHT_SLASH",
+            "TRAILBLAZE"
+        ],
+        "pokedex_number": 212
+    },
     "SHUCKLE": {
         "name": "SHUCKLE",
         "species": "SHUCKLE",
@@ -5807,6 +6146,28 @@
         ],
         "base_attack": 234,
         "base_defense": 179,
+        "base_hp": 190,
+        "fast_move_pool": [
+            "COUNTER_FAST",
+            "STRUGGLE_BUG_FAST"
+        ],
+        "charged_move_pool": [
+            "MEGAHORN",
+            "CLOSE_COMBAT",
+            "EARTHQUAKE",
+            "ROCK_BLAST"
+        ],
+        "pokedex_number": 214
+    },
+    "MEGA_HERACROSS": {
+        "name": "MEGA_HERACROSS",
+        "species": "HERACROSS",
+        "types": [
+            "POKEMON_TYPE_BUG",
+            "POKEMON_TYPE_FIGHTING"
+        ],
+        "base_attack": 334,
+        "base_defense": 223,
         "base_hp": 190,
         "fast_move_pool": [
             "COUNTER_FAST",
@@ -6159,6 +6520,28 @@
         ],
         "base_attack": 224,
         "base_defense": 144,
+        "base_hp": 181,
+        "fast_move_pool": [
+            "SNARL_FAST",
+            "FIRE_FANG_FAST"
+        ],
+        "charged_move_pool": [
+            "CRUNCH",
+            "FIRE_BLAST",
+            "FOUL_PLAY",
+            "FLAMETHROWER"
+        ],
+        "pokedex_number": 229
+    },
+    "MEGA_HOUNDOOM": {
+        "name": "MEGA_HOUNDOOM",
+        "species": "HOUNDOOM",
+        "types": [
+            "POKEMON_TYPE_DARK",
+            "POKEMON_TYPE_FIRE"
+        ],
+        "base_attack": 289,
+        "base_defense": 194,
         "base_hp": 181,
         "fast_move_pool": [
             "SNARL_FAST",
@@ -6577,6 +6960,29 @@
         ],
         "pokedex_number": 248
     },
+    "MEGA_TYRANITAR": {
+        "name": "MEGA_TYRANITAR",
+        "species": "TYRANITAR",
+        "types": [
+            "POKEMON_TYPE_ROCK",
+            "POKEMON_TYPE_DARK"
+        ],
+        "base_attack": 309,
+        "base_defense": 276,
+        "base_hp": 225,
+        "fast_move_pool": [
+            "BITE_FAST",
+            "IRON_TAIL_FAST",
+            "SMACK_DOWN_FAST"
+        ],
+        "charged_move_pool": [
+            "FIRE_BLAST",
+            "CRUNCH",
+            "STONE_EDGE",
+            "BRUTAL_SWING"
+        ],
+        "pokedex_number": 248
+    },
     "LUGIA": {
         "name": "LUGIA",
         "species": "LUGIA",
@@ -6714,6 +7120,30 @@
         ],
         "pokedex_number": 254
     },
+    "MEGA_SCEPTILE": {
+        "name": "MEGA_SCEPTILE",
+        "species": "SCEPTILE",
+        "types": [
+            "POKEMON_TYPE_GRASS",
+            "POKEMON_TYPE_DRAGON"
+        ],
+        "base_attack": 320,
+        "base_defense": 186,
+        "base_hp": 172,
+        "fast_move_pool": [
+            "FURY_CUTTER_FAST",
+            "BULLET_SEED_FAST"
+        ],
+        "charged_move_pool": [
+            "LEAF_BLADE",
+            "AERIAL_ACE",
+            "EARTHQUAKE",
+            "DRAGON_CLAW",
+            "BREAKING_SWIPE",
+            "FRENZY_PLANT"
+        ],
+        "pokedex_number": 254
+    },
     "TORCHIC": {
         "name": "TORCHIC",
         "species": "TORCHIC",
@@ -6780,6 +7210,30 @@
         ],
         "pokedex_number": 257
     },
+    "MEGA_BLAZIKEN": {
+        "name": "MEGA_BLAZIKEN",
+        "species": "BLAZIKEN",
+        "types": [
+            "POKEMON_TYPE_FIRE",
+            "POKEMON_TYPE_FIGHTING"
+        ],
+        "base_attack": 329,
+        "base_defense": 168,
+        "base_hp": 190,
+        "fast_move_pool": [
+            "COUNTER_FAST",
+            "FIRE_SPIN_FAST"
+        ],
+        "charged_move_pool": [
+            "FOCUS_BLAST",
+            "OVERHEAT",
+            "BRAVE_BIRD",
+            "BLAZE_KICK",
+            "BLAST_BURN",
+            "STONE_EDGE"
+        ],
+        "pokedex_number": 257
+    },
     "MUDKIP": {
         "name": "MUDKIP",
         "species": "MUDKIP",
@@ -6831,6 +7285,29 @@
         ],
         "base_attack": 208,
         "base_defense": 175,
+        "base_hp": 225,
+        "fast_move_pool": [
+            "MUD_SHOT_FAST",
+            "WATER_GUN_FAST"
+        ],
+        "charged_move_pool": [
+            "EARTHQUAKE",
+            "SLUDGE_WAVE",
+            "SURF",
+            "MUDDY_WATER",
+            "HYDRO_CANNON"
+        ],
+        "pokedex_number": 260
+    },
+    "MEGA_SWAMPERT": {
+        "name": "MEGA_SWAMPERT",
+        "species": "SWAMPERT",
+        "types": [
+            "POKEMON_TYPE_WATER",
+            "POKEMON_TYPE_GROUND"
+        ],
+        "base_attack": 283,
+        "base_defense": 218,
         "base_hp": 225,
         "fast_move_pool": [
             "MUD_SHOT_FAST",
@@ -7361,6 +7838,31 @@
         ],
         "pokedex_number": 282
     },
+    "MEGA_GARDEVOIR": {
+        "name": "MEGA_GARDEVOIR",
+        "species": "GARDEVOIR",
+        "types": [
+            "POKEMON_TYPE_PSYCHIC",
+            "POKEMON_TYPE_FAIRY"
+        ],
+        "base_attack": 326,
+        "base_defense": 229,
+        "base_hp": 169,
+        "fast_move_pool": [
+            "CONFUSION_FAST",
+            "CHARGE_BEAM_FAST",
+            "CHARM_FAST",
+            "MAGICAL_LEAF_FAST"
+        ],
+        "charged_move_pool": [
+            "PSYCHIC",
+            "DAZZLING_GLEAM",
+            "SHADOW_BALL",
+            "TRIPLE_AXEL",
+            "SYNCHRONOISE"
+        ],
+        "pokedex_number": 282
+    },
     "SURSKIT": {
         "name": "SURSKIT",
         "species": "SURSKIT",
@@ -7788,6 +8290,27 @@
         ],
         "pokedex_number": 302
     },
+    "MEGA_SABLEYE": {
+        "name": "MEGA_SABLEYE",
+        "species": "SABLEYE",
+        "types": [
+            "POKEMON_TYPE_DARK",
+            "POKEMON_TYPE_GHOST"
+        ],
+        "base_attack": 151,
+        "base_defense": 216,
+        "base_hp": 137,
+        "fast_move_pool": [
+            "SHADOW_CLAW_FAST",
+            "FEINT_ATTACK_FAST"
+        ],
+        "charged_move_pool": [
+            "POWER_GEM",
+            "FOUL_PLAY",
+            "SHADOW_SNEAK"
+        ],
+        "pokedex_number": 302
+    },
     "MAWILE": {
         "name": "MAWILE",
         "species": "MAWILE",
@@ -7880,6 +8403,30 @@
         ],
         "pokedex_number": 306
     },
+    "MEGA_AGGRON": {
+        "name": "MEGA_AGGRON",
+        "species": "AGGRON",
+        "types": [
+            "POKEMON_TYPE_STEEL",
+            "POKEMON_TYPE_ROCK"
+        ],
+        "base_attack": 247,
+        "base_defense": 331,
+        "base_hp": 172,
+        "fast_move_pool": [
+            "DRAGON_TAIL_FAST",
+            "IRON_TAIL_FAST",
+            "SMACK_DOWN_FAST"
+        ],
+        "charged_move_pool": [
+            "THUNDER",
+            "STONE_EDGE",
+            "HEAVY_SLAM",
+            "ROCK_TOMB",
+            "METEOR_BEAM"
+        ],
+        "pokedex_number": 306
+    },
     "MEDITITE": {
         "name": "MEDITITE",
         "species": "MEDITITE",
@@ -7923,6 +8470,28 @@
         ],
         "pokedex_number": 308
     },
+    "MEGA_MEDICHAM": {
+        "name": "MEGA_MEDICHAM",
+        "species": "MEDICHAM",
+        "types": [
+            "POKEMON_TYPE_FIGHTING",
+            "POKEMON_TYPE_PSYCHIC"
+        ],
+        "base_attack": 205,
+        "base_defense": 179,
+        "base_hp": 155,
+        "fast_move_pool": [
+            "PSYCHO_CUT_FAST",
+            "COUNTER_FAST"
+        ],
+        "charged_move_pool": [
+            "ICE_PUNCH",
+            "PSYCHIC",
+            "DYNAMIC_PUNCH",
+            "POWER_UP_PUNCH"
+        ],
+        "pokedex_number": 308
+    },
     "ELECTRIKE": {
         "name": "ELECTRIKE",
         "species": "ELECTRIKE",
@@ -7953,6 +8522,30 @@
         ],
         "base_attack": 215,
         "base_defense": 127,
+        "base_hp": 172,
+        "fast_move_pool": [
+            "SNARL_FAST",
+            "CHARGE_BEAM_FAST",
+            "THUNDER_FANG_FAST"
+        ],
+        "charged_move_pool": [
+            "THUNDER",
+            "WILD_CHARGE",
+            "FLAME_BURST",
+            "OVERHEAT",
+            "PSYCHIC_FANGS"
+        ],
+        "pokedex_number": 310
+    },
+    "MEGA_MANECTRIC": {
+        "name": "MEGA_MANECTRIC",
+        "species": "MANECTRIC",
+        "types": [
+            "POKEMON_TYPE_ELECTRIC",
+            null
+        ],
+        "base_attack": 286,
+        "base_defense": 179,
         "base_hp": 172,
         "fast_move_pool": [
             "SNARL_FAST",
@@ -8496,6 +9089,28 @@
         ],
         "pokedex_number": 334
     },
+    "MEGA_ALTARIA": {
+        "name": "MEGA_ALTARIA",
+        "species": "ALTARIA",
+        "types": [
+            "POKEMON_TYPE_DRAGON",
+            "POKEMON_TYPE_FLYING"
+        ],
+        "base_attack": 222,
+        "base_defense": 218,
+        "base_hp": 181,
+        "fast_move_pool": [
+            "PECK_FAST",
+            "DRAGON_BREATH_FAST"
+        ],
+        "charged_move_pool": [
+            "SKY_ATTACK",
+            "DAZZLING_GLEAM",
+            "DRAGON_PULSE",
+            "MOONBLAST"
+        ],
+        "pokedex_number": 334
+    },
     "ZANGOOSE": {
         "name": "ZANGOOSE",
         "species": "ZANGOOSE",
@@ -8998,6 +9613,27 @@
         ],
         "pokedex_number": 354
     },
+    "MEGA_BANETTE": {
+        "name": "MEGA_BANETTE",
+        "species": "BANETTE",
+        "types": [
+            "POKEMON_TYPE_GHOST",
+            null
+        ],
+        "base_attack": 312,
+        "base_defense": 160,
+        "base_hp": 162,
+        "fast_move_pool": [
+            "HEX_FAST",
+            "SHADOW_CLAW_FAST"
+        ],
+        "charged_move_pool": [
+            "SHADOW_BALL",
+            "DAZZLING_GLEAM",
+            "THUNDER"
+        ],
+        "pokedex_number": 354
+    },
     "DUSKULL": {
         "name": "DUSKULL",
         "species": "DUSKULL",
@@ -9106,6 +9742,28 @@
         ],
         "pokedex_number": 359
     },
+    "MEGA_ABSOL": {
+        "name": "MEGA_ABSOL",
+        "species": "ABSOL",
+        "types": [
+            "POKEMON_TYPE_DARK",
+            null
+        ],
+        "base_attack": 314,
+        "base_defense": 130,
+        "base_hp": 163,
+        "fast_move_pool": [
+            "PSYCHO_CUT_FAST",
+            "SNARL_FAST"
+        ],
+        "charged_move_pool": [
+            "DARK_PULSE",
+            "THUNDER",
+            "MEGAHORN",
+            "PAYBACK"
+        ],
+        "pokedex_number": 359
+    },
     "WYNAUT": {
         "name": "WYNAUT",
         "species": "WYNAUT",
@@ -9155,6 +9813,27 @@
         ],
         "base_attack": 162,
         "base_defense": 162,
+        "base_hp": 190,
+        "fast_move_pool": [
+            "ICE_SHARD_FAST",
+            "FROST_BREATH_FAST"
+        ],
+        "charged_move_pool": [
+            "AVALANCHE",
+            "GYRO_BALL",
+            "SHADOW_BALL"
+        ],
+        "pokedex_number": 362
+    },
+    "MEGA_GLALIE": {
+        "name": "MEGA_GLALIE",
+        "species": "GLALIE",
+        "types": [
+            "POKEMON_TYPE_ICE",
+            null
+        ],
+        "base_attack": 252,
+        "base_defense": 168,
         "base_hp": 190,
         "fast_move_pool": [
             "ICE_SHARD_FAST",
@@ -9402,6 +10081,30 @@
         ],
         "pokedex_number": 373
     },
+    "MEGA_SALAMENCE": {
+        "name": "MEGA_SALAMENCE",
+        "species": "SALAMENCE",
+        "types": [
+            "POKEMON_TYPE_DRAGON",
+            "POKEMON_TYPE_FLYING"
+        ],
+        "base_attack": 310,
+        "base_defense": 251,
+        "base_hp": 216,
+        "fast_move_pool": [
+            "DRAGON_TAIL_FAST",
+            "FIRE_FANG_FAST",
+            "BITE_FAST"
+        ],
+        "charged_move_pool": [
+            "FIRE_BLAST",
+            "HYDRO_PUMP",
+            "DRACO_METEOR",
+            "FLY",
+            "OUTRAGE"
+        ],
+        "pokedex_number": 373
+    },
     "BELDUM": {
         "name": "BELDUM",
         "species": "BELDUM",
@@ -9555,6 +10258,29 @@
         ],
         "pokedex_number": 380
     },
+    "MEGA_LATIAS": {
+        "name": "MEGA_LATIAS",
+        "species": "LATIAS",
+        "types": [
+            "POKEMON_TYPE_DRAGON",
+            "POKEMON_TYPE_PSYCHIC"
+        ],
+        "base_attack": 289,
+        "base_defense": 297,
+        "base_hp": 190,
+        "fast_move_pool": [
+            "DRAGON_BREATH_FAST",
+            "ZEN_HEADBUTT_FAST",
+            "CHARM_FAST"
+        ],
+        "charged_move_pool": [
+            "PSYCHIC",
+            "OUTRAGE",
+            "THUNDER",
+            "MIST_BALL"
+        ],
+        "pokedex_number": 380
+    },
     "LATIOS": {
         "name": "LATIOS",
         "species": "LATIOS",
@@ -9564,6 +10290,28 @@
         ],
         "base_attack": 268,
         "base_defense": 212,
+        "base_hp": 190,
+        "fast_move_pool": [
+            "DRAGON_BREATH_FAST",
+            "ZEN_HEADBUTT_FAST"
+        ],
+        "charged_move_pool": [
+            "PSYCHIC",
+            "DRAGON_CLAW",
+            "SOLAR_BEAM",
+            "LUSTER_PURGE"
+        ],
+        "pokedex_number": 381
+    },
+    "MEGA_LATIOS": {
+        "name": "MEGA_LATIOS",
+        "species": "LATIOS",
+        "types": [
+            "POKEMON_TYPE_DRAGON",
+            "POKEMON_TYPE_PSYCHIC"
+        ],
+        "base_attack": 335,
+        "base_defense": 241,
         "base_hp": 190,
         "fast_move_pool": [
             "DRAGON_BREATH_FAST",
@@ -9599,6 +10347,28 @@
         ],
         "pokedex_number": 382
     },
+    "PRIMAL_KYOGRE": {
+        "name": "PRIMAL_KYOGRE",
+        "species": "KYOGRE",
+        "types": [
+            "POKEMON_TYPE_WATER",
+            null
+        ],
+        "base_attack": 353,
+        "base_defense": 268,
+        "base_hp": 218,
+        "fast_move_pool": [
+            "WATERFALL_FAST"
+        ],
+        "charged_move_pool": [
+            "HYDRO_PUMP",
+            "BLIZZARD",
+            "THUNDER",
+            "SURF",
+            "ORIGIN_PULSE"
+        ],
+        "pokedex_number": 382
+    },
     "GROUDON": {
         "name": "GROUDON",
         "species": "GROUDON",
@@ -9609,6 +10379,29 @@
         "base_attack": 270,
         "base_defense": 228,
         "base_hp": 205,
+        "fast_move_pool": [
+            "MUD_SHOT_FAST",
+            "DRAGON_TAIL_FAST"
+        ],
+        "charged_move_pool": [
+            "EARTHQUAKE",
+            "FIRE_BLAST",
+            "SOLAR_BEAM",
+            "FIRE_PUNCH",
+            "PRECIPICE_BLADES"
+        ],
+        "pokedex_number": 383
+    },
+    "PRIMAL_GROUDON": {
+        "name": "PRIMAL_GROUDON",
+        "species": "GROUDON",
+        "types": [
+            "POKEMON_TYPE_GROUND",
+            "POKEMON_TYPE_FIRE"
+        ],
+        "base_attack": 353,
+        "base_defense": 268,
+        "base_hp": 218,
         "fast_move_pool": [
             "MUD_SHOT_FAST",
             "DRAGON_TAIL_FAST"
@@ -9641,7 +10434,32 @@
             "AERIAL_ACE",
             "ANCIENT_POWER",
             "HURRICANE",
-            "BREAKING_SWIPE"
+            "BREAKING_SWIPE",
+            "DRAGON_ASCENT"
+        ],
+        "pokedex_number": 384
+    },
+    "MEGA_RAYQUAZA": {
+        "name": "MEGA_RAYQUAZA",
+        "species": "RAYQUAZA",
+        "types": [
+            "POKEMON_TYPE_DRAGON",
+            "POKEMON_TYPE_FLYING"
+        ],
+        "base_attack": 377,
+        "base_defense": 210,
+        "base_hp": 227,
+        "fast_move_pool": [
+            "AIR_SLASH_FAST",
+            "DRAGON_TAIL_FAST"
+        ],
+        "charged_move_pool": [
+            "OUTRAGE",
+            "AERIAL_ACE",
+            "ANCIENT_POWER",
+            "HURRICANE",
+            "BREAKING_SWIPE",
+            "DRAGON_ASCENT"
         ],
         "pokedex_number": 384
     },
@@ -10739,6 +11557,29 @@
         ],
         "pokedex_number": 428
     },
+    "MEGA_LOPUNNY": {
+        "name": "MEGA_LOPUNNY",
+        "species": "LOPUNNY",
+        "types": [
+            "POKEMON_TYPE_NORMAL",
+            "POKEMON_TYPE_FIGHTING"
+        ],
+        "base_attack": 282,
+        "base_defense": 214,
+        "base_hp": 163,
+        "fast_move_pool": [
+            "POUND_FAST",
+            "LOW_KICK_FAST",
+            "DOUBLE_KICK_FAST"
+        ],
+        "charged_move_pool": [
+            "FIRE_PUNCH",
+            "HYPER_BEAM",
+            "FOCUS_BLAST",
+            "TRIPLE_AXEL"
+        ],
+        "pokedex_number": 428
+    },
     "MISMAGIUS": {
         "name": "MISMAGIUS",
         "species": "MISMAGIUS",
@@ -11106,6 +11947,29 @@
         ],
         "pokedex_number": 445
     },
+    "MEGA_GARCHOMP": {
+        "name": "MEGA_GARCHOMP",
+        "species": "GARCHOMP",
+        "types": [
+            "POKEMON_TYPE_DRAGON",
+            "POKEMON_TYPE_GROUND"
+        ],
+        "base_attack": 339,
+        "base_defense": 222,
+        "base_hp": 239,
+        "fast_move_pool": [
+            "DRAGON_TAIL_FAST",
+            "MUD_SHOT_FAST"
+        ],
+        "charged_move_pool": [
+            "OUTRAGE",
+            "EARTHQUAKE",
+            "FIRE_BLAST",
+            "SAND_TOMB",
+            "EARTH_POWER"
+        ],
+        "pokedex_number": 445
+    },
     "MUNCHLAX": {
         "name": "MUNCHLAX",
         "species": "MUNCHLAX",
@@ -11429,6 +12293,30 @@
         ],
         "base_attack": 178,
         "base_defense": 158,
+        "base_hp": 207,
+        "fast_move_pool": [
+            "POWDER_SNOW_FAST",
+            "RAZOR_LEAF_FAST",
+            "LEAFAGE_FAST"
+        ],
+        "charged_move_pool": [
+            "BLIZZARD",
+            "ENERGY_BALL",
+            "OUTRAGE",
+            "WEATHER_BALL_ICE",
+            "ICY_WIND"
+        ],
+        "pokedex_number": 460
+    },
+    "MEGA_ABOMASNOW": {
+        "name": "MEGA_ABOMASNOW",
+        "species": "ABOMASNOW",
+        "types": [
+            "POKEMON_TYPE_GRASS",
+            "POKEMON_TYPE_ICE"
+        ],
+        "base_attack": 240,
+        "base_defense": 191,
         "base_hp": 207,
         "fast_move_pool": [
             "POWDER_SNOW_FAST",
@@ -18269,6 +19157,27 @@
         ],
         "base_attack": 190,
         "base_defense": 285,
+        "base_hp": 137,
+        "fast_move_pool": [
+            "TACKLE_FAST",
+            "ROCK_THROW_FAST"
+        ],
+        "charged_move_pool": [
+            "ROCK_SLIDE",
+            "MOONBLAST",
+            "POWER_GEM"
+        ],
+        "pokedex_number": 719
+    },
+    "MEGA_DIANCIE": {
+        "name": "MEGA_DIANCIE",
+        "species": "DIANCIE",
+        "types": [
+            "POKEMON_TYPE_ROCK",
+            "POKEMON_TYPE_FAIRY"
+        ],
+        "base_attack": 342,
+        "base_defense": 235,
         "base_hp": 137,
         "fast_move_pool": [
             "TACKLE_FAST",
