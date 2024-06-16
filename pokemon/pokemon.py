@@ -118,7 +118,10 @@ class Pokemon:
         return (self.species.base_defense + self.defense_iv) * self.get_cp_multiplier()
 
     def get_true_hp(self) -> int:
-        return int((self.species.base_hp + self.hp_iv) * self.get_cp_multiplier())
+        return max(
+            int((self.species.base_hp + self.hp_iv) * self.get_cp_multiplier()),
+            10
+        )
 
     def get_current_hp(self) -> int:
         return self.get_true_hp()
