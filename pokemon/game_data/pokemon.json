@@ -21534,7 +21534,8 @@
             "DARK_PULSE",
             "FUTURESIGHT",
             "IRON_HEAD",
-            "OUTRAGE"
+            "OUTRAGE",
+            "MOONGEIST_BEAM"
         ],
         "pokedex_number": 800
     },
@@ -21557,7 +21558,8 @@
             "DARK_PULSE",
             "FUTURESIGHT",
             "IRON_HEAD",
-            "OUTRAGE"
+            "OUTRAGE",
+            "SUNSTEEL_STRIKE"
         ],
         "pokedex_number": 800
     },

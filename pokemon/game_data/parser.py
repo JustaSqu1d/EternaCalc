@@ -51,6 +51,11 @@ MANUAL_MOVE_CHANGES = {
     405: "MOONGEIST_BEAM"
 }
 
+MANUAL_MOVE_ADDITIONS = {
+    "NECROZMA_DUSK_MANE": "SUNSTEEL_STRIKE",
+    "NECROZMA_DAWN_WINGS": "MOONGEIST_BEAM"
+}
+
 
 def is_same(pokemon1, pokemon2):
     return (pokemon1["species"] == pokemon2["species"] and
@@ -129,6 +134,9 @@ if __name__ == "__main__":
 
             if name in MANUAL_NAME_CHANGES:
                 name = MANUAL_NAME_CHANGES[name]
+
+            if name in MANUAL_MOVE_ADDITIONS:
+                charged_move_pool.append(MANUAL_MOVE_ADDITIONS[name])
 
             pokemon_json[name] = {
                 "name": name,
