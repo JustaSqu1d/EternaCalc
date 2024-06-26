@@ -1,8 +1,6 @@
 import json
 from typing import TYPE_CHECKING
 
-from type import parse_type_string
-
 if TYPE_CHECKING:
     from type import Type
 
@@ -38,6 +36,8 @@ def parse_move_string(raw_move_string: str) -> str:
 
 
 def get_move_by_name(name: str) -> Move:
+    from type import parse_type_string  # fix circular import
+
     with open("game_data/moves.json", "r") as f:
         moves_json = json.load(f)
 

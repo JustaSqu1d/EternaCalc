@@ -3,8 +3,6 @@ import os
 from math import sqrt
 from typing import TYPE_CHECKING
 
-from moves import get_move_by_name
-
 if TYPE_CHECKING:
     pass
 
@@ -197,6 +195,7 @@ def get_pokemon_species_by_name(name: str, pokemon_species_dict: dict | None = N
     :return: The Pokémon species object.
     """
     from type import parse_type_string  # resolve circular import
+    from moves import get_move_by_name  # resolve circular import
 
     if pokemon_species_dict is None:
         with open("game_data/pokemon.json", "r") as f:
