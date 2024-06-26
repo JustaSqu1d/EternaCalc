@@ -135,6 +135,58 @@
             "POKEMON_TYPE_FIRE",
             "POKEMON_TYPE_FLYING"
         ],
+        "base_attack": 223,
+        "base_defense": 173,
+        "base_hp": 186,
+        "fast_move_pool": [
+            "FIRE_SPIN_FAST",
+            "AIR_SLASH_FAST",
+            "EMBER_FAST",
+            "WING_ATTACK_FAST",
+            "DRAGON_BREATH_FAST"
+        ],
+        "charged_move_pool": [
+            "FIRE_BLAST",
+            "DRAGON_CLAW",
+            "OVERHEAT",
+            "BLAST_BURN",
+            "FLAMETHROWER"
+        ],
+        "pokedex_number": 6
+    },
+    "MEGA_CHARIZARD_X": {
+        "name": "MEGA_CHARIZARD_X",
+        "species": "CHARIZARD",
+        "types": [
+            "POKEMON_TYPE_FIRE",
+            "POKEMON_TYPE_DRAGON"
+        ],
+        "base_attack": 273,
+        "base_defense": 213,
+        "base_hp": 186,
+        "fast_move_pool": [
+            "FIRE_SPIN_FAST",
+            "AIR_SLASH_FAST",
+            "EMBER_FAST",
+            "WING_ATTACK_FAST",
+            "DRAGON_BREATH_FAST"
+        ],
+        "charged_move_pool": [
+            "FIRE_BLAST",
+            "DRAGON_CLAW",
+            "OVERHEAT",
+            "BLAST_BURN",
+            "FLAMETHROWER"
+        ],
+        "pokedex_number": 6
+    },
+    "MEGA_CHARIZARD_Y": {
+        "name": "MEGA_CHARIZARD_Y",
+        "species": "CHARIZARD",
+        "types": [
+            "POKEMON_TYPE_FIRE",
+            "POKEMON_TYPE_FLYING"
+        ],
         "base_attack": 319,
         "base_defense": 212,
         "base_hp": 186,

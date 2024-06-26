@@ -158,9 +158,9 @@ if __name__ == "__main__":
 
                     if evolution.get("tempEvoId") == "TEMP_EVOLUTION_MEGA":
                         new_name = "MEGA_" + name
-                    if evolution.get("tempEvoId") == "TEMP_EVOLUTION_MEGAX":
+                    if evolution.get("tempEvoId") == "TEMP_EVOLUTION_MEGA_X":
                         new_name = "MEGA_" + name + "_X"
-                    if evolution.get("tempEvoId") == "TEMP_EVOLUTION_MEGAY":
+                    if evolution.get("tempEvoId") == "TEMP_EVOLUTION_MEGA_Y":
                         new_name = "MEGA_" + name + "_Y"
                     if evolution.get("tempEvoId") == "TEMP_EVOLUTION_PRIMAL":
                         new_name = "PRIMAL_" + name
