@@ -21152,8 +21152,8 @@
         ],
         "pokedex_number": 781
     },
-    "JANGMO_O": {
-        "name": "JANGMO_O",
+    "JANGMO-O": {
+        "name": "JANGMO-O",
         "species": "JANGMO_O",
         "types": [
             "POKEMON_TYPE_DRAGON",
@@ -21173,8 +21173,8 @@
         ],
         "pokedex_number": 782
     },
-    "HAKAMO_O": {
-        "name": "HAKAMO_O",
+    "HAKAMO-O": {
+        "name": "HAKAMO-O",
         "species": "HAKAMO_O",
         "types": [
             "POKEMON_TYPE_DRAGON",
@@ -21194,8 +21194,8 @@
         ],
         "pokedex_number": 783
     },
-    "KOMMO_O": {
-        "name": "KOMMO_O",
+    "KOMMO-O": {
+        "name": "KOMMO-O",
         "species": "KOMMO_O",
         "types": [
             "POKEMON_TYPE_DRAGON",
