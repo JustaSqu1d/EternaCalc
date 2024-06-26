@@ -17,6 +17,17 @@ class Move:
     def __str__(self):
         return f"({self.type}) {self.name} - {self.power}"
 
+    def to_dict(self) -> dict:
+        return {
+            "name": self.name,
+            "unique_id": self.unique_id,
+            "type": self.type.name,
+            "power": self.power,
+            "energy": self.energy,
+            "turns": self.turns,
+            "usage_type": self.usage_type
+        }
+
 
 def parse_move_string(raw_move_string: str) -> str:
     raw_move_string = raw_move_string.replace("FAST", "")

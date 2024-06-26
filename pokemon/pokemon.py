@@ -3,6 +3,8 @@ import os
 from math import sqrt
 from typing import TYPE_CHECKING
 
+from moves import get_move_by_name
+
 if TYPE_CHECKING:
     pass
 
@@ -48,6 +50,31 @@ class Species:
 
     def __str__(self):
         return self.name
+
+    def to_dict(self) -> dict:
+
+        string_types = []
+        for type in self.types:
+            string_types.append(type.name)
+
+        fast_move_pool_dict = []
+        for move in self.fast_move_pool:
+            fast_move_pool_dict.append(move.to_dict())
+
+        charged_move_pool_dict = []
+        for move in self.charged_move_pool:
+            charged_move_pool_dict.append(move.to_dict())
+
+        return {
+            "name": self.name,
+            "species": self.species,
+            "types": string_types,
+            "base_attack": self.base_attack,
+            "base_defense": self.base_defense,
+            "base_hp": self.base_hp,
+            "fast_move_pool": fast_move_pool_dict,
+            "charged_move_pool": charged_move_pool_dict
+        }
 
 
 class Pokemon:
