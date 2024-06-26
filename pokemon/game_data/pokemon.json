@@ -4007,7 +4007,7 @@
         "species": "GYARADOS",
         "types": [
             "POKEMON_TYPE_WATER",
-            "POKEMON_TYPE_FLYING"
+            "POKEMON_TYPE_DARK"
         ],
         "base_attack": 292,
         "base_defense": 247,
@@ -9146,7 +9146,7 @@
         "species": "ALTARIA",
         "types": [
             "POKEMON_TYPE_DRAGON",
-            "POKEMON_TYPE_FLYING"
+            "POKEMON_TYPE_FAIRY"
         ],
         "base_attack": 222,
         "base_defense": 218,

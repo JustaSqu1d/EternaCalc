@@ -166,8 +166,8 @@ if __name__ == "__main__":
                         new_name = "PRIMAL_" + name
 
                     new_types = [
-                        types[0] or evolution.get("typeOverride1"),
-                        types[1] or evolution.get("typeOverride2")
+                        evolution.get("typeOverride1") or types[0],
+                        evolution.get("typeOverride2") or types[1]
                     ]
 
                     if not evolution.get("stats"):
