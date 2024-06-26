@@ -30,6 +30,10 @@ class Type(Enum):
     STEEL = "Steel"
     FAIRY = "Fairy"
 
+    @classmethod
+    def _missing_(cls, value):
+        return cls.NORMAL
+
     def __str__(self):
         return self.value
 
