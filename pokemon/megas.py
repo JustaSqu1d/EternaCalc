@@ -20,9 +20,9 @@ def is_boosted(mega: Species, target: Species) -> bool:
 
     if mega.species.lower() == "rayquaza":
         boosted_types.append(Type.PSYCHIC)
-    elif mega.species.lower() == "Groudon":
+    elif mega.species.lower() == "groudon":
         boosted_types.append(Type.GRASS)
-    elif mega.species.lower() == "Kyogre":
+    elif mega.species.lower() == "kyogre":
         boosted_types.append(Type.ELECTRIC)
         boosted_types.append(Type.ICE)
 
