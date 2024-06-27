@@ -1,11 +1,65 @@
 import json
+from math import ceil
 
 import streamlit as st
 
-from pokemon import Species, parse_pokemon_string, Pokemon
-from pokemon.calculator import display_calculated_damage
-from pokemon.moves import Move, parse_move_string
-from pokemon.type import parse_type_string, Type, get_path_to_file
+from pokemon import Species, Pokemon, calculate_damage_ranges, Move, parse_type_string, Type, get_path_to_file, \
+    get_type_multiplier
+
+
+def display_calculated_damage(move, attacker, target):
+    damage = calculate_damage_ranges(attacker, target, move)
+
+    low_percentage = round(100 * damage[0] / target.get_true_hp(), 1)
+    high_percentage = round(100 * damage[-1] / target.get_true_hp(), 1)
+
+    low_damage = damage[0]
+    high_damage = damage[-1]
+
+    times = ceil(target.get_true_hp() / high_damage)
+    if times == 1:
+        times = "O"
+
+    attacker_string = f"**{attacker.attack_iv} Atk IV Level {attacker.level} {attacker}**"
+    if attacker.shadow:
+        attacker_string += " :violet[(Shadow)]"
+    if attacker.attack_stages > 0:
+        attacker_string = f"+{attacker.attack_stages} {attacker_string}"
+    elif attacker.attack_stages < 0:
+        attacker_string = f"{attacker.attack_stages} {attacker_string}"
+
+    target_string = f"**{target.hp_iv} HP / {target.defense_iv} Def IVs Level {target.level} {target}**"
+    if target.shadow:
+        target_string += " :violet[(Shadow)]"
+    if target.defense_stages > 0:
+        target_string = f"+{target.defense_stages} {target_string}"
+    elif target.defense_stages < 0:
+        target_string = f"{target.defense_stages} {target_string}"
+
+    try:
+        damage_per_energy = round(high_damage / move.energy, 1)
+    except ZeroDivisionError:
+        damage_per_energy = "∞"
+
+    effectiveness_text = ""
+    if get_type_multiplier(move.type, target.species.types) > 1:
+        effectiveness_text = ":green[It's super effective!]"
+    elif get_type_multiplier(move.type, target.species.types) < 1:
+        effectiveness_text = ":red[It's not very effective...]"
+
+    damage_rolls_string = "Possible damage amounts: (" + ", ".join(
+        [str(damage_roll) for damage_roll in damage]) + ")"
+
+    st.write(
+        f"**{attacker_string} {move.name} vs. {target_string}**"
+    )
+    st.write(f"""{effectiveness_text}  
+            **{low_damage} - {high_damage} ({low_percentage}% - {high_percentage}%) -- {times}HKO**
+            """)
+    if move.usage_type == "charge":
+        st.write(damage_rolls_string)
+    st.write(f"""**{damage_per_energy} dpe**  
+            {move.energy} energy""")
 
 
 def load_data():
@@ -20,7 +74,7 @@ def load_data():
 
     for move_json_key in moves_json:
         unique_id = moves_json[move_json_key]["uniqueId"]
-        name = parse_move_string(unique_id)
+        name = Move.parse_move_string(unique_id)
 
         raw_type_string = moves_json[move_json_key]["type"]
         move_type = parse_type_string(raw_type_string)
@@ -48,7 +102,7 @@ def load_data():
     forms_dict = {}
 
     for pokemon_json_key in pokemon_json:
-        name = parse_pokemon_string(pokemon_json[pokemon_json_key]["name"])
+        name = Species.parse_pokemon_string(pokemon_json[pokemon_json_key]["name"])
         species_name = pokemon_json[pokemon_json_key]["species"]
 
         types = []
@@ -408,10 +462,10 @@ if __name__ == "__main__":
             if move1 and move2:
                 left_damage_results, right_damage_results = st.columns(2)
                 with left_damage_results:
-                    display_calculated_damage(st, move1, pokemon1, pokemon2)
+                    display_calculated_damage(move1, pokemon1, pokemon2)
                 with right_damage_results:
-                    display_calculated_damage(st, move2, pokemon2, pokemon1)
+                    display_calculated_damage(move2, pokemon2, pokemon1)
             elif move1:
-                display_calculated_damage(st, move1, pokemon1, pokemon2)
+                display_calculated_damage(move1, pokemon1, pokemon2)
             elif move2:
-                display_calculated_damage(st, move2, pokemon2, pokemon1)
+                display_calculated_damage(move2, pokemon2, pokemon1)

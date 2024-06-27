@@ -1,19 +1,56 @@
+from __future__ import annotations
 import json
 
-from pokemon import Species, parse_pokemon_string, get_pokemon_species_by_name
-from type import Type, parse_type_string
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from pokemon import Species, Type
+
+
+class PokemonWeight:
+    """
+    A class representing a Pokémon and its weight.
+
+    Used for calculating the best Mega Evolution/Primal Reversion against a list of target Pokémon.
+
+    Attributes
+    ----------
+    pokemon: Union[:class:`.Species`, :class:`str`]
+        The Pokémon. If a string is provided, it will be converted to a :class:`.Species` object.
+    weight: Union[:class:`int`, :class:`float`]
+        The weight of the Pokémon.
+
+    Raises
+    ------
+    ValueError
+        The Pokémon name is invalid.
+    """
+    def __init__(self, pokemon: Species | str, weight: int | float):
+        from pokemon import Species  # resolve circular import
+        if isinstance(pokemon, str):
+            pokemon = Species.get_pokemon_species_by_name(name=pokemon)
+            if not pokemon:
+                raise ValueError(f"Invalid Pokémon name: {str}")
+
+        self.pokemon = pokemon
+        self.weight = weight
 
 
 def is_boosted(mega: Species, target: Species) -> bool:
     """
     Determines if a Mega Evolution/Primal Reversion is boosted against a target.
 
-    Args:
-        mega: The Mega Evolution/Primal Reversion.
-        target: The target Pokémon.
+    Parameters
+    ----------
+    mega: :class:`.Species`
+        The Mega Evolution/Primal Reversion.
+    target: :class:`.Species`
+        The target Pokémon.
 
-    Returns:
-        True if the Mega Evolution boosts the target Pokemon, False otherwise.
+    Returns
+    -------
+    :class:`bool`
+        Whether the Mega Evolution/Primal Reversion is boosted against the target.
     """
 
     boosted_types = mega.types
@@ -33,14 +70,10 @@ def find_best_mega(targets: list[Species] | list[PokemonWeight], megas: list[Spe
     """
     Finds the best Mega Evolution/Primal Reversion against a list of target Pokémon.
 
-    Args:
-        targets: The list of target Pokémon.
-        megas: The list of Mega Evolutions/Primal Reversions.
-                Defaults to None, in which case all Mega Evolutions/Primal Reversions are considered.
+    :param targets: The list of target Pokémon.
+    :param megas: The list of Mega Evolutions/Primal Reversions.
 
-    Returns:
-        A list of Mega Evolutions/Primal Reversions sorted by their weight against the target Pokémon.
-
+    :return: A list of dictionaries containing the Mega Evolution/Primal Reversion, its weight, and the raw count of targets it is boosted against.
         Example:
             [
                 {
@@ -55,6 +88,7 @@ def find_best_mega(targets: list[Species] | list[PokemonWeight], megas: list[Spe
                 }
             ]
     """
+    from pokemon import Species  # resolve circular import
 
     targets_final = []
 
@@ -62,7 +96,7 @@ def find_best_mega(targets: list[Species] | list[PokemonWeight], megas: list[Spe
         if isinstance(target, Species):
             targets_final.append(PokemonWeight(target, 1))
         elif isinstance(target, str):
-            targets_final.append(PokemonWeight(get_pokemon_species_by_name(name=target), 1))
+            targets_final.append(PokemonWeight(Species.get_pokemon_species_by_name(name=target), 1))
         else:
             targets_final.append(target)
 
@@ -95,9 +129,12 @@ def fetch_all_megas() -> list[Species]:
     """
     Fetches all Mega Evolutions/Primal Reversions.
 
-    Returns:
+    Returns
+    -------
+    list[:class:`.Species`]
         A list of all Mega Evolutions/Primal Reversions.
     """
+    from pokemon import Species, parse_type_string  # resolve circular import
 
     with open("game_data/pokemon.json", "r") as f:
         pokemon_json = json.load(f)
@@ -106,7 +143,7 @@ def fetch_all_megas() -> list[Species]:
 
     for pokemon_json_key in pokemon_json:
 
-        name = parse_pokemon_string(pokemon_json[pokemon_json_key]["name"])
+        name = Species.parse_pokemon_string(pokemon_json[pokemon_json_key]["name"])
         species_name = pokemon_json[pokemon_json_key]["species"]
 
         if (not name.startswith("Mega ")) and (not name.startswith("Primal ")):
@@ -126,9 +163,3 @@ def fetch_all_megas() -> list[Species]:
         megas.append(species)
 
     return megas
-
-
-class PokemonWeight:
-    def __init__(self, pokemon: Species | str, weight: int):
-        self.pokemon = pokemon if isinstance(pokemon, Species) else get_pokemon_species_by_name(name=pokemon)
-        self.weight = weight

@@ -38,7 +38,7 @@ class Type(Enum):
         return self.value
 
 
-type_circles = {
+TYPE_CIRCLES = {
     Type.FLYING: 23,
     Type.FIGHTING: 23,
     Type.GRASS: 23,
@@ -59,7 +59,7 @@ type_circles = {
     Type.NORMAL: 45
 }
 
-type_excellent_thresholds = {
+TYPE_EXCELLENT_THRESHOLDS = {
     Type.FLYING: 23,
     Type.FIGHTING: 23,
     Type.GRASS: 23,
@@ -81,24 +81,43 @@ type_excellent_thresholds = {
 }
 
 
-def get_type_circle(type: Type):
-    return type_excellent_thresholds.get(type, 1)
+def get_type_circle(type: Type) -> int:
+    """
+    Returns the number of circles to reach "excellent" for a given type.
+
+    Parameters
+    ----------
+    type : Type
+        The type of the move.
+
+    Returns
+    -------
+    int
+        The number of circles to reach "excellent". If the type is not found, it will return -1.
+
+    """
+    return TYPE_EXCELLENT_THRESHOLDS.get(type, -1)
 
 
 def list_types():
     return [_.value for _ in Type]
 
 
-def get_type_multiplier(attacker_type: Type, defender_types: list[Type]):
+def get_type_multiplier(attacker_type: Type, defender_types: list[Type]) -> float:
     """
     Calculates the type effectiveness multiplier for an attack based on the attacker's type and the defender's types.
 
-    Args:
-        attacker_type: The type of the attacking move.
-        defender_types: A list of the defender's types (single or dual type).
+    Parameters
+    ----------
+    attacker_type : Type
+        The type of the move.
+    defender_types : list[Type]
+        The types of the defending Pokémon.
 
-    Returns:
-        The type effectiveness multiplier as a float.
+    Returns
+    -------
+    float
+        The type effectiveness multiplier.
     """
 
     path = os.path.dirname(__file__)
@@ -117,10 +136,25 @@ def get_type_multiplier(attacker_type: Type, defender_types: list[Type]):
 
 
 def parse_type_string(raw_type_string: str) -> Type:
+    """
+    Parses a type string and returns the Type object.
+
+    This is useful for converting the raw string from the game data.
+
+    Parameters
+    ----------
+    raw_type_string : str
+        The raw type string.
+
+    Returns
+    -------
+    Type
+        The Type object.
+    """
     return Type(raw_type_string.split("_")[-1].capitalize())
 
 
-def get_path_to_file(type: Type):
+def get_path_to_file(type: Type) -> str:
     file_name = ""
     match type:
         case Type.NORMAL:

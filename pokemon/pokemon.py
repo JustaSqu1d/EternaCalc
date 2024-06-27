@@ -1,10 +1,7 @@
 import json
 import os
 from math import sqrt
-from typing import TYPE_CHECKING
 
-if TYPE_CHECKING:
-    pass
 
 path = os.path.dirname(__file__)
 cp_multipliers_file = path + '/game_data/cp_multipliers.json'
@@ -73,6 +70,74 @@ class Species:
             "fast_move_pool": fast_move_pool_dict,
             "charged_move_pool": charged_move_pool_dict
         }
+
+    @classmethod
+    def get_pokemon_species_by_name(cls, name: str, pokemon_species_dict: dict | None = None) -> 'Species':
+        """
+        Returns the Pokémon species object by name.
+
+        :param pokemon_species_dict: List of Pokémon species dictionary
+                                     If None, it will load the default list from the game_data folder.
+        :param name: The name of the Pokémon species to retrieve.
+        :return: The Pokémon species object.
+        """
+        from type import parse_type_string  # resolve circular import
+        from moves import get_move_by_name  # resolve circular import
+
+        if pokemon_species_dict is None:
+            with open("game_data/pokemon.json", "r") as f:
+                pokemon_species_dict = json.load(f)
+
+        name = cls.re_parse_pokemon_string(name)
+
+        pokemon_dict = pokemon_species_dict.get(name, pokemon_species_dict.get("UNOWN"))
+
+        pokemon_name = cls.parse_pokemon_string(pokemon_dict["name"])
+        species_name = pokemon_dict["species"]
+
+        types = []
+        for raw_type_string in pokemon_dict["types"]:
+            if raw_type_string:
+                types.append(parse_type_string(raw_type_string))
+
+        base_attack = pokemon_dict["base_attack"]
+        base_defense = pokemon_dict["base_defense"]
+        base_hp = pokemon_dict["base_hp"]
+
+        fast_move_pool = []
+        for raw_move_string in pokemon_dict["fast_move_pool"]:
+            fast_move_pool.append(get_move_by_name(raw_move_string))
+
+        charged_move_pool = []
+        for raw_move_string in pokemon_dict["charged_move_pool"]:
+            charged_move_pool.append(get_move_by_name(raw_move_string))
+
+        species = cls(
+            name=pokemon_name,
+            species=species_name,
+            types=types,
+            base_attack=base_attack,
+            base_defense=base_defense,
+            base_hp=base_hp,
+            fast_move_pool=fast_move_pool,
+            charged_move_pool=charged_move_pool
+        )
+
+        return species
+
+    @staticmethod
+    def parse_pokemon_string(raw_pokemon_string: str) -> str:
+        final_string = ""
+        for phrase in raw_pokemon_string.replace("-", "-_").split("_"):
+            final_string += phrase.capitalize() + " "
+        return final_string.strip().replace("- ", "-")
+
+    @staticmethod
+    def re_parse_pokemon_string(raw_pokemon_string: str) -> str:
+        final_string = ""
+        for phrase in raw_pokemon_string.split():
+            final_string += phrase + "_"
+        return final_string[:-1].replace(" ", "-").upper()
 
 
 class Pokemon:
@@ -169,71 +234,3 @@ class Pokemon:
 
     def __str__(self):
         return self.species.name
-
-
-def parse_pokemon_string(raw_pokemon_string: str) -> str:
-    final_string = ""
-    for phrase in raw_pokemon_string.replace("-", "-_").split("_"):
-        final_string += phrase.capitalize() + " "
-    return final_string.strip().replace("- ", "-")
-
-
-def re_parse_pokemon_string(raw_pokemon_string: str) -> str:
-    final_string = ""
-    for phrase in raw_pokemon_string.split():
-        final_string += phrase + "_"
-    return final_string[:-1].strip().replace(" ", "-").upper()
-
-
-def get_pokemon_species_by_name(name: str, pokemon_species_dict: dict | None = None) -> Species:
-    """
-    Returns the Pokémon species object by name.
-    
-    :param pokemon_species_dict: List of Pokémon species dictionary
-                                 If None, it will load the default list from the game_data folder.
-    :param name: The name of the Pokémon species to retrieve.
-    :return: The Pokémon species object.
-    """
-    from type import parse_type_string  # resolve circular import
-    from moves import get_move_by_name  # resolve circular import
-
-    if pokemon_species_dict is None:
-        with open("game_data/pokemon.json", "r") as f:
-            pokemon_species_dict = json.load(f)
-
-    name = re_parse_pokemon_string(name)
-
-    pokemon_dict = pokemon_species_dict.get(name, pokemon_species_dict.get("UNOWN"))
-
-    pokemon_name = parse_pokemon_string(pokemon_dict["name"])
-    species_name = pokemon_dict["species"]
-
-    types = []
-    for raw_type_string in pokemon_dict["types"]:
-        if raw_type_string:
-            types.append(parse_type_string(raw_type_string))
-
-    base_attack = pokemon_dict["base_attack"]
-    base_defense = pokemon_dict["base_defense"]
-    base_hp = pokemon_dict["base_hp"]
-
-    fast_move_pool = []
-    for raw_move_string in pokemon_dict["fast_move_pool"]:
-        fast_move_pool.append(get_move_by_name(raw_move_string))
-
-    charged_move_pool = []
-    for raw_move_string in pokemon_dict["charged_move_pool"]:
-        charged_move_pool.append(get_move_by_name(raw_move_string))
-
-    species = Species(
-        name=pokemon_name,
-        species=species_name,
-        types=types,
-        base_attack=base_attack,
-        base_defense=base_defense,
-        base_hp=base_hp,
-        fast_move_pool=fast_move_pool,
-        charged_move_pool=charged_move_pool
-    )
-
-    return species

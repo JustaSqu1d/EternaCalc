@@ -6,6 +6,26 @@ if TYPE_CHECKING:
 
 
 class Move:
+    """
+    Representing a move.
+
+    Attributes
+    ----------
+    name: str
+        The name of the move.
+    unique_id: str
+        The unique ID of the move.
+    type: Type
+        The type of the move.
+    power: int
+        The power of the move.
+    energy: int
+        The energy cost of the move.
+    turns: int
+        The number of turns the move takes.
+    usage_type: Literal["fast", "charge"]
+        The type of move.
+    """
     def __init__(self, **kwargs):
         self.name: str = kwargs.get("name")
         self.unique_id: str = kwargs.get("unique_id")
@@ -29,33 +49,56 @@ class Move:
             "usage_type": self.usage_type
         }
 
+    @staticmethod
+    def parse_move_string(raw_move_string: str) -> str:
+        """
+        Parses a move string and returns the formatted name.
 
-def parse_move_string(raw_move_string: str) -> str:
-    raw_move_string = raw_move_string.replace("FAST", "")
-    return " ".join(word.capitalize() for word in raw_move_string.split("_"))
+        Parameters
+        ----------
+        raw_move_string : str
+            The raw move string.
 
-
-def get_move_by_name(name: str) -> Move:
-    from type import parse_type_string  # fix circular import
-
-    with open("game_data/moves.json", "r") as f:
-        moves_json = json.load(f)
-
-    name = name.replace(" ", "_").upper()
-
-    for move_json_key in moves_json:
-        if move_json_key == name or move_json_key == name + "_FAST":
-            return Move(
-                unique_id=move_json_key,
-                type=parse_type_string(moves_json[move_json_key]["type"]),
-                power=moves_json[move_json_key]["power"],
-                energy=moves_json[move_json_key]["energyDelta"],
-                turns=moves_json[move_json_key]["turns"],
-                usage_type=moves_json[move_json_key]["usageType"]
-            )
-
-    return get_move_by_name("STRUGGLE")
+        Returns
+        -------
+        str
+            The formatted move name.
+        """
+        raw_move_string = raw_move_string.replace("FAST", "")
+        return " ".join(word.capitalize() for word in raw_move_string.split("_"))
 
 
-def add_commas_to_number(num):
-    return "{:,}".format(num)
+    @classmethod
+    def get_move_by_name(cls, name: str) -> 'Move':
+        """
+        Returns a move object by name.
+
+        Parameters
+        ----------
+        name : str
+            The name of the move.
+
+        Returns
+        -------
+        Move
+            The move object. If the move is not found, it will return the STRUGGLE move, instead.
+        """
+        from type import parse_type_string  # fix circular import
+
+        with open("game_data/moves.json", "r") as f:
+            moves_json = json.load(f)
+
+        name = name.replace(" ", "_").upper()
+
+        for move_json_key in moves_json:
+            if move_json_key == name or move_json_key == name + "_FAST":
+                return Move(
+                    unique_id=move_json_key,
+                    type=parse_type_string(moves_json[move_json_key]["type"]),
+                    power=moves_json[move_json_key]["power"],
+                    energy=moves_json[move_json_key]["energyDelta"],
+                    turns=moves_json[move_json_key]["turns"],
+                    usage_type=moves_json[move_json_key]["usageType"]
+                )
+
+        return cls.get_move_by_name("STRUGGLE")
