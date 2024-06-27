@@ -2,17 +2,6 @@ import json
 
 import requests
 
-raw_data = requests.get(
-    "https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json").json()
-
-data_dict = {"main": raw_data}
-
-with open("raw_game_data.json", "w") as f:
-    json.dump(data_dict, f, indent=4)
-
-with open("raw_game_data.json", "r") as f:
-    data = json.load(f)
-
 moves_json = {}
 pokemon_json = {}
 
@@ -70,8 +59,205 @@ def is_same(pokemon1, pokemon2):
             pokemon1["charged_move_pool"] == pokemon2["charged_move_pool"]
             )
 
+def fetch_game_data():
+    raw_data = requests.get(
+        "https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json").json()
 
-if __name__ == "__main__":
+    data_dict = {"main": raw_data}
+
+    with open("raw_game_data.json", "w") as f:
+        json.dump(data_dict, f, indent=4)
+
+    with open("raw_game_data.json", "r") as f:
+        data = json.load(f)
+
+    return data
+
+
+def parse_pokemon_data(template_id, data):
+    pokemon_data: dict = data.get("pokemonSettings", {})
+
+    name = template_id.split("POKEMON_")[1]
+    species = pokemon_data.get("pokemonId")
+    types = [pokemon_data.get("type"), pokemon_data.get("type2")]
+    base_attack = pokemon_data.get("stats", {}).get("baseAttack")
+    base_defense = pokemon_data.get("stats", {}).get("baseDefense")
+    base_hp = pokemon_data.get("stats", {}).get("baseStamina")
+    pokedex_number = int(template_id.split("V")[1].split("_POKEMON")[0])
+
+    fast_move_pool = []
+
+    for move in pokemon_data.get("quickMoves", {}):
+        fast_move_pool.append(move)
+    for move in pokemon_data.get("eliteQuickMove", {}):
+        fast_move_pool.append(move)
+
+    charged_move_pool = []
+
+    for move in pokemon_data.get("cinematicMoves", {}):
+        charged_move_pool.append(move)
+    for move in pokemon_data.get("eliteCinematicMove", {}):
+        charged_move_pool.append(move)
+    for move in pokemon_data.get("nonTmCinematicMoves", {}):
+        charged_move_pool.append(move)
+
+    return {
+        "name": name,
+        "species": species,
+        "types": types,
+        "base_attack": base_attack,
+        "base_defense": base_defense,
+        "base_hp": base_hp,
+        "fast_move_pool": fast_move_pool,
+        "charged_move_pool": charged_move_pool,
+        "pokedex_number": pokedex_number,
+    }
+
+def check_for_existing_pokemon(pokemon_data):
+    for pokemon in pokemon_json:
+
+        if pokemon_data.get("name") in WHITELISTED_POKEMON:
+            break
+
+        pokemon_compared = pokemon_json[pokemon]
+
+        if is_same(pokemon_compared, {
+            "name": pokemon_data.get("name"),
+            "species": pokemon_data.get("species"),
+            "types": pokemon_data.get("types"),
+            "base_attack": pokemon_data.get("base_attack"),
+            "base_defense": pokemon_data.get("base_defense"),
+            "base_hp": pokemon_data.get("base_hp"),
+            "fast_move_pool": pokemon_data.get("fast_move_pool"),
+            "charged_move_pool": pokemon_data.get("charged_move_pool"),
+            "pokedex_number": pokemon_data.get("pokedex_number")
+        }):
+            return True
+    else:
+        return False
+
+def apply_manual_changes(pokemon_data):
+    name = pokemon_data["name"]
+    charged_move_pool = pokemon_data["charged_move_pool"]
+
+    if name in MANUAL_NAME_CHANGES:
+        pokemon_data["name"] = MANUAL_NAME_CHANGES[name]
+
+    if name in MANUAL_MOVE_ADDITIONS:
+        charged_move_pool.append(MANUAL_MOVE_ADDITIONS[name])
+        pokemon_data["charged_move_pool"] = charged_move_pool
+
+    return pokemon_data
+
+
+def has_temp_evo_overrides(raw_data):
+    return raw_data.get("pokemonSettings", {}).get("tempEvoOverrides") is not None
+
+def process_temp_evo_overrides(pokemon_data, raw_data):
+
+    for evolution in raw_data.get("pokemonSettings", {}).get("tempEvoOverrides"):
+
+        name = pokemon_data.get("name")
+
+        if evolution.get("tempEvoId") == "TEMP_EVOLUTION_MEGA":
+            new_name = "MEGA_" + name
+        elif evolution.get("tempEvoId") == "TEMP_EVOLUTION_MEGA_X":
+            new_name = "MEGA_" + name + "_X"
+        elif evolution.get("tempEvoId") == "TEMP_EVOLUTION_MEGA_Y":
+            new_name = "MEGA_" + name + "_Y"
+        elif evolution.get("tempEvoId") == "TEMP_EVOLUTION_PRIMAL":
+            new_name = "PRIMAL_" + name
+        else:
+            new_name = name
+
+        new_types = [
+            evolution.get("typeOverride1") or pokemon_data.get("types")[0],
+            evolution.get("typeOverride2") or pokemon_data.get("types")[1]
+        ]
+
+        if not evolution.get("stats"):
+            continue
+
+        new_base_attack, new_base_defense, new_base_hp = evolution.get("stats").get(
+            "baseAttack"), evolution.get("stats").get("baseDefense"), evolution.get("stats").get(
+            "baseStamina")
+
+        yield {
+            "name": new_name,
+            "species": pokemon_data.get("species"),
+            "types": new_types,
+            "base_attack": new_base_attack,
+            "base_defense": new_base_defense,
+            "base_hp": new_base_hp,
+            "fast_move_pool": pokemon_data.get("fast_move_pool"),
+            "charged_move_pool": pokemon_data.get("charged_move_pool"),
+            "pokedex_number": pokemon_data.get("pokedex_number")
+        }
+
+def process_pokemon_data(data):
+    template_id = data.get("templateId")
+
+    if any(word in template_id for word in BLACKLISTED_WORDS):
+        return []
+
+    pokemon_data = parse_pokemon_data(template_id, data)
+    if not pokemon_data:
+        return []
+
+    if check_for_existing_pokemon(pokemon_data):
+        return []
+
+    pokemon_data = apply_manual_changes(pokemon_data)
+
+    final_pokemon_data = [{
+        "name": pokemon_data.get("name"),
+        "species": pokemon_data.get("species"),
+        "types": pokemon_data.get("types"),
+        "base_attack": pokemon_data.get("base_attack"),
+        "base_defense": pokemon_data.get("base_defense"),
+        "base_hp": pokemon_data.get("base_hp"),
+        "fast_move_pool": pokemon_data.get("fast_move_pool"),
+        "charged_move_pool": pokemon_data.get("charged_move_pool"),
+        "pokedex_number": pokemon_data.get("pokedex_number")
+    }]
+
+    if has_temp_evo_overrides(data):
+        temp_evo_override_data = process_temp_evo_overrides(pokemon_data, data)
+
+        for data in temp_evo_override_data:
+            final_pokemon_data.append(data)
+
+    return final_pokemon_data
+
+
+def process_pokemon_move(entry):
+    move_data: dict = entry["combatMove"]
+
+    move_data.pop("vfxName", None)
+    move_data.pop("durationTurns", None)
+
+    move_name = move_data["uniqueId"]
+
+    if move_name in MANUAL_MOVE_CHANGES:
+        move_name = move_data["uniqueId"] = MANUAL_MOVE_CHANGES[move_name]
+
+    move_data["energyDelta"] = abs(move_data.get("energyDelta", 0))
+    move_data["power"] = move_data.get("power", 0)
+
+    move_data["turns"] = move_data.get("durationTurns", 0)
+
+    if move_name.endswith("_FAST"):
+        move_data["usageType"] = "fast"
+        move_data["turns"] += 1
+    else:
+        move_data["usageType"] = "charge"
+
+    return move_data
+
+
+def update():
+    data = fetch_game_data()
+
     for entry in data["main"]:
 
         template_id = entry["templateId"]
@@ -80,157 +266,24 @@ if __name__ == "__main__":
         if (template_id.startswith("V0") or template_id.startswith(
                 "V1")) and "POKEMON" in template_id:
 
-            if any(word in template_id for word in BLACKLISTED_WORDS):
+            pokemon_data = process_pokemon_data(data)
+
+            if not pokemon_data:
                 continue
 
-            pokemon_data: dict = data["pokemonSettings"]
-
-            name = template_id.split("POKEMON_")[1]
-            species = data.get("pokemonSettings", {}).get("pokemonId")
-            types = [data.get("pokemonSettings", {}).get("type"), data.get("pokemonSettings", {}).get("type2")]
-            base_attack = data.get("pokemonSettings", {}).get("stats", {}).get("baseAttack")
-            base_defense = data.get("pokemonSettings", {}).get("stats", {}).get("baseDefense")
-            base_hp = data.get("pokemonSettings", {}).get("stats", {}).get("baseStamina")
-            pokedex_number = int(template_id.split("V")[1].split("_POKEMON")[0])
-
-            fast_move_pool = []
-
-            for move in data.get("pokemonSettings", {}).get("quickMoves", {}):
-                fast_move_pool.append(move)
-            for move in data.get("pokemonSettings", {}).get("eliteQuickMove", {}):
-                fast_move_pool.append(move)
-
-            charged_move_pool = []
-
-            for move in data.get("pokemonSettings", {}).get("cinematicMoves", {}):
-                charged_move_pool.append(move)
-            for move in data.get("pokemonSettings", {}).get("eliteCinematicMove", {}):
-                charged_move_pool.append(move)
-            for move in data.get("pokemonSettings", {}).get("nonTmCinematicMoves", {}):
-                charged_move_pool.append(move)
-
-            skip = False
-            # check if a similar pokemon already exists
-            for pokemon in pokemon_json:
-
-                if name in WHITELISTED_POKEMON:
-                    break
-
-                pokemon_compared = pokemon_json[pokemon]
-
-                if is_same(pokemon_compared, {
-                    "name": name,
-                    "species": species,
-                    "types": types,
-                    "base_attack": base_attack,
-                    "base_defense": base_defense,
-                    "base_hp": base_hp,
-                    "fast_move_pool": fast_move_pool,
-                    "charged_move_pool": charged_move_pool,
-                    "pokedex_number": pokedex_number
-                }):
-                    skip = True
-                    break
-
-            if skip:
-                continue
-
-            if name in MANUAL_NAME_CHANGES:
-                name = MANUAL_NAME_CHANGES[name]
-
-            if name in MANUAL_MOVE_ADDITIONS:
-                charged_move_pool.append(MANUAL_MOVE_ADDITIONS[name])
-
-            pokemon_json[name] = {
-                "name": name,
-                "species": species,
-                "types": types,
-                "base_attack": base_attack,
-                "base_defense": base_defense,
-                "base_hp": base_hp,
-                "fast_move_pool": fast_move_pool,
-                "charged_move_pool": charged_move_pool,
-                "pokedex_number": pokedex_number
-            }
-
-            if data.get("pokemonSettings", {}).get("tempEvoOverrides"):
-
-                for evolution in data.get("pokemonSettings", {}).get("tempEvoOverrides"):
-
-                    new_name = name
-
-                    if evolution.get("tempEvoId") == "TEMP_EVOLUTION_MEGA":
-                        new_name = "MEGA_" + name
-                    if evolution.get("tempEvoId") == "TEMP_EVOLUTION_MEGA_X":
-                        new_name = "MEGA_" + name + "_X"
-                    if evolution.get("tempEvoId") == "TEMP_EVOLUTION_MEGA_Y":
-                        new_name = "MEGA_" + name + "_Y"
-                    if evolution.get("tempEvoId") == "TEMP_EVOLUTION_PRIMAL":
-                        new_name = "PRIMAL_" + name
-
-                    new_types = [
-                        evolution.get("typeOverride1") or types[0],
-                        evolution.get("typeOverride2") or types[1]
-                    ]
-
-                    if not evolution.get("stats"):
-                        continue
-
-                    new_base_attack, new_base_defense, new_base_hp = evolution.get("stats").get(
-                        "baseAttack"), evolution.get("stats").get("baseDefense"), evolution.get("stats").get(
-                        "baseStamina")
-
-                    pokemon_json[new_name] = {
-                        "name": new_name,
-                        "species": species,
-                        "types": new_types,
-                        "base_attack": new_base_attack,
-                        "base_defense": new_base_defense,
-                        "base_hp": new_base_hp,
-                        "fast_move_pool": fast_move_pool,
-                        "charged_move_pool": charged_move_pool,
-                        "pokedex_number": pokedex_number
-                    }
+            for pokemon in pokemon_data:
+                pokemon_json[pokemon["name"]] = pokemon
 
         elif template_id.startswith("COMBAT_V"):
-
-            move_data: dict = data["combatMove"]
-
-            move_data.pop("vfxName", None)
-            move_data.pop("durationTurns", None)
-
-            move_name = move_data["uniqueId"]
-
-            if move_name in MANUAL_MOVE_CHANGES:
-                move_name = move_data["uniqueId"] = MANUAL_MOVE_CHANGES[move_name]
-
-            move_data["energyDelta"] = abs(move_data.get("energyDelta", 0))
-            move_data["power"] = move_data.get("power", 0)
-
-            move_data["turns"] = move_data.get("durationTurns", 0)
-
-            if move_name.endswith("_FAST"):
-                move_data["usageType"] = "fast"
-                move_data["turns"] += 1
-            else:
-                move_data["usageType"] = "charge"
-
+            move_data = process_pokemon_move(data)
             moves_json[move_data["uniqueId"]] = move_data
-
-        elif template_id.startswith("FORMS_V"):
-            form_setting = data["formSettings"]
-            if len(form_setting) <= 1:
-                continue
-
-            form_counter = 1
-
-            name = data["formSettings"]["pokemon"]
-
-            if name in BLACKLISTED_POKEMON_FORMS:
-                continue
 
     with open("moves.json", "w") as f:
         json.dump(moves_json, f, indent=4)
 
     with open("pokemon.json", "w") as f:
         json.dump(pokemon_json, f, indent=4)
+
+
+if __name__ == "__main__":
+    update()
