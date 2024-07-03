@@ -13027,7 +13027,8 @@
         "charged_move_pool": [
             "DRACO_METEOR",
             "IRON_HEAD",
-            "THUNDER"
+            "THUNDER",
+            "ROAR_OF_TIME"
         ],
         "pokedex_number": 483
     },
@@ -13071,7 +13072,8 @@
             "DRACO_METEOR",
             "FIRE_BLAST",
             "HYDRO_PUMP",
-            "AQUA_TAIL"
+            "AQUA_TAIL",
+            "SPACIAL_REND"
         ],
         "pokedex_number": 484
     },

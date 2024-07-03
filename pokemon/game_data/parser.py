@@ -44,8 +44,10 @@ MANUAL_MOVE_CHANGES = {
 }
 
 MANUAL_MOVE_ADDITIONS = {
-    "NECROZMA_DUSK_MANE": "SUNSTEEL_STRIKE",
-    "NECROZMA_DAWN_WINGS": "MOONGEIST_BEAM"
+    "DIALGA_ORIGIN": {"name": "ROAR_OF_TIME", "type": "charged"},
+    "PALKIA_ORIGIN": {"name": "SPACIAL_REND", "type": "charged"},
+    "NECROZMA_DUSK_MANE": {"name": "SUNSTEEL_STRIKE", "type": "charged"},
+    "NECROZMA_DAWN_WINGS": {"name": "MOONGEIST_BEAM", "type": "charged"},
 }
 
 
@@ -138,13 +140,21 @@ def check_for_existing_pokemon(pokemon_data):
 
 def apply_manual_changes(pokemon_data):
     name = pokemon_data["name"]
+    fast_move_pool = pokemon_data["fast_move_pool"]
     charged_move_pool = pokemon_data["charged_move_pool"]
 
     if name in MANUAL_NAME_CHANGES:
         pokemon_data["name"] = MANUAL_NAME_CHANGES[name]
 
     if name in MANUAL_MOVE_ADDITIONS:
-        charged_move_pool.append(MANUAL_MOVE_ADDITIONS[name])
+        move_data = MANUAL_MOVE_ADDITIONS[name]
+
+        if move_data.get("type") == "fast":
+            fast_move_pool.append(move_data.get("name"))
+        elif move_data.get("type") == "charged":
+            charged_move_pool.append(move_data.get("name"))
+
+        pokemon_data["fast_move_pool"] = fast_move_pool
         pokemon_data["charged_move_pool"] = charged_move_pool
 
     return pokemon_data
