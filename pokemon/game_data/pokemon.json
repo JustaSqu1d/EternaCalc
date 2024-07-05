@@ -8460,7 +8460,7 @@
         "species": "AGGRON",
         "types": [
             "POKEMON_TYPE_STEEL",
-            "POKEMON_TYPE_ROCK"
+            null
         ],
         "base_attack": 247,
         "base_defense": 331,

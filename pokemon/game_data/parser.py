@@ -181,8 +181,8 @@ def process_temp_evo_overrides(pokemon_data, raw_data):
             new_name = name
 
         new_types = [
-            evolution.get("typeOverride1") or pokemon_data.get("types")[0],
-            evolution.get("typeOverride2") or pokemon_data.get("types")[1]
+            evolution.get("typeOverride1", None),
+            evolution.get("typeOverride2", None)
         ]
 
         if not evolution.get("stats"):
