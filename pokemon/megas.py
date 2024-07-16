@@ -136,7 +136,7 @@ def fetch_all_megas() -> list[Species]:
     """
     from pokemon import Species, parse_type_string  # resolve circular import
 
-    with open("game_data/pokemon.json", "r") as f:
+    with open("pokemon/game_data/pokemon.json", "r") as f:
         pokemon_json = json.load(f)
 
     megas = []

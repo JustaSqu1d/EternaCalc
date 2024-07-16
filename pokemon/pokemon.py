@@ -1,7 +1,7 @@
+from math import sqrt
 import json
 import os
-from math import sqrt
-
+from enum import Enum
 
 path = os.path.dirname(__file__)
 cp_multipliers_file = path + '/game_data/cp_multipliers.json'
@@ -81,11 +81,10 @@ class Species:
         :param name: The name of the Pokémon species to retrieve.
         :return: The Pokémon species object.
         """
-        from type import parse_type_string  # resolve circular import
-        from moves import get_move_by_name  # resolve circular import
+        from .moves import Move  # resolve circular import
 
         if pokemon_species_dict is None:
-            with open("game_data/pokemon.json", "r") as f:
+            with open("pokemon/game_data/pokemon.json", "r") as f:
                 pokemon_species_dict = json.load(f)
 
         name = cls.re_parse_pokemon_string(name)
@@ -98,6 +97,7 @@ class Species:
         types = []
         for raw_type_string in pokemon_dict["types"]:
             if raw_type_string:
+
                 types.append(parse_type_string(raw_type_string))
 
         base_attack = pokemon_dict["base_attack"]
@@ -106,11 +106,11 @@ class Species:
 
         fast_move_pool = []
         for raw_move_string in pokemon_dict["fast_move_pool"]:
-            fast_move_pool.append(get_move_by_name(raw_move_string))
+            fast_move_pool.append(Move.get_move_by_name(raw_move_string))
 
         charged_move_pool = []
         for raw_move_string in pokemon_dict["charged_move_pool"]:
-            charged_move_pool.append(get_move_by_name(raw_move_string))
+            charged_move_pool.append(Move.get_move_by_name(raw_move_string))
 
         species = cls(
             name=pokemon_name,
@@ -234,3 +234,197 @@ class Pokemon:
 
     def __str__(self):
         return self.species.name
+
+multiplier_dict = {
+    "SUPER_EFFECTIVE": 1.6,
+    "NEUTRAL": 1.0,
+    "NOT_VERY_EFFECTIVE": 0.625,
+    "IMMUNE": 0.390625,
+}
+
+
+class Type(Enum):
+    NORMAL = "Normal"
+    FIRE = "Fire"
+    WATER = "Water"
+    ELECTRIC = "Electric"
+    GRASS = "Grass"
+    ICE = "Ice"
+    FIGHTING = "Fighting"
+    POISON = "Poison"
+    GROUND = "Ground"
+    FLYING = "Flying"
+    PSYCHIC = "Psychic"
+    BUG = "Bug"
+    ROCK = "Rock"
+    GHOST = "Ghost"
+    DRAGON = "Dragon"
+    DARK = "Dark"
+    STEEL = "Steel"
+    FAIRY = "Fairy"
+
+    @classmethod
+    def _missing_(cls, value):
+        return cls.NORMAL
+
+    def __str__(self):
+        return self.value
+
+
+TYPE_CIRCLES = {
+    Type.FLYING: 23,
+    Type.FIGHTING: 23,
+    Type.GRASS: 23,
+    Type.STEEL: 24,
+    Type.GHOST: 25,
+    Type.BUG: 27,
+    Type.POISON: 28,
+    Type.FIRE: 28,
+    Type.WATER: 28,
+    Type.ELECTRIC: 28,
+    Type.GROUND: 29,
+    Type.ROCK: 32,
+    Type.ICE: 32,
+    Type.DARK: 32,
+    Type.DRAGON: 35,
+    Type.PSYCHIC: 37,
+    Type.FAIRY: 37,
+    Type.NORMAL: 45
+}
+
+TYPE_EXCELLENT_THRESHOLDS = {
+    Type.FLYING: 23,
+    Type.FIGHTING: 23,
+    Type.GRASS: 23,
+    Type.STEEL: 23,
+    Type.GHOST: 24,
+    Type.BUG: 26,
+    Type.POISON: 27,
+    Type.FIRE: 27,
+    Type.WATER: 27,
+    Type.ELECTRIC: 27,
+    Type.GROUND: 28,
+    Type.ROCK: 31,
+    Type.ICE: 31,
+    Type.DARK: 31,
+    Type.DRAGON: 34,
+    Type.PSYCHIC: 36,
+    Type.FAIRY: 36,
+    Type.NORMAL: 43
+}
+
+
+def get_type_circle(type: Type) -> int:
+    """
+    Returns the number of circles to reach "excellent" for a given type.
+
+    Parameters
+    ----------
+    type : Type
+        The type of the move.
+
+    Returns
+    -------
+    int
+        The number of circles to reach "excellent". If the type is not found, it will return -1.
+
+    """
+    return TYPE_EXCELLENT_THRESHOLDS.get(type, -1)
+
+
+def list_types():
+    return [_.value for _ in Type]
+
+
+def get_type_multiplier(attacker_type: Type, defender_types: list[Type]) -> float:
+    """
+    Calculates the type effectiveness multiplier for an attack based on the attacker's type and the defender's types.
+
+    Parameters
+    ----------
+    attacker_type : Type
+        The type of the move.
+    defender_types : list[Type]
+        The types of the defending Pokémon.
+
+    Returns
+    -------
+    float
+        The type effectiveness multiplier.
+    """
+
+    path = os.path.dirname(__file__)
+    type_chart_file = path + '/game_data/type_chart.json'
+
+    with open(type_chart_file, "r") as f:
+        type_chart = json.load(f)
+
+    multiplier = 1.0
+
+    for defender_type in defender_types:
+        effectiveness_string = type_chart.get(attacker_type.value).get(defender_type.value, "NEUTRAL")
+        multiplier *= multiplier_dict.get(effectiveness_string, 1.0)
+
+    return multiplier
+
+
+def parse_type_string(raw_type_string: str) -> Type:
+    """
+    Parses a type string and returns the Type object.
+
+    This is useful for converting the raw string from the game data.
+
+    Parameters
+    ----------
+    raw_type_string : str
+        The raw type string.
+
+    Returns
+    -------
+    Type
+        The Type object.
+    """
+    return Type(raw_type_string.split("_")[-1].capitalize())
+
+
+def get_path_to_file(type: Type) -> str:
+    file_name = ""
+    match type:
+        case Type.NORMAL:
+            file_name = "ico_0_normal.png"
+        case Type.FIGHTING:
+            file_name = "ico_1_fighting.png"
+        case Type.FLYING:
+            file_name = "ico_2_flying.png"
+        case Type.POISON:
+            file_name = "ico_3_poison.png"
+        case Type.GROUND:
+            file_name = "ico_4_ground.png"
+        case Type.ROCK:
+            file_name = "ico_5_rock.png"
+        case Type.BUG:
+            file_name = "ico_6_bug.png"
+        case Type.GHOST:
+            file_name = "ico_7_ghost.png"
+        case Type.STEEL:
+            file_name = "ico_8_steel.png"
+        case Type.FIRE:
+            file_name = "ico_9_fire.png"
+        case Type.WATER:
+            file_name = "ico_10_water.png"
+        case Type.GRASS:
+            file_name = "ico_11_grass.png"
+        case Type.ELECTRIC:
+            file_name = "ico_12_electric.png"
+        case Type.PSYCHIC:
+            file_name = "ico_13_psychic.png"
+        case Type.ICE:
+            file_name = "ico_14_ice.png"
+        case Type.DRAGON:
+            file_name = "ico_15_dragon.png"
+        case Type.DARK:
+            file_name = "ico_16_dark.png"
+        case Type.FAIRY:
+            file_name = "ico_17_fairy.png"
+
+    return f"assets/{file_name}"

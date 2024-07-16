@@ -83,9 +83,9 @@ class Move:
         Move
             The move object. If the move is not found, it will return the STRUGGLE move, instead.
         """
-        from type import parse_type_string  # fix circular import
+        from .pokemon import parse_type_string  # fix circular import
 
-        with open("game_data/moves.json", "r") as f:
+        with open("pokemon/game_data/moves.json", "r") as f:
             moves_json = json.load(f)
 
         name = name.replace(" ", "_").upper()

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import TYPE_CHECKING
 
-from .type import get_type_multiplier, get_type_circle
+from .pokemon import get_type_multiplier, get_type_circle
 
 if TYPE_CHECKING:
     from pokemon import Pokemon
