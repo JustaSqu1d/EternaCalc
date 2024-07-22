@@ -92,7 +92,10 @@
             "SOLAR_BEAM",
             "FRENZY_PLANT"
         ],
-        "pokedex_number": 3
+        "pokedex_number": 3,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "CHARMANDER": {
         "name": "CHARMANDER",
@@ -196,7 +199,10 @@
             "BLAST_BURN",
             "FLAMETHROWER"
         ],
-        "pokedex_number": 6
+        "pokedex_number": 6,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "MEGA_CHARIZARD_Y": {
         "name": "MEGA_CHARIZARD_Y",
@@ -222,7 +228,10 @@
             "BLAST_BURN",
             "FLAMETHROWER"
         ],
-        "pokedex_number": 6
+        "pokedex_number": 6,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "SQUIRTLE": {
         "name": "SQUIRTLE",
@@ -319,7 +328,10 @@
             "SKULL_BASH",
             "HYDRO_CANNON"
         ],
-        "pokedex_number": 9
+        "pokedex_number": 9,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "CATERPIE": {
         "name": "CATERPIE",
@@ -483,7 +495,10 @@
             "FELL_STINGER",
             "DRILL_RUN"
         ],
-        "pokedex_number": 15
+        "pokedex_number": 15,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "PIDGEY": {
         "name": "PIDGEY",
@@ -584,7 +599,10 @@
             "FEATHER_DANCE",
             "AIR_CUTTER"
         ],
-        "pokedex_number": 18
+        "pokedex_number": 18,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "RATTATA": {
         "name": "RATTATA",
@@ -2323,7 +2341,10 @@
             "DAZZLING_GLEAM",
             "PSYCHIC"
         ],
-        "pokedex_number": 65
+        "pokedex_number": 65,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "MACHOP": {
         "name": "MACHOP",
@@ -2879,7 +2900,10 @@
             "SCALD",
             "SURF"
         ],
-        "pokedex_number": 80
+        "pokedex_number": 80,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "SLOWBRO_GALARIAN": {
         "name": "SLOWBRO_GALARIAN",
@@ -3377,7 +3401,10 @@
             "PSYCHIC",
             "SHADOW_PUNCH"
         ],
-        "pokedex_number": 94
+        "pokedex_number": 94,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "ONIX": {
         "name": "ONIX",
@@ -4066,7 +4093,10 @@
             "BRICK_BREAK",
             "STOMP"
         ],
-        "pokedex_number": 115
+        "pokedex_number": 115,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "HORSEA": {
         "name": "HORSEA",
@@ -4423,7 +4453,10 @@
             "SUPER_POWER",
             "SUBMISSION"
         ],
-        "pokedex_number": 127
+        "pokedex_number": 127,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "TAUROS": {
         "name": "TAUROS",
@@ -4524,7 +4557,10 @@
             "DRAGON_PULSE",
             "AQUA_TAIL"
         ],
-        "pokedex_number": 130
+        "pokedex_number": 130,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "LAPRAS": {
         "name": "LAPRAS",
@@ -4859,7 +4895,10 @@
             "ROCK_SLIDE",
             "EARTH_POWER"
         ],
-        "pokedex_number": 142
+        "pokedex_number": 142,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "SNORLAX": {
         "name": "SNORLAX",
@@ -6034,7 +6073,10 @@
             "TRAILBLAZE",
             "DRAGON_PULSE"
         ],
-        "pokedex_number": 181
+        "pokedex_number": 181,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "BELLOSSOM": {
         "name": "BELLOSSOM",
@@ -6785,7 +6827,10 @@
             "PSYCHIC_FANGS",
             "BREAKING_SWIPE"
         ],
-        "pokedex_number": 208
+        "pokedex_number": 208,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "SNUBBULL": {
         "name": "SNUBBULL",
@@ -6934,7 +6979,10 @@
             "NIGHT_SLASH",
             "TRAILBLAZE"
         ],
-        "pokedex_number": 212
+        "pokedex_number": 212,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "SHUCKLE": {
         "name": "SHUCKLE",
@@ -7005,7 +7053,10 @@
             "EARTHQUAKE",
             "ROCK_BLAST"
         ],
-        "pokedex_number": 214
+        "pokedex_number": 214,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "SNEASEL": {
         "name": "SNEASEL",
@@ -7427,7 +7478,10 @@
             "FOUL_PLAY",
             "FLAMETHROWER"
         ],
-        "pokedex_number": 229
+        "pokedex_number": 229,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "KINGDRA": {
         "name": "KINGDRA",
@@ -7909,7 +7963,10 @@
             "STONE_EDGE",
             "BRUTAL_SWING"
         ],
-        "pokedex_number": 248
+        "pokedex_number": 248,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "LUGIA": {
         "name": "LUGIA",
@@ -8088,7 +8145,10 @@
             "BREAKING_SWIPE",
             "FRENZY_PLANT"
         ],
-        "pokedex_number": 254
+        "pokedex_number": 254,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "TORCHIC": {
         "name": "TORCHIC",
@@ -8187,7 +8247,10 @@
             "BLAST_BURN",
             "STONE_EDGE"
         ],
-        "pokedex_number": 257
+        "pokedex_number": 257,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "MUDKIP": {
         "name": "MUDKIP",
@@ -8284,7 +8347,10 @@
             "MUDDY_WATER",
             "HYDRO_CANNON"
         ],
-        "pokedex_number": 260
+        "pokedex_number": 260,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "POOCHYENA": {
         "name": "POOCHYENA",
@@ -8897,7 +8963,10 @@
             "TRIPLE_AXEL",
             "SYNCHRONOISE"
         ],
-        "pokedex_number": 282
+        "pokedex_number": 282,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "SURSKIT": {
         "name": "SURSKIT",
@@ -9405,7 +9474,10 @@
             "FOUL_PLAY",
             "SHADOW_SNEAK"
         ],
-        "pokedex_number": 302
+        "pokedex_number": 302,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "MAWILE": {
         "name": "MAWILE",
@@ -9533,7 +9605,10 @@
             "ROCK_TOMB",
             "METEOR_BEAM"
         ],
-        "pokedex_number": 306
+        "pokedex_number": 306,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "MEDITITE": {
         "name": "MEDITITE",
@@ -9604,7 +9679,10 @@
             "DYNAMIC_PUNCH",
             "POWER_UP_PUNCH"
         ],
-        "pokedex_number": 308
+        "pokedex_number": 308,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "ELECTRIKE": {
         "name": "ELECTRIKE",
@@ -9679,7 +9757,10 @@
             "OVERHEAT",
             "PSYCHIC_FANGS"
         ],
-        "pokedex_number": 310
+        "pokedex_number": 310,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "PLUSLE": {
         "name": "PLUSLE",
@@ -10301,7 +10382,10 @@
             "DRAGON_PULSE",
             "MOONBLAST"
         ],
-        "pokedex_number": 334
+        "pokedex_number": 334,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "ZANGOOSE": {
         "name": "ZANGOOSE",
@@ -10893,7 +10977,10 @@
             "DAZZLING_GLEAM",
             "THUNDER"
         ],
-        "pokedex_number": 354
+        "pokedex_number": 354,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "DUSKULL": {
         "name": "DUSKULL",
@@ -11038,7 +11125,10 @@
             "MEGAHORN",
             "PAYBACK"
         ],
-        "pokedex_number": 359
+        "pokedex_number": 359,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "WYNAUT": {
         "name": "WYNAUT",
@@ -11129,7 +11219,10 @@
             "GYRO_BALL",
             "SHADOW_BALL"
         ],
-        "pokedex_number": 362
+        "pokedex_number": 362,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "SPHEAL": {
         "name": "SPHEAL",
@@ -11421,7 +11514,10 @@
             "FLY",
             "OUTRAGE"
         ],
-        "pokedex_number": 373
+        "pokedex_number": 373,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "BELDUM": {
         "name": "BELDUM",
@@ -11618,7 +11714,10 @@
             "THUNDER",
             "MIST_BALL"
         ],
-        "pokedex_number": 380
+        "pokedex_number": 380,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "LATIOS": {
         "name": "LATIOS",
@@ -11665,7 +11764,10 @@
             "SOLAR_BEAM",
             "LUSTER_PURGE"
         ],
-        "pokedex_number": 381
+        "pokedex_number": 381,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "KYOGRE": {
         "name": "KYOGRE",
@@ -11712,7 +11814,10 @@
             "SURF",
             "ORIGIN_PULSE"
         ],
-        "pokedex_number": 382
+        "pokedex_number": 382,
+        "pokemon_category": [
+            "POKEMON_CLASS_PRIMAL"
+        ]
     },
     "GROUDON": {
         "name": "GROUDON",
@@ -11761,7 +11866,10 @@
             "FIRE_PUNCH",
             "PRECIPICE_BLADES"
         ],
-        "pokedex_number": 383
+        "pokedex_number": 383,
+        "pokemon_category": [
+            "POKEMON_CLASS_PRIMAL"
+        ]
     },
     "RAYQUAZA": {
         "name": "RAYQUAZA",
@@ -11812,7 +11920,10 @@
             "BREAKING_SWIPE",
             "DRAGON_ASCENT"
         ],
-        "pokedex_number": 384
+        "pokedex_number": 384,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "JIRACHI": {
         "name": "JIRACHI",
@@ -13082,7 +13193,10 @@
             "FOCUS_BLAST",
             "TRIPLE_AXEL"
         ],
-        "pokedex_number": 428
+        "pokedex_number": 428,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "MISMAGIUS": {
         "name": "MISMAGIUS",
@@ -13523,7 +13637,10 @@
             "SAND_TOMB",
             "EARTH_POWER"
         ],
-        "pokedex_number": 445
+        "pokedex_number": 445,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "MUNCHLAX": {
         "name": "MUNCHLAX",
@@ -13930,7 +14047,10 @@
             "WEATHER_BALL_ICE",
             "ICY_WIND"
         ],
-        "pokedex_number": 460
+        "pokedex_number": 460,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "WEAVILE": {
         "name": "WEAVILE",
@@ -21733,7 +21853,10 @@
             "MOONBLAST",
             "POWER_GEM"
         ],
-        "pokedex_number": 719
+        "pokedex_number": 719,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
     },
     "HOOPA": {
         "name": "HOOPA",

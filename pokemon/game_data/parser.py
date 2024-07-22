@@ -203,6 +203,8 @@ def process_temp_evo_overrides(pokemon_data, raw_data):
             "baseAttack"), evolution.get("stats").get("baseDefense"), evolution.get("stats").get(
             "baseStamina")
 
+        new_category = "POKEMON_CLASS_MEGA" if "MEGA" in new_name else "POKEMON_CLASS_PRIMAL"
+
         yield {
             "name": new_name,
             "species": pokemon_data.get("species"),
@@ -212,7 +214,8 @@ def process_temp_evo_overrides(pokemon_data, raw_data):
             "base_hp": new_base_hp,
             "fast_move_pool": pokemon_data.get("fast_move_pool"),
             "charged_move_pool": pokemon_data.get("charged_move_pool"),
-            "pokedex_number": pokemon_data.get("pokedex_number")
+            "pokedex_number": pokemon_data.get("pokedex_number"),
+            "pokemon_category": [new_category],
         }
 
 def process_pokemon_data(data):
