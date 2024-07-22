@@ -50,6 +50,13 @@ MANUAL_MOVE_ADDITIONS = {
     "NECROZMA_DAWN_WINGS": {"name": "MOONGEIST_BEAM", "type": "charged"},
 }
 
+MANUAL_CATEGORY_CHANGES = {
+    "NECROZMA": "POKEMON_CLASS_ULTRA_BEAST",
+    "NECROZMA_DUSK_MANE": "POKEMON_CLASS_ULTRA_BEAST",
+    "NECROZMA_DAWN_WINGS": "POKEMON_CLASS_ULTRA_BEAST",
+    "NECROZMA_ULTRA": "POKEMON_CLASS_ULTRA_BEAST",
+}
+
 
 def is_same(pokemon1, pokemon2):
     return (pokemon1["species"] == pokemon2["species"] and
@@ -113,6 +120,7 @@ def parse_pokemon_data(template_id, data):
         "fast_move_pool": fast_move_pool,
         "charged_move_pool": charged_move_pool,
         "pokedex_number": pokedex_number,
+        "pokemon_category": [pokemon_data.get("pokemonClass", "POKEMON_CLASS_REGULAR")]
     }
 
 def check_for_existing_pokemon(pokemon_data):
@@ -156,6 +164,9 @@ def apply_manual_changes(pokemon_data):
 
         pokemon_data["fast_move_pool"] = fast_move_pool
         pokemon_data["charged_move_pool"] = charged_move_pool
+
+    if name in MANUAL_CATEGORY_CHANGES:
+        pokemon_data["pokemon_category"].append(MANUAL_CATEGORY_CHANGES[name])
 
     return pokemon_data
 
@@ -228,7 +239,8 @@ def process_pokemon_data(data):
         "base_hp": pokemon_data.get("base_hp"),
         "fast_move_pool": pokemon_data.get("fast_move_pool"),
         "charged_move_pool": pokemon_data.get("charged_move_pool"),
-        "pokedex_number": pokemon_data.get("pokedex_number")
+        "pokedex_number": pokemon_data.get("pokedex_number"),
+        "pokemon_category": pokemon_data.get("pokemon_category"),
     }]
 
     if has_temp_evo_overrides(data):
