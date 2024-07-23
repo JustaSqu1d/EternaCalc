@@ -851,7 +851,7 @@
         "type": "POKEMON_TYPE_DARK",
         "power": 5.0,
         "energyDelta": 7,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "DRAGON_BREATH_FAST": {
@@ -867,7 +867,7 @@
         "type": "POKEMON_TYPE_ELECTRIC",
         "power": 3.0,
         "energyDelta": 9,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "SPARK_FAST": {
@@ -875,7 +875,7 @@
         "type": "POKEMON_TYPE_ELECTRIC",
         "power": 5.0,
         "energyDelta": 7,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "LOW_KICK_FAST": {
@@ -883,7 +883,7 @@
         "type": "POKEMON_TYPE_FIGHTING",
         "power": 4.0,
         "energyDelta": 5,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "KARATE_CHOP_FAST": {
@@ -891,7 +891,7 @@
         "type": "POKEMON_TYPE_FIGHTING",
         "power": 5.0,
         "energyDelta": 8,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "EMBER_FAST": {
@@ -899,7 +899,7 @@
         "type": "POKEMON_TYPE_FIRE",
         "power": 7.0,
         "energyDelta": 6,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "WING_ATTACK_FAST": {
@@ -907,7 +907,7 @@
         "type": "POKEMON_TYPE_FLYING",
         "power": 5.0,
         "energyDelta": 8,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "PECK_FAST": {
@@ -915,7 +915,7 @@
         "type": "POKEMON_TYPE_FLYING",
         "power": 6.0,
         "energyDelta": 5,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "LICK_FAST": {
@@ -931,7 +931,7 @@
         "type": "POKEMON_TYPE_GHOST",
         "power": 6.0,
         "energyDelta": 8,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "VINE_WHIP_FAST": {
@@ -939,7 +939,7 @@
         "type": "POKEMON_TYPE_GRASS",
         "power": 5.0,
         "energyDelta": 8,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "RAZOR_LEAF_FAST": {
@@ -947,7 +947,7 @@
         "type": "POKEMON_TYPE_GRASS",
         "power": 10.0,
         "energyDelta": 4,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "MUD_SHOT_FAST": {
@@ -955,7 +955,7 @@
         "type": "POKEMON_TYPE_GROUND",
         "power": 3.0,
         "energyDelta": 9,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "ICE_SHARD_FAST": {
@@ -963,7 +963,7 @@
         "type": "POKEMON_TYPE_ICE",
         "power": 9.0,
         "energyDelta": 10,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "FROST_BREATH_FAST": {
@@ -971,7 +971,7 @@
         "type": "POKEMON_TYPE_ICE",
         "power": 7.0,
         "energyDelta": 5,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "QUICK_ATTACK_FAST": {
@@ -979,7 +979,7 @@
         "type": "POKEMON_TYPE_NORMAL",
         "power": 5.0,
         "energyDelta": 8,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "SCRATCH_FAST": {
@@ -1003,7 +1003,7 @@
         "type": "POKEMON_TYPE_NORMAL",
         "power": 4.0,
         "energyDelta": 4,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "CUT_FAST": {
@@ -1019,7 +1019,7 @@
         "type": "POKEMON_TYPE_POISON",
         "power": 7.0,
         "energyDelta": 7,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "ACID_FAST": {
@@ -1027,7 +1027,7 @@
         "type": "POKEMON_TYPE_POISON",
         "power": 6.0,
         "energyDelta": 5,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "PSYCHO_CUT_FAST": {
@@ -1035,7 +1035,7 @@
         "type": "POKEMON_TYPE_PSYCHIC",
         "power": 3.0,
         "energyDelta": 9,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "ROCK_THROW_FAST": {
@@ -1043,7 +1043,7 @@
         "type": "POKEMON_TYPE_ROCK",
         "power": 8.0,
         "energyDelta": 5,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "METAL_CLAW_FAST": {
@@ -1051,7 +1051,7 @@
         "type": "POKEMON_TYPE_STEEL",
         "power": 5.0,
         "energyDelta": 6,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "BULLET_PUNCH_FAST": {
@@ -1059,7 +1059,7 @@
         "type": "POKEMON_TYPE_STEEL",
         "power": 6.0,
         "energyDelta": 7,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "WATER_GUN_FAST": {
@@ -1075,7 +1075,7 @@
         "type": "POKEMON_TYPE_WATER",
         "energyDelta": 12,
         "power": 0,
-        "turns": 1,
+        "turns": 4,
         "usageType": "fast"
     },
     "WATER_GUN_FAST_BLASTOISE": {
@@ -1083,7 +1083,7 @@
         "type": "POKEMON_TYPE_WATER",
         "power": 6.0,
         "energyDelta": 4,
-        "turns": 0,
+        "turns": 1,
         "usageType": "charge"
     },
     "MUD_SLAP_FAST": {
@@ -1091,7 +1091,7 @@
         "type": "POKEMON_TYPE_GROUND",
         "power": 11.0,
         "energyDelta": 9,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "ZEN_HEADBUTT_FAST": {
@@ -1099,7 +1099,7 @@
         "type": "POKEMON_TYPE_PSYCHIC",
         "power": 8.0,
         "energyDelta": 6,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "CONFUSION_FAST": {
@@ -1107,7 +1107,7 @@
         "type": "POKEMON_TYPE_PSYCHIC",
         "power": 16.0,
         "energyDelta": 12,
-        "turns": 1,
+        "turns": 4,
         "usageType": "fast"
     },
     "POISON_STING_FAST": {
@@ -1115,7 +1115,7 @@
         "type": "POKEMON_TYPE_POISON",
         "power": 3.0,
         "energyDelta": 9,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "BUBBLE_FAST": {
@@ -1123,7 +1123,7 @@
         "type": "POKEMON_TYPE_WATER",
         "power": 8.0,
         "energyDelta": 11,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "FEINT_ATTACK_FAST": {
@@ -1131,7 +1131,7 @@
         "type": "POKEMON_TYPE_DARK",
         "power": 6.0,
         "energyDelta": 6,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "STEEL_WING_FAST": {
@@ -1139,7 +1139,7 @@
         "type": "POKEMON_TYPE_STEEL",
         "power": 7.0,
         "energyDelta": 7,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "FIRE_FANG_FAST": {
@@ -1147,7 +1147,7 @@
         "type": "POKEMON_TYPE_FIRE",
         "power": 8.0,
         "energyDelta": 5,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "ROCK_SMASH_FAST": {
@@ -1155,7 +1155,7 @@
         "type": "POKEMON_TYPE_FIGHTING",
         "power": 9.0,
         "energyDelta": 7,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "TRANSFORM_FAST": {
@@ -1163,7 +1163,7 @@
         "type": "POKEMON_TYPE_NORMAL",
         "energyDelta": 0,
         "power": 0,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "COUNTER_FAST": {
@@ -1171,7 +1171,7 @@
         "type": "POKEMON_TYPE_FIGHTING",
         "power": 8.0,
         "energyDelta": 7,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "POWDER_SNOW_FAST": {
@@ -1179,7 +1179,7 @@
         "type": "POKEMON_TYPE_ICE",
         "power": 5.0,
         "energyDelta": 8,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "CLOSE_COMBAT": {
@@ -1223,7 +1223,7 @@
         "type": "POKEMON_TYPE_ELECTRIC",
         "power": 5.0,
         "energyDelta": 11,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "VOLT_SWITCH_FAST": {
@@ -1231,7 +1231,7 @@
         "type": "POKEMON_TYPE_ELECTRIC",
         "power": 12.0,
         "energyDelta": 16,
-        "turns": 1,
+        "turns": 4,
         "usageType": "fast"
     },
     "WILD_CHARGE": {
@@ -1263,7 +1263,7 @@
         "type": "POKEMON_TYPE_DRAGON",
         "power": 13.0,
         "energyDelta": 9,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "AVALANCHE": {
@@ -1279,7 +1279,7 @@
         "type": "POKEMON_TYPE_FLYING",
         "power": 9.0,
         "energyDelta": 9,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "BRAVE_BIRD": {
@@ -1327,7 +1327,7 @@
         "type": "POKEMON_TYPE_BUG",
         "power": 6.0,
         "energyDelta": 12,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "STRUGGLE_BUG_FAST": {
@@ -1335,7 +1335,7 @@
         "type": "POKEMON_TYPE_BUG",
         "power": 9.0,
         "energyDelta": 8,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "SILVER_WIND": {
@@ -1356,7 +1356,7 @@
         "type": "POKEMON_TYPE_GHOST",
         "power": 9.0,
         "energyDelta": 10,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "HEX_FAST": {
@@ -1364,7 +1364,7 @@
         "type": "POKEMON_TYPE_GHOST",
         "power": 6.0,
         "energyDelta": 12,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "NIGHT_SHADE": {
@@ -1380,7 +1380,7 @@
         "type": "POKEMON_TYPE_STEEL",
         "power": 10.0,
         "energyDelta": 7,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "GYRO_BALL": {
@@ -1404,7 +1404,7 @@
         "type": "POKEMON_TYPE_FIRE",
         "power": 10.0,
         "energyDelta": 10,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "OVERHEAT": {
@@ -1424,7 +1424,7 @@
         "type": "POKEMON_TYPE_GRASS",
         "power": 5.0,
         "energyDelta": 13,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "GRASS_KNOT": {
@@ -1452,7 +1452,7 @@
         "type": "POKEMON_TYPE_PSYCHIC",
         "power": 8.0,
         "energyDelta": 10,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "FUTURESIGHT": {
@@ -1484,7 +1484,7 @@
         "type": "POKEMON_TYPE_DARK",
         "power": 5.0,
         "energyDelta": 13,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "CRUNCH": {
@@ -1512,7 +1512,7 @@
         "type": "POKEMON_TYPE_NORMAL",
         "power": 9.0,
         "energyDelta": 8,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "TAKE_DOWN_FAST": {
@@ -1520,7 +1520,7 @@
         "type": "POKEMON_TYPE_NORMAL",
         "power": 5.0,
         "energyDelta": 8,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "WATERFALL_FAST": {
@@ -1528,7 +1528,7 @@
         "type": "POKEMON_TYPE_WATER",
         "power": 12.0,
         "energyDelta": 8,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "SURF": {
@@ -1564,7 +1564,7 @@
         "type": "POKEMON_TYPE_NORMAL",
         "energyDelta": 12,
         "power": 0,
-        "turns": 1,
+        "turns": 4,
         "usageType": "fast"
     },
     "PSYCHO_BOOST": {
@@ -1600,7 +1600,7 @@
         "type": "POKEMON_TYPE_NORMAL",
         "power": 3.0,
         "energyDelta": 12,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "WEATHER_BALL_FIRE": {
@@ -1648,7 +1648,7 @@
         "type": "POKEMON_TYPE_ROCK",
         "power": 12.0,
         "energyDelta": 8,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "BLAST_BURN": {
@@ -1877,7 +1877,7 @@
         "type": "POKEMON_TYPE_FAIRY",
         "power": 15.0,
         "energyDelta": 6,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "GIGA_IMPACT": {
@@ -1925,7 +1925,7 @@
         "type": "POKEMON_TYPE_ELECTRIC",
         "power": 8.0,
         "energyDelta": 5,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "ICE_FANG_FAST": {
@@ -1933,7 +1933,7 @@
         "type": "POKEMON_TYPE_ICE",
         "power": 8.0,
         "energyDelta": 5,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "SACRED_SWORD": {
@@ -2078,7 +2078,7 @@
         "type": "POKEMON_TYPE_FLYING",
         "power": 16.0,
         "energyDelta": 12,
-        "turns": 1,
+        "turns": 4,
         "usageType": "fast"
     },
     "INCINERATE_FAST": {
@@ -2086,7 +2086,7 @@
         "type": "POKEMON_TYPE_FIRE",
         "power": 20.0,
         "energyDelta": 20,
-        "turns": 1,
+        "turns": 5,
         "usageType": "fast"
     },
     "FEATHER_DANCE": {
@@ -2106,7 +2106,7 @@
         "type": "POKEMON_TYPE_FAIRY",
         "power": 3.0,
         "energyDelta": 9,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "WEATHER_BALL_NORMAL": {
@@ -2134,7 +2134,7 @@
         "type": "POKEMON_TYPE_FIGHTING",
         "power": 8.0,
         "energyDelta": 12,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "MAGICAL_LEAF_FAST": {
@@ -2142,7 +2142,7 @@
         "type": "POKEMON_TYPE_GRASS",
         "power": 10.0,
         "energyDelta": 10,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "SACRED_FIRE": {
@@ -2258,7 +2258,7 @@
         "type": "POKEMON_TYPE_ROCK",
         "power": 5.0,
         "energyDelta": 13,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "SEED_FLARE": {
@@ -2311,7 +2311,7 @@
         "type": "POKEMON_TYPE_WATER",
         "power": 6.0,
         "energyDelta": 14,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "FUSION_BOLT": {
@@ -2427,7 +2427,7 @@
         "type": "POKEMON_TYPE_GRASS",
         "power": 6.0,
         "energyDelta": 7,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "MAGMA_STORM": {
@@ -2443,7 +2443,7 @@
         "type": "POKEMON_TYPE_FAIRY",
         "power": 4.0,
         "energyDelta": 13,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     },
     "SPACIAL_REND": {
@@ -2599,7 +2599,7 @@
         "type": "POKEMON_TYPE_STEEL",
         "power": 3.0,
         "energyDelta": 8,
-        "turns": 1,
+        "turns": 2,
         "usageType": "fast"
     },
     "SAND_ATTACK_FAST": {
@@ -2643,7 +2643,7 @@
         "type": "POKEMON_TYPE_FIGHTING",
         "power": 13.0,
         "energyDelta": 10,
-        "turns": 1,
+        "turns": 3,
         "usageType": "fast"
     }
 }

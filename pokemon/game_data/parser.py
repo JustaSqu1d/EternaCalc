@@ -265,7 +265,6 @@ def process_pokemon_move(entry):
     move_data: dict = entry["combatMove"]
 
     move_data.pop("vfxName", None)
-    move_data.pop("durationTurns", None)
 
     move_name = move_data["uniqueId"]
 
@@ -276,6 +275,7 @@ def process_pokemon_move(entry):
     move_data["power"] = move_data.get("power", 0)
 
     move_data["turns"] = move_data.get("durationTurns", 0)
+    move_data.pop("durationTurns", None)
 
     if move_name.endswith("_FAST"):
         move_data["usageType"] = "fast"
