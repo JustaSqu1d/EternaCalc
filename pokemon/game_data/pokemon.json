@@ -24225,7 +24225,8 @@
         ],
         "pokedex_number": 789,
         "pokemon_category": [
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_ULTRA_BEAST"
         ]
     },
     "COSMOEM": {
@@ -24246,7 +24247,8 @@
         ],
         "pokedex_number": 790,
         "pokemon_category": [
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_ULTRA_BEAST"
         ]
     },
     "SOLGALEO": {
@@ -24271,7 +24273,8 @@
         ],
         "pokedex_number": 791,
         "pokemon_category": [
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_ULTRA_BEAST"
         ]
     },
     "LUNALA": {
@@ -24296,7 +24299,8 @@
         ],
         "pokedex_number": 792,
         "pokemon_category": [
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_ULTRA_BEAST"
         ]
     },
     "NIHILEGO": {
