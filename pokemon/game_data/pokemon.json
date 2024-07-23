@@ -13720,6 +13720,34 @@
             "POKEMON_CLASS_REGULAR"
         ]
     },
+    "MEGA_LUCARIO": {
+        "name": "MEGA_LUCARIO",
+        "species": "LUCARIO",
+        "types": [
+            "POKEMON_TYPE_FIGHTING",
+            "POKEMON_TYPE_STEEL"
+        ],
+        "base_attack": 310,
+        "base_defense": 175,
+        "base_hp": 172,
+        "fast_move_pool": [
+            "COUNTER_FAST",
+            "BULLET_PUNCH_FAST"
+        ],
+        "charged_move_pool": [
+            "FLASH_CANNON",
+            "SHADOW_BALL",
+            "CLOSE_COMBAT",
+            "POWER_UP_PUNCH",
+            "AURA_SPHERE",
+            "BLAZE_KICK",
+            "THUNDER_PUNCH"
+        ],
+        "pokedex_number": 448,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
+    },
     "HIPPOPOTAS": {
         "name": "HIPPOPOTAS",
         "species": "HIPPOPOTAS",
@@ -18367,7 +18395,8 @@
         "base_hp": 198,
         "fast_move_pool": [
             "ACID_FAST",
-            "SPARK_FAST"
+            "SPARK_FAST",
+            "VOLT_SWITCH_FAST"
         ],
         "charged_move_pool": [
             "CRUNCH",

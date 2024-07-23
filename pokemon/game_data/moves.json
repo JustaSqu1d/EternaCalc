@@ -2637,5 +2637,13 @@
         },
         "turns": 0,
         "usageType": "charge"
+    },
+    "FORCE_PALM_FAST": {
+        "uniqueId": "FORCE_PALM_FAST",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 13.0,
+        "energyDelta": 10,
+        "turns": 1,
+        "usageType": "fast"
     }
 }
