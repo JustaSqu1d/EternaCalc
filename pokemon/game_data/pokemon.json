@@ -29486,8 +29486,8 @@
             "POKEMON_CLASS_REGULAR"
         ]
     },
-    "IRONBUNDLE": {
-        "name": "IRONBUNDLE",
+    "IRON_BUNDLE": {
+        "name": "IRON_BUNDLE",
         "species": "IRONBUNDLE",
         "types": [
             "POKEMON_TYPE_ICE",
