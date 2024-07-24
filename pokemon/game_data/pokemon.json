@@ -26433,8 +26433,8 @@
             "POKEMON_CLASS_REGULAR"
         ]
     },
-    "INDEEDEE": {
-        "name": "INDEEDEE",
+    "INDEEDEE_MALE": {
+        "name": "INDEEDEE_MALE",
         "species": "INDEEDEE",
         "types": [
             "POKEMON_TYPE_PSYCHIC",
@@ -27648,8 +27648,8 @@
             "POKEMON_CLASS_REGULAR"
         ]
     },
-    "OINKOLOGNE": {
-        "name": "OINKOLOGNE",
+    "OINKOLOGNE_MALE": {
+        "name": "OINKOLOGNE_MALE",
         "species": "OINKOLOGNE",
         "types": [
             "POKEMON_TYPE_NORMAL",
