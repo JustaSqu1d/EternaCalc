@@ -113,7 +113,7 @@
     },
     "Rock": {
         "Fire": "SUPER_EFFECTIVE",
-        "Ice": "NOT_VERY_EFFECTIVE",
+        "Ice": "SUPER_EFFECTIVE",
         "Fighting": "NOT_VERY_EFFECTIVE",
         "Ground": "NOT_VERY_EFFECTIVE",
         "Flying": "SUPER_EFFECTIVE",
@@ -151,7 +151,6 @@
         "Fire": "NOT_VERY_EFFECTIVE",
         "Fighting": "SUPER_EFFECTIVE",
         "Poison": "NOT_VERY_EFFECTIVE",
-        "Bug": "SUPER_EFFECTIVE",
         "Dragon": "SUPER_EFFECTIVE",
         "Dark": "SUPER_EFFECTIVE",
         "Steel": "NOT_VERY_EFFECTIVE"
