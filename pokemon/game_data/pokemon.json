@@ -7612,6 +7612,23 @@
             "POKEMON_CLASS_REGULAR"
         ]
     },
+    "SMEARGLE": {
+        "name": "SMEARGLE",
+        "species": "SMEARGLE",
+        "types": [
+            "POKEMON_TYPE_NORMAL",
+            null
+        ],
+        "base_attack": 40,
+        "base_defense": 83,
+        "base_hp": 146,
+        "fast_move_pool": [],
+        "charged_move_pool": [],
+        "pokedex_number": 235,
+        "pokemon_category": [
+            "POKEMON_CLASS_REGULAR"
+        ]
+    },
     "TYROGUE": {
         "name": "TYROGUE",
         "species": "TYROGUE",
