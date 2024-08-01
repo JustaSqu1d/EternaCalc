@@ -210,7 +210,7 @@ if __name__ == "__main__":
                         )
 
                     st.write("##### Configurations")
-                    level1 = st.number_input("Level", min_value=1.0, max_value=51.0, value=40.0, step=0.5,
+                    level1 = st.number_input("Level", min_value=1.0, max_value=55.0, value=40.0, step=0.5,
                                              format="%.1f")
                     level1 = int(level1 * 2) / 2  # Round to nearest 0.5
                 else:
@@ -301,7 +301,7 @@ if __name__ == "__main__":
                         )
 
                     st.write("##### Configurations")
-                    level2 = st.number_input("Level ", min_value=1.0, max_value=51.0, value=40.0, step=0.5,
+                    level2 = st.number_input("Level ", min_value=1.0, max_value=55.0, value=40.0, step=0.5,
                                              format="%.1f")
                     level2 = int(level2 * 2) / 2  # Round to nearest 0.5
                 else:
