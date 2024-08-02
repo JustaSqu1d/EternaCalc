@@ -49,6 +49,7 @@ MANUAL_MOVE_CHANGES = {
 }
 
 MANUAL_MOVE_ADDITIONS = {
+    "TOXICROAK": {"name": "ICY_WIND", "type": "charged"},
     "DIALGA_ORIGIN": {"name": "ROAR_OF_TIME", "type": "charged"},
     "PALKIA_ORIGIN": {"name": "SPACIAL_REND", "type": "charged"},
     "NECROZMA_DUSK_MANE": {"name": "SUNSTEEL_STRIKE", "type": "charged"},

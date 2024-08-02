@@ -13915,7 +13915,8 @@
             "DYNAMIC_PUNCH",
             "MUD_BOMB",
             "SLUDGE_BOMB",
-            "SHADOW_BALL"
+            "SHADOW_BALL",
+            "ICY_WIND"
         ],
         "pokedex_number": 454,
         "pokemon_category": [
