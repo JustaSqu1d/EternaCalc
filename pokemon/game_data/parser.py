@@ -78,6 +78,7 @@ def is_same(pokemon1, pokemon2):
             pokemon1["charged_move_pool"] == pokemon2["charged_move_pool"]
             )
 
+
 def fetch_game_data():
     raw_data = requests.get(
         "https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json").json()
@@ -120,6 +121,8 @@ def parse_pokemon_data(template_id, data):
     for move in pokemon_data.get("nonTmCinematicMoves", {}):
         charged_move_pool.append(move)
 
+    pokemon_category = get_pokemon_category(pokemon_data)
+
     return {
         "name": name,
         "species": species,
@@ -130,8 +133,26 @@ def parse_pokemon_data(template_id, data):
         "fast_move_pool": fast_move_pool,
         "charged_move_pool": charged_move_pool,
         "pokedex_number": pokedex_number,
-        "pokemon_category": [pokemon_data.get("pokemonClass", "POKEMON_CLASS_REGULAR")]
+        "pokemon_category": pokemon_category
     }
+
+
+def get_pokemon_category(pokemon_data) -> list:
+    if pokemon_data.get("tempEvoId"):
+        if pokemon_data.get("tempEvoId") == "TEMP_EVOLUTION_MEGA" or pokemon_data.get(
+                "tempEvoId") == "TEMP_EVOLUTION_MEGA_X" or pokemon_data.get("tempEvoId") == "TEMP_EVOLUTION_MEGA_Y":
+            return ["POKEMON_CLASS_MEGA"]
+
+        if pokemon_data.get("tempEvoId") == "TEMP_EVOLUTION_PRIMAL":
+            return ["POKEMON_CLASS_PRIMAL"]
+
+    categories = [pokemon_data.get("pokemonClass", "POKEMON_CLASS_REGULAR")]
+
+    if pokemon_data.get("shadow"):
+        categories.append("POKEMON_CLASS_SHADOW_ELIGIBLE")
+
+    return list(set(categories))
+
 
 def check_for_existing_pokemon(pokemon_data):
     for pokemon in pokemon_json:
@@ -156,6 +177,7 @@ def check_for_existing_pokemon(pokemon_data):
     else:
         return False
 
+
 def apply_manual_changes(pokemon_data):
     name = pokemon_data["name"]
     fast_move_pool = pokemon_data["fast_move_pool"]
@@ -175,8 +197,8 @@ def apply_manual_changes(pokemon_data):
         pokemon_data["fast_move_pool"] = fast_move_pool
         pokemon_data["charged_move_pool"] = charged_move_pool
 
-    if name in MANUAL_CATEGORY_CHANGES:
-        pokemon_data["pokemon_category"].append(MANUAL_CATEGORY_CHANGES[name])
+    if pokemon_data.get("name") in MANUAL_CATEGORY_CHANGES:
+        pokemon_data["pokemon_category"].append(MANUAL_CATEGORY_CHANGES.get(pokemon_data.get("name")))
 
     return pokemon_data
 
@@ -184,8 +206,8 @@ def apply_manual_changes(pokemon_data):
 def has_temp_evo_overrides(raw_data):
     return raw_data.get("pokemonSettings", {}).get("tempEvoOverrides") is not None
 
-def process_temp_evo_overrides(pokemon_data, raw_data):
 
+def process_temp_evo_overrides(pokemon_data, raw_data):
     for evolution in raw_data.get("pokemonSettings", {}).get("tempEvoOverrides"):
 
         name = pokemon_data.get("name")
@@ -213,8 +235,6 @@ def process_temp_evo_overrides(pokemon_data, raw_data):
             "baseAttack"), evolution.get("stats").get("baseDefense"), evolution.get("stats").get(
             "baseStamina")
 
-        new_category = "POKEMON_CLASS_MEGA" if "MEGA" in new_name else "POKEMON_CLASS_PRIMAL"
-
         yield {
             "name": new_name,
             "species": pokemon_data.get("species"),
@@ -225,8 +245,9 @@ def process_temp_evo_overrides(pokemon_data, raw_data):
             "fast_move_pool": pokemon_data.get("fast_move_pool"),
             "charged_move_pool": pokemon_data.get("charged_move_pool"),
             "pokedex_number": pokemon_data.get("pokedex_number"),
-            "pokemon_category": [new_category],
+            "pokemon_category": get_pokemon_category(evolution)
         }
+
 
 def process_pokemon_data(data):
     template_id = data.get("templateId")
