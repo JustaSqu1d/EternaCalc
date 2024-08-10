@@ -123,6 +123,8 @@ def parse_pokemon_data(template_id, data):
 
     pokemon_category = get_pokemon_category(pokemon_data)
 
+    name = process_pokemon_name(name, species)
+
     return {
         "name": name,
         "species": species,
@@ -151,7 +153,7 @@ def get_pokemon_category(pokemon_data) -> list:
     if pokemon_data.get("shadow"):
         categories.append("POKEMON_CLASS_SHADOW_ELIGIBLE")
 
-    return list(set(categories))
+    return sorted(list(set(categories)))
 
 
 def check_for_existing_pokemon(pokemon_data):
@@ -284,6 +286,12 @@ def process_pokemon_data(data):
             final_pokemon_data.append(data)
 
     return final_pokemon_data
+
+
+def process_pokemon_name(name, species):
+    if name == "NIDORAN":
+        return species
+    return name
 
 
 def process_pokemon_move(entry):

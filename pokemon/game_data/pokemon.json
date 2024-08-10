@@ -1187,26 +1187,26 @@
             "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
-    "NIDORAN": {
-        "name": "NIDORAN",
-        "species": "NIDORAN_MALE",
+    "NIDORAN_FEMALE": {
+        "name": "NIDORAN_FEMALE",
+        "species": "NIDORAN_FEMALE",
         "types": [
             "POKEMON_TYPE_POISON",
             null
         ],
-        "base_attack": 105,
-        "base_defense": 76,
-        "base_hp": 130,
+        "base_attack": 86,
+        "base_defense": 89,
+        "base_hp": 146,
         "fast_move_pool": [
-            "PECK_FAST",
+            "BITE_FAST",
             "POISON_STING_FAST"
         ],
         "charged_move_pool": [
-            "HORN_ATTACK",
+            "POISON_FANG",
             "BODY_SLAM",
             "SLUDGE_BOMB"
         ],
-        "pokedex_number": 32,
+        "pokedex_number": 29,
         "pokemon_category": [
             "POKEMON_CLASS_REGULAR",
             "POKEMON_CLASS_SHADOW_ELIGIBLE"
@@ -1260,6 +1260,31 @@
             "POISON_FANG"
         ],
         "pokedex_number": 31,
+        "pokemon_category": [
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
+        ]
+    },
+    "NIDORAN_MALE": {
+        "name": "NIDORAN_MALE",
+        "species": "NIDORAN_MALE",
+        "types": [
+            "POKEMON_TYPE_POISON",
+            null
+        ],
+        "base_attack": 105,
+        "base_defense": 76,
+        "base_hp": 130,
+        "fast_move_pool": [
+            "PECK_FAST",
+            "POISON_STING_FAST"
+        ],
+        "charged_move_pool": [
+            "HORN_ATTACK",
+            "BODY_SLAM",
+            "SLUDGE_BOMB"
+        ],
+        "pokedex_number": 32,
         "pokemon_category": [
             "POKEMON_CLASS_REGULAR",
             "POKEMON_CLASS_SHADOW_ELIGIBLE"
@@ -5092,8 +5117,8 @@
         ],
         "pokedex_number": 144,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "ARTICUNO_GALARIAN": {
@@ -5117,8 +5142,8 @@
         ],
         "pokedex_number": 144,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "ZAPDOS": {
@@ -5144,8 +5169,8 @@
         ],
         "pokedex_number": 145,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "ZAPDOS_GALARIAN": {
@@ -5168,8 +5193,8 @@
         ],
         "pokedex_number": 145,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "MOLTRES": {
@@ -5195,8 +5220,8 @@
         ],
         "pokedex_number": 146,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "MOLTRES_GALARIAN": {
@@ -5220,8 +5245,8 @@
         ],
         "pokedex_number": 146,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "DRATINI": {
@@ -5331,8 +5356,8 @@
         ],
         "pokedex_number": 150,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "MEWTWO_A": {
@@ -5358,8 +5383,8 @@
         ],
         "pokedex_number": 150,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "MEW": {
@@ -8035,8 +8060,8 @@
         ],
         "pokedex_number": 243,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "ENTEI": {
@@ -8063,8 +8088,8 @@
         ],
         "pokedex_number": 244,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "SUICUNE": {
@@ -8092,8 +8117,8 @@
         ],
         "pokedex_number": 245,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "LARVITAR": {
@@ -8221,8 +8246,8 @@
         ],
         "pokedex_number": 249,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "HO_OH": {
@@ -8250,8 +8275,8 @@
         ],
         "pokedex_number": 250,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "CELEBI": {
@@ -11918,8 +11943,8 @@
         ],
         "pokedex_number": 377,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "REGICE": {
@@ -11945,8 +11970,8 @@
         ],
         "pokedex_number": 378,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "REGISTEEL": {
@@ -11972,8 +11997,8 @@
         ],
         "pokedex_number": 379,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "LATIAS": {
@@ -11999,8 +12024,8 @@
         ],
         "pokedex_number": 380,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "MEGA_LATIAS": {
@@ -12051,8 +12076,8 @@
         ],
         "pokedex_number": 381,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "MEGA_LATIOS": {
@@ -12102,8 +12127,8 @@
         ],
         "pokedex_number": 382,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "PRIMAL_KYOGRE": {
@@ -12154,8 +12179,8 @@
         ],
         "pokedex_number": 383,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "PRIMAL_GROUDON": {
@@ -15282,8 +15307,8 @@
         ],
         "pokedex_number": 486,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "GIRATINA": {
@@ -22196,8 +22221,8 @@
         ],
         "pokedex_number": 718,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "ZYGARDE_COMPLETE": {
@@ -22224,8 +22249,8 @@
         ],
         "pokedex_number": 718,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "ZYGARDE_COMPLETE_TEN_PERCENT": {
@@ -22252,8 +22277,8 @@
         ],
         "pokedex_number": 718,
         "pokemon_category": [
-            "POKEMON_CLASS_SHADOW_ELIGIBLE",
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "DIANCIE": {
