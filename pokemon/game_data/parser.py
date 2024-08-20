@@ -45,7 +45,7 @@ MANUAL_NAME_CHANGES = {
 MANUAL_MOVE_CHANGES = {
     404: "SUNSTEEL_STRIKE",
     405: "MOONGEIST_BEAM",
-    462: "FORCE_PALM_FAST",
+    "V0462_MOVE_FORCE_PALM_FAST": "FORCE_PALM_FAST",
 }
 
 MANUAL_MOVE_ADDITIONS = {
@@ -198,6 +198,15 @@ def apply_manual_changes(pokemon_data):
 
         pokemon_data["fast_move_pool"] = fast_move_pool
         pokemon_data["charged_move_pool"] = charged_move_pool
+
+    for move in fast_move_pool + charged_move_pool:
+        if move in MANUAL_MOVE_CHANGES:
+            if move in fast_move_pool:
+                fast_move_pool.remove(move)
+                fast_move_pool.append(MANUAL_MOVE_CHANGES[move])
+            elif move in charged_move_pool:
+                charged_move_pool.remove(move)
+                charged_move_pool.append(MANUAL_MOVE_CHANGES[move])
 
     if pokemon_data.get("name") in MANUAL_CATEGORY_CHANGES:
         pokemon_data["pokemon_category"].append(MANUAL_CATEGORY_CHANGES.get(pokemon_data.get("name")))

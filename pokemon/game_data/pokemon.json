@@ -14075,7 +14075,8 @@
         "base_hp": 172,
         "fast_move_pool": [
             "COUNTER_FAST",
-            "BULLET_PUNCH_FAST"
+            "BULLET_PUNCH_FAST",
+            "FORCE_PALM_FAST"
         ],
         "charged_move_pool": [
             "FLASH_CANNON",
@@ -14103,7 +14104,8 @@
         "base_hp": 172,
         "fast_move_pool": [
             "COUNTER_FAST",
-            "BULLET_PUNCH_FAST"
+            "BULLET_PUNCH_FAST",
+            "FORCE_PALM_FAST"
         ],
         "charged_move_pool": [
             "FLASH_CANNON",
@@ -15383,7 +15385,8 @@
         ],
         "pokedex_number": 488,
         "pokemon_category": [
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "PHIONE": {
@@ -16931,7 +16934,8 @@
         ],
         "pokedex_number": 532,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "GURDURR": {
@@ -16955,7 +16959,8 @@
         ],
         "pokedex_number": 533,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "CONKELDURR": {
@@ -16980,7 +16985,8 @@
         ],
         "pokedex_number": 534,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "TYMPOLE": {
@@ -17846,7 +17852,8 @@
         ],
         "pokedex_number": 564,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "CARRACOSTA": {
@@ -17871,7 +17878,8 @@
         ],
         "pokedex_number": 565,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "ARCHEN": {
@@ -17895,7 +17903,8 @@
         ],
         "pokedex_number": 566,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "ARCHEOPS": {
@@ -17919,7 +17928,8 @@
         ],
         "pokedex_number": 567,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "TRUBBISH": {
@@ -19236,7 +19246,8 @@
         "charged_move_pool": [
             "BRICK_BREAK",
             "LOW_SWEEP",
-            "FOCUS_BLAST"
+            "FOCUS_BLAST",
+            "HIGH_JUMP_KICK"
         ],
         "pokedex_number": 619,
         "pokemon_category": [
