@@ -45,9 +45,9 @@ def calculate_damage_ranges(attacker: Pokemon, defender: Pokemon, move: Move) ->
 
     if move.usage_type == "charge":
 
-        damage_rolls = set()
+        damage_rolls = list()
 
-        damage_rolls.add(1)  # damage if the move is shielded
+        damage_rolls.append(1)  # damage if the move is shielded
 
         circles = get_type_circle(move.type)
 
@@ -57,7 +57,7 @@ def calculate_damage_ranges(attacker: Pokemon, defender: Pokemon, move: Move) ->
             damage = int(
                 half_circle_rule * move.power * attack / defense * base_percentage * modifiers
             ) + 1
-            damage_rolls.add(damage)
+            damage_rolls.append(damage)
             base_percentage += 0.75 / circles
             base_percentage = min(base_percentage, 1.0)
 
