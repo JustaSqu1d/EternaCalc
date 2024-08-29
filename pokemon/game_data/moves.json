@@ -2645,5 +2645,13 @@
         "energyDelta": 10,
         "turns": 3,
         "usageType": "fast"
+    },
+    "SPARKLING_ARIA": {
+        "uniqueId": "SPARKLING_ARIA",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 80.0,
+        "energyDelta": 45,
+        "turns": 0,
+        "usageType": "charge"
     }
 }

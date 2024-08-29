@@ -7506,6 +7506,30 @@
             "POKEMON_CLASS_REGULAR"
         ]
     },
+    "CORSOLA_GALARIAN": {
+        "name": "CORSOLA_GALARIAN",
+        "species": "CORSOLA",
+        "types": [
+            "POKEMON_TYPE_GHOST",
+            null
+        ],
+        "base_attack": 116,
+        "base_defense": 182,
+        "base_hp": 155,
+        "fast_move_pool": [
+            "TACKLE_FAST",
+            "ASTONISH_FAST"
+        ],
+        "charged_move_pool": [
+            "ROCK_BLAST",
+            "POWER_GEM",
+            "NIGHT_SHADE"
+        ],
+        "pokedex_number": 222,
+        "pokemon_category": [
+            "POKEMON_CLASS_REGULAR"
+        ]
+    },
     "REMORAID": {
         "name": "REMORAID",
         "species": "REMORAID",
@@ -25366,7 +25390,7 @@
         "base_hp": 137,
         "fast_move_pool": [
             "TACKLE_FAST",
-            "EMBER_FAST"
+            "FIRE_SPIN_FAST"
         ],
         "charged_move_pool": [
             "FLAME_CHARGE",
@@ -25389,7 +25413,7 @@
         "base_hp": 163,
         "fast_move_pool": [
             "TACKLE_FAST",
-            "EMBER_FAST"
+            "FIRE_SPIN_FAST"
         ],
         "charged_move_pool": [
             "FLAME_CHARGE",
@@ -25412,7 +25436,7 @@
         "base_hp": 190,
         "fast_move_pool": [
             "TACKLE_FAST",
-            "EMBER_FAST"
+            "FIRE_SPIN_FAST"
         ],
         "charged_move_pool": [
             "FLAME_CHARGE",
@@ -26586,19 +26610,17 @@
         "base_defense": 182,
         "base_hp": 155,
         "fast_move_pool": [
-            "ASTONISH_FAST",
-            "HEX_FAST"
+            "TACKLE_FAST",
+            "ASTONISH_FAST"
         ],
         "charged_move_pool": [
             "ROCK_BLAST",
-            "BRINE",
-            "NIGHT_SHADE",
-            "SHADOW_BALL"
+            "POWER_GEM",
+            "NIGHT_SHADE"
         ],
         "pokedex_number": 864,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR",
-            "POKEMON_CLASS_SHADOW_ELIGIBLE"
+            "POKEMON_CLASS_REGULAR"
         ]
     },
     "SIRFETCHD": {
@@ -27189,13 +27211,14 @@
         "base_defense": 170,
         "base_hp": 204,
         "fast_move_pool": [
-            "HEX_FAST",
+            "ASTONISH_FAST",
             "DRAGON_TAIL_FAST"
         ],
         "charged_move_pool": [
             "DRAGON_PULSE",
             "SHADOW_BALL",
-            "OUTRAGE"
+            "OUTRAGE",
+            "BREAKING_SWIPE"
         ],
         "pokedex_number": 887,
         "pokemon_category": [
