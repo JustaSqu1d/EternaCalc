@@ -67,6 +67,10 @@ MANUAL_CATEGORY_CHANGES = {
     "NECROZMA_ULTRA": "POKEMON_CLASS_ULTRA_BEAST",
 }
 
+SKIPPED_POKEMON_IDS = [
+    "WORMADAM"
+]
+
 
 def is_same(pokemon1, pokemon2):
     return (pokemon1["species"] == pokemon2["species"] and
@@ -104,6 +108,9 @@ def parse_pokemon_data(template_id, data):
     base_defense = pokemon_data.get("stats", {}).get("baseDefense")
     base_hp = pokemon_data.get("stats", {}).get("baseStamina")
     pokedex_number = int(template_id.split("V")[1].split("_POKEMON")[0])
+
+    if name in SKIPPED_POKEMON_IDS:
+        return None
 
     fast_move_pool = []
 
