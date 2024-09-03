@@ -1392,7 +1392,8 @@
             "PSYCHIC",
             "MOONBLAST",
             "METEOR_MASH",
-            "SWIFT"
+            "SWIFT",
+            "DRAINING_KISS"
         ],
         "pokedex_number": 36,
         "pokemon_category": [
@@ -3032,6 +3033,7 @@
             "PSYCHIC",
             "SLUDGE_BOMB",
             "SCALD",
+            "BRUTAL_SWING",
             "SURF"
         ],
         "pokedex_number": 80,
@@ -5620,7 +5622,8 @@
             "FIRE_PUNCH",
             "WILD_CHARGE",
             "SHADOW_BALL",
-            "OVERHEAT"
+            "OVERHEAT",
+            "NIGHT_SHADE"
         ],
         "pokedex_number": 157,
         "pokemon_category": [
@@ -5841,7 +5844,8 @@
         "base_hp": 146,
         "fast_move_pool": [
             "STRUGGLE_BUG_FAST",
-            "BUG_BITE_FAST"
+            "BUG_BITE_FAST",
+            "COUNTER_FAST"
         ],
         "charged_move_pool": [
             "BUG_BUZZ",
@@ -6103,7 +6107,8 @@
         "charged_move_pool": [
             "ANCIENT_POWER",
             "DAZZLING_GLEAM",
-            "AERIAL_ACE"
+            "AERIAL_ACE",
+            "DRAINING_KISS"
         ],
         "pokedex_number": 176,
         "pokemon_category": [
@@ -6925,7 +6930,8 @@
         "base_hp": 181,
         "fast_move_pool": [
             "BUG_BITE_FAST",
-            "STRUGGLE_BUG_FAST"
+            "STRUGGLE_BUG_FAST",
+            "VOLT_SWITCH_FAST"
         ],
         "charged_move_pool": [
             "HEAVY_SLAM",
@@ -9357,7 +9363,8 @@
         "base_hp": 155,
         "fast_move_pool": [
             "COUNTER_FAST",
-            "BULLET_SEED_FAST"
+            "BULLET_SEED_FAST",
+            "FORCE_PALM_FAST"
         ],
         "charged_move_pool": [
             "DYNAMIC_PUNCH",
@@ -9628,7 +9635,8 @@
         "base_hp": 302,
         "fast_move_pool": [
             "COUNTER_FAST",
-            "BULLET_PUNCH_FAST"
+            "BULLET_PUNCH_FAST",
+            "FORCE_PALM_FAST"
         ],
         "charged_move_pool": [
             "HEAVY_SLAM",
@@ -11391,7 +11399,8 @@
         "charged_move_pool": [
             "STOMP",
             "AERIAL_ACE",
-            "LEAF_BLADE"
+            "LEAF_BLADE",
+            "BRUTAL_SWING"
         ],
         "pokedex_number": 357,
         "pokemon_category": [
@@ -13905,7 +13914,8 @@
         "charged_move_pool": [
             "SHADOW_SNEAK",
             "OMINOUS_WIND",
-            "SHADOW_BALL"
+            "SHADOW_BALL",
+            "ROCK_TOMB"
         ],
         "pokedex_number": 442,
         "pokemon_category": [
@@ -14531,7 +14541,8 @@
         "base_hp": 242,
         "fast_move_pool": [
             "LICK_FAST",
-            "ZEN_HEADBUTT_FAST"
+            "ZEN_HEADBUTT_FAST",
+            "ROLLOUT_FAST"
         ],
         "charged_move_pool": [
             "HYPER_BEAM",
@@ -14913,6 +14924,7 @@
             "PSYCHIC",
             "DARK_PULSE",
             "POLTERGEIST",
+            "SHADOW_PUNCH",
             "SHADOW_BALL"
         ],
         "pokedex_number": 477,
@@ -18000,7 +18012,8 @@
         "charged_move_pool": [
             "FOUL_PLAY",
             "AERIAL_ACE",
-            "DARK_PULSE"
+            "DARK_PULSE",
+            "NIGHT_SHADE"
         ],
         "pokedex_number": 570,
         "pokemon_category": [
@@ -18024,7 +18037,8 @@
         "charged_move_pool": [
             "FOUL_PLAY",
             "SLUDGE_BOMB",
-            "FLAMETHROWER"
+            "FLAMETHROWER",
+            "NIGHT_SHADE"
         ],
         "pokedex_number": 571,
         "pokemon_category": [
@@ -19268,13 +19282,15 @@
         "base_hp": 163,
         "fast_move_pool": [
             "LOW_KICK_FAST",
-            "POISON_JAB_FAST"
+            "POISON_JAB_FAST",
+            "FORCE_PALM_FAST"
         ],
         "charged_move_pool": [
             "BRICK_BREAK",
             "GRASS_KNOT",
             "STONE_EDGE",
-            "BLAZE_KICK"
+            "BLAZE_KICK",
+            "BRUTAL_SWING"
         ],
         "pokedex_number": 620,
         "pokemon_category": [
@@ -20946,7 +20962,8 @@
         "fast_move_pool": [
             "LOW_KICK_FAST",
             "SNARL_FAST",
-            "BULLET_PUNCH_FAST"
+            "BULLET_PUNCH_FAST",
+            "KARATE_CHOP_FAST"
         ],
         "charged_move_pool": [
             "CLOSE_COMBAT",
@@ -22513,7 +22530,8 @@
             "TRAILBLAZE",
             "ENERGY_BALL",
             "AURA_SPHERE",
-            "AERIAL_ACE"
+            "AERIAL_ACE",
+            "NIGHT_SHADE"
         ],
         "pokedex_number": 724,
         "pokemon_category": [
@@ -22662,7 +22680,9 @@
             "PSYCHIC",
             "HYDRO_PUMP",
             "MOONBLAST",
-            "DISARMING_VOICE"
+            "DISARMING_VOICE",
+            "SPARKLING_ARIA",
+            "HYDRO_CANNON"
         ],
         "pokedex_number": 730,
         "pokemon_category": [
@@ -23052,7 +23072,8 @@
         ],
         "charged_move_pool": [
             "DAZZLING_GLEAM",
-            "BUG_BUZZ"
+            "BUG_BUZZ",
+            "DRAINING_KISS"
         ],
         "pokedex_number": 743,
         "pokemon_category": [
@@ -23672,7 +23693,8 @@
             "PSYCHIC",
             "FOUL_PLAY",
             "FUTURESIGHT",
-            "TRAILBLAZE"
+            "TRAILBLAZE",
+            "BRUTAL_SWING"
         ],
         "pokedex_number": 765,
         "pokemon_category": [
@@ -23697,7 +23719,8 @@
         "charged_move_pool": [
             "BRICK_BREAK",
             "CLOSE_COMBAT",
-            "SUPER_POWER"
+            "SUPER_POWER",
+            "BRUTAL_SWING"
         ],
         "pokedex_number": 766,
         "pokemon_category": [
@@ -24632,6 +24655,7 @@
             "MOONBLAST",
             "FOCUS_BLAST",
             "FUTURESIGHT",
+            "DRAINING_KISS",
             "NATURES_MADNESS"
         ],
         "pokedex_number": 786,
@@ -26672,7 +26696,8 @@
         "charged_move_pool": [
             "SHADOW_BALL",
             "SAND_TOMB",
-            "ROCK_TOMB"
+            "ROCK_TOMB",
+            "BRUTAL_SWING"
         ],
         "pokedex_number": 867,
         "pokemon_category": [
