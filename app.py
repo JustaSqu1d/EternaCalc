@@ -17,9 +17,9 @@ def display_calculated_damage(move, attacker, target):
     low_damage = damage[0]
     high_damage = damage[-1]
 
-    times = ceil(target.get_true_hp() / high_damage)
-    if times == 1:
-        times = "O"
+    hits_to_ko = ceil(target.get_true_hp() / high_damage)
+    if hits_to_ko == 1:
+        hits_to_ko = "O"
 
     attacker_string = f"**{attacker.attack_iv} Atk IV Level {attacker.level} {attacker}**"
     if attacker.shadow:
@@ -38,7 +38,7 @@ def display_calculated_damage(move, attacker, target):
         target_string = f"{target.defense_stages} {target_string}"
 
     try:
-        damage_per_energy = round(high_damage / move.energy, 1)
+        damage_per_energy = round(high_damage / move.energy, 2)
     except ZeroDivisionError:
         damage_per_energy = "∞"
 
@@ -54,13 +54,70 @@ def display_calculated_damage(move, attacker, target):
     st.write(
         f"**{attacker_string} {move.name} vs. {target_string}**"
     )
-    st.write(f"""{effectiveness_text}  
-            **{low_damage} - {high_damage} ({low_percentage}% - {high_percentage}%) -- {times}HKO**
+    st.write(f"""{effectiveness_text}
+            **{low_damage} - {high_damage} ({low_percentage}% - {high_percentage}%) -- {hits_to_ko}HKO**
             """)
     if move.usage_type == "charge":
         st.write(damage_rolls_string)
     st.write(f"""**{damage_per_energy} dpe**  
             {move.energy} energy""")
+
+    if move.usage_type == "charge":
+        total_bubble_count = len(damage) - 1  # The first element is the shielded damage
+        bubble_list = []
+        for i in range(0, total_bubble_count):
+
+            percent_complete = i / TYPE_EXCELLENT_THRESHOLDS[move.type]
+            nice_threshold = 0.25
+            great_threshold = 0.5
+
+            if i == total_bubble_count - 1:
+                bubble_list.append(f"{i}+ (Excellent)")
+            elif percent_complete >= great_threshold:
+                bubble_list.append(f"{i} (Great)")
+            elif percent_complete >= nice_threshold:
+                bubble_list.append(f"{i} (Nice)")
+            else:
+                bubble_list.append(f"{i}")
+
+        damgae_rolls = damage[1:]
+
+        percentage_list = []
+        for damage_roll in damage[1:]:
+            percentage_list.append(round(damage_roll / target.get_true_hp() * 100, 2))
+
+        damage_rolls_df = pd.DataFrame({
+            "bubbles": bubble_list,
+            "damage": damgae_rolls,
+            "percentage": percentage_list
+        })
+
+        st.dataframe(
+            damage_rolls_df,
+            column_config={
+                "bubbles": st.column_config.Column(
+                    label="Bubbles",
+                    help="Number of bubbles swiped",
+                    width="medium",
+                    disabled=True
+                ),
+                "damage": st.column_config.NumberColumn(
+                    label="Damage",
+                    help="Damage dealt",
+                    width="small",
+                    disabled=True
+                ),
+                "percentage": st.column_config.ProgressColumn(
+                    label="Percentage",
+                    help="Percentage of target's HP",
+                    format="%.1f %%",
+                    min_value=0,
+                    max_value=100,
+                    width="medium"
+                )},
+            height=1000,
+            hide_index=True
+        )
 
 
 def load_data():
