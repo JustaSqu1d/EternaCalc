@@ -55,7 +55,7 @@ def display_calculated_damage(move, attacker, target):
         f"**{attacker_string} {move.name} vs. {target_string}**"
     )
     st.write(f"{effectiveness_text}")
-    st.write("**{low_damage} - {high_damage} ({low_percentage}% - {high_percentage}%) -- {hits_to_ko}HKO**")
+    st.write(f"**{low_damage} - {high_damage} ({low_percentage}% - {high_percentage}%) -- {hits_to_ko}HKO**")
 
     if move.usage_type == "charge":
         st.write(damage_rolls_string)
