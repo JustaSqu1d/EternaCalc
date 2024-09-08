@@ -1,10 +1,11 @@
 import json
 from math import ceil
 
+import pandas as pd
 import streamlit as st
 
 from pokemon import Species, Pokemon, calculate_damage_ranges, Move, parse_type_string, Type, get_path_to_file, \
-    get_type_multiplier
+    get_type_multiplier, TYPE_EXCELLENT_THRESHOLDS
 
 
 def display_calculated_damage(move, attacker, target):
@@ -373,7 +374,7 @@ if __name__ == "__main__":
                     st.write(f"CP: {pokemon1.get_cp()}")
                     st.write(f"Level: {pokemon1.level}")
 
-                    attack1 = round(pokemon1.get_true_attack(), 1)
+                    attack1 = round(pokemon1.get_true_attack(), 2)
 
                     if pokemon1.attack_stages > 0:
                         st.write(f"Attack: :green[{attack1}]")
@@ -382,7 +383,7 @@ if __name__ == "__main__":
                     else:
                         st.write(f"Attack: {attack1}")
 
-                    defense1 = round(pokemon1.get_true_defense(), 1)
+                    defense1 = round(pokemon1.get_true_defense(), 2)
 
                     if pokemon1.defense_stages > 0:
                         st.write(f"Defense: :green[{defense1}]")
@@ -418,7 +419,7 @@ if __name__ == "__main__":
                     st.write(f"CP: {pokemon2.get_cp()}")
                     st.write(f"Level: {pokemon2.level}")
 
-                    attack2 = round(pokemon2.get_true_attack(), 1)
+                    attack2 = round(pokemon2.get_true_attack(), 2)
 
                     if pokemon2.attack_stages > 0:
                         st.write(f"Attack: :green[{attack2}]")
@@ -427,7 +428,7 @@ if __name__ == "__main__":
                     else:
                         st.write(f"Attack: {attack2}")
 
-                    defense2 = round(pokemon2.get_true_defense(), 1)
+                    defense2 = round(pokemon2.get_true_defense(), 2)
 
                     if pokemon2.defense_stages > 0:
                         st.write(f"Defense: :green[{defense2}]")
