@@ -8,6 +8,6 @@ enableWebsocketCompression = false
 showErrorDetails = false
 [theme]
 base = "dark"
-primaryColor = "#5462EB"
+primaryColor = "#5C6CFF"
 backgroundColor = "#313339"
-secondaryBackgroundColor = "#2e3036"
+secondaryBackgroundColor = "#222328"
