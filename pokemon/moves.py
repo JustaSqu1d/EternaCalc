@@ -2,7 +2,7 @@ import json
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from type import Type
+    from pokemon import Type
 
 
 class Move:
