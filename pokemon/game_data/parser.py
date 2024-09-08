@@ -119,6 +119,8 @@ def parse_pokemon_data(template_id, data):
     for move in pokemon_data.get("eliteQuickMove", {}):
         fast_move_pool.append(move)
 
+    fast_move_pool = sorted(list(set(fast_move_pool)))
+
     charged_move_pool = []
 
     for move in pokemon_data.get("cinematicMoves", {}):
@@ -127,6 +129,8 @@ def parse_pokemon_data(template_id, data):
         charged_move_pool.append(move)
     for move in pokemon_data.get("nonTmCinematicMoves", {}):
         charged_move_pool.append(move)
+
+    charged_move_pool = sorted(list(set(charged_move_pool)))
 
     pokemon_category = get_pokemon_category(pokemon_data)
 
