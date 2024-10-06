@@ -46,6 +46,8 @@ MANUAL_MOVE_CHANGES = {
     404: "SUNSTEEL_STRIKE",
     405: "MOONGEIST_BEAM",
     "V0462_MOVE_FORCE_PALM_FAST": "FORCE_PALM_FAST",
+    406: "AURA_WHEEL_ELECTRIC",
+    407: "AURA_WHEEL_DARK",
 }
 
 MANUAL_MOVE_ADDITIONS = {
@@ -108,6 +110,12 @@ def parse_pokemon_data(template_id, data):
     base_defense = pokemon_data.get("stats", {}).get("baseDefense")
     base_hp = pokemon_data.get("stats", {}).get("baseStamina")
     pokedex_number = int(template_id.split("V")[1].split("_POKEMON")[0])
+    form_number = 0
+
+    for pokemon_key in pokemon_json:
+        if pokemon_json.get(pokemon_key).get("pokedex_number") == pokedex_number:
+            form_number += 1
+
 
     if name in SKIPPED_POKEMON_IDS:
         return None
@@ -115,26 +123,26 @@ def parse_pokemon_data(template_id, data):
     fast_move_pool = []
 
     for move in pokemon_data.get("quickMoves", {}):
-        fast_move_pool.append(move)
+        fast_move_pool.append(str(move))
     for move in pokemon_data.get("eliteQuickMove", {}):
-        fast_move_pool.append(move)
+        fast_move_pool.append(str(move))
 
     fast_move_pool = sorted(list(set(fast_move_pool)))
 
     charged_move_pool = []
 
     for move in pokemon_data.get("cinematicMoves", {}):
-        charged_move_pool.append(move)
+        charged_move_pool.append(str(move))
     for move in pokemon_data.get("eliteCinematicMove", {}):
-        charged_move_pool.append(move)
+        charged_move_pool.append(str(move))
     for move in pokemon_data.get("nonTmCinematicMoves", {}):
-        charged_move_pool.append(move)
+        charged_move_pool.append(str(move))
+
+    name = process_pokemon_name(name, species)
 
     charged_move_pool = sorted(list(set(charged_move_pool)))
 
     pokemon_category = get_pokemon_category(pokemon_data)
-
-    name = process_pokemon_name(name, species)
 
     return {
         "name": name,
@@ -146,6 +154,7 @@ def parse_pokemon_data(template_id, data):
         "fast_move_pool": fast_move_pool,
         "charged_move_pool": charged_move_pool,
         "pokedex_number": pokedex_number,
+        "form_number": form_number,
         "pokemon_category": pokemon_category
     }
 
@@ -195,6 +204,15 @@ def apply_manual_changes(pokemon_data):
     name = pokemon_data["name"]
     fast_move_pool = pokemon_data["fast_move_pool"]
     charged_move_pool = pokemon_data["charged_move_pool"]
+
+    for move in fast_move_pool + charged_move_pool:
+        if move in MANUAL_MOVE_CHANGES:
+            if move in fast_move_pool:
+                fast_move_pool.remove(move)
+                fast_move_pool.append(MANUAL_MOVE_CHANGES[move])
+            elif move in charged_move_pool:
+                charged_move_pool.remove(move)
+                charged_move_pool.append(MANUAL_MOVE_CHANGES[move])
 
     if name in MANUAL_NAME_CHANGES:
         pokemon_data["name"] = MANUAL_NAME_CHANGES[name]
@@ -296,6 +314,7 @@ def process_pokemon_data(data):
         "fast_move_pool": pokemon_data.get("fast_move_pool"),
         "charged_move_pool": pokemon_data.get("charged_move_pool"),
         "pokedex_number": pokemon_data.get("pokedex_number"),
+        "form_number": pokemon_data.get("form_number"),
         "pokemon_category": pokemon_data.get("pokemon_category"),
     }]
 
@@ -328,6 +347,10 @@ def process_pokemon_move(entry):
     move_data["power"] = move_data.get("power", 0)
 
     move_data["turns"] = move_data.get("durationTurns", 0)
+
+    move_uuid = int(entry["templateId"].split("_")[1][1:])
+    move_data["uuid"] = move_uuid
+
     move_data.pop("durationTurns", None)
 
     if move_name.endswith("_FAST"):
@@ -345,6 +368,15 @@ def update():
     for entry in data["main"]:
 
         template_id = entry["templateId"]
+        query = entry["data"]
+
+        if template_id.startswith("COMBAT_V"):
+            move_data = process_pokemon_move(query)
+            moves_json[move_data["uniqueId"]] = move_data
+
+    for entry in data["main"]:
+
+        template_id = entry["templateId"]
         data = entry["data"]
 
         if (template_id.startswith("V0") or template_id.startswith(
@@ -358,9 +390,6 @@ def update():
             for pokemon in pokemon_data:
                 pokemon_json[pokemon["name"]] = pokemon
 
-        elif template_id.startswith("COMBAT_V"):
-            move_data = process_pokemon_move(data)
-            moves_json[move_data["uniqueId"]] = move_data
 
     with open("moves.json", "w") as f:
         json.dump(moves_json, f, indent=4)

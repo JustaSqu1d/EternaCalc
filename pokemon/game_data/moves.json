@@ -5,6 +5,7 @@
         "power": 60.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 13,
         "usageType": "charge"
     },
     "HYPER_BEAM": {
@@ -13,6 +14,7 @@
         "power": 150.0,
         "energyDelta": 80,
         "turns": 0,
+        "uuid": 14,
         "usageType": "charge"
     },
     "DARK_PULSE": {
@@ -21,6 +23,7 @@
         "power": 80.0,
         "energyDelta": 50,
         "turns": 0,
+        "uuid": 16,
         "usageType": "charge"
     },
     "SLUDGE": {
@@ -29,6 +32,7 @@
         "power": 50.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 18,
         "usageType": "charge"
     },
     "VICE_GRIP": {
@@ -37,6 +41,7 @@
         "power": 40.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 20,
         "usageType": "charge"
     },
     "FLAME_WHEEL": {
@@ -45,6 +50,7 @@
         "power": 60.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 21,
         "usageType": "charge"
     },
     "MEGAHORN": {
@@ -53,6 +59,7 @@
         "power": 110.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 22,
         "usageType": "charge"
     },
     "FLAMETHROWER": {
@@ -61,6 +68,7 @@
         "power": 90.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 24,
         "usageType": "charge"
     },
     "DIG": {
@@ -69,6 +77,7 @@
         "power": 70.0,
         "energyDelta": 50,
         "turns": 0,
+        "uuid": 26,
         "usageType": "charge"
     },
     "CROSS_CHOP": {
@@ -77,6 +86,7 @@
         "power": 55.0,
         "energyDelta": 35,
         "turns": 0,
+        "uuid": 28,
         "usageType": "charge"
     },
     "PSYBEAM": {
@@ -85,6 +95,7 @@
         "power": 70.0,
         "energyDelta": 60,
         "turns": 0,
+        "uuid": 30,
         "usageType": "charge"
     },
     "EARTHQUAKE": {
@@ -93,6 +104,7 @@
         "power": 110.0,
         "energyDelta": 65,
         "turns": 0,
+        "uuid": 31,
         "usageType": "charge"
     },
     "STONE_EDGE": {
@@ -101,6 +113,7 @@
         "power": 100.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 32,
         "usageType": "charge"
     },
     "ICE_PUNCH": {
@@ -109,6 +122,7 @@
         "power": 55.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 33,
         "usageType": "charge"
     },
     "HEART_STAMP": {
@@ -117,6 +131,7 @@
         "power": 40.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 34,
         "usageType": "charge"
     },
     "DISCHARGE": {
@@ -125,6 +140,7 @@
         "power": 65.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 35,
         "usageType": "charge"
     },
     "FLASH_CANNON": {
@@ -133,6 +149,7 @@
         "power": 110.0,
         "energyDelta": 70,
         "turns": 0,
+        "uuid": 36,
         "usageType": "charge"
     },
     "DRILL_PECK": {
@@ -141,6 +158,7 @@
         "power": 65.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 38,
         "usageType": "charge"
     },
     "ICE_BEAM": {
@@ -149,6 +167,7 @@
         "power": 90.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 39,
         "usageType": "charge"
     },
     "BLIZZARD": {
@@ -157,6 +176,7 @@
         "power": 140.0,
         "energyDelta": 75,
         "turns": 0,
+        "uuid": 40,
         "usageType": "charge"
     },
     "HEAT_WAVE": {
@@ -165,6 +185,7 @@
         "power": 95.0,
         "energyDelta": 75,
         "turns": 0,
+        "uuid": 42,
         "usageType": "charge"
     },
     "AERIAL_ACE": {
@@ -173,6 +194,7 @@
         "power": 55.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 45,
         "usageType": "charge"
     },
     "DRILL_RUN": {
@@ -181,6 +203,7 @@
         "power": 80.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 46,
         "usageType": "charge"
     },
     "PETAL_BLIZZARD": {
@@ -189,6 +212,7 @@
         "power": 110.0,
         "energyDelta": 65,
         "turns": 0,
+        "uuid": 47,
         "usageType": "charge"
     },
     "MEGA_DRAIN": {
@@ -197,6 +221,7 @@
         "power": 25.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 48,
         "usageType": "charge"
     },
     "BUG_BUZZ": {
@@ -209,6 +234,7 @@
             "buffActivationChance": 0.3
         },
         "turns": 0,
+        "uuid": 49,
         "usageType": "charge"
     },
     "POISON_FANG": {
@@ -221,6 +247,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 50,
         "usageType": "charge"
     },
     "NIGHT_SLASH": {
@@ -233,6 +260,7 @@
             "buffActivationChance": 0.125
         },
         "turns": 0,
+        "uuid": 51,
         "usageType": "charge"
     },
     "BUBBLE_BEAM": {
@@ -245,6 +273,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 53,
         "usageType": "charge"
     },
     "SUBMISSION": {
@@ -253,6 +282,7 @@
         "power": 60.0,
         "energyDelta": 50,
         "turns": 0,
+        "uuid": 54,
         "usageType": "charge"
     },
     "LOW_SWEEP": {
@@ -261,6 +291,7 @@
         "power": 40.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 56,
         "usageType": "charge"
     },
     "AQUA_JET": {
@@ -269,6 +300,7 @@
         "power": 45.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 57,
         "usageType": "charge"
     },
     "AQUA_TAIL": {
@@ -277,6 +309,7 @@
         "power": 55.0,
         "energyDelta": 35,
         "turns": 0,
+        "uuid": 58,
         "usageType": "charge"
     },
     "SEED_BOMB": {
@@ -285,6 +318,7 @@
         "power": 65.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 59,
         "usageType": "charge"
     },
     "PSYSHOCK": {
@@ -293,6 +327,7 @@
         "power": 70.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 60,
         "usageType": "charge"
     },
     "ANCIENT_POWER": {
@@ -306,6 +341,7 @@
             "buffActivationChance": 0.1
         },
         "turns": 0,
+        "uuid": 62,
         "usageType": "charge"
     },
     "ROCK_TOMB": {
@@ -318,6 +354,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 63,
         "usageType": "charge"
     },
     "ROCK_SLIDE": {
@@ -326,6 +363,7 @@
         "power": 65.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 64,
         "usageType": "charge"
     },
     "POWER_GEM": {
@@ -334,6 +372,7 @@
         "power": 85.0,
         "energyDelta": 50,
         "turns": 0,
+        "uuid": 65,
         "usageType": "charge"
     },
     "SHADOW_SNEAK": {
@@ -342,6 +381,7 @@
         "power": 50.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 66,
         "usageType": "charge"
     },
     "SHADOW_PUNCH": {
@@ -350,6 +390,7 @@
         "power": 55.0,
         "energyDelta": 35,
         "turns": 0,
+        "uuid": 67,
         "usageType": "charge"
     },
     "OMINOUS_WIND": {
@@ -363,6 +404,7 @@
             "buffActivationChance": 0.1
         },
         "turns": 0,
+        "uuid": 69,
         "usageType": "charge"
     },
     "SHADOW_BALL": {
@@ -371,6 +413,7 @@
         "power": 100.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 70,
         "usageType": "charge"
     },
     "MAGNET_BOMB": {
@@ -379,6 +422,7 @@
         "power": 70.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 72,
         "usageType": "charge"
     },
     "IRON_HEAD": {
@@ -387,6 +431,7 @@
         "power": 70.0,
         "energyDelta": 50,
         "turns": 0,
+        "uuid": 74,
         "usageType": "charge"
     },
     "PARABOLIC_CHARGE": {
@@ -399,6 +444,7 @@
             "buffActivationChance": 0.66
         },
         "turns": 0,
+        "uuid": 75,
         "usageType": "charge"
     },
     "THUNDER_PUNCH": {
@@ -407,6 +453,7 @@
         "power": 55.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 77,
         "usageType": "charge"
     },
     "THUNDER": {
@@ -415,6 +462,7 @@
         "power": 100.0,
         "energyDelta": 60,
         "turns": 0,
+        "uuid": 78,
         "usageType": "charge"
     },
     "THUNDERBOLT": {
@@ -423,6 +471,7 @@
         "power": 90.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 79,
         "usageType": "charge"
     },
     "TWISTER": {
@@ -431,6 +480,7 @@
         "power": 45.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 80,
         "usageType": "charge"
     },
     "DRAGON_PULSE": {
@@ -439,6 +489,7 @@
         "power": 90.0,
         "energyDelta": 60,
         "turns": 0,
+        "uuid": 82,
         "usageType": "charge"
     },
     "DRAGON_CLAW": {
@@ -447,6 +498,7 @@
         "power": 50.0,
         "energyDelta": 35,
         "turns": 0,
+        "uuid": 83,
         "usageType": "charge"
     },
     "DISARMING_VOICE": {
@@ -455,6 +507,7 @@
         "power": 70.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 84,
         "usageType": "charge"
     },
     "DRAINING_KISS": {
@@ -463,6 +516,7 @@
         "power": 60.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 85,
         "usageType": "charge"
     },
     "DAZZLING_GLEAM": {
@@ -471,6 +525,7 @@
         "power": 110.0,
         "energyDelta": 70,
         "turns": 0,
+        "uuid": 86,
         "usageType": "charge"
     },
     "MOONBLAST": {
@@ -483,6 +538,7 @@
             "buffActivationChance": 0.1
         },
         "turns": 0,
+        "uuid": 87,
         "usageType": "charge"
     },
     "PLAY_ROUGH": {
@@ -491,6 +547,7 @@
         "power": 90.0,
         "energyDelta": 60,
         "turns": 0,
+        "uuid": 88,
         "usageType": "charge"
     },
     "CROSS_POISON": {
@@ -503,6 +560,7 @@
             "buffActivationChance": 0.125
         },
         "turns": 0,
+        "uuid": 89,
         "usageType": "charge"
     },
     "SLUDGE_BOMB": {
@@ -511,6 +569,7 @@
         "power": 80.0,
         "energyDelta": 50,
         "turns": 0,
+        "uuid": 90,
         "usageType": "charge"
     },
     "SLUDGE_WAVE": {
@@ -519,6 +578,7 @@
         "power": 110.0,
         "energyDelta": 65,
         "turns": 0,
+        "uuid": 91,
         "usageType": "charge"
     },
     "GUNK_SHOT": {
@@ -527,6 +587,7 @@
         "power": 130.0,
         "energyDelta": 75,
         "turns": 0,
+        "uuid": 92,
         "usageType": "charge"
     },
     "BONE_CLUB": {
@@ -535,6 +596,7 @@
         "power": 55.0,
         "energyDelta": 35,
         "turns": 0,
+        "uuid": 94,
         "usageType": "charge"
     },
     "BULLDOZE": {
@@ -543,6 +605,7 @@
         "power": 80.0,
         "energyDelta": 60,
         "turns": 0,
+        "uuid": 95,
         "usageType": "charge"
     },
     "MUD_BOMB": {
@@ -551,6 +614,7 @@
         "power": 60.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 96,
         "usageType": "charge"
     },
     "SIGNAL_BEAM": {
@@ -564,6 +628,7 @@
             "buffActivationChance": 0.2
         },
         "turns": 0,
+        "uuid": 99,
         "usageType": "charge"
     },
     "X_SCISSOR": {
@@ -572,6 +637,7 @@
         "power": 65.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 100,
         "usageType": "charge"
     },
     "FLAME_CHARGE": {
@@ -584,6 +650,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 101,
         "usageType": "charge"
     },
     "FLAME_BURST": {
@@ -592,6 +659,7 @@
         "power": 70.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 102,
         "usageType": "charge"
     },
     "FIRE_BLAST": {
@@ -600,6 +668,7 @@
         "power": 140.0,
         "energyDelta": 80,
         "turns": 0,
+        "uuid": 103,
         "usageType": "charge"
     },
     "BRINE": {
@@ -608,6 +677,7 @@
         "power": 60.0,
         "energyDelta": 50,
         "turns": 0,
+        "uuid": 104,
         "usageType": "charge"
     },
     "WATER_PULSE": {
@@ -616,6 +686,7 @@
         "power": 80.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 105,
         "usageType": "charge"
     },
     "SCALD": {
@@ -628,6 +699,7 @@
             "buffActivationChance": 0.3
         },
         "turns": 0,
+        "uuid": 106,
         "usageType": "charge"
     },
     "HYDRO_PUMP": {
@@ -636,6 +708,7 @@
         "power": 130.0,
         "energyDelta": 75,
         "turns": 0,
+        "uuid": 107,
         "usageType": "charge"
     },
     "PSYCHIC": {
@@ -648,6 +721,7 @@
             "buffActivationChance": 0.1
         },
         "turns": 0,
+        "uuid": 108,
         "usageType": "charge"
     },
     "PSYSTRIKE": {
@@ -656,6 +730,7 @@
         "power": 90.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 109,
         "usageType": "charge"
     },
     "ICY_WIND": {
@@ -668,6 +743,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 111,
         "usageType": "charge"
     },
     "GIGA_DRAIN": {
@@ -676,6 +752,7 @@
         "power": 50.0,
         "energyDelta": 80,
         "turns": 0,
+        "uuid": 114,
         "usageType": "charge"
     },
     "FIRE_PUNCH": {
@@ -684,6 +761,7 @@
         "power": 55.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 115,
         "usageType": "charge"
     },
     "SOLAR_BEAM": {
@@ -692,6 +770,7 @@
         "power": 150.0,
         "energyDelta": 80,
         "turns": 0,
+        "uuid": 116,
         "usageType": "charge"
     },
     "LEAF_BLADE": {
@@ -700,6 +779,7 @@
         "power": 70.0,
         "energyDelta": 35,
         "turns": 0,
+        "uuid": 117,
         "usageType": "charge"
     },
     "POWER_WHIP": {
@@ -708,6 +788,7 @@
         "power": 90.0,
         "energyDelta": 50,
         "turns": 0,
+        "uuid": 118,
         "usageType": "charge"
     },
     "AIR_CUTTER": {
@@ -716,6 +797,7 @@
         "power": 60.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 121,
         "usageType": "charge"
     },
     "HURRICANE": {
@@ -724,6 +806,7 @@
         "power": 110.0,
         "energyDelta": 65,
         "turns": 0,
+        "uuid": 122,
         "usageType": "charge"
     },
     "BRICK_BREAK": {
@@ -736,6 +819,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 123,
         "usageType": "charge"
     },
     "SWIFT": {
@@ -744,6 +828,7 @@
         "power": 55.0,
         "energyDelta": 35,
         "turns": 0,
+        "uuid": 125,
         "usageType": "charge"
     },
     "HORN_ATTACK": {
@@ -752,6 +837,7 @@
         "power": 40.0,
         "energyDelta": 35,
         "turns": 0,
+        "uuid": 126,
         "usageType": "charge"
     },
     "STOMP": {
@@ -760,6 +846,7 @@
         "power": 55.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 127,
         "usageType": "charge"
     },
     "HYPER_FANG": {
@@ -768,6 +855,7 @@
         "power": 80.0,
         "energyDelta": 50,
         "turns": 0,
+        "uuid": 129,
         "usageType": "charge"
     },
     "BODY_SLAM": {
@@ -776,6 +864,7 @@
         "power": 50.0,
         "energyDelta": 35,
         "turns": 0,
+        "uuid": 131,
         "usageType": "charge"
     },
     "REST": {
@@ -784,6 +873,7 @@
         "power": 50.0,
         "energyDelta": 35,
         "turns": 0,
+        "uuid": 132,
         "usageType": "charge"
     },
     "STRUGGLE": {
@@ -792,6 +882,7 @@
         "power": 35.0,
         "energyDelta": 100,
         "turns": 0,
+        "uuid": 133,
         "usageType": "charge"
     },
     "SCALD_BLASTOISE": {
@@ -800,6 +891,7 @@
         "power": 50.0,
         "energyDelta": 80,
         "turns": 0,
+        "uuid": 134,
         "usageType": "charge"
     },
     "HYDRO_PUMP_BLASTOISE": {
@@ -808,6 +900,7 @@
         "power": 90.0,
         "energyDelta": 80,
         "turns": 0,
+        "uuid": 135,
         "usageType": "charge"
     },
     "WRAP_GREEN": {
@@ -816,6 +909,7 @@
         "power": 25.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 136,
         "usageType": "charge"
     },
     "WRAP_PINK": {
@@ -824,6 +918,7 @@
         "power": 25.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 137,
         "usageType": "charge"
     },
     "FURY_CUTTER_FAST": {
@@ -832,6 +927,7 @@
         "power": 2.0,
         "energyDelta": 4,
         "turns": 1,
+        "uuid": 200,
         "usageType": "fast"
     },
     "BUG_BITE_FAST": {
@@ -840,6 +936,7 @@
         "power": 3.0,
         "energyDelta": 3,
         "turns": 1,
+        "uuid": 201,
         "usageType": "fast"
     },
     "BITE_FAST": {
@@ -848,6 +945,7 @@
         "power": 4.0,
         "energyDelta": 2,
         "turns": 1,
+        "uuid": 202,
         "usageType": "fast"
     },
     "SUCKER_PUNCH_FAST": {
@@ -856,6 +954,7 @@
         "power": 8.0,
         "energyDelta": 7,
         "turns": 2,
+        "uuid": 203,
         "usageType": "fast"
     },
     "DRAGON_BREATH_FAST": {
@@ -864,6 +963,7 @@
         "power": 4.0,
         "energyDelta": 3,
         "turns": 1,
+        "uuid": 204,
         "usageType": "fast"
     },
     "THUNDER_SHOCK_FAST": {
@@ -872,6 +972,7 @@
         "power": 3.0,
         "energyDelta": 9,
         "turns": 2,
+        "uuid": 205,
         "usageType": "fast"
     },
     "SPARK_FAST": {
@@ -880,6 +981,7 @@
         "power": 5.0,
         "energyDelta": 7,
         "turns": 2,
+        "uuid": 206,
         "usageType": "fast"
     },
     "LOW_KICK_FAST": {
@@ -888,6 +990,7 @@
         "power": 4.0,
         "energyDelta": 5,
         "turns": 2,
+        "uuid": 207,
         "usageType": "fast"
     },
     "KARATE_CHOP_FAST": {
@@ -896,6 +999,7 @@
         "power": 5.0,
         "energyDelta": 9,
         "turns": 2,
+        "uuid": 208,
         "usageType": "fast"
     },
     "EMBER_FAST": {
@@ -904,6 +1008,7 @@
         "power": 7.0,
         "energyDelta": 6,
         "turns": 2,
+        "uuid": 209,
         "usageType": "fast"
     },
     "WING_ATTACK_FAST": {
@@ -912,6 +1017,7 @@
         "power": 5.0,
         "energyDelta": 7,
         "turns": 2,
+        "uuid": 210,
         "usageType": "fast"
     },
     "PECK_FAST": {
@@ -920,6 +1026,7 @@
         "power": 6.0,
         "energyDelta": 5,
         "turns": 2,
+        "uuid": 211,
         "usageType": "fast"
     },
     "LICK_FAST": {
@@ -928,6 +1035,7 @@
         "power": 3.0,
         "energyDelta": 3,
         "turns": 1,
+        "uuid": 212,
         "usageType": "fast"
     },
     "SHADOW_CLAW_FAST": {
@@ -936,6 +1044,7 @@
         "power": 6.0,
         "energyDelta": 8,
         "turns": 2,
+        "uuid": 213,
         "usageType": "fast"
     },
     "VINE_WHIP_FAST": {
@@ -944,6 +1053,7 @@
         "power": 5.0,
         "energyDelta": 8,
         "turns": 2,
+        "uuid": 214,
         "usageType": "fast"
     },
     "RAZOR_LEAF_FAST": {
@@ -952,6 +1062,7 @@
         "power": 9.0,
         "energyDelta": 4,
         "turns": 2,
+        "uuid": 215,
         "usageType": "fast"
     },
     "MUD_SHOT_FAST": {
@@ -960,6 +1071,7 @@
         "power": 4.0,
         "energyDelta": 8,
         "turns": 2,
+        "uuid": 216,
         "usageType": "fast"
     },
     "ICE_SHARD_FAST": {
@@ -968,6 +1080,7 @@
         "power": 9.0,
         "energyDelta": 10,
         "turns": 3,
+        "uuid": 217,
         "usageType": "fast"
     },
     "FROST_BREATH_FAST": {
@@ -976,6 +1089,7 @@
         "power": 7.0,
         "energyDelta": 5,
         "turns": 2,
+        "uuid": 218,
         "usageType": "fast"
     },
     "QUICK_ATTACK_FAST": {
@@ -984,6 +1098,7 @@
         "power": 5.0,
         "energyDelta": 8,
         "turns": 2,
+        "uuid": 219,
         "usageType": "fast"
     },
     "SCRATCH_FAST": {
@@ -992,6 +1107,7 @@
         "power": 4.0,
         "energyDelta": 2,
         "turns": 1,
+        "uuid": 220,
         "usageType": "fast"
     },
     "TACKLE_FAST": {
@@ -1000,6 +1116,7 @@
         "power": 3.0,
         "energyDelta": 3,
         "turns": 1,
+        "uuid": 221,
         "usageType": "fast"
     },
     "POUND_FAST": {
@@ -1008,6 +1125,7 @@
         "power": 4.0,
         "energyDelta": 4,
         "turns": 2,
+        "uuid": 222,
         "usageType": "fast"
     },
     "CUT_FAST": {
@@ -1016,6 +1134,7 @@
         "power": 3.0,
         "energyDelta": 2,
         "turns": 1,
+        "uuid": 223,
         "usageType": "fast"
     },
     "POISON_JAB_FAST": {
@@ -1024,6 +1143,7 @@
         "power": 7.0,
         "energyDelta": 7,
         "turns": 2,
+        "uuid": 224,
         "usageType": "fast"
     },
     "ACID_FAST": {
@@ -1032,6 +1152,7 @@
         "power": 6.0,
         "energyDelta": 5,
         "turns": 2,
+        "uuid": 225,
         "usageType": "fast"
     },
     "PSYCHO_CUT_FAST": {
@@ -1040,6 +1161,7 @@
         "power": 3.0,
         "energyDelta": 9,
         "turns": 2,
+        "uuid": 226,
         "usageType": "fast"
     },
     "ROCK_THROW_FAST": {
@@ -1048,6 +1170,7 @@
         "power": 8.0,
         "energyDelta": 5,
         "turns": 2,
+        "uuid": 227,
         "usageType": "fast"
     },
     "METAL_CLAW_FAST": {
@@ -1056,6 +1179,7 @@
         "power": 5.0,
         "energyDelta": 7,
         "turns": 2,
+        "uuid": 228,
         "usageType": "fast"
     },
     "BULLET_PUNCH_FAST": {
@@ -1064,6 +1188,7 @@
         "power": 6.0,
         "energyDelta": 7,
         "turns": 2,
+        "uuid": 229,
         "usageType": "fast"
     },
     "WATER_GUN_FAST": {
@@ -1072,6 +1197,7 @@
         "power": 3.0,
         "energyDelta": 3,
         "turns": 1,
+        "uuid": 230,
         "usageType": "fast"
     },
     "SPLASH_FAST": {
@@ -1080,6 +1206,7 @@
         "energyDelta": 12,
         "power": 0,
         "turns": 4,
+        "uuid": 231,
         "usageType": "fast"
     },
     "WATER_GUN_FAST_BLASTOISE": {
@@ -1088,6 +1215,7 @@
         "power": 6.0,
         "energyDelta": 4,
         "turns": 1,
+        "uuid": 232,
         "usageType": "charge"
     },
     "MUD_SLAP_FAST": {
@@ -1096,6 +1224,7 @@
         "power": 12.0,
         "energyDelta": 10,
         "turns": 3,
+        "uuid": 233,
         "usageType": "fast"
     },
     "ZEN_HEADBUTT_FAST": {
@@ -1104,6 +1233,7 @@
         "power": 8.0,
         "energyDelta": 6,
         "turns": 3,
+        "uuid": 234,
         "usageType": "fast"
     },
     "CONFUSION_FAST": {
@@ -1112,6 +1242,7 @@
         "power": 16.0,
         "energyDelta": 12,
         "turns": 4,
+        "uuid": 235,
         "usageType": "fast"
     },
     "POISON_STING_FAST": {
@@ -1120,6 +1251,7 @@
         "power": 4.0,
         "energyDelta": 9,
         "turns": 2,
+        "uuid": 236,
         "usageType": "fast"
     },
     "BUBBLE_FAST": {
@@ -1128,6 +1260,7 @@
         "power": 8.0,
         "energyDelta": 11,
         "turns": 3,
+        "uuid": 237,
         "usageType": "fast"
     },
     "FEINT_ATTACK_FAST": {
@@ -1136,6 +1269,7 @@
         "power": 6.0,
         "energyDelta": 6,
         "turns": 2,
+        "uuid": 238,
         "usageType": "fast"
     },
     "STEEL_WING_FAST": {
@@ -1144,6 +1278,7 @@
         "power": 7.0,
         "energyDelta": 6,
         "turns": 2,
+        "uuid": 239,
         "usageType": "fast"
     },
     "FIRE_FANG_FAST": {
@@ -1152,6 +1287,7 @@
         "power": 8.0,
         "energyDelta": 5,
         "turns": 2,
+        "uuid": 240,
         "usageType": "fast"
     },
     "ROCK_SMASH_FAST": {
@@ -1160,6 +1296,7 @@
         "power": 9.0,
         "energyDelta": 7,
         "turns": 3,
+        "uuid": 241,
         "usageType": "fast"
     },
     "TRANSFORM_FAST": {
@@ -1168,6 +1305,7 @@
         "energyDelta": 0,
         "power": 0,
         "turns": 3,
+        "uuid": 242,
         "usageType": "fast"
     },
     "COUNTER_FAST": {
@@ -1176,6 +1314,7 @@
         "power": 8.0,
         "energyDelta": 6,
         "turns": 2,
+        "uuid": 243,
         "usageType": "fast"
     },
     "POWDER_SNOW_FAST": {
@@ -1184,6 +1323,7 @@
         "power": 5.0,
         "energyDelta": 8,
         "turns": 2,
+        "uuid": 244,
         "usageType": "fast"
     },
     "CLOSE_COMBAT": {
@@ -1196,6 +1336,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 245,
         "usageType": "charge"
     },
     "DYNAMIC_PUNCH": {
@@ -1204,6 +1345,7 @@
         "power": 90.0,
         "energyDelta": 50,
         "turns": 0,
+        "uuid": 246,
         "usageType": "charge"
     },
     "FOCUS_BLAST": {
@@ -1212,6 +1354,7 @@
         "power": 150.0,
         "energyDelta": 75,
         "turns": 0,
+        "uuid": 247,
         "usageType": "charge"
     },
     "AURORA_BEAM": {
@@ -1220,6 +1363,7 @@
         "power": 80.0,
         "energyDelta": 60,
         "turns": 0,
+        "uuid": 248,
         "usageType": "charge"
     },
     "CHARGE_BEAM_FAST": {
@@ -1228,6 +1372,7 @@
         "power": 5.0,
         "energyDelta": 11,
         "turns": 3,
+        "uuid": 249,
         "usageType": "fast"
     },
     "VOLT_SWITCH_FAST": {
@@ -1236,6 +1381,7 @@
         "power": 12.0,
         "energyDelta": 16,
         "turns": 4,
+        "uuid": 250,
         "usageType": "fast"
     },
     "WILD_CHARGE": {
@@ -1248,6 +1394,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 251,
         "usageType": "charge"
     },
     "ZAP_CANNON": {
@@ -1260,6 +1407,7 @@
             "buffActivationChance": 0.33
         },
         "turns": 0,
+        "uuid": 252,
         "usageType": "charge"
     },
     "DRAGON_TAIL_FAST": {
@@ -1268,6 +1416,7 @@
         "power": 13.0,
         "energyDelta": 9,
         "turns": 3,
+        "uuid": 253,
         "usageType": "fast"
     },
     "AVALANCHE": {
@@ -1276,6 +1425,7 @@
         "power": 90.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 254,
         "usageType": "charge"
     },
     "AIR_SLASH_FAST": {
@@ -1284,6 +1434,7 @@
         "power": 9.0,
         "energyDelta": 9,
         "turns": 3,
+        "uuid": 255,
         "usageType": "fast"
     },
     "BRAVE_BIRD": {
@@ -1296,6 +1447,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 256,
         "usageType": "charge"
     },
     "SKY_ATTACK": {
@@ -1304,6 +1456,7 @@
         "power": 85.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 257,
         "usageType": "charge"
     },
     "SAND_TOMB": {
@@ -1316,6 +1469,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 258,
         "usageType": "charge"
     },
     "ROCK_BLAST": {
@@ -1324,6 +1478,7 @@
         "power": 50.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 259,
         "usageType": "charge"
     },
     "INFESTATION_FAST": {
@@ -1332,6 +1487,7 @@
         "power": 6.0,
         "energyDelta": 12,
         "turns": 3,
+        "uuid": 260,
         "usageType": "fast"
     },
     "STRUGGLE_BUG_FAST": {
@@ -1340,6 +1496,7 @@
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
+        "uuid": 261,
         "usageType": "fast"
     },
     "SILVER_WIND": {
@@ -1353,6 +1510,7 @@
             "buffActivationChance": 0.1
         },
         "turns": 0,
+        "uuid": 262,
         "usageType": "charge"
     },
     "ASTONISH_FAST": {
@@ -1361,6 +1519,7 @@
         "power": 12.0,
         "energyDelta": 10,
         "turns": 3,
+        "uuid": 263,
         "usageType": "fast"
     },
     "HEX_FAST": {
@@ -1369,6 +1528,7 @@
         "power": 6.0,
         "energyDelta": 12,
         "turns": 3,
+        "uuid": 264,
         "usageType": "fast"
     },
     "NIGHT_SHADE": {
@@ -1377,6 +1537,7 @@
         "power": 80.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 265,
         "usageType": "charge"
     },
     "IRON_TAIL_FAST": {
@@ -1385,6 +1546,7 @@
         "power": 10.0,
         "energyDelta": 7,
         "turns": 3,
+        "uuid": 266,
         "usageType": "fast"
     },
     "GYRO_BALL": {
@@ -1393,6 +1555,7 @@
         "power": 80.0,
         "energyDelta": 60,
         "turns": 0,
+        "uuid": 267,
         "usageType": "charge"
     },
     "HEAVY_SLAM": {
@@ -1401,6 +1564,7 @@
         "power": 70.0,
         "energyDelta": 50,
         "turns": 0,
+        "uuid": 268,
         "usageType": "charge"
     },
     "FIRE_SPIN_FAST": {
@@ -1409,6 +1573,7 @@
         "power": 11.0,
         "energyDelta": 10,
         "turns": 3,
+        "uuid": 269,
         "usageType": "fast"
     },
     "OVERHEAT": {
@@ -1421,6 +1586,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 270,
         "usageType": "charge"
     },
     "BULLET_SEED_FAST": {
@@ -1429,6 +1595,7 @@
         "power": 5.0,
         "energyDelta": 13,
         "turns": 3,
+        "uuid": 271,
         "usageType": "fast"
     },
     "GRASS_KNOT": {
@@ -1437,6 +1604,7 @@
         "power": 90.0,
         "energyDelta": 50,
         "turns": 0,
+        "uuid": 272,
         "usageType": "charge"
     },
     "ENERGY_BALL": {
@@ -1449,6 +1617,7 @@
             "buffActivationChance": 0.1
         },
         "turns": 0,
+        "uuid": 273,
         "usageType": "charge"
     },
     "EXTRASENSORY_FAST": {
@@ -1457,6 +1626,7 @@
         "power": 8.0,
         "energyDelta": 10,
         "turns": 3,
+        "uuid": 274,
         "usageType": "fast"
     },
     "FUTURESIGHT": {
@@ -1465,6 +1635,7 @@
         "power": 110.0,
         "energyDelta": 65,
         "turns": 0,
+        "uuid": 275,
         "usageType": "charge"
     },
     "MIRROR_COAT": {
@@ -1473,6 +1644,7 @@
         "power": 60.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 276,
         "usageType": "charge"
     },
     "OUTRAGE": {
@@ -1481,6 +1653,7 @@
         "power": 110.0,
         "energyDelta": 60,
         "turns": 0,
+        "uuid": 277,
         "usageType": "charge"
     },
     "SNARL_FAST": {
@@ -1489,6 +1662,7 @@
         "power": 5.0,
         "energyDelta": 13,
         "turns": 3,
+        "uuid": 278,
         "usageType": "fast"
     },
     "CRUNCH": {
@@ -1501,6 +1675,7 @@
             "buffActivationChance": 0.3
         },
         "turns": 0,
+        "uuid": 279,
         "usageType": "charge"
     },
     "FOUL_PLAY": {
@@ -1509,6 +1684,7 @@
         "power": 70.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 280,
         "usageType": "charge"
     },
     "HIDDEN_POWER_FAST": {
@@ -1517,6 +1693,7 @@
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
+        "uuid": 281,
         "usageType": "fast"
     },
     "TAKE_DOWN_FAST": {
@@ -1525,6 +1702,7 @@
         "power": 5.0,
         "energyDelta": 8,
         "turns": 3,
+        "uuid": 282,
         "usageType": "fast"
     },
     "WATERFALL_FAST": {
@@ -1533,6 +1711,7 @@
         "power": 12.0,
         "energyDelta": 8,
         "turns": 3,
+        "uuid": 283,
         "usageType": "fast"
     },
     "SURF": {
@@ -1541,6 +1720,7 @@
         "power": 75.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 284,
         "usageType": "charge"
     },
     "DRACO_METEOR": {
@@ -1553,6 +1733,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 285,
         "usageType": "charge"
     },
     "DOOM_DESIRE": {
@@ -1561,6 +1742,7 @@
         "power": 75.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 286,
         "usageType": "charge"
     },
     "YAWN_FAST": {
@@ -1569,6 +1751,7 @@
         "energyDelta": 12,
         "power": 0,
         "turns": 4,
+        "uuid": 287,
         "usageType": "fast"
     },
     "PSYCHO_BOOST": {
@@ -1581,6 +1764,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 288,
         "usageType": "charge"
     },
     "ORIGIN_PULSE": {
@@ -1589,6 +1773,7 @@
         "power": 130.0,
         "energyDelta": 60,
         "turns": 0,
+        "uuid": 289,
         "usageType": "charge"
     },
     "PRECIPICE_BLADES": {
@@ -1597,6 +1782,7 @@
         "power": 130.0,
         "energyDelta": 60,
         "turns": 0,
+        "uuid": 290,
         "usageType": "charge"
     },
     "PRESENT_FAST": {
@@ -1605,6 +1791,7 @@
         "power": 3.0,
         "energyDelta": 12,
         "turns": 3,
+        "uuid": 291,
         "usageType": "fast"
     },
     "WEATHER_BALL_FIRE": {
@@ -1613,6 +1800,7 @@
         "power": 55.0,
         "energyDelta": 35,
         "turns": 0,
+        "uuid": 292,
         "usageType": "charge"
     },
     "WEATHER_BALL_ICE": {
@@ -1621,6 +1809,7 @@
         "power": 55.0,
         "energyDelta": 35,
         "turns": 0,
+        "uuid": 293,
         "usageType": "charge"
     },
     "WEATHER_BALL_ROCK": {
@@ -1629,6 +1818,7 @@
         "power": 55.0,
         "energyDelta": 35,
         "turns": 0,
+        "uuid": 294,
         "usageType": "charge"
     },
     "WEATHER_BALL_WATER": {
@@ -1637,6 +1827,7 @@
         "power": 55.0,
         "energyDelta": 35,
         "turns": 0,
+        "uuid": 295,
         "usageType": "charge"
     },
     "FRENZY_PLANT": {
@@ -1645,6 +1836,7 @@
         "power": 100.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 296,
         "usageType": "charge"
     },
     "SMACK_DOWN_FAST": {
@@ -1653,6 +1845,7 @@
         "power": 11.0,
         "energyDelta": 8,
         "turns": 3,
+        "uuid": 297,
         "usageType": "fast"
     },
     "BLAST_BURN": {
@@ -1661,6 +1854,7 @@
         "power": 110.0,
         "energyDelta": 50,
         "turns": 0,
+        "uuid": 298,
         "usageType": "charge"
     },
     "HYDRO_CANNON": {
@@ -1669,6 +1863,7 @@
         "power": 80.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 299,
         "usageType": "charge"
     },
     "LAST_RESORT": {
@@ -1677,6 +1872,7 @@
         "power": 90.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 300,
         "usageType": "charge"
     },
     "METEOR_MASH": {
@@ -1685,6 +1881,7 @@
         "power": 100.0,
         "energyDelta": 50,
         "turns": 0,
+        "uuid": 301,
         "usageType": "charge"
     },
     "SKULL_BASH": {
@@ -1697,6 +1894,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 302,
         "usageType": "charge"
     },
     "ACID_SPRAY": {
@@ -1709,6 +1907,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 303,
         "usageType": "charge"
     },
     "EARTH_POWER": {
@@ -1721,6 +1920,7 @@
             "buffActivationChance": 0.1
         },
         "turns": 0,
+        "uuid": 304,
         "usageType": "charge"
     },
     "CRABHAMMER": {
@@ -1733,6 +1933,7 @@
             "buffActivationChance": 0.125
         },
         "turns": 0,
+        "uuid": 305,
         "usageType": "charge"
     },
     "LUNGE": {
@@ -1745,6 +1946,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 306,
         "usageType": "charge"
     },
     "OCTAZOOKA": {
@@ -1757,6 +1959,7 @@
             "buffActivationChance": 0.5
         },
         "turns": 0,
+        "uuid": 308,
         "usageType": "charge"
     },
     "MIRROR_SHOT": {
@@ -1769,6 +1972,7 @@
             "buffActivationChance": 0.3
         },
         "turns": 0,
+        "uuid": 309,
         "usageType": "charge"
     },
     "SUPER_POWER": {
@@ -1782,6 +1986,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 310,
         "usageType": "charge"
     },
     "FELL_STINGER": {
@@ -1794,6 +1999,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 311,
         "usageType": "charge"
     },
     "LEAF_TORNADO": {
@@ -1806,6 +2012,7 @@
             "buffActivationChance": 0.5
         },
         "turns": 0,
+        "uuid": 312,
         "usageType": "charge"
     },
     "DRAIN_PUNCH": {
@@ -1818,6 +2025,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 314,
         "usageType": "charge"
     },
     "SHADOW_BONE": {
@@ -1830,6 +2038,7 @@
             "buffActivationChance": 0.2
         },
         "turns": 0,
+        "uuid": 315,
         "usageType": "charge"
     },
     "MUDDY_WATER": {
@@ -1842,6 +2051,7 @@
             "buffActivationChance": 0.3
         },
         "turns": 0,
+        "uuid": 316,
         "usageType": "charge"
     },
     "BLAZE_KICK": {
@@ -1850,6 +2060,7 @@
         "power": 60.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 317,
         "usageType": "charge"
     },
     "RAZOR_SHELL": {
@@ -1862,6 +2073,7 @@
             "buffActivationChance": 0.5
         },
         "turns": 0,
+        "uuid": 318,
         "usageType": "charge"
     },
     "POWER_UP_PUNCH": {
@@ -1874,6 +2086,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 319,
         "usageType": "charge"
     },
     "CHARM_FAST": {
@@ -1882,6 +2095,7 @@
         "power": 15.0,
         "energyDelta": 6,
         "turns": 3,
+        "uuid": 320,
         "usageType": "fast"
     },
     "GIGA_IMPACT": {
@@ -1890,6 +2104,7 @@
         "power": 150.0,
         "energyDelta": 80,
         "turns": 0,
+        "uuid": 321,
         "usageType": "charge"
     },
     "FRUSTRATION": {
@@ -1898,6 +2113,7 @@
         "power": 10.0,
         "energyDelta": 70,
         "turns": 0,
+        "uuid": 322,
         "usageType": "charge"
     },
     "RETURN": {
@@ -1906,6 +2122,7 @@
         "power": 130.0,
         "energyDelta": 70,
         "turns": 0,
+        "uuid": 323,
         "usageType": "charge"
     },
     "SYNCHRONOISE": {
@@ -1914,6 +2131,7 @@
         "power": 80.0,
         "energyDelta": 50,
         "turns": 0,
+        "uuid": 324,
         "usageType": "charge"
     },
     "LOCK_ON_FAST": {
@@ -1922,6 +2140,7 @@
         "power": 1.0,
         "energyDelta": 5,
         "turns": 1,
+        "uuid": 325,
         "usageType": "fast"
     },
     "THUNDER_FANG_FAST": {
@@ -1930,6 +2149,7 @@
         "power": 8.0,
         "energyDelta": 5,
         "turns": 2,
+        "uuid": 326,
         "usageType": "fast"
     },
     "ICE_FANG_FAST": {
@@ -1938,6 +2158,7 @@
         "power": 8.0,
         "energyDelta": 5,
         "turns": 2,
+        "uuid": 327,
         "usageType": "fast"
     },
     "SACRED_SWORD": {
@@ -1946,6 +2167,7 @@
         "power": 60.0,
         "energyDelta": 35,
         "turns": 0,
+        "uuid": 330,
         "usageType": "charge"
     },
     "FLYING_PRESS": {
@@ -1954,6 +2176,7 @@
         "power": 90.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 331,
         "usageType": "charge"
     },
     "AURA_SPHERE": {
@@ -1962,6 +2185,7 @@
         "power": 100.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 332,
         "usageType": "charge"
     },
     "PAYBACK": {
@@ -1970,6 +2194,7 @@
         "power": 110.0,
         "energyDelta": 60,
         "turns": 0,
+        "uuid": 333,
         "usageType": "charge"
     },
     "ROCK_WRECKER": {
@@ -1978,6 +2203,7 @@
         "power": 110.0,
         "energyDelta": 50,
         "turns": 0,
+        "uuid": 334,
         "usageType": "charge"
     },
     "AEROBLAST": {
@@ -1990,6 +2216,7 @@
             "buffActivationChance": 0.125
         },
         "turns": 0,
+        "uuid": 335,
         "usageType": "charge"
     },
     "TECHNO_BLAST_NORMAL": {
@@ -1998,6 +2225,7 @@
         "power": 120.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 336,
         "usageType": "charge"
     },
     "TECHNO_BLAST_BURN": {
@@ -2006,6 +2234,7 @@
         "power": 120.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 337,
         "usageType": "charge"
     },
     "TECHNO_BLAST_CHILL": {
@@ -2014,6 +2243,7 @@
         "power": 120.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 338,
         "usageType": "charge"
     },
     "TECHNO_BLAST_WATER": {
@@ -2022,6 +2252,7 @@
         "power": 120.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 339,
         "usageType": "charge"
     },
     "TECHNO_BLAST_SHOCK": {
@@ -2030,6 +2261,7 @@
         "power": 120.0,
         "energyDelta": 55,
         "turns": 0,
+        "uuid": 340,
         "usageType": "charge"
     },
     "FLY": {
@@ -2038,6 +2270,7 @@
         "power": 80.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 341,
         "usageType": "charge"
     },
     "V_CREATE": {
@@ -2050,6 +2283,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 342,
         "usageType": "charge"
     },
     "LEAF_STORM": {
@@ -2062,6 +2296,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 343,
         "usageType": "charge"
     },
     "TRI_ATTACK": {
@@ -2075,6 +2310,7 @@
             "buffActivationChance": 0.5
         },
         "turns": 0,
+        "uuid": 344,
         "usageType": "charge"
     },
     "GUST_FAST": {
@@ -2083,6 +2319,7 @@
         "power": 16.0,
         "energyDelta": 12,
         "turns": 4,
+        "uuid": 345,
         "usageType": "fast"
     },
     "INCINERATE_FAST": {
@@ -2091,6 +2328,7 @@
         "power": 20.0,
         "energyDelta": 20,
         "turns": 5,
+        "uuid": 346,
         "usageType": "fast"
     },
     "FEATHER_DANCE": {
@@ -2103,6 +2341,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 348,
         "usageType": "charge"
     },
     "FAIRY_WIND_FAST": {
@@ -2111,6 +2350,7 @@
         "power": 4.0,
         "energyDelta": 9,
         "turns": 2,
+        "uuid": 350,
         "usageType": "fast"
     },
     "WEATHER_BALL_NORMAL": {
@@ -2119,6 +2359,7 @@
         "power": 55.0,
         "energyDelta": 35,
         "turns": 0,
+        "uuid": 352,
         "usageType": "charge"
     },
     "PSYCHIC_FANGS": {
@@ -2131,6 +2372,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 353,
         "usageType": "charge"
     },
     "DOUBLE_KICK_FAST": {
@@ -2139,6 +2381,7 @@
         "power": 8.0,
         "energyDelta": 12,
         "turns": 3,
+        "uuid": 356,
         "usageType": "fast"
     },
     "MAGICAL_LEAF_FAST": {
@@ -2147,6 +2390,7 @@
         "power": 10.0,
         "energyDelta": 10,
         "turns": 3,
+        "uuid": 357,
         "usageType": "fast"
     },
     "SACRED_FIRE": {
@@ -2159,6 +2403,7 @@
             "buffActivationChance": 0.5
         },
         "turns": 0,
+        "uuid": 358,
         "usageType": "charge"
     },
     "ICICLE_SPEAR": {
@@ -2167,6 +2412,7 @@
         "power": 65.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 359,
         "usageType": "charge"
     },
     "AEROBLAST_PLUS": {
@@ -2179,6 +2425,7 @@
             "buffActivationChance": 0.125
         },
         "turns": 0,
+        "uuid": 360,
         "usageType": "charge"
     },
     "AEROBLAST_PLUS_PLUS": {
@@ -2191,6 +2438,7 @@
             "buffActivationChance": 0.125
         },
         "turns": 0,
+        "uuid": 361,
         "usageType": "charge"
     },
     "SACRED_FIRE_PLUS": {
@@ -2203,6 +2451,7 @@
             "buffActivationChance": 0.5
         },
         "turns": 0,
+        "uuid": 362,
         "usageType": "charge"
     },
     "SACRED_FIRE_PLUS_PLUS": {
@@ -2215,6 +2464,7 @@
             "buffActivationChance": 0.5
         },
         "turns": 0,
+        "uuid": 363,
         "usageType": "charge"
     },
     "ACROBATICS": {
@@ -2223,6 +2473,7 @@
         "power": 110.0,
         "energyDelta": 60,
         "turns": 0,
+        "uuid": 364,
         "usageType": "charge"
     },
     "LUSTER_PURGE": {
@@ -2235,6 +2486,7 @@
             "buffActivationChance": 0.5
         },
         "turns": 0,
+        "uuid": 365,
         "usageType": "charge"
     },
     "MIST_BALL": {
@@ -2247,6 +2499,7 @@
             "buffActivationChance": 0.5
         },
         "turns": 0,
+        "uuid": 366,
         "usageType": "charge"
     },
     "BRUTAL_SWING": {
@@ -2255,6 +2508,7 @@
         "power": 55.0,
         "energyDelta": 35,
         "turns": 0,
+        "uuid": 367,
         "usageType": "charge"
     },
     "ROLLOUT_FAST": {
@@ -2263,6 +2517,7 @@
         "power": 8.0,
         "energyDelta": 13,
         "turns": 3,
+        "uuid": 368,
         "usageType": "fast"
     },
     "SEED_FLARE": {
@@ -2275,6 +2530,7 @@
             "buffActivationChance": 0.4
         },
         "turns": 0,
+        "uuid": 369,
         "usageType": "charge"
     },
     "OBSTRUCT": {
@@ -2288,6 +2544,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 370,
         "usageType": "charge"
     },
     "SHADOW_FORCE": {
@@ -2296,6 +2553,7 @@
         "power": 120.0,
         "energyDelta": 90,
         "turns": 0,
+        "uuid": 371,
         "usageType": "charge"
     },
     "METEOR_BEAM": {
@@ -2308,6 +2566,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 372,
         "usageType": "charge"
     },
     "WATER_SHURIKEN_FAST": {
@@ -2316,6 +2575,7 @@
         "power": 6.0,
         "energyDelta": 14,
         "turns": 3,
+        "uuid": 373,
         "usageType": "fast"
     },
     "FUSION_BOLT": {
@@ -2324,6 +2584,7 @@
         "power": 90.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 374,
         "usageType": "charge"
     },
     "FUSION_FLARE": {
@@ -2332,6 +2593,7 @@
         "power": 90.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 375,
         "usageType": "charge"
     },
     "POLTERGEIST": {
@@ -2340,6 +2602,7 @@
         "power": 150.0,
         "energyDelta": 75,
         "turns": 0,
+        "uuid": 376,
         "usageType": "charge"
     },
     "HIGH_HORSEPOWER": {
@@ -2348,6 +2611,7 @@
         "power": 100.0,
         "energyDelta": 60,
         "turns": 0,
+        "uuid": 377,
         "usageType": "charge"
     },
     "GLACIATE": {
@@ -2360,6 +2624,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 378,
         "usageType": "charge"
     },
     "BREAKING_SWIPE": {
@@ -2372,6 +2637,7 @@
             "buffActivationChance": 0.5
         },
         "turns": 0,
+        "uuid": 379,
         "usageType": "charge"
     },
     "BOOMBURST": {
@@ -2380,6 +2646,7 @@
         "power": 150.0,
         "energyDelta": 70,
         "turns": 0,
+        "uuid": 380,
         "usageType": "charge"
     },
     "DOUBLE_IRON_BASH": {
@@ -2388,6 +2655,7 @@
         "power": 50.0,
         "energyDelta": 35,
         "turns": 0,
+        "uuid": 381,
         "usageType": "charge"
     },
     "MYSTICAL_FIRE": {
@@ -2400,6 +2668,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 382,
         "usageType": "charge"
     },
     "LIQUIDATION": {
@@ -2412,6 +2681,7 @@
             "buffActivationChance": 0.3
         },
         "turns": 0,
+        "uuid": 383,
         "usageType": "charge"
     },
     "DRAGON_ASCENT": {
@@ -2424,6 +2694,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 384,
         "usageType": "charge"
     },
     "LEAFAGE_FAST": {
@@ -2432,6 +2703,7 @@
         "power": 6.0,
         "energyDelta": 7,
         "turns": 2,
+        "uuid": 385,
         "usageType": "fast"
     },
     "MAGMA_STORM": {
@@ -2440,6 +2712,7 @@
         "power": 65.0,
         "energyDelta": 40,
         "turns": 0,
+        "uuid": 386,
         "usageType": "charge"
     },
     "GEOMANCY_FAST": {
@@ -2448,6 +2721,7 @@
         "power": 4.0,
         "energyDelta": 13,
         "turns": 3,
+        "uuid": 387,
         "usageType": "fast"
     },
     "SPACIAL_REND": {
@@ -2456,6 +2730,7 @@
         "power": 95.0,
         "energyDelta": 50,
         "turns": 0,
+        "uuid": 388,
         "usageType": "charge"
     },
     "OBLIVION_WING": {
@@ -2464,6 +2739,7 @@
         "power": 85.0,
         "energyDelta": 50,
         "turns": 0,
+        "uuid": 389,
         "usageType": "charge"
     },
     "NATURES_MADNESS": {
@@ -2476,6 +2752,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 390,
         "usageType": "charge"
     },
     "TRIPLE_AXEL": {
@@ -2488,6 +2765,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 391,
         "usageType": "charge"
     },
     "TRAILBLAZE": {
@@ -2500,6 +2778,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 392,
         "usageType": "charge"
     },
     "SCORCHING_SANDS": {
@@ -2512,6 +2791,7 @@
             "buffActivationChance": 0.3
         },
         "turns": 0,
+        "uuid": 393,
         "usageType": "charge"
     },
     "ROAR_OF_TIME": {
@@ -2520,6 +2800,7 @@
         "power": 150.0,
         "energyDelta": 65,
         "turns": 0,
+        "uuid": 394,
         "usageType": "charge"
     },
     "BLEAKWIND_STORM": {
@@ -2532,6 +2813,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 395,
         "usageType": "charge"
     },
     "SANDSEAR_STORM": {
@@ -2544,6 +2826,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 396,
         "usageType": "charge"
     },
     "WILDBOLT_STORM": {
@@ -2556,6 +2839,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 397,
         "usageType": "charge"
     },
     "SPIRIT_SHACKLE": {
@@ -2568,6 +2852,7 @@
             "buffActivationChance": 0.33
         },
         "turns": 0,
+        "uuid": 398,
         "usageType": "charge"
     },
     "VOLT_TACKLE": {
@@ -2580,6 +2865,7 @@
             "buffActivationChance": 1.0
         },
         "turns": 0,
+        "uuid": 399,
         "usageType": "charge"
     },
     "DARKEST_LARIAT": {
@@ -2588,6 +2874,7 @@
         "power": 120.0,
         "energyDelta": 60,
         "turns": 0,
+        "uuid": 400,
         "usageType": "charge"
     },
     "PSYWAVE_FAST": {
@@ -2596,6 +2883,7 @@
         "power": 3.0,
         "energyDelta": 4,
         "turns": 1,
+        "uuid": 401,
         "usageType": "fast"
     },
     "METAL_SOUND_FAST": {
@@ -2604,6 +2892,7 @@
         "power": 3.0,
         "energyDelta": 8,
         "turns": 2,
+        "uuid": 402,
         "usageType": "fast"
     },
     "SAND_ATTACK_FAST": {
@@ -2612,6 +2901,7 @@
         "power": 2.0,
         "energyDelta": 4,
         "turns": 1,
+        "uuid": 403,
         "usageType": "fast"
     },
     "SUNSTEEL_STRIKE": {
@@ -2620,6 +2910,7 @@
         "power": 135.0,
         "energyDelta": 65,
         "turns": 0,
+        "uuid": 404,
         "usageType": "charge"
     },
     "MOONGEIST_BEAM": {
@@ -2628,6 +2919,33 @@
         "power": 135.0,
         "energyDelta": 65,
         "turns": 0,
+        "uuid": 405,
+        "usageType": "charge"
+    },
+    "AURA_WHEEL_ELECTRIC": {
+        "uniqueId": "AURA_WHEEL_ELECTRIC",
+        "type": "POKEMON_TYPE_ELECTRIC",
+        "power": 100.0,
+        "energyDelta": 45,
+        "buffs": {
+            "attackerAttackStatStageChange": 1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "uuid": 406,
+        "usageType": "charge"
+    },
+    "AURA_WHEEL_DARK": {
+        "uniqueId": "AURA_WHEEL_DARK",
+        "type": "POKEMON_TYPE_DARK",
+        "power": 100.0,
+        "energyDelta": 45,
+        "buffs": {
+            "attackerAttackStatStageChange": 1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "uuid": 407,
         "usageType": "charge"
     },
     "HIGH_JUMP_KICK": {
@@ -2640,6 +2958,7 @@
             "buffActivationChance": 0.1
         },
         "turns": 0,
+        "uuid": 408,
         "usageType": "charge"
     },
     "FORCE_PALM_FAST": {
@@ -2648,6 +2967,7 @@
         "power": 13.0,
         "energyDelta": 10,
         "turns": 3,
+        "uuid": 462,
         "usageType": "fast"
     },
     "SPARKLING_ARIA": {
@@ -2656,6 +2976,7 @@
         "power": 80.0,
         "energyDelta": 45,
         "turns": 0,
+        "uuid": 463,
         "usageType": "charge"
     }
 }
