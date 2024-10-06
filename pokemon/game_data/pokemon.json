@@ -99,6 +99,7 @@
             "SOLAR_BEAM"
         ],
         "pokedex_number": 3,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -212,6 +213,7 @@
             "OVERHEAT"
         ],
         "pokedex_number": 6,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -241,6 +243,7 @@
             "OVERHEAT"
         ],
         "pokedex_number": 6,
+        "form_number": 2,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -347,6 +350,7 @@
             "SKULL_BASH"
         ],
         "pokedex_number": 9,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -523,6 +527,7 @@
             "X_SCISSOR"
         ],
         "pokedex_number": 15,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -633,6 +638,7 @@
             "HURRICANE"
         ],
         "pokedex_number": 18,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -2516,6 +2522,7 @@
             "SHADOW_BALL"
         ],
         "pokedex_number": 65,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -3119,6 +3126,7 @@
             "WATER_PULSE"
         ],
         "pokedex_number": 80,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -3653,6 +3661,7 @@
             "SLUDGE_WAVE"
         ],
         "pokedex_number": 94,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -4394,6 +4403,7 @@
             "STOMP"
         ],
         "pokedex_number": 115,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -4775,6 +4785,7 @@
             "X_SCISSOR"
         ],
         "pokedex_number": 127,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -4884,6 +4895,7 @@
             "TWISTER"
         ],
         "pokedex_number": 130,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -5241,6 +5253,7 @@
             "ROCK_SLIDE"
         ],
         "pokedex_number": 142,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -6496,6 +6509,7 @@
             "ZAP_CANNON"
         ],
         "pokedex_number": 181,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -7300,6 +7314,7 @@
             "PSYCHIC_FANGS"
         ],
         "pokedex_number": 208,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -7460,6 +7475,7 @@
             "X_SCISSOR"
         ],
         "pokedex_number": 212,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -7537,6 +7553,7 @@
             "ROCK_BLAST"
         ],
         "pokedex_number": 214,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -8013,6 +8030,7 @@
             "FOUL_PLAY"
         ],
         "pokedex_number": 229,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -8546,6 +8564,7 @@
             "STONE_EDGE"
         ],
         "pokedex_number": 248,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -8739,6 +8758,7 @@
             "LEAF_BLADE"
         ],
         "pokedex_number": 254,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -8847,6 +8867,7 @@
             "STONE_EDGE"
         ],
         "pokedex_number": 257,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -8953,6 +8974,7 @@
             "SURF"
         ],
         "pokedex_number": 260,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -9605,6 +9627,7 @@
             "TRIPLE_AXEL"
         ],
         "pokedex_number": 282,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -10145,6 +10168,7 @@
             "SHADOW_SNEAK"
         ],
         "pokedex_number": 302,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -10284,6 +10308,7 @@
             "THUNDER"
         ],
         "pokedex_number": 306,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -10360,6 +10385,7 @@
             "PSYCHIC"
         ],
         "pokedex_number": 308,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -10442,6 +10468,7 @@
             "WILD_CHARGE"
         ],
         "pokedex_number": 310,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -11104,6 +11131,7 @@
             "SKY_ATTACK"
         ],
         "pokedex_number": 334,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -11734,6 +11762,7 @@
             "THUNDER"
         ],
         "pokedex_number": 354,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -11890,6 +11919,7 @@
             "THUNDER"
         ],
         "pokedex_number": 359,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -11989,6 +12019,7 @@
             "SHADOW_BALL"
         ],
         "pokedex_number": 362,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -12301,6 +12332,7 @@
             "OUTRAGE"
         ],
         "pokedex_number": 373,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -12515,6 +12547,7 @@
             "THUNDER"
         ],
         "pokedex_number": 380,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -12567,6 +12600,7 @@
             "SOLAR_BEAM"
         ],
         "pokedex_number": 381,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -12619,6 +12653,7 @@
             "THUNDER"
         ],
         "pokedex_number": 382,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_PRIMAL"
         ]
@@ -12673,6 +12708,7 @@
             "SOLAR_BEAM"
         ],
         "pokedex_number": 383,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_PRIMAL"
         ]
@@ -12728,6 +12764,7 @@
             "OUTRAGE"
         ],
         "pokedex_number": 384,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -14053,6 +14090,7 @@
             "TRIPLE_AXEL"
         ],
         "pokedex_number": 428,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -14524,6 +14562,7 @@
             "SAND_TOMB"
         ],
         "pokedex_number": 445,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -14635,6 +14674,7 @@
             "THUNDER_PUNCH"
         ],
         "pokedex_number": 448,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -14988,6 +15028,7 @@
             "WEATHER_BALL_ICE"
         ],
         "pokedex_number": 460,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]
@@ -23186,6 +23227,7 @@
             "ROCK_SLIDE"
         ],
         "pokedex_number": 719,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_MEGA"
         ]

@@ -249,17 +249,20 @@ def has_temp_evo_overrides(raw_data):
 
 def process_temp_evo_overrides(pokemon_data, raw_data):
     for evolution in raw_data.get("pokemonSettings", {}).get("tempEvoOverrides"):
-
         name = pokemon_data.get("name")
 
         if evolution.get("tempEvoId") == "TEMP_EVOLUTION_MEGA":
             new_name = "MEGA_" + name
+            form_number = 1
         elif evolution.get("tempEvoId") == "TEMP_EVOLUTION_MEGA_X":
             new_name = "MEGA_" + name + "_X"
+            form_number = 1
         elif evolution.get("tempEvoId") == "TEMP_EVOLUTION_MEGA_Y":
             new_name = "MEGA_" + name + "_Y"
+            form_number = 2
         elif evolution.get("tempEvoId") == "TEMP_EVOLUTION_PRIMAL":
             new_name = "PRIMAL_" + name
+            form_number = 1
         else:
             new_name = name
 
@@ -285,6 +288,7 @@ def process_temp_evo_overrides(pokemon_data, raw_data):
             "fast_move_pool": pokemon_data.get("fast_move_pool"),
             "charged_move_pool": pokemon_data.get("charged_move_pool"),
             "pokedex_number": pokemon_data.get("pokedex_number"),
+            "form_number": form_number,
             "pokemon_category": get_pokemon_category(evolution)
         }
 
