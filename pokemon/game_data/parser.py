@@ -116,7 +116,6 @@ def parse_pokemon_data(template_id, data):
         if pokemon_json.get(pokemon_key).get("pokedex_number") == pokedex_number:
             form_number += 1
 
-
     if name in SKIPPED_POKEMON_IDS:
         return None
 
@@ -144,9 +143,15 @@ def parse_pokemon_data(template_id, data):
 
     pokemon_category = get_pokemon_category(pokemon_data)
 
+    display_name = get_pokemon_display_name(name)
+
+    showdown_id = get_pokemon_showdown_id(name)
+
     return {
         "name": name,
         "species": species,
+        "display_name": display_name,
+        "showdown_id": showdown_id,
         "types": types,
         "base_attack": base_attack,
         "base_defense": base_defense,
@@ -157,6 +162,127 @@ def parse_pokemon_data(template_id, data):
         "form_number": form_number,
         "pokemon_category": pokemon_category
     }
+
+
+def get_pokemon_display_name(name):
+    final_string = ""
+    for phrase in name.replace("-", "-_").split("_"):
+        final_string += phrase.capitalize() + " "
+    return final_string.strip().replace("- ", "-")
+
+
+def get_pokemon_showdown_id(original_id):
+    original_id = original_id.lower().replace("_", "-").replace("hisuian", "hisui").replace("galarian", "galar")
+
+    switcher = {
+        "mega-venusaur": "venusaur-mega",
+        "mega-charizard-x": "charizard-mega-x",
+        "mega-charizard-y": "charizard-mega-y",
+        "mega-blastoise": "blastoise-mega",
+        "mega-beedrill": "beedrill-mega",
+        "mega-pidgeot": "pidgeot-mega",
+        "pikachu-doctor": "pikachu",
+        "pikachu-flying-01": "pikachu",
+        "pikachu-flying-okinawa": "pikachu",
+        "pikachu-gofest-2024-mtiara": "pikachu",
+        "pikachu-horizons": "pikachu",
+        "pikachu-pop-star": "pikachu",
+        "pikachu-rock-star": "pikachu",
+        "nidoran-female": "nidoranf",
+        "nidoran-male": "nidoranm",
+        "mega-alakazam": "alakazam-mega",
+        "mega-slowbro": "slowbro-mega",
+        "mega-gengar": "gengar-mega",
+        "mega-kangaskhan": "kangaskhan-mega",
+        "mr-mime": "mrmime",
+        "mr-mime-galar": "mrmime-galar",
+        "mega-pinsir": "pinsir-mega",
+        "mega-gyarados": "gyarados-mega",
+        "mega-aerodactyl": "aerodactyl-mega",
+        "mewtwo-a": "mewtwo",
+        "mega-ampharos": "ampharos-mega",
+        "mega-steelix": "steelix-mega",
+        "mega-scizor": "scizor-mega",
+        "mega-heracross": "heracross-mega",
+        "mega-houndoom": "houndoom-mega",
+        "mega-tyranitar": "tyranitar-mega",
+        "ho-oh": "hooh",
+        "mega-sceptile": "sceptile-mega",
+        "mega-blaziken": "blaziken-mega",
+        "mega-swampert": "swampert-mega",
+        "mega-gardevoir": "gardevoir-mega",
+        "mega-sableye": "sableye-mega",
+        "mega-aggron": "aggron-mega",
+        "mega-medicham": "medicham-mega",
+        "mega-manectric": "manectric-mega",
+        "mega-altaria": "altaria-mega",
+        "mega-banette": "banette-mega",
+        "mega-absol": "absol-mega",
+        "mega-glalie": "glalie-mega",
+        "mega-salamence": "salamence-mega",
+        "mega-latias": "latias-mega",
+        "mega-latios": "latios-mega",
+        "primal-kyogre": "kyogre-primal",
+        "primal-groudon": "groudon-primal",
+        "mega-rayquaza": "rayquaza-mega",
+        "cherrim-sunny": "cherrim-sunshine",
+        "mega-lopunny": "lopunny-mega",
+        "mime-jr": "mimejr",
+        "mega-garchomp": "garchomp-mega",
+        "mega-lucario": "lucario-mega",
+        "mega-abomasnow": "abomasnow-mega",
+        "porygon-z": "porygonz",
+        "darmanitan-galar-standard": "darmanitan-galar",
+        "darmanitan-galar-zen": "darmanitan-galarzen",
+        "meowstic-female": "meowstic-f",
+        "pumpkaboo-average": "pumpkaboo",
+        "gourgeist-average": "gourgeist",
+        "zygarde-complete-ten-percent": "zygarde-10",
+        "mega-diancie": "diancie-mega",
+        "type-null": "typenull",
+        "jangmo-o": "jangmoo",
+        "hakamo-o": "hakamoo",
+        "kommo-o": "kommoo",
+        "tapu-koko": "tapukoko",
+        "tapu-lele": "tapulele",
+        "tapu-bulu": "tapubulu",
+        "tapu-fini": "tapufini",
+        "necrozma-dawn-wings": "necrozma-dawnwings",
+        "necrozma-dusk-mane": "necrozma-duskmane",
+        "mr-rime": "mrrime",
+        "indeedee-male": "indeedee",
+        "indeedee-female": "indeedee-f",
+        "zacian-crowned-sword": "zacian-crowned",
+        "zacian-hero": "zacian",
+        "zamazenta-crowned-shield": "zamazenta-crowned",
+        "zamazenta-hero": "zamazenta",
+        "urshifu-single-strike": "urshifu",
+        "urshifu-rapid-strike": "urshifu-rapidstrike",
+        "calyrex-ice-rider": "calyrex-ice",
+        "calyrex-shadow-rider": "calyrex-shadow",
+        "oinkologne-male": "oinkologne",
+        "oinkologne-female": "oinkologne-f",
+        "great-tusk": "greattusk",
+        "scream-tail": "screamtail",
+        "brute-bonnet": "brutebonnet",
+        "flutter-mane": "fluttermane",
+        "slither-wing": "slitherwing",
+        "sandy-shocks": "sandyshocks",
+        "iron-treads": "irontreads",
+        "iron-bundle": "ironbundle",
+        "iron-hands": "ironhands",
+        "iron-jugulis": "ironjugulis",
+        "iron-moth": "ironmoth",
+        "iron-thorns": "ironthorns",
+        "wo-chein": "wochein",
+        "chien-pao": "chienpao",
+        "ting-lu": "tinglu",
+        "chi-yu": "chiyu",
+        "roaring-moon": "roaringmoon",
+        "iron-valiant": "ironvaliant"
+    }
+
+    return switcher.get(original_id, original_id)
 
 
 def get_pokemon_category(pokemon_data) -> list:
@@ -265,6 +391,7 @@ def process_temp_evo_overrides(pokemon_data, raw_data):
             form_number = 1
         else:
             new_name = name
+            form_number = 1
 
         new_types = [
             evolution.get("typeOverride1", None),
@@ -278,9 +405,15 @@ def process_temp_evo_overrides(pokemon_data, raw_data):
             "baseAttack"), evolution.get("stats").get("baseDefense"), evolution.get("stats").get(
             "baseStamina")
 
+        display_name = get_pokemon_display_name(new_name)
+
+        showdown_id = get_pokemon_showdown_id(new_name)
+
         yield {
             "name": new_name,
             "species": pokemon_data.get("species"),
+            "display_name": display_name,
+            "showdown_id": showdown_id,
             "types": new_types,
             "base_attack": new_base_attack,
             "base_defense": new_base_defense,
@@ -312,6 +445,8 @@ def process_pokemon_data(data):
         "name": pokemon_data.get("name"),
         "species": pokemon_data.get("species"),
         "types": pokemon_data.get("types"),
+        "display_name": pokemon_data.get("display_name"),
+        "showdown_id": pokemon_data.get("showdown_id"),
         "base_attack": pokemon_data.get("base_attack"),
         "base_defense": pokemon_data.get("base_defense"),
         "base_hp": pokemon_data.get("base_hp"),
@@ -393,7 +528,6 @@ def update():
 
             for pokemon in pokemon_data:
                 pokemon_json[pokemon["name"]] = pokemon
-
 
     with open("moves.json", "w") as f:
         json.dump(moves_json, f, indent=4)
