@@ -403,7 +403,8 @@
         "pokedex_number": 10,
         "form_number": 0,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "METAPOD": {
@@ -428,7 +429,8 @@
         "pokedex_number": 11,
         "form_number": 0,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "BUTTERFREE": {
@@ -456,7 +458,8 @@
         "pokedex_number": 12,
         "form_number": 0,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "WEEDLE": {
@@ -2350,7 +2353,8 @@
         "pokedex_number": 56,
         "form_number": 0,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "PRIMEAPE": {
@@ -2380,7 +2384,8 @@
         "pokedex_number": 57,
         "form_number": 0,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "GROWLITHE": {
@@ -10955,6 +10960,37 @@
             "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
+    "MEGA_MAWILE": {
+        "name": "MEGA_MAWILE",
+        "species": "MAWILE",
+        "display_name": "Mega Mawile",
+        "showdown_id": "mega-mawile",
+        "types": [
+            "POKEMON_TYPE_STEEL",
+            "POKEMON_TYPE_FAIRY"
+        ],
+        "base_attack": 188,
+        "base_defense": 217,
+        "base_hp": 137,
+        "fast_move_pool": [
+            "ASTONISH_FAST",
+            "BITE_FAST",
+            "FAIRY_WIND_FAST",
+            "FIRE_FANG_FAST",
+            "ICE_FANG_FAST"
+        ],
+        "charged_move_pool": [
+            "IRON_HEAD",
+            "PLAY_ROUGH",
+            "POWER_UP_PUNCH",
+            "VICE_GRIP"
+        ],
+        "pokedex_number": 303,
+        "form_number": 1,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
+        ]
+    },
     "ARON": {
         "name": "ARON",
         "species": "ARON",
@@ -17072,7 +17108,8 @@
         "pokedex_number": 485,
         "form_number": 0,
         "pokemon_category": [
-            "POKEMON_CLASS_LEGENDARY"
+            "POKEMON_CLASS_LEGENDARY",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "REGIGIGAS": {
@@ -18697,7 +18734,8 @@
         "pokedex_number": 524,
         "form_number": 0,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "BOLDORE": {
@@ -18724,7 +18762,8 @@
         "pokedex_number": 525,
         "form_number": 0,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "GIGALITH": {
@@ -18753,7 +18792,8 @@
         "pokedex_number": 526,
         "form_number": 0,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "WOOBAT": {
@@ -19190,7 +19230,8 @@
         "base_hp": 181,
         "fast_move_pool": [
             "BUG_BITE_FAST",
-            "RAZOR_LEAF_FAST"
+            "RAZOR_LEAF_FAST",
+            "SHADOW_CLAW_FAST"
         ],
         "charged_move_pool": [
             "LEAF_BLADE",
@@ -19228,7 +19269,8 @@
         "pokedex_number": 543,
         "form_number": 0,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "WHIRLIPEDE": {
@@ -19255,7 +19297,8 @@
         "pokedex_number": 544,
         "form_number": 0,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "SCOLIPEDE": {
@@ -19283,7 +19326,8 @@
         "pokedex_number": 545,
         "form_number": 0,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "COTTONEE": {
@@ -20620,7 +20664,8 @@
         "pokedex_number": 588,
         "form_number": 0,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "ESCAVALIER": {
@@ -20648,7 +20693,8 @@
         "pokedex_number": 589,
         "form_number": 0,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "FOONGUS": {
@@ -21405,7 +21451,8 @@
         "pokedex_number": 616,
         "form_number": 0,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "ACCELGOR": {
@@ -21434,7 +21481,8 @@
         "pokedex_number": 617,
         "form_number": 0,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "STUNFISK": {
@@ -30159,11 +30207,13 @@
         "base_hp": 151,
         "fast_move_pool": [
             "BITE_FAST",
-            "CHARGE_BEAM_FAST"
+            "CHARGE_BEAM_FAST",
+            "THUNDER_SHOCK_FAST"
         ],
         "charged_move_pool": [
             "406",
             "OUTRAGE",
+            "PSYCHIC_FANGS",
             "SEED_BOMB"
         ],
         "pokedex_number": 877,
@@ -30186,11 +30236,13 @@
         "base_hp": 151,
         "fast_move_pool": [
             "BITE_FAST",
-            "CHARGE_BEAM_FAST"
+            "CHARGE_BEAM_FAST",
+            "THUNDER_SHOCK_FAST"
         ],
         "charged_move_pool": [
             "407",
             "OUTRAGE",
+            "PSYCHIC_FANGS",
             "SEED_BOMB"
         ],
         "pokedex_number": 877,
@@ -33296,7 +33348,8 @@
         "pokedex_number": 979,
         "form_number": 0,
         "pokemon_category": [
-            "POKEMON_CLASS_REGULAR"
+            "POKEMON_CLASS_REGULAR",
+            "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
     "CLODSIRE": {
