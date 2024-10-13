@@ -565,7 +565,7 @@ def update():
                  "GROUND", "ICE", "POISON", "PSYCHIC", "ROCK", "STEEL", "WATER"]:
         new_move = hidden_power.copy()
         new_move["uniqueId"] = f"HIDDEN_POWER_{type}"
-        new_move["type"] = type
+        new_move["type"] = "POKEMON_TYPE_" + type
         new_move["displayName"] = f"Hidden Power ({type.title()})"
         new_move["uuid"] = uuid
         uuid += 1
