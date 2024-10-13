@@ -6,6 +6,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 13,
+        "displayName": "Wrap",
         "usageType": "charge"
     },
     "HYPER_BEAM": {
@@ -15,6 +16,7 @@
         "energyDelta": 80,
         "turns": 0,
         "uuid": 14,
+        "displayName": "Hyper Beam",
         "usageType": "charge"
     },
     "DARK_PULSE": {
@@ -24,6 +26,7 @@
         "energyDelta": 50,
         "turns": 0,
         "uuid": 16,
+        "displayName": "Dark Pulse",
         "usageType": "charge"
     },
     "SLUDGE": {
@@ -33,6 +36,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 18,
+        "displayName": "Sludge",
         "usageType": "charge"
     },
     "VICE_GRIP": {
@@ -42,6 +46,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 20,
+        "displayName": "Vice Grip",
         "usageType": "charge"
     },
     "FLAME_WHEEL": {
@@ -51,6 +56,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 21,
+        "displayName": "Flame Wheel",
         "usageType": "charge"
     },
     "MEGAHORN": {
@@ -60,6 +66,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 22,
+        "displayName": "Megahorn",
         "usageType": "charge"
     },
     "FLAMETHROWER": {
@@ -69,6 +76,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 24,
+        "displayName": "Flamethrower",
         "usageType": "charge"
     },
     "DIG": {
@@ -78,6 +86,7 @@
         "energyDelta": 50,
         "turns": 0,
         "uuid": 26,
+        "displayName": "Dig",
         "usageType": "charge"
     },
     "CROSS_CHOP": {
@@ -87,6 +96,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 28,
+        "displayName": "Cross Chop",
         "usageType": "charge"
     },
     "PSYBEAM": {
@@ -96,6 +106,7 @@
         "energyDelta": 60,
         "turns": 0,
         "uuid": 30,
+        "displayName": "Psybeam",
         "usageType": "charge"
     },
     "EARTHQUAKE": {
@@ -105,6 +116,7 @@
         "energyDelta": 65,
         "turns": 0,
         "uuid": 31,
+        "displayName": "Earthquake",
         "usageType": "charge"
     },
     "STONE_EDGE": {
@@ -114,6 +126,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 32,
+        "displayName": "Stone Edge",
         "usageType": "charge"
     },
     "ICE_PUNCH": {
@@ -123,6 +136,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 33,
+        "displayName": "Ice Punch",
         "usageType": "charge"
     },
     "HEART_STAMP": {
@@ -132,6 +146,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 34,
+        "displayName": "Heart Stamp",
         "usageType": "charge"
     },
     "DISCHARGE": {
@@ -141,6 +156,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 35,
+        "displayName": "Discharge",
         "usageType": "charge"
     },
     "FLASH_CANNON": {
@@ -150,6 +166,7 @@
         "energyDelta": 70,
         "turns": 0,
         "uuid": 36,
+        "displayName": "Flash Cannon",
         "usageType": "charge"
     },
     "DRILL_PECK": {
@@ -159,6 +176,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 38,
+        "displayName": "Drill Peck",
         "usageType": "charge"
     },
     "ICE_BEAM": {
@@ -168,6 +186,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 39,
+        "displayName": "Ice Beam",
         "usageType": "charge"
     },
     "BLIZZARD": {
@@ -177,6 +196,7 @@
         "energyDelta": 75,
         "turns": 0,
         "uuid": 40,
+        "displayName": "Blizzard",
         "usageType": "charge"
     },
     "HEAT_WAVE": {
@@ -186,6 +206,7 @@
         "energyDelta": 75,
         "turns": 0,
         "uuid": 42,
+        "displayName": "Heat Wave",
         "usageType": "charge"
     },
     "AERIAL_ACE": {
@@ -195,6 +216,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 45,
+        "displayName": "Aerial Ace",
         "usageType": "charge"
     },
     "DRILL_RUN": {
@@ -204,6 +226,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 46,
+        "displayName": "Drill Run",
         "usageType": "charge"
     },
     "PETAL_BLIZZARD": {
@@ -213,6 +236,7 @@
         "energyDelta": 65,
         "turns": 0,
         "uuid": 47,
+        "displayName": "Petal Blizzard",
         "usageType": "charge"
     },
     "MEGA_DRAIN": {
@@ -222,6 +246,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 48,
+        "displayName": "Mega Drain",
         "usageType": "charge"
     },
     "BUG_BUZZ": {
@@ -235,6 +260,7 @@
         },
         "turns": 0,
         "uuid": 49,
+        "displayName": "Bug Buzz",
         "usageType": "charge"
     },
     "POISON_FANG": {
@@ -248,6 +274,7 @@
         },
         "turns": 0,
         "uuid": 50,
+        "displayName": "Poison Fang",
         "usageType": "charge"
     },
     "NIGHT_SLASH": {
@@ -261,6 +288,7 @@
         },
         "turns": 0,
         "uuid": 51,
+        "displayName": "Night Slash",
         "usageType": "charge"
     },
     "BUBBLE_BEAM": {
@@ -274,6 +302,7 @@
         },
         "turns": 0,
         "uuid": 53,
+        "displayName": "Bubble Beam",
         "usageType": "charge"
     },
     "SUBMISSION": {
@@ -283,6 +312,7 @@
         "energyDelta": 50,
         "turns": 0,
         "uuid": 54,
+        "displayName": "Submission",
         "usageType": "charge"
     },
     "LOW_SWEEP": {
@@ -292,6 +322,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 56,
+        "displayName": "Low Sweep",
         "usageType": "charge"
     },
     "AQUA_JET": {
@@ -301,6 +332,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 57,
+        "displayName": "Aqua Jet",
         "usageType": "charge"
     },
     "AQUA_TAIL": {
@@ -310,6 +342,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 58,
+        "displayName": "Aqua Tail",
         "usageType": "charge"
     },
     "SEED_BOMB": {
@@ -319,6 +352,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 59,
+        "displayName": "Seed Bomb",
         "usageType": "charge"
     },
     "PSYSHOCK": {
@@ -328,6 +362,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 60,
+        "displayName": "Psyshock",
         "usageType": "charge"
     },
     "ANCIENT_POWER": {
@@ -342,6 +377,7 @@
         },
         "turns": 0,
         "uuid": 62,
+        "displayName": "Ancient Power",
         "usageType": "charge"
     },
     "ROCK_TOMB": {
@@ -355,6 +391,7 @@
         },
         "turns": 0,
         "uuid": 63,
+        "displayName": "Rock Tomb",
         "usageType": "charge"
     },
     "ROCK_SLIDE": {
@@ -364,6 +401,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 64,
+        "displayName": "Rock Slide",
         "usageType": "charge"
     },
     "POWER_GEM": {
@@ -373,6 +411,7 @@
         "energyDelta": 50,
         "turns": 0,
         "uuid": 65,
+        "displayName": "Power Gem",
         "usageType": "charge"
     },
     "SHADOW_SNEAK": {
@@ -382,6 +421,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 66,
+        "displayName": "Shadow Sneak",
         "usageType": "charge"
     },
     "SHADOW_PUNCH": {
@@ -391,6 +431,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 67,
+        "displayName": "Shadow Punch",
         "usageType": "charge"
     },
     "OMINOUS_WIND": {
@@ -405,6 +446,7 @@
         },
         "turns": 0,
         "uuid": 69,
+        "displayName": "Ominous Wind",
         "usageType": "charge"
     },
     "SHADOW_BALL": {
@@ -414,6 +456,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 70,
+        "displayName": "Shadow Ball",
         "usageType": "charge"
     },
     "MAGNET_BOMB": {
@@ -423,6 +466,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 72,
+        "displayName": "Magnet Bomb",
         "usageType": "charge"
     },
     "IRON_HEAD": {
@@ -432,6 +476,7 @@
         "energyDelta": 50,
         "turns": 0,
         "uuid": 74,
+        "displayName": "Iron Head",
         "usageType": "charge"
     },
     "PARABOLIC_CHARGE": {
@@ -445,6 +490,7 @@
         },
         "turns": 0,
         "uuid": 75,
+        "displayName": "Parabolic Charge",
         "usageType": "charge"
     },
     "THUNDER_PUNCH": {
@@ -454,6 +500,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 77,
+        "displayName": "Thunder Punch",
         "usageType": "charge"
     },
     "THUNDER": {
@@ -463,6 +510,7 @@
         "energyDelta": 60,
         "turns": 0,
         "uuid": 78,
+        "displayName": "Thunder",
         "usageType": "charge"
     },
     "THUNDERBOLT": {
@@ -472,6 +520,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 79,
+        "displayName": "Thunderbolt",
         "usageType": "charge"
     },
     "TWISTER": {
@@ -481,6 +530,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 80,
+        "displayName": "Twister",
         "usageType": "charge"
     },
     "DRAGON_PULSE": {
@@ -490,6 +540,7 @@
         "energyDelta": 60,
         "turns": 0,
         "uuid": 82,
+        "displayName": "Dragon Pulse",
         "usageType": "charge"
     },
     "DRAGON_CLAW": {
@@ -499,6 +550,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 83,
+        "displayName": "Dragon Claw",
         "usageType": "charge"
     },
     "DISARMING_VOICE": {
@@ -508,6 +560,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 84,
+        "displayName": "Disarming Voice",
         "usageType": "charge"
     },
     "DRAINING_KISS": {
@@ -517,6 +570,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 85,
+        "displayName": "Draining Kiss",
         "usageType": "charge"
     },
     "DAZZLING_GLEAM": {
@@ -526,6 +580,7 @@
         "energyDelta": 70,
         "turns": 0,
         "uuid": 86,
+        "displayName": "Dazzling Gleam",
         "usageType": "charge"
     },
     "MOONBLAST": {
@@ -539,6 +594,7 @@
         },
         "turns": 0,
         "uuid": 87,
+        "displayName": "Moonblast",
         "usageType": "charge"
     },
     "PLAY_ROUGH": {
@@ -548,6 +604,7 @@
         "energyDelta": 60,
         "turns": 0,
         "uuid": 88,
+        "displayName": "Play Rough",
         "usageType": "charge"
     },
     "CROSS_POISON": {
@@ -561,6 +618,7 @@
         },
         "turns": 0,
         "uuid": 89,
+        "displayName": "Cross Poison",
         "usageType": "charge"
     },
     "SLUDGE_BOMB": {
@@ -570,6 +628,7 @@
         "energyDelta": 50,
         "turns": 0,
         "uuid": 90,
+        "displayName": "Sludge Bomb",
         "usageType": "charge"
     },
     "SLUDGE_WAVE": {
@@ -579,6 +638,7 @@
         "energyDelta": 65,
         "turns": 0,
         "uuid": 91,
+        "displayName": "Sludge Wave",
         "usageType": "charge"
     },
     "GUNK_SHOT": {
@@ -588,6 +648,7 @@
         "energyDelta": 75,
         "turns": 0,
         "uuid": 92,
+        "displayName": "Gunk Shot",
         "usageType": "charge"
     },
     "BONE_CLUB": {
@@ -597,6 +658,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 94,
+        "displayName": "Bone Club",
         "usageType": "charge"
     },
     "BULLDOZE": {
@@ -606,6 +668,7 @@
         "energyDelta": 60,
         "turns": 0,
         "uuid": 95,
+        "displayName": "Bulldoze",
         "usageType": "charge"
     },
     "MUD_BOMB": {
@@ -615,6 +678,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 96,
+        "displayName": "Mud Bomb",
         "usageType": "charge"
     },
     "SIGNAL_BEAM": {
@@ -629,6 +693,7 @@
         },
         "turns": 0,
         "uuid": 99,
+        "displayName": "Signal Beam",
         "usageType": "charge"
     },
     "X_SCISSOR": {
@@ -638,6 +703,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 100,
+        "displayName": "X-Scissor",
         "usageType": "charge"
     },
     "FLAME_CHARGE": {
@@ -651,6 +717,7 @@
         },
         "turns": 0,
         "uuid": 101,
+        "displayName": "Flame Charge",
         "usageType": "charge"
     },
     "FLAME_BURST": {
@@ -660,6 +727,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 102,
+        "displayName": "Flame Burst",
         "usageType": "charge"
     },
     "FIRE_BLAST": {
@@ -669,6 +737,7 @@
         "energyDelta": 80,
         "turns": 0,
         "uuid": 103,
+        "displayName": "Fire Blast",
         "usageType": "charge"
     },
     "BRINE": {
@@ -678,6 +747,7 @@
         "energyDelta": 50,
         "turns": 0,
         "uuid": 104,
+        "displayName": "Brine",
         "usageType": "charge"
     },
     "WATER_PULSE": {
@@ -687,6 +757,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 105,
+        "displayName": "Water Pulse",
         "usageType": "charge"
     },
     "SCALD": {
@@ -700,6 +771,7 @@
         },
         "turns": 0,
         "uuid": 106,
+        "displayName": "Scald",
         "usageType": "charge"
     },
     "HYDRO_PUMP": {
@@ -709,6 +781,7 @@
         "energyDelta": 75,
         "turns": 0,
         "uuid": 107,
+        "displayName": "Hydro Pump",
         "usageType": "charge"
     },
     "PSYCHIC": {
@@ -722,6 +795,7 @@
         },
         "turns": 0,
         "uuid": 108,
+        "displayName": "Psychic",
         "usageType": "charge"
     },
     "PSYSTRIKE": {
@@ -731,6 +805,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 109,
+        "displayName": "Psystrike",
         "usageType": "charge"
     },
     "ICY_WIND": {
@@ -744,6 +819,7 @@
         },
         "turns": 0,
         "uuid": 111,
+        "displayName": "Icy Wind",
         "usageType": "charge"
     },
     "GIGA_DRAIN": {
@@ -753,6 +829,7 @@
         "energyDelta": 80,
         "turns": 0,
         "uuid": 114,
+        "displayName": "Giga Drain",
         "usageType": "charge"
     },
     "FIRE_PUNCH": {
@@ -762,6 +839,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 115,
+        "displayName": "Fire Punch",
         "usageType": "charge"
     },
     "SOLAR_BEAM": {
@@ -771,6 +849,7 @@
         "energyDelta": 80,
         "turns": 0,
         "uuid": 116,
+        "displayName": "Solar Beam",
         "usageType": "charge"
     },
     "LEAF_BLADE": {
@@ -780,6 +859,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 117,
+        "displayName": "Leaf Blade",
         "usageType": "charge"
     },
     "POWER_WHIP": {
@@ -789,6 +869,7 @@
         "energyDelta": 50,
         "turns": 0,
         "uuid": 118,
+        "displayName": "Power Whip",
         "usageType": "charge"
     },
     "AIR_CUTTER": {
@@ -798,6 +879,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 121,
+        "displayName": "Air Cutter",
         "usageType": "charge"
     },
     "HURRICANE": {
@@ -807,6 +889,7 @@
         "energyDelta": 65,
         "turns": 0,
         "uuid": 122,
+        "displayName": "Hurricane",
         "usageType": "charge"
     },
     "BRICK_BREAK": {
@@ -820,6 +903,7 @@
         },
         "turns": 0,
         "uuid": 123,
+        "displayName": "Brick Break",
         "usageType": "charge"
     },
     "SWIFT": {
@@ -829,6 +913,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 125,
+        "displayName": "Swift",
         "usageType": "charge"
     },
     "HORN_ATTACK": {
@@ -838,6 +923,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 126,
+        "displayName": "Horn Attack",
         "usageType": "charge"
     },
     "STOMP": {
@@ -847,6 +933,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 127,
+        "displayName": "Stomp",
         "usageType": "charge"
     },
     "HYPER_FANG": {
@@ -856,6 +943,7 @@
         "energyDelta": 50,
         "turns": 0,
         "uuid": 129,
+        "displayName": "Hyper Fang",
         "usageType": "charge"
     },
     "BODY_SLAM": {
@@ -865,6 +953,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 131,
+        "displayName": "Body Slam",
         "usageType": "charge"
     },
     "REST": {
@@ -874,6 +963,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 132,
+        "displayName": "Rest",
         "usageType": "charge"
     },
     "STRUGGLE": {
@@ -883,6 +973,7 @@
         "energyDelta": 100,
         "turns": 0,
         "uuid": 133,
+        "displayName": "Struggle",
         "usageType": "charge"
     },
     "SCALD_BLASTOISE": {
@@ -892,6 +983,7 @@
         "energyDelta": 80,
         "turns": 0,
         "uuid": 134,
+        "displayName": "Scald",
         "usageType": "charge"
     },
     "HYDRO_PUMP_BLASTOISE": {
@@ -901,6 +993,7 @@
         "energyDelta": 80,
         "turns": 0,
         "uuid": 135,
+        "displayName": "Hydro Pump",
         "usageType": "charge"
     },
     "WRAP_GREEN": {
@@ -910,6 +1003,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 136,
+        "displayName": "Wrap",
         "usageType": "charge"
     },
     "WRAP_PINK": {
@@ -919,6 +1013,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 137,
+        "displayName": "Wrap",
         "usageType": "charge"
     },
     "FURY_CUTTER_FAST": {
@@ -928,6 +1023,7 @@
         "energyDelta": 4,
         "turns": 1,
         "uuid": 200,
+        "displayName": "Fury Cutter",
         "usageType": "fast"
     },
     "BUG_BITE_FAST": {
@@ -937,6 +1033,7 @@
         "energyDelta": 3,
         "turns": 1,
         "uuid": 201,
+        "displayName": "Bug Bite",
         "usageType": "fast"
     },
     "BITE_FAST": {
@@ -946,6 +1043,7 @@
         "energyDelta": 2,
         "turns": 1,
         "uuid": 202,
+        "displayName": "Bite",
         "usageType": "fast"
     },
     "SUCKER_PUNCH_FAST": {
@@ -955,6 +1053,7 @@
         "energyDelta": 7,
         "turns": 2,
         "uuid": 203,
+        "displayName": "Sucker Punch",
         "usageType": "fast"
     },
     "DRAGON_BREATH_FAST": {
@@ -964,6 +1063,7 @@
         "energyDelta": 3,
         "turns": 1,
         "uuid": 204,
+        "displayName": "Dragon Breath",
         "usageType": "fast"
     },
     "THUNDER_SHOCK_FAST": {
@@ -973,6 +1073,7 @@
         "energyDelta": 9,
         "turns": 2,
         "uuid": 205,
+        "displayName": "Thunder Shock",
         "usageType": "fast"
     },
     "SPARK_FAST": {
@@ -982,6 +1083,7 @@
         "energyDelta": 7,
         "turns": 2,
         "uuid": 206,
+        "displayName": "Spark",
         "usageType": "fast"
     },
     "LOW_KICK_FAST": {
@@ -991,6 +1093,7 @@
         "energyDelta": 5,
         "turns": 2,
         "uuid": 207,
+        "displayName": "Low Kick",
         "usageType": "fast"
     },
     "KARATE_CHOP_FAST": {
@@ -1000,6 +1103,7 @@
         "energyDelta": 9,
         "turns": 2,
         "uuid": 208,
+        "displayName": "Karate Chop",
         "usageType": "fast"
     },
     "EMBER_FAST": {
@@ -1009,6 +1113,7 @@
         "energyDelta": 6,
         "turns": 2,
         "uuid": 209,
+        "displayName": "Ember",
         "usageType": "fast"
     },
     "WING_ATTACK_FAST": {
@@ -1018,6 +1123,7 @@
         "energyDelta": 7,
         "turns": 2,
         "uuid": 210,
+        "displayName": "Wing Attack",
         "usageType": "fast"
     },
     "PECK_FAST": {
@@ -1027,6 +1133,7 @@
         "energyDelta": 5,
         "turns": 2,
         "uuid": 211,
+        "displayName": "Peck",
         "usageType": "fast"
     },
     "LICK_FAST": {
@@ -1036,6 +1143,7 @@
         "energyDelta": 3,
         "turns": 1,
         "uuid": 212,
+        "displayName": "Lick",
         "usageType": "fast"
     },
     "SHADOW_CLAW_FAST": {
@@ -1045,6 +1153,7 @@
         "energyDelta": 8,
         "turns": 2,
         "uuid": 213,
+        "displayName": "Shadow Claw",
         "usageType": "fast"
     },
     "VINE_WHIP_FAST": {
@@ -1054,6 +1163,7 @@
         "energyDelta": 8,
         "turns": 2,
         "uuid": 214,
+        "displayName": "Vine Whip",
         "usageType": "fast"
     },
     "RAZOR_LEAF_FAST": {
@@ -1063,6 +1173,7 @@
         "energyDelta": 4,
         "turns": 2,
         "uuid": 215,
+        "displayName": "Razor Leaf",
         "usageType": "fast"
     },
     "MUD_SHOT_FAST": {
@@ -1072,6 +1183,7 @@
         "energyDelta": 8,
         "turns": 2,
         "uuid": 216,
+        "displayName": "Mud Shot",
         "usageType": "fast"
     },
     "ICE_SHARD_FAST": {
@@ -1081,6 +1193,7 @@
         "energyDelta": 10,
         "turns": 3,
         "uuid": 217,
+        "displayName": "Ice Shard",
         "usageType": "fast"
     },
     "FROST_BREATH_FAST": {
@@ -1090,6 +1203,7 @@
         "energyDelta": 5,
         "turns": 2,
         "uuid": 218,
+        "displayName": "Frost Breath",
         "usageType": "fast"
     },
     "QUICK_ATTACK_FAST": {
@@ -1099,6 +1213,7 @@
         "energyDelta": 8,
         "turns": 2,
         "uuid": 219,
+        "displayName": "Quick Attack",
         "usageType": "fast"
     },
     "SCRATCH_FAST": {
@@ -1108,6 +1223,7 @@
         "energyDelta": 2,
         "turns": 1,
         "uuid": 220,
+        "displayName": "Scratch",
         "usageType": "fast"
     },
     "TACKLE_FAST": {
@@ -1117,6 +1233,7 @@
         "energyDelta": 3,
         "turns": 1,
         "uuid": 221,
+        "displayName": "Tackle",
         "usageType": "fast"
     },
     "POUND_FAST": {
@@ -1126,6 +1243,7 @@
         "energyDelta": 4,
         "turns": 2,
         "uuid": 222,
+        "displayName": "Pound",
         "usageType": "fast"
     },
     "CUT_FAST": {
@@ -1135,6 +1253,7 @@
         "energyDelta": 2,
         "turns": 1,
         "uuid": 223,
+        "displayName": "Cut",
         "usageType": "fast"
     },
     "POISON_JAB_FAST": {
@@ -1144,6 +1263,7 @@
         "energyDelta": 7,
         "turns": 2,
         "uuid": 224,
+        "displayName": "Poison Jab",
         "usageType": "fast"
     },
     "ACID_FAST": {
@@ -1153,6 +1273,7 @@
         "energyDelta": 5,
         "turns": 2,
         "uuid": 225,
+        "displayName": "Acid",
         "usageType": "fast"
     },
     "PSYCHO_CUT_FAST": {
@@ -1162,6 +1283,7 @@
         "energyDelta": 9,
         "turns": 2,
         "uuid": 226,
+        "displayName": "Psycho Cut",
         "usageType": "fast"
     },
     "ROCK_THROW_FAST": {
@@ -1171,6 +1293,7 @@
         "energyDelta": 5,
         "turns": 2,
         "uuid": 227,
+        "displayName": "Rock Throw",
         "usageType": "fast"
     },
     "METAL_CLAW_FAST": {
@@ -1180,6 +1303,7 @@
         "energyDelta": 7,
         "turns": 2,
         "uuid": 228,
+        "displayName": "Metal Claw",
         "usageType": "fast"
     },
     "BULLET_PUNCH_FAST": {
@@ -1189,6 +1313,7 @@
         "energyDelta": 7,
         "turns": 2,
         "uuid": 229,
+        "displayName": "Bullet Punch",
         "usageType": "fast"
     },
     "WATER_GUN_FAST": {
@@ -1198,6 +1323,7 @@
         "energyDelta": 3,
         "turns": 1,
         "uuid": 230,
+        "displayName": "Water Gun",
         "usageType": "fast"
     },
     "SPLASH_FAST": {
@@ -1207,6 +1333,7 @@
         "power": 0,
         "turns": 4,
         "uuid": 231,
+        "displayName": "Splash",
         "usageType": "fast"
     },
     "WATER_GUN_FAST_BLASTOISE": {
@@ -1216,6 +1343,7 @@
         "energyDelta": 4,
         "turns": 1,
         "uuid": 232,
+        "displayName": "Water Gun",
         "usageType": "charge"
     },
     "MUD_SLAP_FAST": {
@@ -1225,6 +1353,7 @@
         "energyDelta": 10,
         "turns": 3,
         "uuid": 233,
+        "displayName": "Mud-Slap",
         "usageType": "fast"
     },
     "ZEN_HEADBUTT_FAST": {
@@ -1234,6 +1363,7 @@
         "energyDelta": 6,
         "turns": 3,
         "uuid": 234,
+        "displayName": "Zen Headbutt",
         "usageType": "fast"
     },
     "CONFUSION_FAST": {
@@ -1243,6 +1373,7 @@
         "energyDelta": 12,
         "turns": 4,
         "uuid": 235,
+        "displayName": "Confusion",
         "usageType": "fast"
     },
     "POISON_STING_FAST": {
@@ -1252,6 +1383,7 @@
         "energyDelta": 9,
         "turns": 2,
         "uuid": 236,
+        "displayName": "Poison Sting",
         "usageType": "fast"
     },
     "BUBBLE_FAST": {
@@ -1261,6 +1393,7 @@
         "energyDelta": 11,
         "turns": 3,
         "uuid": 237,
+        "displayName": "Bubble",
         "usageType": "fast"
     },
     "FEINT_ATTACK_FAST": {
@@ -1270,6 +1403,7 @@
         "energyDelta": 6,
         "turns": 2,
         "uuid": 238,
+        "displayName": "Feint Attack",
         "usageType": "fast"
     },
     "STEEL_WING_FAST": {
@@ -1279,6 +1413,7 @@
         "energyDelta": 6,
         "turns": 2,
         "uuid": 239,
+        "displayName": "Steel Wing",
         "usageType": "fast"
     },
     "FIRE_FANG_FAST": {
@@ -1288,6 +1423,7 @@
         "energyDelta": 5,
         "turns": 2,
         "uuid": 240,
+        "displayName": "Fire Fang",
         "usageType": "fast"
     },
     "ROCK_SMASH_FAST": {
@@ -1297,6 +1433,7 @@
         "energyDelta": 7,
         "turns": 3,
         "uuid": 241,
+        "displayName": "Rock Smash",
         "usageType": "fast"
     },
     "TRANSFORM_FAST": {
@@ -1306,6 +1443,7 @@
         "power": 0,
         "turns": 3,
         "uuid": 242,
+        "displayName": "Transform",
         "usageType": "fast"
     },
     "COUNTER_FAST": {
@@ -1315,6 +1453,7 @@
         "energyDelta": 6,
         "turns": 2,
         "uuid": 243,
+        "displayName": "Counter",
         "usageType": "fast"
     },
     "POWDER_SNOW_FAST": {
@@ -1324,6 +1463,7 @@
         "energyDelta": 8,
         "turns": 2,
         "uuid": 244,
+        "displayName": "Powder Snow",
         "usageType": "fast"
     },
     "CLOSE_COMBAT": {
@@ -1337,6 +1477,7 @@
         },
         "turns": 0,
         "uuid": 245,
+        "displayName": "Close Combat",
         "usageType": "charge"
     },
     "DYNAMIC_PUNCH": {
@@ -1346,6 +1487,7 @@
         "energyDelta": 50,
         "turns": 0,
         "uuid": 246,
+        "displayName": "Dynamic Punch",
         "usageType": "charge"
     },
     "FOCUS_BLAST": {
@@ -1355,6 +1497,7 @@
         "energyDelta": 75,
         "turns": 0,
         "uuid": 247,
+        "displayName": "Focus Blast",
         "usageType": "charge"
     },
     "AURORA_BEAM": {
@@ -1364,6 +1507,7 @@
         "energyDelta": 60,
         "turns": 0,
         "uuid": 248,
+        "displayName": "Aurora Beam",
         "usageType": "charge"
     },
     "CHARGE_BEAM_FAST": {
@@ -1373,6 +1517,7 @@
         "energyDelta": 11,
         "turns": 3,
         "uuid": 249,
+        "displayName": "Charge Beam",
         "usageType": "fast"
     },
     "VOLT_SWITCH_FAST": {
@@ -1382,6 +1527,7 @@
         "energyDelta": 16,
         "turns": 4,
         "uuid": 250,
+        "displayName": "Volt Switch",
         "usageType": "fast"
     },
     "WILD_CHARGE": {
@@ -1395,6 +1541,7 @@
         },
         "turns": 0,
         "uuid": 251,
+        "displayName": "Wild Charge",
         "usageType": "charge"
     },
     "ZAP_CANNON": {
@@ -1408,6 +1555,7 @@
         },
         "turns": 0,
         "uuid": 252,
+        "displayName": "Zap Cannon",
         "usageType": "charge"
     },
     "DRAGON_TAIL_FAST": {
@@ -1417,6 +1565,7 @@
         "energyDelta": 9,
         "turns": 3,
         "uuid": 253,
+        "displayName": "Dragon Tail",
         "usageType": "fast"
     },
     "AVALANCHE": {
@@ -1426,6 +1575,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 254,
+        "displayName": "Avalanche",
         "usageType": "charge"
     },
     "AIR_SLASH_FAST": {
@@ -1435,6 +1585,7 @@
         "energyDelta": 9,
         "turns": 3,
         "uuid": 255,
+        "displayName": "Air Slash",
         "usageType": "fast"
     },
     "BRAVE_BIRD": {
@@ -1448,6 +1599,7 @@
         },
         "turns": 0,
         "uuid": 256,
+        "displayName": "Brave Bird",
         "usageType": "charge"
     },
     "SKY_ATTACK": {
@@ -1457,6 +1609,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 257,
+        "displayName": "Sky Attack",
         "usageType": "charge"
     },
     "SAND_TOMB": {
@@ -1470,6 +1623,7 @@
         },
         "turns": 0,
         "uuid": 258,
+        "displayName": "Sand Tomb",
         "usageType": "charge"
     },
     "ROCK_BLAST": {
@@ -1479,6 +1633,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 259,
+        "displayName": "Rock Blast",
         "usageType": "charge"
     },
     "INFESTATION_FAST": {
@@ -1488,6 +1643,7 @@
         "energyDelta": 12,
         "turns": 3,
         "uuid": 260,
+        "displayName": "Infestation",
         "usageType": "fast"
     },
     "STRUGGLE_BUG_FAST": {
@@ -1497,6 +1653,7 @@
         "energyDelta": 8,
         "turns": 3,
         "uuid": 261,
+        "displayName": "Struggle Bug",
         "usageType": "fast"
     },
     "SILVER_WIND": {
@@ -1511,6 +1668,7 @@
         },
         "turns": 0,
         "uuid": 262,
+        "displayName": "Silver Wind",
         "usageType": "charge"
     },
     "ASTONISH_FAST": {
@@ -1520,6 +1678,7 @@
         "energyDelta": 10,
         "turns": 3,
         "uuid": 263,
+        "displayName": "Astonish",
         "usageType": "fast"
     },
     "HEX_FAST": {
@@ -1529,6 +1688,7 @@
         "energyDelta": 12,
         "turns": 3,
         "uuid": 264,
+        "displayName": "Hex",
         "usageType": "fast"
     },
     "NIGHT_SHADE": {
@@ -1538,6 +1698,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 265,
+        "displayName": "Night Shade",
         "usageType": "charge"
     },
     "IRON_TAIL_FAST": {
@@ -1547,6 +1708,7 @@
         "energyDelta": 7,
         "turns": 3,
         "uuid": 266,
+        "displayName": "Iron Tail",
         "usageType": "fast"
     },
     "GYRO_BALL": {
@@ -1556,6 +1718,7 @@
         "energyDelta": 60,
         "turns": 0,
         "uuid": 267,
+        "displayName": "Gyro Ball",
         "usageType": "charge"
     },
     "HEAVY_SLAM": {
@@ -1565,6 +1728,7 @@
         "energyDelta": 50,
         "turns": 0,
         "uuid": 268,
+        "displayName": "Heavy Slam",
         "usageType": "charge"
     },
     "FIRE_SPIN_FAST": {
@@ -1574,6 +1738,7 @@
         "energyDelta": 10,
         "turns": 3,
         "uuid": 269,
+        "displayName": "Fire Spin",
         "usageType": "fast"
     },
     "OVERHEAT": {
@@ -1587,6 +1752,7 @@
         },
         "turns": 0,
         "uuid": 270,
+        "displayName": "Overheat",
         "usageType": "charge"
     },
     "BULLET_SEED_FAST": {
@@ -1596,6 +1762,7 @@
         "energyDelta": 13,
         "turns": 3,
         "uuid": 271,
+        "displayName": "Bullet Seed",
         "usageType": "fast"
     },
     "GRASS_KNOT": {
@@ -1605,6 +1772,7 @@
         "energyDelta": 50,
         "turns": 0,
         "uuid": 272,
+        "displayName": "Grass Knot",
         "usageType": "charge"
     },
     "ENERGY_BALL": {
@@ -1618,6 +1786,7 @@
         },
         "turns": 0,
         "uuid": 273,
+        "displayName": "Energy Ball",
         "usageType": "charge"
     },
     "EXTRASENSORY_FAST": {
@@ -1627,6 +1796,7 @@
         "energyDelta": 10,
         "turns": 3,
         "uuid": 274,
+        "displayName": "Extrasensory",
         "usageType": "fast"
     },
     "FUTURESIGHT": {
@@ -1636,6 +1806,7 @@
         "energyDelta": 65,
         "turns": 0,
         "uuid": 275,
+        "displayName": "Future Sight",
         "usageType": "charge"
     },
     "MIRROR_COAT": {
@@ -1645,6 +1816,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 276,
+        "displayName": "Mirror Coat",
         "usageType": "charge"
     },
     "OUTRAGE": {
@@ -1654,6 +1826,7 @@
         "energyDelta": 60,
         "turns": 0,
         "uuid": 277,
+        "displayName": "Outrage",
         "usageType": "charge"
     },
     "SNARL_FAST": {
@@ -1663,6 +1836,7 @@
         "energyDelta": 13,
         "turns": 3,
         "uuid": 278,
+        "displayName": "Snarl",
         "usageType": "fast"
     },
     "CRUNCH": {
@@ -1676,6 +1850,7 @@
         },
         "turns": 0,
         "uuid": 279,
+        "displayName": "Crunch",
         "usageType": "charge"
     },
     "FOUL_PLAY": {
@@ -1685,16 +1860,8 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 280,
+        "displayName": "Foul Play",
         "usageType": "charge"
-    },
-    "HIDDEN_POWER_FAST": {
-        "uniqueId": "HIDDEN_POWER_FAST",
-        "type": "POKEMON_TYPE_NORMAL",
-        "power": 9.0,
-        "energyDelta": 8,
-        "turns": 3,
-        "uuid": 281,
-        "usageType": "fast"
     },
     "TAKE_DOWN_FAST": {
         "uniqueId": "TAKE_DOWN_FAST",
@@ -1703,6 +1870,7 @@
         "energyDelta": 8,
         "turns": 3,
         "uuid": 282,
+        "displayName": "Take Down",
         "usageType": "fast"
     },
     "WATERFALL_FAST": {
@@ -1712,6 +1880,7 @@
         "energyDelta": 8,
         "turns": 3,
         "uuid": 283,
+        "displayName": "Waterfall",
         "usageType": "fast"
     },
     "SURF": {
@@ -1721,6 +1890,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 284,
+        "displayName": "Surf",
         "usageType": "charge"
     },
     "DRACO_METEOR": {
@@ -1734,6 +1904,7 @@
         },
         "turns": 0,
         "uuid": 285,
+        "displayName": "Draco Meteor",
         "usageType": "charge"
     },
     "DOOM_DESIRE": {
@@ -1743,6 +1914,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 286,
+        "displayName": "Doom Desire",
         "usageType": "charge"
     },
     "YAWN_FAST": {
@@ -1752,6 +1924,7 @@
         "power": 0,
         "turns": 4,
         "uuid": 287,
+        "displayName": "Yawn",
         "usageType": "fast"
     },
     "PSYCHO_BOOST": {
@@ -1765,6 +1938,7 @@
         },
         "turns": 0,
         "uuid": 288,
+        "displayName": "Psycho Boost",
         "usageType": "charge"
     },
     "ORIGIN_PULSE": {
@@ -1774,6 +1948,7 @@
         "energyDelta": 60,
         "turns": 0,
         "uuid": 289,
+        "displayName": "Origin Pulse",
         "usageType": "charge"
     },
     "PRECIPICE_BLADES": {
@@ -1783,6 +1958,7 @@
         "energyDelta": 60,
         "turns": 0,
         "uuid": 290,
+        "displayName": "Precipice Blades",
         "usageType": "charge"
     },
     "PRESENT_FAST": {
@@ -1792,6 +1968,7 @@
         "energyDelta": 12,
         "turns": 3,
         "uuid": 291,
+        "displayName": "Present",
         "usageType": "fast"
     },
     "WEATHER_BALL_FIRE": {
@@ -1801,6 +1978,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 292,
+        "displayName": "Weather Ball (Fire)",
         "usageType": "charge"
     },
     "WEATHER_BALL_ICE": {
@@ -1810,6 +1988,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 293,
+        "displayName": "Weather Ball (Ice)",
         "usageType": "charge"
     },
     "WEATHER_BALL_ROCK": {
@@ -1819,6 +1998,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 294,
+        "displayName": "Weather Ball (Rock)",
         "usageType": "charge"
     },
     "WEATHER_BALL_WATER": {
@@ -1828,6 +2008,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 295,
+        "displayName": "Weather Ball (Water)",
         "usageType": "charge"
     },
     "FRENZY_PLANT": {
@@ -1837,6 +2018,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 296,
+        "displayName": "Frenzy Plant",
         "usageType": "charge"
     },
     "SMACK_DOWN_FAST": {
@@ -1846,6 +2028,7 @@
         "energyDelta": 8,
         "turns": 3,
         "uuid": 297,
+        "displayName": "Smack Down",
         "usageType": "fast"
     },
     "BLAST_BURN": {
@@ -1855,6 +2038,7 @@
         "energyDelta": 50,
         "turns": 0,
         "uuid": 298,
+        "displayName": "Blast Burn",
         "usageType": "charge"
     },
     "HYDRO_CANNON": {
@@ -1864,6 +2048,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 299,
+        "displayName": "Hydro Cannon",
         "usageType": "charge"
     },
     "LAST_RESORT": {
@@ -1873,6 +2058,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 300,
+        "displayName": "Last Resort",
         "usageType": "charge"
     },
     "METEOR_MASH": {
@@ -1882,6 +2068,7 @@
         "energyDelta": 50,
         "turns": 0,
         "uuid": 301,
+        "displayName": "Meteor Mash",
         "usageType": "charge"
     },
     "SKULL_BASH": {
@@ -1895,6 +2082,7 @@
         },
         "turns": 0,
         "uuid": 302,
+        "displayName": "Skull Bash",
         "usageType": "charge"
     },
     "ACID_SPRAY": {
@@ -1908,6 +2096,7 @@
         },
         "turns": 0,
         "uuid": 303,
+        "displayName": "Acid Spray",
         "usageType": "charge"
     },
     "EARTH_POWER": {
@@ -1921,6 +2110,7 @@
         },
         "turns": 0,
         "uuid": 304,
+        "displayName": "Earth Power",
         "usageType": "charge"
     },
     "CRABHAMMER": {
@@ -1934,6 +2124,7 @@
         },
         "turns": 0,
         "uuid": 305,
+        "displayName": "Crabhammer",
         "usageType": "charge"
     },
     "LUNGE": {
@@ -1947,6 +2138,7 @@
         },
         "turns": 0,
         "uuid": 306,
+        "displayName": "Lunge",
         "usageType": "charge"
     },
     "OCTAZOOKA": {
@@ -1960,6 +2152,7 @@
         },
         "turns": 0,
         "uuid": 308,
+        "displayName": "Octazooka",
         "usageType": "charge"
     },
     "MIRROR_SHOT": {
@@ -1973,6 +2166,7 @@
         },
         "turns": 0,
         "uuid": 309,
+        "displayName": "Mirror Shot",
         "usageType": "charge"
     },
     "SUPER_POWER": {
@@ -1987,6 +2181,7 @@
         },
         "turns": 0,
         "uuid": 310,
+        "displayName": "Superpower",
         "usageType": "charge"
     },
     "FELL_STINGER": {
@@ -2000,6 +2195,7 @@
         },
         "turns": 0,
         "uuid": 311,
+        "displayName": "Fell Stinger",
         "usageType": "charge"
     },
     "LEAF_TORNADO": {
@@ -2013,6 +2209,7 @@
         },
         "turns": 0,
         "uuid": 312,
+        "displayName": "Leaf Tornado",
         "usageType": "charge"
     },
     "DRAIN_PUNCH": {
@@ -2026,6 +2223,7 @@
         },
         "turns": 0,
         "uuid": 314,
+        "displayName": "Drain Punch",
         "usageType": "charge"
     },
     "SHADOW_BONE": {
@@ -2039,6 +2237,7 @@
         },
         "turns": 0,
         "uuid": 315,
+        "displayName": "Shadow Bone",
         "usageType": "charge"
     },
     "MUDDY_WATER": {
@@ -2052,6 +2251,7 @@
         },
         "turns": 0,
         "uuid": 316,
+        "displayName": "Muddy Water",
         "usageType": "charge"
     },
     "BLAZE_KICK": {
@@ -2061,6 +2261,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 317,
+        "displayName": "Blaze Kick",
         "usageType": "charge"
     },
     "RAZOR_SHELL": {
@@ -2074,6 +2275,7 @@
         },
         "turns": 0,
         "uuid": 318,
+        "displayName": "Razor Shell",
         "usageType": "charge"
     },
     "POWER_UP_PUNCH": {
@@ -2087,6 +2289,7 @@
         },
         "turns": 0,
         "uuid": 319,
+        "displayName": "Power Up Punch",
         "usageType": "charge"
     },
     "CHARM_FAST": {
@@ -2096,6 +2299,7 @@
         "energyDelta": 6,
         "turns": 3,
         "uuid": 320,
+        "displayName": "Charm",
         "usageType": "fast"
     },
     "GIGA_IMPACT": {
@@ -2105,6 +2309,7 @@
         "energyDelta": 80,
         "turns": 0,
         "uuid": 321,
+        "displayName": "Giga Impact",
         "usageType": "charge"
     },
     "FRUSTRATION": {
@@ -2114,6 +2319,7 @@
         "energyDelta": 70,
         "turns": 0,
         "uuid": 322,
+        "displayName": "Frustration",
         "usageType": "charge"
     },
     "RETURN": {
@@ -2123,6 +2329,7 @@
         "energyDelta": 70,
         "turns": 0,
         "uuid": 323,
+        "displayName": "Return",
         "usageType": "charge"
     },
     "SYNCHRONOISE": {
@@ -2132,6 +2339,7 @@
         "energyDelta": 50,
         "turns": 0,
         "uuid": 324,
+        "displayName": "Synchronoise",
         "usageType": "charge"
     },
     "LOCK_ON_FAST": {
@@ -2141,6 +2349,7 @@
         "energyDelta": 5,
         "turns": 1,
         "uuid": 325,
+        "displayName": "Lock On",
         "usageType": "fast"
     },
     "THUNDER_FANG_FAST": {
@@ -2150,6 +2359,7 @@
         "energyDelta": 5,
         "turns": 2,
         "uuid": 326,
+        "displayName": "Thunder Fang",
         "usageType": "fast"
     },
     "ICE_FANG_FAST": {
@@ -2159,6 +2369,7 @@
         "energyDelta": 5,
         "turns": 2,
         "uuid": 327,
+        "displayName": "Ice Fang",
         "usageType": "fast"
     },
     "SACRED_SWORD": {
@@ -2168,6 +2379,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 330,
+        "displayName": "Sacred Sword",
         "usageType": "charge"
     },
     "FLYING_PRESS": {
@@ -2177,6 +2389,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 331,
+        "displayName": "Flying Press",
         "usageType": "charge"
     },
     "AURA_SPHERE": {
@@ -2186,6 +2399,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 332,
+        "displayName": "Aura Sphere",
         "usageType": "charge"
     },
     "PAYBACK": {
@@ -2195,6 +2409,7 @@
         "energyDelta": 60,
         "turns": 0,
         "uuid": 333,
+        "displayName": "Payback",
         "usageType": "charge"
     },
     "ROCK_WRECKER": {
@@ -2204,6 +2419,7 @@
         "energyDelta": 50,
         "turns": 0,
         "uuid": 334,
+        "displayName": "Rock Wrecker",
         "usageType": "charge"
     },
     "AEROBLAST": {
@@ -2217,6 +2433,7 @@
         },
         "turns": 0,
         "uuid": 335,
+        "displayName": "Aeroblast",
         "usageType": "charge"
     },
     "TECHNO_BLAST_NORMAL": {
@@ -2226,6 +2443,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 336,
+        "displayName": "Techno Blast (Normal)",
         "usageType": "charge"
     },
     "TECHNO_BLAST_BURN": {
@@ -2235,6 +2453,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 337,
+        "displayName": "Techno Blast (Burn)",
         "usageType": "charge"
     },
     "TECHNO_BLAST_CHILL": {
@@ -2244,6 +2463,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 338,
+        "displayName": "Techno Blast (Chill)",
         "usageType": "charge"
     },
     "TECHNO_BLAST_WATER": {
@@ -2253,6 +2473,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 339,
+        "displayName": "Techno Blast Water",
         "usageType": "charge"
     },
     "TECHNO_BLAST_SHOCK": {
@@ -2262,6 +2483,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 340,
+        "displayName": "Techno Blast (Shock)",
         "usageType": "charge"
     },
     "FLY": {
@@ -2271,6 +2493,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 341,
+        "displayName": "Fly",
         "usageType": "charge"
     },
     "V_CREATE": {
@@ -2284,6 +2507,7 @@
         },
         "turns": 0,
         "uuid": 342,
+        "displayName": "V-create",
         "usageType": "charge"
     },
     "LEAF_STORM": {
@@ -2297,6 +2521,7 @@
         },
         "turns": 0,
         "uuid": 343,
+        "displayName": "Leaf Storm",
         "usageType": "charge"
     },
     "TRI_ATTACK": {
@@ -2311,6 +2536,7 @@
         },
         "turns": 0,
         "uuid": 344,
+        "displayName": "Tri Attack",
         "usageType": "charge"
     },
     "GUST_FAST": {
@@ -2320,6 +2546,7 @@
         "energyDelta": 12,
         "turns": 4,
         "uuid": 345,
+        "displayName": "Gust",
         "usageType": "fast"
     },
     "INCINERATE_FAST": {
@@ -2329,6 +2556,7 @@
         "energyDelta": 20,
         "turns": 5,
         "uuid": 346,
+        "displayName": "Incinerate",
         "usageType": "fast"
     },
     "FEATHER_DANCE": {
@@ -2342,6 +2570,7 @@
         },
         "turns": 0,
         "uuid": 348,
+        "displayName": "Feather Dance",
         "usageType": "charge"
     },
     "FAIRY_WIND_FAST": {
@@ -2351,6 +2580,7 @@
         "energyDelta": 9,
         "turns": 2,
         "uuid": 350,
+        "displayName": "Fairy Wind",
         "usageType": "fast"
     },
     "WEATHER_BALL_NORMAL": {
@@ -2360,6 +2590,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 352,
+        "displayName": "Weather Ball (Normal)",
         "usageType": "charge"
     },
     "PSYCHIC_FANGS": {
@@ -2373,6 +2604,7 @@
         },
         "turns": 0,
         "uuid": 353,
+        "displayName": "Psychic Fangs",
         "usageType": "charge"
     },
     "DOUBLE_KICK_FAST": {
@@ -2382,6 +2614,7 @@
         "energyDelta": 12,
         "turns": 3,
         "uuid": 356,
+        "displayName": "Double Kick",
         "usageType": "fast"
     },
     "MAGICAL_LEAF_FAST": {
@@ -2391,6 +2624,7 @@
         "energyDelta": 10,
         "turns": 3,
         "uuid": 357,
+        "displayName": "Magical Leaf",
         "usageType": "fast"
     },
     "SACRED_FIRE": {
@@ -2404,6 +2638,7 @@
         },
         "turns": 0,
         "uuid": 358,
+        "displayName": "Sacred Fire",
         "usageType": "charge"
     },
     "ICICLE_SPEAR": {
@@ -2413,6 +2648,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 359,
+        "displayName": "Icicle Spear",
         "usageType": "charge"
     },
     "AEROBLAST_PLUS": {
@@ -2426,6 +2662,7 @@
         },
         "turns": 0,
         "uuid": 360,
+        "displayName": "Aeroblast+",
         "usageType": "charge"
     },
     "AEROBLAST_PLUS_PLUS": {
@@ -2439,6 +2676,7 @@
         },
         "turns": 0,
         "uuid": 361,
+        "displayName": "Aeroblast+ Plus",
         "usageType": "charge"
     },
     "SACRED_FIRE_PLUS": {
@@ -2452,6 +2690,7 @@
         },
         "turns": 0,
         "uuid": 362,
+        "displayName": "Sacred Fire Plus",
         "usageType": "charge"
     },
     "SACRED_FIRE_PLUS_PLUS": {
@@ -2465,6 +2704,7 @@
         },
         "turns": 0,
         "uuid": 363,
+        "displayName": "Sacred Fire Plus Plus",
         "usageType": "charge"
     },
     "ACROBATICS": {
@@ -2474,6 +2714,7 @@
         "energyDelta": 60,
         "turns": 0,
         "uuid": 364,
+        "displayName": "Acrobatics",
         "usageType": "charge"
     },
     "LUSTER_PURGE": {
@@ -2487,6 +2728,7 @@
         },
         "turns": 0,
         "uuid": 365,
+        "displayName": "Luster Purge",
         "usageType": "charge"
     },
     "MIST_BALL": {
@@ -2500,6 +2742,7 @@
         },
         "turns": 0,
         "uuid": 366,
+        "displayName": "Mist Ball",
         "usageType": "charge"
     },
     "BRUTAL_SWING": {
@@ -2509,6 +2752,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 367,
+        "displayName": "Brutal Swing",
         "usageType": "charge"
     },
     "ROLLOUT_FAST": {
@@ -2518,6 +2762,7 @@
         "energyDelta": 13,
         "turns": 3,
         "uuid": 368,
+        "displayName": "Rollout",
         "usageType": "fast"
     },
     "SEED_FLARE": {
@@ -2531,6 +2776,7 @@
         },
         "turns": 0,
         "uuid": 369,
+        "displayName": "Seed Flare",
         "usageType": "charge"
     },
     "OBSTRUCT": {
@@ -2545,6 +2791,7 @@
         },
         "turns": 0,
         "uuid": 370,
+        "displayName": "Obstruct",
         "usageType": "charge"
     },
     "SHADOW_FORCE": {
@@ -2554,6 +2801,7 @@
         "energyDelta": 90,
         "turns": 0,
         "uuid": 371,
+        "displayName": "Shadow Force",
         "usageType": "charge"
     },
     "METEOR_BEAM": {
@@ -2567,6 +2815,7 @@
         },
         "turns": 0,
         "uuid": 372,
+        "displayName": "Meteor Beam",
         "usageType": "charge"
     },
     "WATER_SHURIKEN_FAST": {
@@ -2576,6 +2825,7 @@
         "energyDelta": 14,
         "turns": 3,
         "uuid": 373,
+        "displayName": "Water Shuriken",
         "usageType": "fast"
     },
     "FUSION_BOLT": {
@@ -2585,6 +2835,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 374,
+        "displayName": "Fusion Bolt",
         "usageType": "charge"
     },
     "FUSION_FLARE": {
@@ -2594,6 +2845,7 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 375,
+        "displayName": "Fusion Flare",
         "usageType": "charge"
     },
     "POLTERGEIST": {
@@ -2603,6 +2855,7 @@
         "energyDelta": 75,
         "turns": 0,
         "uuid": 376,
+        "displayName": "Poltergeist",
         "usageType": "charge"
     },
     "HIGH_HORSEPOWER": {
@@ -2612,6 +2865,7 @@
         "energyDelta": 60,
         "turns": 0,
         "uuid": 377,
+        "displayName": "High Horsepower",
         "usageType": "charge"
     },
     "GLACIATE": {
@@ -2625,6 +2879,7 @@
         },
         "turns": 0,
         "uuid": 378,
+        "displayName": "Glaciate",
         "usageType": "charge"
     },
     "BREAKING_SWIPE": {
@@ -2638,6 +2893,7 @@
         },
         "turns": 0,
         "uuid": 379,
+        "displayName": "Breaking Swipe",
         "usageType": "charge"
     },
     "BOOMBURST": {
@@ -2647,6 +2903,7 @@
         "energyDelta": 70,
         "turns": 0,
         "uuid": 380,
+        "displayName": "Boomburst",
         "usageType": "charge"
     },
     "DOUBLE_IRON_BASH": {
@@ -2656,6 +2913,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 381,
+        "displayName": "Double Iron Bash",
         "usageType": "charge"
     },
     "MYSTICAL_FIRE": {
@@ -2669,6 +2927,7 @@
         },
         "turns": 0,
         "uuid": 382,
+        "displayName": "Mystical Fire",
         "usageType": "charge"
     },
     "LIQUIDATION": {
@@ -2682,6 +2941,7 @@
         },
         "turns": 0,
         "uuid": 383,
+        "displayName": "Liquidation",
         "usageType": "charge"
     },
     "DRAGON_ASCENT": {
@@ -2695,6 +2955,7 @@
         },
         "turns": 0,
         "uuid": 384,
+        "displayName": "Dragon Ascent",
         "usageType": "charge"
     },
     "LEAFAGE_FAST": {
@@ -2704,6 +2965,7 @@
         "energyDelta": 7,
         "turns": 2,
         "uuid": 385,
+        "displayName": "Leafage",
         "usageType": "fast"
     },
     "MAGMA_STORM": {
@@ -2713,6 +2975,7 @@
         "energyDelta": 40,
         "turns": 0,
         "uuid": 386,
+        "displayName": "Magma Storm",
         "usageType": "charge"
     },
     "GEOMANCY_FAST": {
@@ -2722,6 +2985,7 @@
         "energyDelta": 13,
         "turns": 3,
         "uuid": 387,
+        "displayName": "Geomancy",
         "usageType": "fast"
     },
     "SPACIAL_REND": {
@@ -2731,6 +2995,7 @@
         "energyDelta": 50,
         "turns": 0,
         "uuid": 388,
+        "displayName": "Spacial Rend",
         "usageType": "charge"
     },
     "OBLIVION_WING": {
@@ -2740,6 +3005,7 @@
         "energyDelta": 50,
         "turns": 0,
         "uuid": 389,
+        "displayName": "Oblivion Wing",
         "usageType": "charge"
     },
     "NATURES_MADNESS": {
@@ -2753,6 +3019,7 @@
         },
         "turns": 0,
         "uuid": 390,
+        "displayName": "Nature's Madness",
         "usageType": "charge"
     },
     "TRIPLE_AXEL": {
@@ -2766,6 +3033,7 @@
         },
         "turns": 0,
         "uuid": 391,
+        "displayName": "Triple Axel",
         "usageType": "charge"
     },
     "TRAILBLAZE": {
@@ -2779,6 +3047,7 @@
         },
         "turns": 0,
         "uuid": 392,
+        "displayName": "Trailblaze",
         "usageType": "charge"
     },
     "SCORCHING_SANDS": {
@@ -2792,6 +3061,7 @@
         },
         "turns": 0,
         "uuid": 393,
+        "displayName": "Scorching Sands",
         "usageType": "charge"
     },
     "ROAR_OF_TIME": {
@@ -2801,6 +3071,7 @@
         "energyDelta": 65,
         "turns": 0,
         "uuid": 394,
+        "displayName": "Roar of Time",
         "usageType": "charge"
     },
     "BLEAKWIND_STORM": {
@@ -2814,6 +3085,7 @@
         },
         "turns": 0,
         "uuid": 395,
+        "displayName": "Bleakwind Storm",
         "usageType": "charge"
     },
     "SANDSEAR_STORM": {
@@ -2827,6 +3099,7 @@
         },
         "turns": 0,
         "uuid": 396,
+        "displayName": "Sandsear Storm",
         "usageType": "charge"
     },
     "WILDBOLT_STORM": {
@@ -2840,6 +3113,7 @@
         },
         "turns": 0,
         "uuid": 397,
+        "displayName": "Wildbolt Storm",
         "usageType": "charge"
     },
     "SPIRIT_SHACKLE": {
@@ -2853,6 +3127,7 @@
         },
         "turns": 0,
         "uuid": 398,
+        "displayName": "Spirit Shackle",
         "usageType": "charge"
     },
     "VOLT_TACKLE": {
@@ -2866,6 +3141,7 @@
         },
         "turns": 0,
         "uuid": 399,
+        "displayName": "Volt Tackle",
         "usageType": "charge"
     },
     "DARKEST_LARIAT": {
@@ -2875,6 +3151,7 @@
         "energyDelta": 60,
         "turns": 0,
         "uuid": 400,
+        "displayName": "Darkest Lariat",
         "usageType": "charge"
     },
     "PSYWAVE_FAST": {
@@ -2884,6 +3161,7 @@
         "energyDelta": 4,
         "turns": 1,
         "uuid": 401,
+        "displayName": "Psywave",
         "usageType": "fast"
     },
     "METAL_SOUND_FAST": {
@@ -2893,6 +3171,7 @@
         "energyDelta": 8,
         "turns": 2,
         "uuid": 402,
+        "displayName": "Metal Sound",
         "usageType": "fast"
     },
     "SAND_ATTACK_FAST": {
@@ -2902,6 +3181,7 @@
         "energyDelta": 4,
         "turns": 1,
         "uuid": 403,
+        "displayName": "Sand Attack",
         "usageType": "fast"
     },
     "SUNSTEEL_STRIKE": {
@@ -2911,6 +3191,7 @@
         "energyDelta": 65,
         "turns": 0,
         "uuid": 404,
+        "displayName": "Sunsteel Strike",
         "usageType": "charge"
     },
     "MOONGEIST_BEAM": {
@@ -2920,6 +3201,7 @@
         "energyDelta": 65,
         "turns": 0,
         "uuid": 405,
+        "displayName": "Moongeist Beam",
         "usageType": "charge"
     },
     "AURA_WHEEL_ELECTRIC": {
@@ -2933,6 +3215,7 @@
         },
         "turns": 0,
         "uuid": 406,
+        "displayName": "Aura Wheel Electric",
         "usageType": "charge"
     },
     "AURA_WHEEL_DARK": {
@@ -2946,6 +3229,7 @@
         },
         "turns": 0,
         "uuid": 407,
+        "displayName": "Aura Wheel Dark",
         "usageType": "charge"
     },
     "HIGH_JUMP_KICK": {
@@ -2959,6 +3243,7 @@
         },
         "turns": 0,
         "uuid": 408,
+        "displayName": "High Jump Kick",
         "usageType": "charge"
     },
     "FORCE_PALM_FAST": {
@@ -2968,6 +3253,7 @@
         "energyDelta": 10,
         "turns": 3,
         "uuid": 462,
+        "displayName": "Force Palm",
         "usageType": "fast"
     },
     "SPARKLING_ARIA": {
@@ -2977,6 +3263,177 @@
         "energyDelta": 45,
         "turns": 0,
         "uuid": 463,
+        "displayName": "Sparkling Aria",
         "usageType": "charge"
+    },
+    "HIDDEN_POWER_BUG": {
+        "uniqueId": "HIDDEN_POWER_BUG",
+        "type": "BUG",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 3,
+        "uuid": 600,
+        "displayName": "Hidden Power (Bug)",
+        "usageType": "fast"
+    },
+    "HIDDEN_POWER_DARK": {
+        "uniqueId": "HIDDEN_POWER_DARK",
+        "type": "DARK",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 3,
+        "uuid": 601,
+        "displayName": "Hidden Power (Dark)",
+        "usageType": "fast"
+    },
+    "HIDDEN_POWER_DRAGON": {
+        "uniqueId": "HIDDEN_POWER_DRAGON",
+        "type": "DRAGON",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 3,
+        "uuid": 602,
+        "displayName": "Hidden Power (Dragon)",
+        "usageType": "fast"
+    },
+    "HIDDEN_POWER_ELECTRIC": {
+        "uniqueId": "HIDDEN_POWER_ELECTRIC",
+        "type": "ELECTRIC",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 3,
+        "uuid": 603,
+        "displayName": "Hidden Power (Electric)",
+        "usageType": "fast"
+    },
+    "HIDDEN_POWER_FAIRY": {
+        "uniqueId": "HIDDEN_POWER_FAIRY",
+        "type": "FAIRY",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 3,
+        "uuid": 604,
+        "displayName": "Hidden Power (Fairy)",
+        "usageType": "fast"
+    },
+    "HIDDEN_POWER_FIGHTING": {
+        "uniqueId": "HIDDEN_POWER_FIGHTING",
+        "type": "FIGHTING",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 3,
+        "uuid": 605,
+        "displayName": "Hidden Power (Fighting)",
+        "usageType": "fast"
+    },
+    "HIDDEN_POWER_FIRE": {
+        "uniqueId": "HIDDEN_POWER_FIRE",
+        "type": "FIRE",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 3,
+        "uuid": 606,
+        "displayName": "Hidden Power (Fire)",
+        "usageType": "fast"
+    },
+    "HIDDEN_POWER_FLYING": {
+        "uniqueId": "HIDDEN_POWER_FLYING",
+        "type": "FLYING",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 3,
+        "uuid": 607,
+        "displayName": "Hidden Power (Flying)",
+        "usageType": "fast"
+    },
+    "HIDDEN_POWER_GHOST": {
+        "uniqueId": "HIDDEN_POWER_GHOST",
+        "type": "GHOST",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 3,
+        "uuid": 608,
+        "displayName": "Hidden Power (Ghost)",
+        "usageType": "fast"
+    },
+    "HIDDEN_POWER_GRASS": {
+        "uniqueId": "HIDDEN_POWER_GRASS",
+        "type": "GRASS",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 3,
+        "uuid": 609,
+        "displayName": "Hidden Power (Grass)",
+        "usageType": "fast"
+    },
+    "HIDDEN_POWER_GROUND": {
+        "uniqueId": "HIDDEN_POWER_GROUND",
+        "type": "GROUND",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 3,
+        "uuid": 610,
+        "displayName": "Hidden Power (Ground)",
+        "usageType": "fast"
+    },
+    "HIDDEN_POWER_ICE": {
+        "uniqueId": "HIDDEN_POWER_ICE",
+        "type": "ICE",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 3,
+        "uuid": 611,
+        "displayName": "Hidden Power (Ice)",
+        "usageType": "fast"
+    },
+    "HIDDEN_POWER_POISON": {
+        "uniqueId": "HIDDEN_POWER_POISON",
+        "type": "POISON",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 3,
+        "uuid": 612,
+        "displayName": "Hidden Power (Poison)",
+        "usageType": "fast"
+    },
+    "HIDDEN_POWER_PSYCHIC": {
+        "uniqueId": "HIDDEN_POWER_PSYCHIC",
+        "type": "PSYCHIC",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 3,
+        "uuid": 613,
+        "displayName": "Hidden Power (Psychic)",
+        "usageType": "fast"
+    },
+    "HIDDEN_POWER_ROCK": {
+        "uniqueId": "HIDDEN_POWER_ROCK",
+        "type": "ROCK",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 3,
+        "uuid": 614,
+        "displayName": "Hidden Power (Rock)",
+        "usageType": "fast"
+    },
+    "HIDDEN_POWER_STEEL": {
+        "uniqueId": "HIDDEN_POWER_STEEL",
+        "type": "STEEL",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 3,
+        "uuid": 615,
+        "displayName": "Hidden Power (Steel)",
+        "usageType": "fast"
+    },
+    "HIDDEN_POWER_WATER": {
+        "uniqueId": "HIDDEN_POWER_WATER",
+        "type": "WATER",
+        "power": 9.0,
+        "energyDelta": 8,
+        "turns": 3,
+        "uuid": 616,
+        "displayName": "Hidden Power (Water)",
+        "usageType": "fast"
     }
 }

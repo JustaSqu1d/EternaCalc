@@ -529,6 +529,28 @@ def update():
             for pokemon in pokemon_data:
                 pokemon_json[pokemon["name"]] = pokemon
 
+    # handle hidden power
+    # remove "HIDDEN_POWER_FAST"
+    hidden_power = moves_json.pop("HIDDEN_POWER_FAST")
+    uuid = 600
+    for type in ["BUG", "DARK", "DRAGON", "ELECTRIC", "FAIRY", "FIGHTING", "FIRE", "FLYING", "GHOST", "GRASS",
+                 "GROUND", "ICE", "POISON", "PSYCHIC", "ROCK", "STEEL", "WATER"]:
+        new_move = hidden_power.copy()
+        new_move["uniqueId"] = f"HIDDEN_POWER_{type}"
+        new_move["type"] = type
+        new_move["displayName"] = f"Hidden Power ({type.title()})"
+        new_move["uuid"] = uuid
+        uuid += 1
+        moves_json[f"HIDDEN_POWER_{type}"] = new_move
+
+    # give all pokemon that have hidden power these moves
+    for pokemon in pokemon_json:
+        if "HIDDEN_POWER_FAST" in pokemon_json[pokemon]["fast_move_pool"]:
+            pokemon_json[pokemon]["fast_move_pool"].remove("HIDDEN_POWER_FAST")
+            for type in ["BUG", "DARK", "DRAGON", "ELECTRIC", "FAIRY", "FIGHTING", "FIRE", "FLYING", "GHOST", "GRASS",
+                         "GROUND", "ICE", "POISON", "PSYCHIC", "ROCK", "STEEL", "WATER"]:
+                pokemon_json[pokemon]["fast_move_pool"].append(f"HIDDEN_POWER_{type}")
+
     with open("moves.json", "w") as f:
         json.dump(moves_json, f, indent=4)
 
