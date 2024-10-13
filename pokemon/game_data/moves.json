@@ -3268,7 +3268,7 @@
     },
     "HIDDEN_POWER_BUG": {
         "uniqueId": "HIDDEN_POWER_BUG",
-        "type": "BUG",
+        "type": "POKEMON_TYPE_BUG",
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
@@ -3278,7 +3278,7 @@
     },
     "HIDDEN_POWER_DARK": {
         "uniqueId": "HIDDEN_POWER_DARK",
-        "type": "DARK",
+        "type": "POKEMON_TYPE_DARK",
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
@@ -3288,7 +3288,7 @@
     },
     "HIDDEN_POWER_DRAGON": {
         "uniqueId": "HIDDEN_POWER_DRAGON",
-        "type": "DRAGON",
+        "type": "POKEMON_TYPE_DRAGON",
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
@@ -3298,7 +3298,7 @@
     },
     "HIDDEN_POWER_ELECTRIC": {
         "uniqueId": "HIDDEN_POWER_ELECTRIC",
-        "type": "ELECTRIC",
+        "type": "POKEMON_TYPE_ELECTRIC",
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
@@ -3308,7 +3308,7 @@
     },
     "HIDDEN_POWER_FAIRY": {
         "uniqueId": "HIDDEN_POWER_FAIRY",
-        "type": "FAIRY",
+        "type": "POKEMON_TYPE_FAIRY",
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
@@ -3318,7 +3318,7 @@
     },
     "HIDDEN_POWER_FIGHTING": {
         "uniqueId": "HIDDEN_POWER_FIGHTING",
-        "type": "FIGHTING",
+        "type": "POKEMON_TYPE_FIGHTING",
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
@@ -3328,7 +3328,7 @@
     },
     "HIDDEN_POWER_FIRE": {
         "uniqueId": "HIDDEN_POWER_FIRE",
-        "type": "FIRE",
+        "type": "POKEMON_TYPE_FIRE",
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
@@ -3338,7 +3338,7 @@
     },
     "HIDDEN_POWER_FLYING": {
         "uniqueId": "HIDDEN_POWER_FLYING",
-        "type": "FLYING",
+        "type": "POKEMON_TYPE_FLYING",
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
@@ -3348,7 +3348,7 @@
     },
     "HIDDEN_POWER_GHOST": {
         "uniqueId": "HIDDEN_POWER_GHOST",
-        "type": "GHOST",
+        "type": "POKEMON_TYPE_GHOST",
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
@@ -3358,7 +3358,7 @@
     },
     "HIDDEN_POWER_GRASS": {
         "uniqueId": "HIDDEN_POWER_GRASS",
-        "type": "GRASS",
+        "type": "POKEMON_TYPE_GRASS",
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
@@ -3368,7 +3368,7 @@
     },
     "HIDDEN_POWER_GROUND": {
         "uniqueId": "HIDDEN_POWER_GROUND",
-        "type": "GROUND",
+        "type": "POKEMON_TYPE_GROUND",
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
@@ -3378,7 +3378,7 @@
     },
     "HIDDEN_POWER_ICE": {
         "uniqueId": "HIDDEN_POWER_ICE",
-        "type": "ICE",
+        "type": "POKEMON_TYPE_ICE",
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
@@ -3388,7 +3388,7 @@
     },
     "HIDDEN_POWER_POISON": {
         "uniqueId": "HIDDEN_POWER_POISON",
-        "type": "POISON",
+        "type": "POKEMON_TYPE_POISON",
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
@@ -3398,7 +3398,7 @@
     },
     "HIDDEN_POWER_PSYCHIC": {
         "uniqueId": "HIDDEN_POWER_PSYCHIC",
-        "type": "PSYCHIC",
+        "type": "POKEMON_TYPE_PSYCHIC",
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
@@ -3408,7 +3408,7 @@
     },
     "HIDDEN_POWER_ROCK": {
         "uniqueId": "HIDDEN_POWER_ROCK",
-        "type": "ROCK",
+        "type": "POKEMON_TYPE_ROCK",
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
@@ -3418,7 +3418,7 @@
     },
     "HIDDEN_POWER_STEEL": {
         "uniqueId": "HIDDEN_POWER_STEEL",
-        "type": "STEEL",
+        "type": "POKEMON_TYPE_STEEL",
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
@@ -3428,7 +3428,7 @@
     },
     "HIDDEN_POWER_WATER": {
         "uniqueId": "HIDDEN_POWER_WATER",
-        "type": "WATER",
+        "type": "POKEMON_TYPE_WATER",
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
