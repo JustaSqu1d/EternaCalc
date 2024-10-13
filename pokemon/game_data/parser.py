@@ -490,6 +490,34 @@ def process_pokemon_move(entry):
     move_uuid = int(entry["templateId"].split("_")[1][1:])
     move_data["uuid"] = move_uuid
 
+    move_display_name = move_data.get("uniqueId").replace("BLASTOISE", "").replace("WRAP_GREEN", "WRAP").replace(
+        "WRAP_PINK", "WRAP").replace("_", " ").replace("FAST", "").title()
+    move_display_name = (move_display_name
+                         .replace("X Scissor", "X-Scissor")
+                         .replace("Super Power", "Superpower")
+                         .replace("V Create", "V-create")
+                         .replace("Aeroblast Plus", "Aeroblast+")
+                         .replace("Aeroblast Plus Plus", "Aeroblast++")
+                         .replace("Scared Fire Plus", "Sacred Fire+")
+                         .replace("Scared Fire Plus Plus", "Sacred Fire++")
+                         .replace("Mud Slap", "Mud-Slap")
+                         .replace("Futuresight", "Future Sight")
+                         .replace("Natures Madness", "Nature's Madness")
+                         .replace("Weather Ball Normal", "Weather Ball (Normal)")
+                         .replace("Weather Ball Fire", "Weather Ball (Fire)")
+                         .replace("Weather Ball Water", "Weather Ball (Water)")
+                         .replace("Weather Ball Ice", "Weather Ball (Ice)")
+                         .replace("Weather Ball Rock", "Weather Ball (Rock)")
+                         .replace("Techno Blast Normal", "Techno Blast (Normal)")
+                         .replace("Techno Blast Burn", "Techno Blast (Burn)")
+                         .replace("Techno Blast Chill", "Techno Blast (Chill)")
+                         .replace("Techno Blast Douse", "Techno Blast (Douse)")
+                         .replace("Techno Blast Shock", "Techno Blast (Shock)")
+                         .replace("Roar Of Time", "Roar of Time")
+                         ).strip()
+
+    move_data["displayName"] = move_display_name
+
     move_data.pop("durationTurns", None)
 
     if move_name.endswith("_FAST"):
