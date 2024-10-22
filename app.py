@@ -133,7 +133,7 @@ def load_data():
 
     for move_json_key in moves_json:
         unique_id = moves_json[move_json_key]["uniqueId"]
-        name = Move.parse_move_string(unique_id)
+        name = moves_json[move_json_key]["displayName"]
 
         raw_type_string = moves_json[move_json_key]["type"]
         move_type = parse_type_string(raw_type_string)

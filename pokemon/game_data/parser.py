@@ -128,6 +128,14 @@ def parse_pokemon_data(template_id, data):
 
     fast_move_pool = sorted(list(set(fast_move_pool)))
 
+    string_manual_move_changes = {}
+    for key in MANUAL_MOVE_CHANGES:
+        string_manual_move_changes[str(key)] = MANUAL_MOVE_CHANGES[key]
+
+    for index, move in enumerate(fast_move_pool):
+        if move in string_manual_move_changes:
+            fast_move_pool[index] = string_manual_move_changes[move]
+
     charged_move_pool = []
 
     for move in pokemon_data.get("cinematicMoves", {}):
@@ -140,6 +148,10 @@ def parse_pokemon_data(template_id, data):
     name = process_pokemon_name(name, species)
 
     charged_move_pool = sorted(list(set(charged_move_pool)))
+
+    for index, move in enumerate(charged_move_pool):
+        if move in string_manual_move_changes:
+            charged_move_pool[index] = string_manual_move_changes[move]
 
     pokemon_category = get_pokemon_category(pokemon_data)
 
@@ -490,12 +502,15 @@ def process_pokemon_move(entry):
     move_uuid = int(entry["templateId"].split("_")[1][1:])
     move_data["uuid"] = move_uuid
 
-    move_display_name = move_data.get("uniqueId").replace("BLASTOISE", "").replace("WRAP_GREEN", "WRAP").replace(
-        "WRAP_PINK", "WRAP").replace("_", " ").replace("FAST", "").title()
+    move_display_name = move_data.get("uniqueId").replace("_", " ").replace("FAST", "").title()
     move_display_name = (move_display_name
+                         .replace(" Blastoise", "")
+                         .replace("Wrap Green", "Wrap")
+                         .replace("Wrap Pink", "Wrap")
                          .replace("X Scissor", "X-Scissor")
                          .replace("Super Power", "Superpower")
                          .replace("V Create", "V-create")
+                         .replace("Lock On", "Lock-On")
                          .replace("Aeroblast Plus", "Aeroblast+")
                          .replace("Aeroblast Plus Plus", "Aeroblast++")
                          .replace("Scared Fire Plus", "Sacred Fire+")
@@ -503,16 +518,16 @@ def process_pokemon_move(entry):
                          .replace("Mud Slap", "Mud-Slap")
                          .replace("Futuresight", "Future Sight")
                          .replace("Natures Madness", "Nature's Madness")
-                         .replace("Weather Ball Normal", "Weather Ball (Normal)")
-                         .replace("Weather Ball Fire", "Weather Ball (Fire)")
-                         .replace("Weather Ball Water", "Weather Ball (Water)")
-                         .replace("Weather Ball Ice", "Weather Ball (Ice)")
-                         .replace("Weather Ball Rock", "Weather Ball (Rock)")
-                         .replace("Techno Blast Normal", "Techno Blast (Normal)")
-                         .replace("Techno Blast Burn", "Techno Blast (Burn)")
-                         .replace("Techno Blast Chill", "Techno Blast (Chill)")
-                         .replace("Techno Blast Douse", "Techno Blast (Douse)")
-                         .replace("Techno Blast Shock", "Techno Blast (Shock)")
+                         .replace("Weather Ball Normal", "Weather Ball [Normal]")
+                         .replace("Weather Ball Fire", "Weather Ball [Fire]")
+                         .replace("Weather Ball Water", "Weather Ball [Water]")
+                         .replace("Weather Ball Ice", "Weather Ball [Ice]")
+                         .replace("Weather Ball Rock", "Weather Ball [Rock]")
+                         .replace("Techno Blast Normal", "Techno Blast")
+                         .replace("Techno Blast Burn", "Techno Blast")
+                         .replace("Techno Blast Chill", "Techno Blast")
+                         .replace("Techno Blast Douse", "Techno Blast")
+                         .replace("Techno Blast Shock", "Techno Blast")
                          .replace("Roar Of Time", "Roar of Time")
                          ).strip()
 
@@ -561,23 +576,23 @@ def update():
     # remove "HIDDEN_POWER_FAST"
     hidden_power = moves_json.pop("HIDDEN_POWER_FAST")
     uuid = 600
-    for type in ["BUG", "DARK", "DRAGON", "ELECTRIC", "FAIRY", "FIGHTING", "FIRE", "FLYING", "GHOST", "GRASS",
-                 "GROUND", "ICE", "POISON", "PSYCHIC", "ROCK", "STEEL", "WATER"]:
+    hidden_power_types =  ["BUG", "DARK", "DRAGON", "ELECTRIC", "FIGHTING", "FIRE", "FLYING", "GHOST", "GRASS",
+                           "GROUND", "ICE", "POISON", "PSYCHIC", "ROCK", "STEEL", "WATER"]
+    for pokemon_type in hidden_power_types:
         new_move = hidden_power.copy()
-        new_move["uniqueId"] = f"HIDDEN_POWER_{type}"
-        new_move["type"] = "POKEMON_TYPE_" + type
-        new_move["displayName"] = f"Hidden Power ({type.title()})"
+        new_move["uniqueId"] = f"HIDDEN_POWER_{pokemon_type}"
+        new_move["type"] = "POKEMON_TYPE_" + pokemon_type
+        new_move["displayName"] = f"Hidden Power [{pokemon_type.title()}]"
         new_move["uuid"] = uuid
         uuid += 1
-        moves_json[f"HIDDEN_POWER_{type}"] = new_move
+        moves_json[f"HIDDEN_POWER_{pokemon_type}"] = new_move
 
     # give all pokemon that have hidden power these moves
     for pokemon in pokemon_json:
         if "HIDDEN_POWER_FAST" in pokemon_json[pokemon]["fast_move_pool"]:
             pokemon_json[pokemon]["fast_move_pool"].remove("HIDDEN_POWER_FAST")
-            for type in ["BUG", "DARK", "DRAGON", "ELECTRIC", "FAIRY", "FIGHTING", "FIRE", "FLYING", "GHOST", "GRASS",
-                         "GROUND", "ICE", "POISON", "PSYCHIC", "ROCK", "STEEL", "WATER"]:
-                pokemon_json[pokemon]["fast_move_pool"].append(f"HIDDEN_POWER_{type}")
+            for pokemon_type in hidden_power_types:
+                pokemon_json[pokemon]["fast_move_pool"].append(f"HIDDEN_POWER_{pokemon_type}")
 
     with open("moves.json", "w") as f:
         json.dump(moves_json, f, indent=4)

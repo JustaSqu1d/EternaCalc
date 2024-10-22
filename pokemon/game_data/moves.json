@@ -1978,7 +1978,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 292,
-        "displayName": "Weather Ball (Fire)",
+        "displayName": "Weather Ball [Fire]",
         "usageType": "charge"
     },
     "WEATHER_BALL_ICE": {
@@ -1988,7 +1988,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 293,
-        "displayName": "Weather Ball (Ice)",
+        "displayName": "Weather Ball [Ice]",
         "usageType": "charge"
     },
     "WEATHER_BALL_ROCK": {
@@ -1998,7 +1998,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 294,
-        "displayName": "Weather Ball (Rock)",
+        "displayName": "Weather Ball [Rock]",
         "usageType": "charge"
     },
     "WEATHER_BALL_WATER": {
@@ -2008,7 +2008,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 295,
-        "displayName": "Weather Ball (Water)",
+        "displayName": "Weather Ball [Water]",
         "usageType": "charge"
     },
     "FRENZY_PLANT": {
@@ -2349,7 +2349,7 @@
         "energyDelta": 5,
         "turns": 1,
         "uuid": 325,
-        "displayName": "Lock On",
+        "displayName": "Lock-On",
         "usageType": "fast"
     },
     "THUNDER_FANG_FAST": {
@@ -2443,7 +2443,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 336,
-        "displayName": "Techno Blast (Normal)",
+        "displayName": "Techno Blast",
         "usageType": "charge"
     },
     "TECHNO_BLAST_BURN": {
@@ -2453,7 +2453,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 337,
-        "displayName": "Techno Blast (Burn)",
+        "displayName": "Techno Blast",
         "usageType": "charge"
     },
     "TECHNO_BLAST_CHILL": {
@@ -2463,7 +2463,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 338,
-        "displayName": "Techno Blast (Chill)",
+        "displayName": "Techno Blast",
         "usageType": "charge"
     },
     "TECHNO_BLAST_WATER": {
@@ -2483,7 +2483,7 @@
         "energyDelta": 55,
         "turns": 0,
         "uuid": 340,
-        "displayName": "Techno Blast (Shock)",
+        "displayName": "Techno Blast",
         "usageType": "charge"
     },
     "FLY": {
@@ -2590,7 +2590,7 @@
         "energyDelta": 35,
         "turns": 0,
         "uuid": 352,
-        "displayName": "Weather Ball (Normal)",
+        "displayName": "Weather Ball [Normal]",
         "usageType": "charge"
     },
     "PSYCHIC_FANGS": {
@@ -3273,7 +3273,7 @@
         "energyDelta": 8,
         "turns": 3,
         "uuid": 600,
-        "displayName": "Hidden Power (Bug)",
+        "displayName": "Hidden Power [Bug]",
         "usageType": "fast"
     },
     "HIDDEN_POWER_DARK": {
@@ -3283,7 +3283,7 @@
         "energyDelta": 8,
         "turns": 3,
         "uuid": 601,
-        "displayName": "Hidden Power (Dark)",
+        "displayName": "Hidden Power [Dark]",
         "usageType": "fast"
     },
     "HIDDEN_POWER_DRAGON": {
@@ -3293,7 +3293,7 @@
         "energyDelta": 8,
         "turns": 3,
         "uuid": 602,
-        "displayName": "Hidden Power (Dragon)",
+        "displayName": "Hidden Power [Dragon]",
         "usageType": "fast"
     },
     "HIDDEN_POWER_ELECTRIC": {
@@ -3303,17 +3303,7 @@
         "energyDelta": 8,
         "turns": 3,
         "uuid": 603,
-        "displayName": "Hidden Power (Electric)",
-        "usageType": "fast"
-    },
-    "HIDDEN_POWER_FAIRY": {
-        "uniqueId": "HIDDEN_POWER_FAIRY",
-        "type": "POKEMON_TYPE_FAIRY",
-        "power": 9.0,
-        "energyDelta": 8,
-        "turns": 3,
-        "uuid": 604,
-        "displayName": "Hidden Power (Fairy)",
+        "displayName": "Hidden Power [Electric]",
         "usageType": "fast"
     },
     "HIDDEN_POWER_FIGHTING": {
@@ -3322,8 +3312,8 @@
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
-        "uuid": 605,
-        "displayName": "Hidden Power (Fighting)",
+        "uuid": 604,
+        "displayName": "Hidden Power [Fighting]",
         "usageType": "fast"
     },
     "HIDDEN_POWER_FIRE": {
@@ -3332,8 +3322,8 @@
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
-        "uuid": 606,
-        "displayName": "Hidden Power (Fire)",
+        "uuid": 605,
+        "displayName": "Hidden Power [Fire]",
         "usageType": "fast"
     },
     "HIDDEN_POWER_FLYING": {
@@ -3342,8 +3332,8 @@
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
-        "uuid": 607,
-        "displayName": "Hidden Power (Flying)",
+        "uuid": 606,
+        "displayName": "Hidden Power [Flying]",
         "usageType": "fast"
     },
     "HIDDEN_POWER_GHOST": {
@@ -3352,8 +3342,8 @@
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
-        "uuid": 608,
-        "displayName": "Hidden Power (Ghost)",
+        "uuid": 607,
+        "displayName": "Hidden Power [Ghost]",
         "usageType": "fast"
     },
     "HIDDEN_POWER_GRASS": {
@@ -3362,8 +3352,8 @@
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
-        "uuid": 609,
-        "displayName": "Hidden Power (Grass)",
+        "uuid": 608,
+        "displayName": "Hidden Power [Grass]",
         "usageType": "fast"
     },
     "HIDDEN_POWER_GROUND": {
@@ -3372,8 +3362,8 @@
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
-        "uuid": 610,
-        "displayName": "Hidden Power (Ground)",
+        "uuid": 609,
+        "displayName": "Hidden Power [Ground]",
         "usageType": "fast"
     },
     "HIDDEN_POWER_ICE": {
@@ -3382,8 +3372,8 @@
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
-        "uuid": 611,
-        "displayName": "Hidden Power (Ice)",
+        "uuid": 610,
+        "displayName": "Hidden Power [Ice]",
         "usageType": "fast"
     },
     "HIDDEN_POWER_POISON": {
@@ -3392,8 +3382,8 @@
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
-        "uuid": 612,
-        "displayName": "Hidden Power (Poison)",
+        "uuid": 611,
+        "displayName": "Hidden Power [Poison]",
         "usageType": "fast"
     },
     "HIDDEN_POWER_PSYCHIC": {
@@ -3402,8 +3392,8 @@
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
-        "uuid": 613,
-        "displayName": "Hidden Power (Psychic)",
+        "uuid": 612,
+        "displayName": "Hidden Power [Psychic]",
         "usageType": "fast"
     },
     "HIDDEN_POWER_ROCK": {
@@ -3412,8 +3402,8 @@
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
-        "uuid": 614,
-        "displayName": "Hidden Power (Rock)",
+        "uuid": 613,
+        "displayName": "Hidden Power [Rock]",
         "usageType": "fast"
     },
     "HIDDEN_POWER_STEEL": {
@@ -3422,8 +3412,8 @@
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
-        "uuid": 615,
-        "displayName": "Hidden Power (Steel)",
+        "uuid": 614,
+        "displayName": "Hidden Power [Steel]",
         "usageType": "fast"
     },
     "HIDDEN_POWER_WATER": {
@@ -3432,8 +3422,8 @@
         "power": 9.0,
         "energyDelta": 8,
         "turns": 3,
-        "uuid": 616,
-        "displayName": "Hidden Power (Water)",
+        "uuid": 615,
+        "displayName": "Hidden Power [Water]",
         "usageType": "fast"
     }
 }
