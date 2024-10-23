@@ -729,7 +729,7 @@
             "POKEMON_TYPE_DARK",
             "POKEMON_TYPE_NORMAL"
         ],
-        "display_name": "Rattata Alola",
+        "display_name": "Rattata (Alolan)",
         "showdown_id": "rattata-alola",
         "base_attack": 103,
         "base_defense": 70,
@@ -785,7 +785,7 @@
             "POKEMON_TYPE_DARK",
             "POKEMON_TYPE_NORMAL"
         ],
-        "display_name": "Raticate Alola",
+        "display_name": "Raticate (Alolan)",
         "showdown_id": "raticate-alola",
         "base_attack": 135,
         "base_defense": 154,
@@ -959,7 +959,7 @@
             "POKEMON_TYPE_ELECTRIC",
             null
         ],
-        "display_name": "Pikachu Doctor",
+        "display_name": "Pikachu (Doctor)",
         "showdown_id": "pikachu",
         "base_attack": 112,
         "base_defense": 96,
@@ -986,7 +986,7 @@
             "POKEMON_TYPE_ELECTRIC",
             null
         ],
-        "display_name": "Pikachu Flying 01",
+        "display_name": "Pikachu (Flying)",
         "showdown_id": "pikachu",
         "base_attack": 112,
         "base_defense": 96,
@@ -1015,7 +1015,7 @@
             "POKEMON_TYPE_ELECTRIC",
             null
         ],
-        "display_name": "Pikachu Flying Okinawa",
+        "display_name": "Pikachu (Flying Okinawa)",
         "showdown_id": "pikachu",
         "base_attack": 112,
         "base_defense": 96,
@@ -1043,7 +1043,7 @@
             "POKEMON_TYPE_ELECTRIC",
             null
         ],
-        "display_name": "Pikachu Gofest 2024 Mtiara",
+        "display_name": "Pikachu (GOFest 2024)",
         "showdown_id": "pikachu",
         "base_attack": 112,
         "base_defense": 96,
@@ -1070,7 +1070,7 @@
             "POKEMON_TYPE_ELECTRIC",
             null
         ],
-        "display_name": "Pikachu Horizons",
+        "display_name": "Pikachu (Horizons)",
         "showdown_id": "pikachu",
         "base_attack": 112,
         "base_defense": 96,
@@ -1098,7 +1098,7 @@
             "POKEMON_TYPE_ELECTRIC",
             null
         ],
-        "display_name": "Pikachu Pop Star",
+        "display_name": "Pikachu (Pop Star)",
         "showdown_id": "pikachu",
         "base_attack": 112,
         "base_defense": 96,
@@ -1125,7 +1125,7 @@
             "POKEMON_TYPE_ELECTRIC",
             null
         ],
-        "display_name": "Pikachu Rock Star",
+        "display_name": "Pikachu (Rock Star)",
         "showdown_id": "pikachu",
         "base_attack": 112,
         "base_defense": 96,
@@ -1184,7 +1184,7 @@
             "POKEMON_TYPE_ELECTRIC",
             "POKEMON_TYPE_PSYCHIC"
         ],
-        "display_name": "Raichu Alola",
+        "display_name": "Raichu (Alolan)",
         "showdown_id": "raichu-alola",
         "base_attack": 201,
         "base_defense": 154,
@@ -1244,7 +1244,7 @@
             "POKEMON_TYPE_ICE",
             "POKEMON_TYPE_STEEL"
         ],
-        "display_name": "Sandshrew Alola",
+        "display_name": "Sandshrew (Alolan)",
         "showdown_id": "sandshrew-alola",
         "base_attack": 125,
         "base_defense": 129,
@@ -1303,7 +1303,7 @@
             "POKEMON_TYPE_ICE",
             "POKEMON_TYPE_STEEL"
         ],
-        "display_name": "Sandslash Alola",
+        "display_name": "Sandslash (Alolan)",
         "showdown_id": "sandslash-alola",
         "base_attack": 177,
         "base_defense": 195,
@@ -1335,7 +1335,7 @@
             "POKEMON_TYPE_POISON",
             null
         ],
-        "display_name": "Nidoran Female",
+        "display_name": "Nidoran\u2640",
         "showdown_id": "nidoranf",
         "base_attack": 86,
         "base_defense": 89,
@@ -1422,7 +1422,7 @@
             "POKEMON_TYPE_POISON",
             null
         ],
-        "display_name": "Nidoran Male",
+        "display_name": "Nidoran\u2642",
         "showdown_id": "nidoranm",
         "base_attack": 105,
         "base_defense": 76,
@@ -1601,7 +1601,7 @@
             "POKEMON_TYPE_ICE",
             null
         ],
-        "display_name": "Vulpix Alola",
+        "display_name": "Vulpix (Alolan)",
         "showdown_id": "vulpix-alola",
         "base_attack": 96,
         "base_defense": 109,
@@ -1664,7 +1664,7 @@
             "POKEMON_TYPE_ICE",
             "POKEMON_TYPE_FAIRY"
         ],
-        "display_name": "Ninetales Alola",
+        "display_name": "Ninetales (Alolan)",
         "showdown_id": "ninetales-alola",
         "base_attack": 170,
         "base_defense": 193,
@@ -2042,7 +2042,7 @@
             "POKEMON_TYPE_GROUND",
             "POKEMON_TYPE_STEEL"
         ],
-        "display_name": "Diglett Alola",
+        "display_name": "Diglett (Alolan)",
         "showdown_id": "diglett-alola",
         "base_attack": 108,
         "base_defense": 81,
@@ -2100,7 +2100,7 @@
             "POKEMON_TYPE_GROUND",
             "POKEMON_TYPE_STEEL"
         ],
-        "display_name": "Dugtrio Alola",
+        "display_name": "Dugtrio (Alolan)",
         "showdown_id": "dugtrio-alola",
         "base_attack": 201,
         "base_defense": 142,
@@ -2158,7 +2158,7 @@
             "POKEMON_TYPE_DARK",
             null
         ],
-        "display_name": "Meowth Alola",
+        "display_name": "Meowth (Alolan)",
         "showdown_id": "meowth-alola",
         "base_attack": 99,
         "base_defense": 78,
@@ -2187,7 +2187,7 @@
             "POKEMON_TYPE_STEEL",
             null
         ],
-        "display_name": "Meowth Galarian",
+        "display_name": "Meowth (Galarian)",
         "showdown_id": "meowth-galar",
         "base_attack": 115,
         "base_defense": 92,
@@ -2246,7 +2246,7 @@
             "POKEMON_TYPE_DARK",
             null
         ],
-        "display_name": "Persian Alola",
+        "display_name": "Persian (Alolan)",
         "showdown_id": "persian-alola",
         "base_attack": 158,
         "base_defense": 136,
@@ -2423,7 +2423,7 @@
             "POKEMON_TYPE_FIRE",
             "POKEMON_TYPE_ROCK"
         ],
-        "display_name": "Growlithe Hisuian",
+        "display_name": "Growlithe (Hisuian)",
         "showdown_id": "growlithe-hisui",
         "base_attack": 142,
         "base_defense": 92,
@@ -2485,7 +2485,7 @@
             "POKEMON_TYPE_FIRE",
             "POKEMON_TYPE_ROCK"
         ],
-        "display_name": "Arcanine Hisuian",
+        "display_name": "Arcanine (Hisuian)",
         "showdown_id": "arcanine-hisui",
         "base_attack": 232,
         "base_defense": 165,
@@ -2991,7 +2991,7 @@
             "POKEMON_TYPE_ROCK",
             "POKEMON_TYPE_ELECTRIC"
         ],
-        "display_name": "Geodude Alola",
+        "display_name": "Geodude (Alolan)",
         "showdown_id": "geodude-alola",
         "base_attack": 132,
         "base_defense": 132,
@@ -3049,7 +3049,7 @@
             "POKEMON_TYPE_ROCK",
             "POKEMON_TYPE_ELECTRIC"
         ],
-        "display_name": "Graveler Alola",
+        "display_name": "Graveler (Alolan)",
         "showdown_id": "graveler-alola",
         "base_attack": 164,
         "base_defense": 164,
@@ -3107,7 +3107,7 @@
             "POKEMON_TYPE_ROCK",
             "POKEMON_TYPE_ELECTRIC"
         ],
-        "display_name": "Golem Alola",
+        "display_name": "Golem (Alolan)",
         "showdown_id": "golem-alola",
         "base_attack": 211,
         "base_defense": 198,
@@ -3165,7 +3165,7 @@
             "POKEMON_TYPE_PSYCHIC",
             null
         ],
-        "display_name": "Ponyta Galarian",
+        "display_name": "Ponyta (Galarian)",
         "showdown_id": "ponyta-galar",
         "base_attack": 170,
         "base_defense": 127,
@@ -3226,7 +3226,7 @@
             "POKEMON_TYPE_PSYCHIC",
             "POKEMON_TYPE_FAIRY"
         ],
-        "display_name": "Rapidash Galarian",
+        "display_name": "Rapidash (Galarian)",
         "showdown_id": "rapidash-galar",
         "base_attack": 207,
         "base_defense": 162,
@@ -3286,7 +3286,7 @@
             "POKEMON_TYPE_PSYCHIC",
             null
         ],
-        "display_name": "Slowpoke Galarian",
+        "display_name": "Slowpoke (Galarian)",
         "showdown_id": "slowpoke-galar",
         "base_attack": 109,
         "base_defense": 98,
@@ -3373,7 +3373,7 @@
             "POKEMON_TYPE_POISON",
             "POKEMON_TYPE_PSYCHIC"
         ],
-        "display_name": "Slowbro Galarian",
+        "display_name": "Slowbro (Galarian)",
         "showdown_id": "slowbro-galar",
         "base_attack": 182,
         "base_defense": 156,
@@ -3495,7 +3495,7 @@
             "POKEMON_TYPE_FIGHTING",
             null
         ],
-        "display_name": "Farfetchd Galarian",
+        "display_name": "Farfetchd (Galarian)",
         "showdown_id": "farfetchd-galar",
         "base_attack": 174,
         "base_defense": 114,
@@ -3668,7 +3668,7 @@
             "POKEMON_TYPE_POISON",
             "POKEMON_TYPE_DARK"
         ],
-        "display_name": "Grimer Alola",
+        "display_name": "Grimer (Alolan)",
         "showdown_id": "grimer-alola",
         "base_attack": 135,
         "base_defense": 90,
@@ -3727,7 +3727,7 @@
             "POKEMON_TYPE_POISON",
             "POKEMON_TYPE_DARK"
         ],
-        "display_name": "Muk Alola",
+        "display_name": "Muk (Alolan)",
         "showdown_id": "muk-alola",
         "base_attack": 190,
         "base_defense": 172,
@@ -4127,7 +4127,7 @@
             "POKEMON_TYPE_ELECTRIC",
             "POKEMON_TYPE_GRASS"
         ],
-        "display_name": "Voltorb Hisuian",
+        "display_name": "Voltorb (Hisuian)",
         "showdown_id": "voltorb-hisui",
         "base_attack": 109,
         "base_defense": 111,
@@ -4185,7 +4185,7 @@
             "POKEMON_TYPE_ELECTRIC",
             "POKEMON_TYPE_GRASS"
         ],
-        "display_name": "Electrode Hisuian",
+        "display_name": "Electrode (Hisuian)",
         "showdown_id": "electrode-hisui",
         "base_attack": 176,
         "base_defense": 176,
@@ -4271,7 +4271,7 @@
             "POKEMON_TYPE_GRASS",
             "POKEMON_TYPE_DRAGON"
         ],
-        "display_name": "Exeggutor Alola",
+        "display_name": "Exeggutor (Alolan)",
         "showdown_id": "exeggutor-alola",
         "base_attack": 230,
         "base_defense": 153,
@@ -4357,7 +4357,7 @@
             "POKEMON_TYPE_FIRE",
             "POKEMON_TYPE_GHOST"
         ],
-        "display_name": "Marowak Alola",
+        "display_name": "Marowak (Alolan)",
         "showdown_id": "marowak-alola",
         "base_attack": 144,
         "base_defense": 186,
@@ -4537,7 +4537,7 @@
             "POKEMON_TYPE_POISON",
             "POKEMON_TYPE_FAIRY"
         ],
-        "display_name": "Weezing Galarian",
+        "display_name": "Weezing (Galarian)",
         "showdown_id": "weezing-galar",
         "base_attack": 174,
         "base_defense": 197,
@@ -4929,7 +4929,7 @@
             "POKEMON_TYPE_PSYCHIC",
             "POKEMON_TYPE_FAIRY"
         ],
-        "display_name": "Mr Mime",
+        "display_name": "Mr. Mime",
         "showdown_id": "mrmime",
         "base_attack": 192,
         "base_defense": 205,
@@ -4959,7 +4959,7 @@
             "POKEMON_TYPE_ICE",
             "POKEMON_TYPE_PSYCHIC"
         ],
-        "display_name": "Mr Mime Galarian",
+        "display_name": "Mr. Mime (Galarian)",
         "showdown_id": "mrmime-galar",
         "base_attack": 183,
         "base_defense": 169,
@@ -5748,7 +5748,7 @@
             "POKEMON_TYPE_PSYCHIC",
             "POKEMON_TYPE_FLYING"
         ],
-        "display_name": "Articuno Galarian",
+        "display_name": "Articuno (Galarian)",
         "showdown_id": "articuno-galar",
         "base_attack": 250,
         "base_defense": 197,
@@ -5806,7 +5806,7 @@
             "POKEMON_TYPE_FIGHTING",
             "POKEMON_TYPE_FLYING"
         ],
-        "display_name": "Zapdos Galarian",
+        "display_name": "Zapdos (Galarian)",
         "showdown_id": "zapdos-galar",
         "base_attack": 252,
         "base_defense": 189,
@@ -5863,7 +5863,7 @@
             "POKEMON_TYPE_DARK",
             "POKEMON_TYPE_FLYING"
         ],
-        "display_name": "Moltres Galarian",
+        "display_name": "Moltres (Galarian)",
         "showdown_id": "moltres-galar",
         "base_attack": 202,
         "base_defense": 231,
@@ -6014,7 +6014,7 @@
             "POKEMON_TYPE_PSYCHIC",
             null
         ],
-        "display_name": "Mewtwo A",
+        "display_name": "Mewtwo (Armored)",
         "showdown_id": "mewtwo",
         "base_attack": 182,
         "base_defense": 278,
@@ -6280,7 +6280,7 @@
             "POKEMON_TYPE_FIRE",
             "POKEMON_TYPE_GHOST"
         ],
-        "display_name": "Typhlosion Hisuian",
+        "display_name": "Typhlosion (Hisuian)",
         "showdown_id": "typhlosion-hisui",
         "base_attack": 238,
         "base_defense": 172,
@@ -7432,7 +7432,7 @@
             "POKEMON_TYPE_POISON",
             "POKEMON_TYPE_GROUND"
         ],
-        "display_name": "Wooper Paldea",
+        "display_name": "Wooper (Paldean)",
         "showdown_id": "wooper-paldea",
         "base_attack": 75,
         "base_defense": 66,
@@ -7607,7 +7607,7 @@
             "POKEMON_TYPE_POISON",
             "POKEMON_TYPE_PSYCHIC"
         ],
-        "display_name": "Slowking Galarian",
+        "display_name": "Slowking (Galarian)",
         "showdown_id": "slowking-galar",
         "base_attack": 190,
         "base_defense": 180,
@@ -8027,7 +8027,7 @@
             "POKEMON_TYPE_DARK",
             "POKEMON_TYPE_POISON"
         ],
-        "display_name": "Qwilfish Hisuian",
+        "display_name": "Qwilfish (Hisuian)",
         "showdown_id": "qwilfish-hisui",
         "base_attack": 184,
         "base_defense": 151,
@@ -8226,7 +8226,7 @@
             "POKEMON_TYPE_FIGHTING",
             "POKEMON_TYPE_POISON"
         ],
-        "display_name": "Sneasel Hisuian",
+        "display_name": "Sneasel (Hisuian)",
         "showdown_id": "sneasel-hisui",
         "base_attack": 189,
         "base_defense": 146,
@@ -8455,7 +8455,7 @@
             "POKEMON_TYPE_GHOST",
             null
         ],
-        "display_name": "Corsola Galarian",
+        "display_name": "Corsola (Galarian)",
         "showdown_id": "corsola-galar",
         "base_attack": 116,
         "base_defense": 182,
@@ -9343,7 +9343,7 @@
             "POKEMON_TYPE_FIRE",
             "POKEMON_TYPE_FLYING"
         ],
-        "display_name": "Ho Oh",
+        "display_name": "Ho-Oh",
         "showdown_id": "hooh",
         "base_attack": 239,
         "base_defense": 244,
@@ -9856,7 +9856,7 @@
             "POKEMON_TYPE_DARK",
             "POKEMON_TYPE_NORMAL"
         ],
-        "display_name": "Zigzagoon Galarian",
+        "display_name": "Zigzagoon (Galarian)",
         "showdown_id": "zigzagoon-galar",
         "base_attack": 58,
         "base_defense": 80,
@@ -9913,7 +9913,7 @@
             "POKEMON_TYPE_DARK",
             "POKEMON_TYPE_NORMAL"
         ],
-        "display_name": "Linoone Galarian",
+        "display_name": "Linoone (Galarian)",
         "showdown_id": "linoone-galar",
         "base_attack": 142,
         "base_defense": 128,
@@ -12606,7 +12606,7 @@
             "POKEMON_TYPE_WATER",
             null
         ],
-        "display_name": "Castform Rainy",
+        "display_name": "Castform (Rainy)",
         "showdown_id": "castform-rainy",
         "base_attack": 139,
         "base_defense": 139,
@@ -12633,7 +12633,7 @@
             "POKEMON_TYPE_ICE",
             null
         ],
-        "display_name": "Castform Snowy",
+        "display_name": "Castform (Snowy)",
         "showdown_id": "castform-snowy",
         "base_attack": 139,
         "base_defense": 139,
@@ -12660,7 +12660,7 @@
             "POKEMON_TYPE_FIRE",
             null
         ],
-        "display_name": "Castform Sunny",
+        "display_name": "Castform (Sunny)",
         "showdown_id": "castform-sunny",
         "base_attack": 139,
         "base_defense": 139,
@@ -13905,7 +13905,7 @@
             "POKEMON_TYPE_PSYCHIC",
             null
         ],
-        "display_name": "Deoxys",
+        "display_name": "Deoxys (Normal)",
         "showdown_id": "deoxys",
         "base_attack": 345,
         "base_defense": 115,
@@ -13932,7 +13932,7 @@
             "POKEMON_TYPE_PSYCHIC",
             null
         ],
-        "display_name": "Deoxys Attack",
+        "display_name": "Deoxys (Attack)",
         "showdown_id": "deoxys-attack",
         "base_attack": 414,
         "base_defense": 46,
@@ -13959,7 +13959,7 @@
             "POKEMON_TYPE_PSYCHIC",
             null
         ],
-        "display_name": "Deoxys Defense",
+        "display_name": "Deoxys (Defense)",
         "showdown_id": "deoxys-defense",
         "base_attack": 144,
         "base_defense": 330,
@@ -13986,7 +13986,7 @@
             "POKEMON_TYPE_PSYCHIC",
             null
         ],
-        "display_name": "Deoxys Speed",
+        "display_name": "Deoxys (Speed)",
         "showdown_id": "deoxys-speed",
         "base_attack": 230,
         "base_defense": 218,
@@ -14784,7 +14784,7 @@
             "POKEMON_TYPE_BUG",
             "POKEMON_TYPE_GRASS"
         ],
-        "display_name": "Wormadam Plant",
+        "display_name": "Wormadam (Plant)",
         "showdown_id": "wormadam-plant",
         "base_attack": 141,
         "base_defense": 180,
@@ -14811,7 +14811,7 @@
             "POKEMON_TYPE_BUG",
             "POKEMON_TYPE_GROUND"
         ],
-        "display_name": "Wormadam Sandy",
+        "display_name": "Wormadam (Sandy)",
         "showdown_id": "wormadam-sandy",
         "base_attack": 141,
         "base_defense": 180,
@@ -14838,7 +14838,7 @@
             "POKEMON_TYPE_BUG",
             "POKEMON_TYPE_STEEL"
         ],
-        "display_name": "Wormadam Trash",
+        "display_name": "Wormadam (Trash)",
         "showdown_id": "wormadam-trash",
         "base_attack": 127,
         "base_defense": 175,
@@ -15084,7 +15084,7 @@
             "POKEMON_TYPE_GRASS",
             null
         ],
-        "display_name": "Cherrim Sunny",
+        "display_name": "Cherrim (Sunshine)",
         "showdown_id": "cherrim-sunshine",
         "base_attack": 170,
         "base_defense": 153,
@@ -15652,7 +15652,7 @@
             "POKEMON_TYPE_PSYCHIC",
             "POKEMON_TYPE_FAIRY"
         ],
-        "display_name": "Mime Jr",
+        "display_name": "Mime Jr.",
         "showdown_id": "mimejr",
         "base_attack": 125,
         "base_defense": 142,
@@ -16777,7 +16777,7 @@
             "POKEMON_TYPE_NORMAL",
             null
         ],
-        "display_name": "Porygon Z",
+        "display_name": "Porygon-Z",
         "showdown_id": "porygonz",
         "base_attack": 264,
         "base_defense": 150,
@@ -16970,7 +16970,7 @@
             "POKEMON_TYPE_ELECTRIC",
             "POKEMON_TYPE_FLYING"
         ],
-        "display_name": "Rotom Fan",
+        "display_name": "Rotom (Fan)",
         "showdown_id": "rotom-fan",
         "base_attack": 204,
         "base_defense": 219,
@@ -16997,7 +16997,7 @@
             "POKEMON_TYPE_ELECTRIC",
             "POKEMON_TYPE_ICE"
         ],
-        "display_name": "Rotom Frost",
+        "display_name": "Rotom (Frost)",
         "showdown_id": "rotom-frost",
         "base_attack": 204,
         "base_defense": 219,
@@ -17024,7 +17024,7 @@
             "POKEMON_TYPE_ELECTRIC",
             "POKEMON_TYPE_FIRE"
         ],
-        "display_name": "Rotom Heat",
+        "display_name": "Rotom (Heat)",
         "showdown_id": "rotom-heat",
         "base_attack": 204,
         "base_defense": 219,
@@ -17051,7 +17051,7 @@
             "POKEMON_TYPE_ELECTRIC",
             "POKEMON_TYPE_GRASS"
         ],
-        "display_name": "Rotom Mow",
+        "display_name": "Rotom (Mow)",
         "showdown_id": "rotom-mow",
         "base_attack": 204,
         "base_defense": 219,
@@ -17078,7 +17078,7 @@
             "POKEMON_TYPE_ELECTRIC",
             "POKEMON_TYPE_WATER"
         ],
-        "display_name": "Rotom Wash",
+        "display_name": "Rotom (Wash)",
         "showdown_id": "rotom-wash",
         "base_attack": 204,
         "base_defense": 219,
@@ -17186,7 +17186,7 @@
             "POKEMON_TYPE_STEEL",
             "POKEMON_TYPE_DRAGON"
         ],
-        "display_name": "Dialga",
+        "display_name": "Dialga (Altered)",
         "showdown_id": "dialga",
         "base_attack": 275,
         "base_defense": 211,
@@ -17213,7 +17213,7 @@
             "POKEMON_TYPE_STEEL",
             "POKEMON_TYPE_DRAGON"
         ],
-        "display_name": "Dialga Origin",
+        "display_name": "Dialga (Origin)",
         "showdown_id": "dialga-origin",
         "base_attack": 270,
         "base_defense": 225,
@@ -17241,7 +17241,7 @@
             "POKEMON_TYPE_WATER",
             "POKEMON_TYPE_DRAGON"
         ],
-        "display_name": "Palkia",
+        "display_name": "Palkia (Altered)",
         "showdown_id": "palkia",
         "base_attack": 280,
         "base_defense": 215,
@@ -17269,7 +17269,7 @@
             "POKEMON_TYPE_WATER",
             "POKEMON_TYPE_DRAGON"
         ],
-        "display_name": "Palkia Origin",
+        "display_name": "Palkia (Origin)",
         "showdown_id": "palkia-origin",
         "base_attack": 286,
         "base_defense": 223,
@@ -17372,7 +17372,7 @@
             "POKEMON_TYPE_GHOST",
             "POKEMON_TYPE_DRAGON"
         ],
-        "display_name": "Giratina",
+        "display_name": "Giratina (Altered)",
         "showdown_id": "giratina",
         "base_attack": 187,
         "base_defense": 225,
@@ -17400,7 +17400,7 @@
             "POKEMON_TYPE_GHOST",
             "POKEMON_TYPE_DRAGON"
         ],
-        "display_name": "Giratina Origin",
+        "display_name": "Giratina (Origin)",
         "showdown_id": "giratina-origin",
         "base_attack": 225,
         "base_defense": 187,
@@ -17539,7 +17539,7 @@
             "POKEMON_TYPE_GRASS",
             null
         ],
-        "display_name": "Shaymin",
+        "display_name": "Shaymin (Land)",
         "showdown_id": "shaymin",
         "base_attack": 210,
         "base_defense": 210,
@@ -17582,7 +17582,7 @@
             "POKEMON_TYPE_GRASS",
             "POKEMON_TYPE_FLYING"
         ],
-        "display_name": "Shaymin Sky",
+        "display_name": "Shaymin (Sky)",
         "showdown_id": "shaymin-sky",
         "base_attack": 261,
         "base_defense": 166,
@@ -17653,7 +17653,7 @@
             "POKEMON_TYPE_BUG",
             null
         ],
-        "display_name": "Arceus Bug",
+        "display_name": "Arceus (Bug)",
         "showdown_id": "arceus-bug",
         "base_attack": 238,
         "base_defense": 238,
@@ -17680,7 +17680,7 @@
             "POKEMON_TYPE_DARK",
             null
         ],
-        "display_name": "Arceus Dark",
+        "display_name": "Arceus (Dark)",
         "showdown_id": "arceus-dark",
         "base_attack": 238,
         "base_defense": 238,
@@ -17707,7 +17707,7 @@
             "POKEMON_TYPE_DRAGON",
             null
         ],
-        "display_name": "Arceus Dragon",
+        "display_name": "Arceus (Dragon)",
         "showdown_id": "arceus-dragon",
         "base_attack": 238,
         "base_defense": 238,
@@ -17734,7 +17734,7 @@
             "POKEMON_TYPE_ELECTRIC",
             null
         ],
-        "display_name": "Arceus Electric",
+        "display_name": "Arceus (Electric)",
         "showdown_id": "arceus-electric",
         "base_attack": 238,
         "base_defense": 238,
@@ -17761,7 +17761,7 @@
             "POKEMON_TYPE_FAIRY",
             null
         ],
-        "display_name": "Arceus Fairy",
+        "display_name": "Arceus (Fairy)",
         "showdown_id": "arceus-fairy",
         "base_attack": 238,
         "base_defense": 238,
@@ -17788,7 +17788,7 @@
             "POKEMON_TYPE_FIGHTING",
             null
         ],
-        "display_name": "Arceus Fighting",
+        "display_name": "Arceus (Fighting)",
         "showdown_id": "arceus-fighting",
         "base_attack": 238,
         "base_defense": 238,
@@ -17815,7 +17815,7 @@
             "POKEMON_TYPE_FIRE",
             null
         ],
-        "display_name": "Arceus Fire",
+        "display_name": "Arceus (Fire)",
         "showdown_id": "arceus-fire",
         "base_attack": 238,
         "base_defense": 238,
@@ -17842,7 +17842,7 @@
             "POKEMON_TYPE_FLYING",
             null
         ],
-        "display_name": "Arceus Flying",
+        "display_name": "Arceus (Flying)",
         "showdown_id": "arceus-flying",
         "base_attack": 238,
         "base_defense": 238,
@@ -17869,7 +17869,7 @@
             "POKEMON_TYPE_GHOST",
             null
         ],
-        "display_name": "Arceus Ghost",
+        "display_name": "Arceus (Ghost)",
         "showdown_id": "arceus-ghost",
         "base_attack": 238,
         "base_defense": 238,
@@ -17896,7 +17896,7 @@
             "POKEMON_TYPE_GRASS",
             null
         ],
-        "display_name": "Arceus Grass",
+        "display_name": "Arceus (Grass)",
         "showdown_id": "arceus-grass",
         "base_attack": 238,
         "base_defense": 238,
@@ -17923,7 +17923,7 @@
             "POKEMON_TYPE_GROUND",
             null
         ],
-        "display_name": "Arceus Ground",
+        "display_name": "Arceus (Ground)",
         "showdown_id": "arceus-ground",
         "base_attack": 238,
         "base_defense": 238,
@@ -17950,7 +17950,7 @@
             "POKEMON_TYPE_ICE",
             null
         ],
-        "display_name": "Arceus Ice",
+        "display_name": "Arceus (Ice)",
         "showdown_id": "arceus-ice",
         "base_attack": 238,
         "base_defense": 238,
@@ -17977,7 +17977,7 @@
             "POKEMON_TYPE_POISON",
             null
         ],
-        "display_name": "Arceus Poison",
+        "display_name": "Arceus (Poison)",
         "showdown_id": "arceus-poison",
         "base_attack": 238,
         "base_defense": 238,
@@ -18004,7 +18004,7 @@
             "POKEMON_TYPE_PSYCHIC",
             null
         ],
-        "display_name": "Arceus Psychic",
+        "display_name": "Arceus (Psychic)",
         "showdown_id": "arceus-psychic",
         "base_attack": 238,
         "base_defense": 238,
@@ -18031,7 +18031,7 @@
             "POKEMON_TYPE_ROCK",
             null
         ],
-        "display_name": "Arceus Rock",
+        "display_name": "Arceus (Rock)",
         "showdown_id": "arceus-rock",
         "base_attack": 238,
         "base_defense": 238,
@@ -18058,7 +18058,7 @@
             "POKEMON_TYPE_STEEL",
             null
         ],
-        "display_name": "Arceus Steel",
+        "display_name": "Arceus (Steel)",
         "showdown_id": "arceus-steel",
         "base_attack": 238,
         "base_defense": 238,
@@ -18085,7 +18085,7 @@
             "POKEMON_TYPE_WATER",
             null
         ],
-        "display_name": "Arceus Water",
+        "display_name": "Arceus (Water)",
         "showdown_id": "arceus-water",
         "base_attack": 238,
         "base_defense": 238,
@@ -18389,7 +18389,7 @@
             "POKEMON_TYPE_WATER",
             "POKEMON_TYPE_DARK"
         ],
-        "display_name": "Samurott Hisuian",
+        "display_name": "Samurott (Hisuian)",
         "showdown_id": "samurott-hisui",
         "base_attack": 218,
         "base_defense": 152,
@@ -19868,7 +19868,7 @@
             "POKEMON_TYPE_ICE",
             null
         ],
-        "display_name": "Darumaka Galarian",
+        "display_name": "Darumaka (Galarian)",
         "showdown_id": "darumaka-galar",
         "base_attack": 153,
         "base_defense": 86,
@@ -19925,7 +19925,7 @@
             "POKEMON_TYPE_ICE",
             null
         ],
-        "display_name": "Darmanitan Galarian Standard",
+        "display_name": "Darmanitan (Galarian)",
         "showdown_id": "darmanitan-galar",
         "base_attack": 263,
         "base_defense": 114,
@@ -19954,7 +19954,7 @@
             "POKEMON_TYPE_ICE",
             "POKEMON_TYPE_FIRE"
         ],
-        "display_name": "Darmanitan Galarian Zen",
+        "display_name": "Darmanitan (Galarian) (Zen)",
         "showdown_id": "darmanitan-galarzen",
         "base_attack": 323,
         "base_defense": 123,
@@ -19983,7 +19983,7 @@
             "POKEMON_TYPE_FIRE",
             "POKEMON_TYPE_PSYCHIC"
         ],
-        "display_name": "Darmanitan Zen",
+        "display_name": "Darmanitan (Zen)",
         "showdown_id": "darmanitan-zen",
         "base_attack": 243,
         "base_defense": 202,
@@ -20208,7 +20208,7 @@
             "POKEMON_TYPE_GROUND",
             "POKEMON_TYPE_GHOST"
         ],
-        "display_name": "Yamask Galarian",
+        "display_name": "Yamask (Galarian)",
         "showdown_id": "yamask-galar",
         "base_attack": 95,
         "base_defense": 141,
@@ -21865,7 +21865,7 @@
             "POKEMON_TYPE_GROUND",
             "POKEMON_TYPE_STEEL"
         ],
-        "display_name": "Stunfisk Galarian",
+        "display_name": "Stunfisk (Galarian)",
         "showdown_id": "stunfisk-galar",
         "base_attack": 144,
         "base_defense": 171,
@@ -22176,7 +22176,7 @@
             "POKEMON_TYPE_PSYCHIC",
             "POKEMON_TYPE_FLYING"
         ],
-        "display_name": "Braviary Hisuian",
+        "display_name": "Braviary (Hisuian)",
         "showdown_id": "braviary-hisui",
         "base_attack": 213,
         "base_defense": 137,
@@ -22538,7 +22538,7 @@
             "POKEMON_TYPE_FLYING",
             null
         ],
-        "display_name": "Tornadus",
+        "display_name": "Tornadus (Incarnate)",
         "showdown_id": "tornadus",
         "base_attack": 266,
         "base_defense": 164,
@@ -22566,7 +22566,7 @@
             "POKEMON_TYPE_FLYING",
             null
         ],
-        "display_name": "Tornadus Therian",
+        "display_name": "Tornadus (Therian)",
         "showdown_id": "tornadus-therian",
         "base_attack": 238,
         "base_defense": 189,
@@ -22595,7 +22595,7 @@
             "POKEMON_TYPE_ELECTRIC",
             "POKEMON_TYPE_FLYING"
         ],
-        "display_name": "Thundurus",
+        "display_name": "Thundurus (Incarnate)",
         "showdown_id": "thundurus",
         "base_attack": 266,
         "base_defense": 164,
@@ -22623,7 +22623,7 @@
             "POKEMON_TYPE_ELECTRIC",
             "POKEMON_TYPE_FLYING"
         ],
-        "display_name": "Thundurus Therian",
+        "display_name": "Thundurus (Therian)",
         "showdown_id": "thundurus-therian",
         "base_attack": 295,
         "base_defense": 161,
@@ -22710,7 +22710,7 @@
             "POKEMON_TYPE_GROUND",
             "POKEMON_TYPE_FLYING"
         ],
-        "display_name": "Landorus",
+        "display_name": "Landorus (Incarnate)",
         "showdown_id": "landorus",
         "base_attack": 261,
         "base_defense": 182,
@@ -22738,7 +22738,7 @@
             "POKEMON_TYPE_GROUND",
             "POKEMON_TYPE_FLYING"
         ],
-        "display_name": "Landorus Therian",
+        "display_name": "Landorus (Therian)",
         "showdown_id": "landorus-therian",
         "base_attack": 289,
         "base_defense": 179,
@@ -22795,7 +22795,7 @@
             "POKEMON_TYPE_DRAGON",
             "POKEMON_TYPE_ICE"
         ],
-        "display_name": "Kyurem Black",
+        "display_name": "Kyurem (Black)",
         "showdown_id": "kyurem-black",
         "base_attack": 310,
         "base_defense": 183,
@@ -22823,7 +22823,7 @@
             "POKEMON_TYPE_DRAGON",
             "POKEMON_TYPE_ICE"
         ],
-        "display_name": "Kyurem White",
+        "display_name": "Kyurem (White)",
         "showdown_id": "kyurem-white",
         "base_attack": 310,
         "base_defense": 183,
@@ -22851,7 +22851,7 @@
             "POKEMON_TYPE_WATER",
             "POKEMON_TYPE_FIGHTING"
         ],
-        "display_name": "Keldeo",
+        "display_name": "Keldeo (Ordinary)",
         "showdown_id": "keldeo",
         "base_attack": 260,
         "base_defense": 192,
@@ -22908,7 +22908,7 @@
             "POKEMON_TYPE_NORMAL",
             "POKEMON_TYPE_PSYCHIC"
         ],
-        "display_name": "Meloetta Aria",
+        "display_name": "Meloetta (Aria)",
         "showdown_id": "meloetta-aria",
         "base_attack": 250,
         "base_defense": 225,
@@ -22936,7 +22936,7 @@
             "POKEMON_TYPE_NORMAL",
             "POKEMON_TYPE_FIGHTING"
         ],
-        "display_name": "Meloetta Pirouette",
+        "display_name": "Meloetta (Pirouette)",
         "showdown_id": "meloetta-pirouette",
         "base_attack": 269,
         "base_defense": 188,
@@ -22991,7 +22991,7 @@
             "POKEMON_TYPE_BUG",
             "POKEMON_TYPE_STEEL"
         ],
-        "display_name": "Genesect Burn",
+        "display_name": "Genesect (Burn)",
         "showdown_id": "genesect-burn",
         "base_attack": 252,
         "base_defense": 199,
@@ -23019,7 +23019,7 @@
             "POKEMON_TYPE_BUG",
             "POKEMON_TYPE_STEEL"
         ],
-        "display_name": "Genesect Chill",
+        "display_name": "Genesect (Chill)",
         "showdown_id": "genesect-chill",
         "base_attack": 252,
         "base_defense": 199,
@@ -23047,7 +23047,7 @@
             "POKEMON_TYPE_BUG",
             "POKEMON_TYPE_STEEL"
         ],
-        "display_name": "Genesect Douse",
+        "display_name": "Genesect (Douse)",
         "showdown_id": "genesect-douse",
         "base_attack": 252,
         "base_defense": 199,
@@ -23075,7 +23075,7 @@
             "POKEMON_TYPE_BUG",
             "POKEMON_TYPE_STEEL"
         ],
-        "display_name": "Genesect Shock",
+        "display_name": "Genesect (Shock)",
         "showdown_id": "genesect-shock",
         "base_attack": 252,
         "base_defense": 199,
@@ -23915,7 +23915,7 @@
             "POKEMON_TYPE_PSYCHIC",
             null
         ],
-        "display_name": "Meowstic Female",
+        "display_name": "Meowstic (Female)",
         "showdown_id": "meowstic-f",
         "base_attack": 166,
         "base_defense": 167,
@@ -24833,7 +24833,7 @@
             "POKEMON_TYPE_GHOST",
             "POKEMON_TYPE_GRASS"
         ],
-        "display_name": "Pumpkaboo Average",
+        "display_name": "Pumpkaboo (Average)",
         "showdown_id": "pumpkaboo",
         "base_attack": 121,
         "base_defense": 123,
@@ -24860,7 +24860,7 @@
             "POKEMON_TYPE_GHOST",
             "POKEMON_TYPE_GRASS"
         ],
-        "display_name": "Pumpkaboo Large",
+        "display_name": "Pumpkaboo (Large)",
         "showdown_id": "pumpkaboo-large",
         "base_attack": 120,
         "base_defense": 122,
@@ -24887,7 +24887,7 @@
             "POKEMON_TYPE_GHOST",
             "POKEMON_TYPE_GRASS"
         ],
-        "display_name": "Pumpkaboo Super",
+        "display_name": "Pumpkaboo (Super)",
         "showdown_id": "pumpkaboo-super",
         "base_attack": 118,
         "base_defense": 120,
@@ -24943,7 +24943,7 @@
             "POKEMON_TYPE_GHOST",
             "POKEMON_TYPE_GRASS"
         ],
-        "display_name": "Gourgeist Average",
+        "display_name": "Gourgeist (Average)",
         "showdown_id": "gourgeist",
         "base_attack": 175,
         "base_defense": 213,
@@ -24972,7 +24972,7 @@
             "POKEMON_TYPE_GHOST",
             "POKEMON_TYPE_GRASS"
         ],
-        "display_name": "Gourgeist Large",
+        "display_name": "Gourgeist (Large)",
         "showdown_id": "gourgeist-large",
         "base_attack": 179,
         "base_defense": 206,
@@ -25001,7 +25001,7 @@
             "POKEMON_TYPE_GHOST",
             "POKEMON_TYPE_GRASS"
         ],
-        "display_name": "Gourgeist Super",
+        "display_name": "Gourgeist (Super)",
         "showdown_id": "gourgeist-super",
         "base_attack": 182,
         "base_defense": 200,
@@ -25087,7 +25087,7 @@
             "POKEMON_TYPE_ICE",
             "POKEMON_TYPE_ROCK"
         ],
-        "display_name": "Avalugg Hisuian",
+        "display_name": "Avalugg (Hisuian)",
         "showdown_id": "avalugg-hisui",
         "base_attack": 214,
         "base_defense": 238,
@@ -25226,14 +25226,14 @@
             "POKEMON_CLASS_LEGENDARY"
         ]
     },
-    "ZYGARDE": {
-        "name": "ZYGARDE",
+    "ZYGARDE_50": {
+        "name": "ZYGARDE_50",
         "species": "ZYGARDE",
         "types": [
             "POKEMON_TYPE_DRAGON",
             "POKEMON_TYPE_GROUND"
         ],
-        "display_name": "Zygarde",
+        "display_name": "Zygarde (50%)",
         "showdown_id": "zygarde",
         "base_attack": 203,
         "base_defense": 232,
@@ -25257,14 +25257,14 @@
             "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
-    "ZYGARDE_COMPLETE": {
-        "name": "ZYGARDE_COMPLETE",
+    "ZYGARDE_100": {
+        "name": "ZYGARDE_100",
         "species": "ZYGARDE",
         "types": [
             "POKEMON_TYPE_DRAGON",
             "POKEMON_TYPE_GROUND"
         ],
-        "display_name": "Zygarde Complete",
+        "display_name": "Zygarde (Complete)",
         "showdown_id": "zygarde-complete",
         "base_attack": 184,
         "base_defense": 207,
@@ -25288,14 +25288,14 @@
             "POKEMON_CLASS_SHADOW_ELIGIBLE"
         ]
     },
-    "ZYGARDE_COMPLETE_TEN_PERCENT": {
-        "name": "ZYGARDE_COMPLETE_TEN_PERCENT",
+    "ZYGARDE_10": {
+        "name": "ZYGARDE_10",
         "species": "ZYGARDE",
         "types": [
             "POKEMON_TYPE_DRAGON",
             "POKEMON_TYPE_GROUND"
         ],
-        "display_name": "Zygarde Complete Ten Percent",
+        "display_name": "Zygarde (10%)",
         "showdown_id": "zygarde-10",
         "base_attack": 205,
         "base_defense": 173,
@@ -25407,7 +25407,7 @@
             "POKEMON_TYPE_PSYCHIC",
             "POKEMON_TYPE_DARK"
         ],
-        "display_name": "Hoopa Unbound",
+        "display_name": "Hoopa (Unbound)",
         "showdown_id": "hoopa-unbound",
         "base_attack": 311,
         "base_defense": 191,
@@ -25551,7 +25551,7 @@
             "POKEMON_TYPE_GRASS",
             "POKEMON_TYPE_FIGHTING"
         ],
-        "display_name": "Decidueye Hisuian",
+        "display_name": "Decidueye (Hisuian)",
         "showdown_id": "decidueye-hisui",
         "base_attack": 213,
         "base_defense": 174,
@@ -26027,7 +26027,7 @@
             "POKEMON_TYPE_FIRE",
             "POKEMON_TYPE_FLYING"
         ],
-        "display_name": "Oricorio",
+        "display_name": "Oricorio (Baile)",
         "showdown_id": "oricorio",
         "base_attack": 196,
         "base_defense": 145,
@@ -26054,7 +26054,7 @@
             "POKEMON_TYPE_PSYCHIC",
             "POKEMON_TYPE_FLYING"
         ],
-        "display_name": "Oricorio Pau",
+        "display_name": "Oricorio (Pa'u)",
         "showdown_id": "oricorio-pau",
         "base_attack": 196,
         "base_defense": 145,
@@ -26081,7 +26081,7 @@
             "POKEMON_TYPE_ELECTRIC",
             "POKEMON_TYPE_FLYING"
         ],
-        "display_name": "Oricorio Pompom",
+        "display_name": "Oricorio (Pom-Pom)",
         "showdown_id": "oricorio-pompom",
         "base_attack": 196,
         "base_defense": 145,
@@ -26108,7 +26108,7 @@
             "POKEMON_TYPE_GHOST",
             "POKEMON_TYPE_FLYING"
         ],
-        "display_name": "Oricorio Sensu",
+        "display_name": "Oricorio (Sensu)",
         "showdown_id": "oricorio-sensu",
         "base_attack": 196,
         "base_defense": 145,
@@ -26216,7 +26216,7 @@
             "POKEMON_TYPE_ROCK",
             null
         ],
-        "display_name": "Lycanroc",
+        "display_name": "Lycanroc (Midday)",
         "showdown_id": "lycanroc",
         "base_attack": 231,
         "base_defense": 140,
@@ -26244,7 +26244,7 @@
             "POKEMON_TYPE_ROCK",
             null
         ],
-        "display_name": "Lycanroc Dusk",
+        "display_name": "Lycanroc (Dusk)",
         "showdown_id": "lycanroc-dusk",
         "base_attack": 234,
         "base_defense": 139,
@@ -26273,7 +26273,7 @@
             "POKEMON_TYPE_ROCK",
             null
         ],
-        "display_name": "Lycanroc Midnight",
+        "display_name": "Lycanroc (Midnight)",
         "showdown_id": "lycanroc-midnight",
         "base_attack": 218,
         "base_defense": 152,
@@ -26301,7 +26301,7 @@
             "POKEMON_TYPE_WATER",
             null
         ],
-        "display_name": "Wishiwashi",
+        "display_name": "Wishiwashi (Solo)",
         "showdown_id": "wishiwashi",
         "base_attack": 46,
         "base_defense": 43,
@@ -26329,7 +26329,7 @@
             "POKEMON_TYPE_WATER",
             null
         ],
-        "display_name": "Wishiwashi School",
+        "display_name": "Wishiwashi (School)",
         "showdown_id": "wishiwashi-school",
         "base_attack": 255,
         "base_defense": 242,
@@ -27065,7 +27065,7 @@
             "POKEMON_TYPE_NORMAL",
             null
         ],
-        "display_name": "Type Null",
+        "display_name": "Type: Null",
         "showdown_id": "typenull",
         "base_attack": 184,
         "base_defense": 184,
@@ -27121,7 +27121,7 @@
             "POKEMON_TYPE_BUG",
             null
         ],
-        "display_name": "Silvally Bug",
+        "display_name": "Silvally (Bug)",
         "showdown_id": "silvally-bug",
         "base_attack": 198,
         "base_defense": 198,
@@ -27150,7 +27150,7 @@
             "POKEMON_TYPE_DARK",
             null
         ],
-        "display_name": "Silvally Dark",
+        "display_name": "Silvally (Dark)",
         "showdown_id": "silvally-dark",
         "base_attack": 198,
         "base_defense": 198,
@@ -27179,7 +27179,7 @@
             "POKEMON_TYPE_DRAGON",
             null
         ],
-        "display_name": "Silvally Dragon",
+        "display_name": "Silvally (Dragon)",
         "showdown_id": "silvally-dragon",
         "base_attack": 198,
         "base_defense": 198,
@@ -27208,7 +27208,7 @@
             "POKEMON_TYPE_ELECTRIC",
             null
         ],
-        "display_name": "Silvally Electric",
+        "display_name": "Silvally (Electric)",
         "showdown_id": "silvally-electric",
         "base_attack": 198,
         "base_defense": 198,
@@ -27237,7 +27237,7 @@
             "POKEMON_TYPE_FAIRY",
             null
         ],
-        "display_name": "Silvally Fairy",
+        "display_name": "Silvally (Fairy)",
         "showdown_id": "silvally-fairy",
         "base_attack": 198,
         "base_defense": 198,
@@ -27266,7 +27266,7 @@
             "POKEMON_TYPE_FIGHTING",
             null
         ],
-        "display_name": "Silvally Fighting",
+        "display_name": "Silvally (Fighting)",
         "showdown_id": "silvally-fighting",
         "base_attack": 198,
         "base_defense": 198,
@@ -27295,7 +27295,7 @@
             "POKEMON_TYPE_FIRE",
             null
         ],
-        "display_name": "Silvally Fire",
+        "display_name": "Silvally (Fire)",
         "showdown_id": "silvally-fire",
         "base_attack": 198,
         "base_defense": 198,
@@ -27324,7 +27324,7 @@
             "POKEMON_TYPE_FLYING",
             null
         ],
-        "display_name": "Silvally Flying",
+        "display_name": "Silvally (Flying)",
         "showdown_id": "silvally-flying",
         "base_attack": 198,
         "base_defense": 198,
@@ -27353,7 +27353,7 @@
             "POKEMON_TYPE_GHOST",
             null
         ],
-        "display_name": "Silvally Ghost",
+        "display_name": "Silvally (Ghost)",
         "showdown_id": "silvally-ghost",
         "base_attack": 198,
         "base_defense": 198,
@@ -27382,7 +27382,7 @@
             "POKEMON_TYPE_GRASS",
             null
         ],
-        "display_name": "Silvally Grass",
+        "display_name": "Silvally (Grass)",
         "showdown_id": "silvally-grass",
         "base_attack": 198,
         "base_defense": 198,
@@ -27411,7 +27411,7 @@
             "POKEMON_TYPE_GROUND",
             null
         ],
-        "display_name": "Silvally Ground",
+        "display_name": "Silvally (Ground)",
         "showdown_id": "silvally-ground",
         "base_attack": 198,
         "base_defense": 198,
@@ -27440,7 +27440,7 @@
             "POKEMON_TYPE_ICE",
             null
         ],
-        "display_name": "Silvally Ice",
+        "display_name": "Silvally (Ice)",
         "showdown_id": "silvally-ice",
         "base_attack": 198,
         "base_defense": 198,
@@ -27469,7 +27469,7 @@
             "POKEMON_TYPE_POISON",
             null
         ],
-        "display_name": "Silvally Poison",
+        "display_name": "Silvally (Poison)",
         "showdown_id": "silvally-poison",
         "base_attack": 198,
         "base_defense": 198,
@@ -27498,7 +27498,7 @@
             "POKEMON_TYPE_PSYCHIC",
             null
         ],
-        "display_name": "Silvally Psychic",
+        "display_name": "Silvally (Psychic)",
         "showdown_id": "silvally-psychic",
         "base_attack": 198,
         "base_defense": 198,
@@ -27527,7 +27527,7 @@
             "POKEMON_TYPE_ROCK",
             null
         ],
-        "display_name": "Silvally Rock",
+        "display_name": "Silvally (Rock)",
         "showdown_id": "silvally-rock",
         "base_attack": 198,
         "base_defense": 198,
@@ -27556,7 +27556,7 @@
             "POKEMON_TYPE_STEEL",
             null
         ],
-        "display_name": "Silvally Steel",
+        "display_name": "Silvally (Steel)",
         "showdown_id": "silvally-steel",
         "base_attack": 198,
         "base_defense": 198,
@@ -27585,7 +27585,7 @@
             "POKEMON_TYPE_WATER",
             null
         ],
-        "display_name": "Silvally Water",
+        "display_name": "Silvally (Water)",
         "showdown_id": "silvally-water",
         "base_attack": 198,
         "base_defense": 198,
@@ -28383,7 +28383,7 @@
             "POKEMON_TYPE_PSYCHIC",
             "POKEMON_TYPE_GHOST"
         ],
-        "display_name": "Necrozma Dawn Wings",
+        "display_name": "Necrozma (Dawn Wings)",
         "showdown_id": "necrozma-dawnwings",
         "base_attack": 277,
         "base_defense": 220,
@@ -28414,7 +28414,7 @@
             "POKEMON_TYPE_PSYCHIC",
             "POKEMON_TYPE_STEEL"
         ],
-        "display_name": "Necrozma Dusk Mane",
+        "display_name": "Necrozma (Dusk Mane)",
         "showdown_id": "necrozma-duskmane",
         "base_attack": 277,
         "base_defense": 220,
@@ -28445,7 +28445,7 @@
             "POKEMON_TYPE_PSYCHIC",
             "POKEMON_TYPE_DRAGON"
         ],
-        "display_name": "Necrozma Ultra",
+        "display_name": "Necrozma (Ultra)",
         "showdown_id": "necrozma-ultra",
         "base_attack": 337,
         "base_defense": 196,
@@ -30224,7 +30224,7 @@
             "POKEMON_TYPE_ICE",
             "POKEMON_TYPE_PSYCHIC"
         ],
-        "display_name": "Mr Rime",
+        "display_name": "Mr. Rime",
         "showdown_id": "mrrime",
         "base_attack": 212,
         "base_defense": 179,
@@ -30471,7 +30471,7 @@
             "POKEMON_TYPE_ICE",
             null
         ],
-        "display_name": "Eiscue",
+        "display_name": "Eiscue (Ice Face)",
         "showdown_id": "eiscue",
         "base_attack": 148,
         "base_defense": 195,
@@ -30497,7 +30497,7 @@
             "POKEMON_TYPE_ICE",
             null
         ],
-        "display_name": "Eiscue Noice",
+        "display_name": "Eiscue (No Ice Face)",
         "showdown_id": "eiscue-noice",
         "base_attack": 173,
         "base_defense": 139,
@@ -30523,7 +30523,7 @@
             "POKEMON_TYPE_PSYCHIC",
             "POKEMON_TYPE_NORMAL"
         ],
-        "display_name": "Indeedee",
+        "display_name": "Indeedee (Male)",
         "showdown_id": "indeedee",
         "base_attack": 208,
         "base_defense": 166,
@@ -30549,7 +30549,7 @@
             "POKEMON_TYPE_PSYCHIC",
             "POKEMON_TYPE_NORMAL"
         ],
-        "display_name": "Indeedee Female",
+        "display_name": "Indeedee (Female)",
         "showdown_id": "indeedee-f",
         "base_attack": 184,
         "base_defense": 184,
@@ -30575,7 +30575,7 @@
             "POKEMON_TYPE_ELECTRIC",
             "POKEMON_TYPE_DARK"
         ],
-        "display_name": "Morpeko",
+        "display_name": "Morpeko (Full Belly)",
         "showdown_id": "morpeko",
         "base_attack": 192,
         "base_defense": 121,
@@ -30604,7 +30604,7 @@
             "POKEMON_TYPE_ELECTRIC",
             "POKEMON_TYPE_DARK"
         ],
-        "display_name": "Morpeko Hangry",
+        "display_name": "Morpeko (Hangry)",
         "showdown_id": "morpeko-hangry",
         "base_attack": 192,
         "base_defense": 121,
@@ -30896,36 +30896,6 @@
             "POKEMON_CLASS_REGULAR"
         ]
     },
-    "ZACIAN": {
-        "name": "ZACIAN",
-        "species": "ZACIAN",
-        "types": [
-            "POKEMON_TYPE_FAIRY",
-            "POKEMON_TYPE_STEEL"
-        ],
-        "display_name": "Zacian",
-        "showdown_id": "zacian",
-        "base_attack": 254,
-        "base_defense": 236,
-        "base_hp": 192,
-        "fast_move_pool": [
-            "FIRE_FANG_FAST",
-            "METAL_CLAW_FAST",
-            "QUICK_ATTACK_FAST",
-            "SNARL_FAST"
-        ],
-        "charged_move_pool": [
-            "CLOSE_COMBAT",
-            "IRON_HEAD",
-            "PLAY_ROUGH",
-            "WILD_CHARGE"
-        ],
-        "pokedex_number": 888,
-        "form_number": 0,
-        "pokemon_category": [
-            "POKEMON_CLASS_LEGENDARY"
-        ]
-    },
     "ZACIAN_CROWNED_SWORD": {
         "name": "ZACIAN_CROWNED_SWORD",
         "species": "ZACIAN",
@@ -30933,7 +30903,7 @@
             "POKEMON_TYPE_FAIRY",
             "POKEMON_TYPE_STEEL"
         ],
-        "display_name": "Zacian Crowned Sword",
+        "display_name": "Zacian (Crowned Sword)",
         "showdown_id": "zacian-crowned",
         "base_attack": 332,
         "base_defense": 240,
@@ -30951,7 +30921,7 @@
             "WILD_CHARGE"
         ],
         "pokedex_number": 888,
-        "form_number": 1,
+        "form_number": 0,
         "pokemon_category": [
             "POKEMON_CLASS_LEGENDARY"
         ]
@@ -30963,7 +30933,7 @@
             "POKEMON_TYPE_FAIRY",
             null
         ],
-        "display_name": "Zacian Hero",
+        "display_name": "Zacian (Hero of Many Battles)",
         "showdown_id": "zacian",
         "base_attack": 254,
         "base_defense": 236,
@@ -30981,22 +30951,22 @@
             "WILD_CHARGE"
         ],
         "pokedex_number": 888,
-        "form_number": 2,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_LEGENDARY"
         ]
     },
-    "ZAMAZENTA": {
-        "name": "ZAMAZENTA",
+    "ZAMAZENTA_CROWNED_SHIELD": {
+        "name": "ZAMAZENTA_CROWNED_SHIELD",
         "species": "ZAMAZENTA",
         "types": [
             "POKEMON_TYPE_FIGHTING",
             "POKEMON_TYPE_STEEL"
         ],
-        "display_name": "Zamazenta",
-        "showdown_id": "zamazenta",
-        "base_attack": 254,
-        "base_defense": 236,
+        "display_name": "Zamazenta (Crowned Shield)",
+        "showdown_id": "zamazenta-crowned",
+        "base_attack": 250,
+        "base_defense": 292,
         "base_hp": 192,
         "fast_move_pool": [
             "ICE_FANG_FAST",
@@ -31016,36 +30986,6 @@
             "POKEMON_CLASS_LEGENDARY"
         ]
     },
-    "ZAMAZENTA_CROWNED_SHIELD": {
-        "name": "ZAMAZENTA_CROWNED_SHIELD",
-        "species": "ZAMAZENTA",
-        "types": [
-            "POKEMON_TYPE_FIGHTING",
-            "POKEMON_TYPE_STEEL"
-        ],
-        "display_name": "Zamazenta Crowned Shield",
-        "showdown_id": "zamazenta-crowned",
-        "base_attack": 250,
-        "base_defense": 292,
-        "base_hp": 192,
-        "fast_move_pool": [
-            "ICE_FANG_FAST",
-            "METAL_CLAW_FAST",
-            "QUICK_ATTACK_FAST",
-            "SNARL_FAST"
-        ],
-        "charged_move_pool": [
-            "CLOSE_COMBAT",
-            "CRUNCH",
-            "IRON_HEAD",
-            "MOONBLAST"
-        ],
-        "pokedex_number": 889,
-        "form_number": 1,
-        "pokemon_category": [
-            "POKEMON_CLASS_LEGENDARY"
-        ]
-    },
     "ZAMAZENTA_HERO": {
         "name": "ZAMAZENTA_HERO",
         "species": "ZAMAZENTA",
@@ -31053,7 +30993,7 @@
             "POKEMON_TYPE_FIGHTING",
             null
         ],
-        "display_name": "Zamazenta Hero",
+        "display_name": "Zamazenta (Hero of Many Battles)",
         "showdown_id": "zamazenta",
         "base_attack": 254,
         "base_defense": 236,
@@ -31071,7 +31011,7 @@
             "MOONBLAST"
         ],
         "pokedex_number": 889,
-        "form_number": 2,
+        "form_number": 1,
         "pokemon_category": [
             "POKEMON_CLASS_LEGENDARY"
         ]
@@ -31110,7 +31050,7 @@
             "POKEMON_TYPE_POISON",
             "POKEMON_TYPE_DRAGON"
         ],
-        "display_name": "Eternatus Eternamax",
+        "display_name": "Eternatus (Eternamax)",
         "showdown_id": "eternatus-eternamax",
         "base_attack": 251,
         "base_defense": 505,
@@ -31165,7 +31105,7 @@
             "POKEMON_TYPE_FIGHTING",
             "POKEMON_TYPE_DARK"
         ],
-        "display_name": "Urshifu Single Strike",
+        "display_name": "Urshifu (Single Strike)",
         "showdown_id": "urshifu",
         "base_attack": 254,
         "base_defense": 177,
@@ -31194,7 +31134,7 @@
             "POKEMON_TYPE_FIGHTING",
             "POKEMON_TYPE_WATER"
         ],
-        "display_name": "Urshifu Rapid Strike",
+        "display_name": "Urshifu (Rapid Strike)",
         "showdown_id": "urshifu-rapidstrike",
         "base_attack": 254,
         "base_defense": 177,
@@ -31386,7 +31326,7 @@
             "POKEMON_TYPE_PSYCHIC",
             "POKEMON_TYPE_ICE"
         ],
-        "display_name": "Calyrex Ice Rider",
+        "display_name": "Calyrex (Ice Rider)",
         "showdown_id": "calyrex-ice",
         "base_attack": 268,
         "base_defense": 246,
@@ -31414,7 +31354,7 @@
             "POKEMON_TYPE_PSYCHIC",
             "POKEMON_TYPE_GHOST"
         ],
-        "display_name": "Calyrex Shadow Rider",
+        "display_name": "Calyrex (Shadow Rider)",
         "showdown_id": "calyrex-shadow",
         "base_attack": 324,
         "base_defense": 194,
@@ -31589,7 +31529,7 @@
             "POKEMON_TYPE_FAIRY",
             "POKEMON_TYPE_FLYING"
         ],
-        "display_name": "Enamorus",
+        "display_name": "Enamorus (Incarnate)",
         "showdown_id": "enamorus",
         "base_attack": 281,
         "base_defense": 162,
@@ -31617,7 +31557,7 @@
             "POKEMON_TYPE_FAIRY",
             "POKEMON_TYPE_FLYING"
         ],
-        "display_name": "Enamorus Therian",
+        "display_name": "Enamorus (Incarnate) Therian",
         "showdown_id": "enamorus-therian",
         "base_attack": 250,
         "base_defense": 201,
@@ -31918,7 +31858,7 @@
             "POKEMON_TYPE_NORMAL",
             null
         ],
-        "display_name": "Oinkologne",
+        "display_name": "Oinkologne (Male)",
         "showdown_id": "oinkologne",
         "base_attack": 186,
         "base_defense": 153,
@@ -31945,7 +31885,7 @@
             "POKEMON_TYPE_NORMAL",
             null
         ],
-        "display_name": "Oinkologne Female",
+        "display_name": "Oinkologne (Female)",
         "showdown_id": "oinkologne-f",
         "base_attack": 169,
         "base_defense": 162,
@@ -33849,7 +33789,7 @@
             "POKEMON_TYPE_GROUND",
             "POKEMON_TYPE_FIGHTING"
         ],
-        "display_name": "Greattusk",
+        "display_name": "Great Tusk",
         "showdown_id": "greattusk",
         "base_attack": 249,
         "base_defense": 209,
@@ -33873,7 +33813,7 @@
             "POKEMON_TYPE_FAIRY",
             "POKEMON_TYPE_PSYCHIC"
         ],
-        "display_name": "Screamtail",
+        "display_name": "Scream Tail",
         "showdown_id": "screamtail",
         "base_attack": 139,
         "base_defense": 234,
@@ -33897,7 +33837,7 @@
             "POKEMON_TYPE_GRASS",
             "POKEMON_TYPE_DARK"
         ],
-        "display_name": "Brutebonnet",
+        "display_name": "Brute Bonnet",
         "showdown_id": "brutebonnet",
         "base_attack": 232,
         "base_defense": 190,
@@ -33921,7 +33861,7 @@
             "POKEMON_TYPE_GHOST",
             "POKEMON_TYPE_FAIRY"
         ],
-        "display_name": "Fluttermane",
+        "display_name": "Flutter Mane",
         "showdown_id": "fluttermane",
         "base_attack": 280,
         "base_defense": 235,
@@ -33945,7 +33885,7 @@
             "POKEMON_TYPE_BUG",
             "POKEMON_TYPE_FIGHTING"
         ],
-        "display_name": "Slitherwing",
+        "display_name": "Slither Wing",
         "showdown_id": "slitherwing",
         "base_attack": 261,
         "base_defense": 193,
@@ -33969,7 +33909,7 @@
             "POKEMON_TYPE_ELECTRIC",
             "POKEMON_TYPE_GROUND"
         ],
-        "display_name": "Sandyshocks",
+        "display_name": "Sandy Shocks",
         "showdown_id": "sandyshocks",
         "base_attack": 244,
         "base_defense": 195,
@@ -33993,7 +33933,7 @@
             "POKEMON_TYPE_GROUND",
             "POKEMON_TYPE_STEEL"
         ],
-        "display_name": "Irontreads",
+        "display_name": "Iron Treads",
         "showdown_id": "irontreads",
         "base_attack": 227,
         "base_defense": 216,
@@ -34017,7 +33957,7 @@
             "POKEMON_TYPE_ICE",
             "POKEMON_TYPE_WATER"
         ],
-        "display_name": "Ironbundle",
+        "display_name": "Iron Bundle",
         "showdown_id": "ironbundle",
         "base_attack": 266,
         "base_defense": 211,
@@ -34041,7 +33981,7 @@
             "POKEMON_TYPE_FIGHTING",
             "POKEMON_TYPE_ELECTRIC"
         ],
-        "display_name": "Ironhands",
+        "display_name": "Iron Hands",
         "showdown_id": "ironhands",
         "base_attack": 245,
         "base_defense": 177,
@@ -34065,7 +34005,7 @@
             "POKEMON_TYPE_DARK",
             "POKEMON_TYPE_FLYING"
         ],
-        "display_name": "Ironjugulis",
+        "display_name": "Iron Jugulis",
         "showdown_id": "ironjugulis",
         "base_attack": 249,
         "base_defense": 179,
@@ -34089,7 +34029,7 @@
             "POKEMON_TYPE_FIRE",
             "POKEMON_TYPE_POISON"
         ],
-        "display_name": "Ironmoth",
+        "display_name": "Iron Moth",
         "showdown_id": "ironmoth",
         "base_attack": 281,
         "base_defense": 196,
@@ -34113,7 +34053,7 @@
             "POKEMON_TYPE_ROCK",
             "POKEMON_TYPE_ELECTRIC"
         ],
-        "display_name": "Ironthorns",
+        "display_name": "Iron Thorns",
         "showdown_id": "ironthorns",
         "base_attack": 250,
         "base_defense": 200,
@@ -34273,7 +34213,7 @@
             "POKEMON_TYPE_DARK",
             "POKEMON_TYPE_GRASS"
         ],
-        "display_name": "Wochien",
+        "display_name": "Wo-Chein",
         "showdown_id": "wochien",
         "base_attack": 186,
         "base_defense": 242,
@@ -34300,7 +34240,7 @@
             "POKEMON_TYPE_DARK",
             "POKEMON_TYPE_ICE"
         ],
-        "display_name": "Chienpao",
+        "display_name": "Chien-Pao",
         "showdown_id": "chienpao",
         "base_attack": 261,
         "base_defense": 167,
@@ -34327,7 +34267,7 @@
             "POKEMON_TYPE_DARK",
             "POKEMON_TYPE_GROUND"
         ],
-        "display_name": "Tinglu",
+        "display_name": "Ting-Lu",
         "showdown_id": "tinglu",
         "base_attack": 194,
         "base_defense": 203,
@@ -34354,7 +34294,7 @@
             "POKEMON_TYPE_DARK",
             "POKEMON_TYPE_FIRE"
         ],
-        "display_name": "Chiyu",
+        "display_name": "Chi-Yu",
         "showdown_id": "chiyu",
         "base_attack": 269,
         "base_defense": 221,
@@ -34381,7 +34321,7 @@
             "POKEMON_TYPE_DRAGON",
             "POKEMON_TYPE_DARK"
         ],
-        "display_name": "Roaringmoon",
+        "display_name": "Roaring Moon",
         "showdown_id": "roaringmoon",
         "base_attack": 280,
         "base_defense": 196,
@@ -34405,7 +34345,7 @@
             "POKEMON_TYPE_FAIRY",
             "POKEMON_TYPE_FIGHTING"
         ],
-        "display_name": "Ironvaliant",
+        "display_name": "Iron Valiant",
         "showdown_id": "ironvaliant",
         "base_attack": 279,
         "base_defense": 171,

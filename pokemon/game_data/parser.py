@@ -15,6 +15,9 @@ WHITELISTED_POKEMON = ["KYUREM", "KYUREM_WHITE", "KYUREM_BLACK"]
 
 MANUAL_NAME_CHANGES = {
     "MEWOSTIC": "MEOWSTIC_MALE",
+    "ZYGARDE": "ZYGARDE_50",
+    "ZYGARDE_COMPLETE": "ZYGARDE_100",
+    "ZYGARDE_COMPLETE_TEN_PERCENT": "ZYGARDE_10",
     "JANGMO_O": "JANGMO-O",
     "HAKAMO_O": "HAKAMO-O",
     "KOMMO_O": "KOMMO-O",
@@ -70,7 +73,9 @@ MANUAL_CATEGORY_CHANGES = {
 }
 
 SKIPPED_POKEMON_IDS = [
-    "WORMADAM"
+    "WORMADAM",
+    "ZACIAN",
+    "ZAMAZENTA",
 ]
 
 
@@ -180,7 +185,170 @@ def get_pokemon_display_name(name):
     final_string = ""
     for phrase in name.replace("-", "-_").split("_"):
         final_string += phrase.capitalize() + " "
-    return final_string.strip().replace("- ", "-")
+    final_string = final_string.strip().replace("- ", "-")
+
+    final_string = (final_string
+        .replace(" Alola", " (Alolan)")
+        .replace(" Galarian", " (Galarian)")
+        .replace(" Hisuian", " (Hisuian)")
+        .replace(" Paldea", " (Paldean)")
+        .replace("Nidoran Female", "Nidoran♀")
+        .replace("Nidoran Male", "Nidoran♂")
+        .replace("Pikachu Doctor", "Pikachu (Doctor)")
+        .replace("Pikachu Flying 01", "Pikachu (Flying)")
+        .replace("Pikachu Flying Okinawa", "Pikachu (Flying Okinawa)")
+        .replace("Pikachu Gofest 2024 Mtiara", "Pikachu (GOFest 2024)")
+        .replace("Pikachu Horizons", "Pikachu (Horizons)")
+        .replace("Pikachu Pop Star", "Pikachu (Pop Star)")
+        .replace("Pikachu Rock Star", "Pikachu (Rock Star)")
+        .replace("Mr Mime", "Mr. Mime")
+        .replace("Mr. Mime Galarian", "Mr. Mime (Galarian)")
+        .replace("Mewtwo A", "Mewtwo (Armored)")
+        .replace("Ho Oh", "Ho-Oh")
+        .replace("Castform Rainy", "Castform (Rainy)")
+        .replace("Castform Snowy", "Castform (Snowy)")
+        .replace("Castform Sunny", "Castform (Sunny)")
+        .replace("Deoxys", "Deoxys (Normal)")
+        .replace("Deoxys (Normal) Attack", "Deoxys (Attack)")
+        .replace("Deoxys (Normal) Defense", "Deoxys (Defense)")
+        .replace("Deoxys (Normal) Speed", "Deoxys (Speed)")
+        .replace("Wormadam Plant", "Wormadam (Plant)")
+        .replace("Wormadam Sandy", "Wormadam (Sandy)")
+        .replace("Wormadam Trash", "Wormadam (Trash)")
+        .replace("Cherrim Sunny", "Cherrim (Sunshine)")
+        .replace("Mime Jr", "Mime Jr.")
+        .replace("Porygon Z", "Porygon-Z")
+        .replace("Rotom Fan", "Rotom (Fan)")
+        .replace("Rotom Frost", "Rotom (Frost)")
+        .replace("Rotom Heat", "Rotom (Heat)")
+        .replace("Rotom Mow", "Rotom (Mow)")
+        .replace("Rotom Wash", "Rotom (Wash)")
+        .replace("Dialga", "Dialga (Altered)")
+        .replace("Dialga (Altered) Origin", "Dialga (Origin)")
+        .replace("Palkia", "Palkia (Altered)")
+        .replace("Palkia (Altered) Origin", "Palkia (Origin)")
+        .replace("Giratina", "Giratina (Altered)")
+        .replace("Giratina (Altered) Origin", "Giratina (Origin)")
+        .replace("Shaymin", "Shaymin (Land)")
+        .replace("Shaymin (Land) Sky", "Shaymin (Sky)")
+        .replace("Arceus Bug", "Arceus (Bug)")
+        .replace("Arceus Dark", "Arceus (Dark)")
+        .replace("Arceus Dragon", "Arceus (Dragon)")
+        .replace("Arceus Electric", "Arceus (Electric)")
+        .replace("Arceus Fairy", "Arceus (Fairy)")
+        .replace("Arceus Fighting", "Arceus (Fighting)")
+        .replace("Arceus Fire", "Arceus (Fire)")
+        .replace("Arceus Flying", "Arceus (Flying)")
+        .replace("Arceus Ghost", "Arceus (Ghost)")
+        .replace("Arceus Grass", "Arceus (Grass)")
+        .replace("Arceus Ground", "Arceus (Ground)")
+        .replace("Arceus Ice", "Arceus (Ice)")
+        .replace("Arceus Poison", "Arceus (Poison)")
+        .replace("Arceus Psychic", "Arceus (Psychic)")
+        .replace("Arceus Rock", "Arceus (Rock)")
+        .replace("Arceus Steel", "Arceus (Steel)")
+        .replace("Arceus Water", "Arceus (Water)")
+        .replace("Darmanitan Zen", "Darmanitan (Zen)")
+        .replace("Darmanitan (Galarian) Standard", "Darmanitan (Galarian)")
+        .replace("Darmanitan (Galarian) Zen", "Darmanitan (Galarian) (Zen)")
+        .replace("Tornadus", "Tornadus (Incarnate)")
+        .replace("Tornadus (Incarnate) Therian", "Tornadus (Therian)")
+        .replace("Thundurus", "Thundurus (Incarnate)")
+        .replace("Thundurus (Incarnate) Therian", "Thundurus (Therian)")
+        .replace("Landorus", "Landorus (Incarnate)")
+        .replace("Landorus (Incarnate) Therian", "Landorus (Therian)")
+        .replace("Keldeo", "Keldeo (Ordinary)")
+        .replace("Keldeo Resolute", "Keldeo (Resolute)")
+        .replace("Kyurem Black", "Kyurem (Black)")
+        .replace("Kyurem White", "Kyurem (White)")
+        .replace("Meloetta Aria", "Meloetta (Aria)")
+        .replace("Meloetta Pirouette", "Meloetta (Pirouette)")
+        .replace("Genesect Burn", "Genesect (Burn)")
+        .replace("Genesect Chill", "Genesect (Chill)")
+        .replace("Genesect Douse", "Genesect (Douse)")
+        .replace("Genesect Shock", "Genesect (Shock)")
+        .replace("Meowstic Female", "Meowstic (Female)")
+        .replace("Pumpkaboo Average", "Pumpkaboo (Average)")
+        .replace("Pumpkaboo Large", "Pumpkaboo (Large)")
+        .replace("Pumpkaboo Super", "Pumpkaboo (Super)")
+        .replace("Gourgeist Average", "Gourgeist (Average)")
+        .replace("Gourgeist Large", "Gourgeist (Large)")
+        .replace("Gourgeist Super", "Gourgeist (Super)")
+        .replace("Zygarde", "Zygarde (50%)")
+        .replace("Zygarde (50%) Complete", "Zygarde (Complete)")
+        .replace("Zygarde (Complete) Ten Percent", "Zygarde (10%)")
+        .replace("Hoopa Unbound", "Hoopa (Unbound)")
+        .replace("Oricorio", "Oricorio (Baile)")
+        .replace("Oricorio (Baile) Pompom", "Oricorio (Pom-Pom)")
+        .replace("Oricorio (Baile) Pau", "Oricorio (Pa'u)")
+        .replace("Oricorio (Baile) Sensu", "Oricorio (Sensu)")
+        .replace("Lycanroc", "Lycanroc (Midday)")
+        .replace("Lycanroc (Midday) Dusk", "Lycanroc (Dusk)")
+        .replace("Lycanroc (Midday) Midnight", "Lycanroc (Midnight)")
+        .replace("Wishiwashi", "Wishiwashi (Solo)")
+        .replace("Wishiwashi (Solo) School", "Wishiwashi (School)")
+        .replace("Type Null", "Type: Null")
+        .replace("Silvally Bug", "Silvally (Bug)")
+        .replace("Silvally Dark", "Silvally (Dark)")
+        .replace("Silvally Dragon", "Silvally (Dragon)")
+        .replace("Silvally Electric", "Silvally (Electric)")
+        .replace("Silvally Fairy", "Silvally (Fairy)")
+        .replace("Silvally Fighting", "Silvally (Fighting)")
+        .replace("Silvally Fire", "Silvally (Fire)")
+        .replace("Silvally Flying", "Silvally (Flying)")
+        .replace("Silvally Ghost", "Silvally (Ghost)")
+        .replace("Silvally Grass", "Silvally (Grass)")
+        .replace("Silvally Ground", "Silvally (Ground)")
+        .replace("Silvally Ice", "Silvally (Ice)")
+        .replace("Silvally Poison", "Silvally (Poison)")
+        .replace("Silvally Psychic", "Silvally (Psychic)")
+        .replace("Silvally Rock", "Silvally (Rock)")
+        .replace("Silvally Steel", "Silvally (Steel)")
+        .replace("Silvally Water", "Silvally (Water)")
+        .replace("Necrozma Dawn Wings", "Necrozma (Dawn Wings)")
+        .replace("Necrozma Dusk Mane", "Necrozma (Dusk Mane)")
+        .replace("Necrozma Ultra", "Necrozma (Ultra)")
+        .replace("Mr Rime", "Mr. Rime")
+        .replace("Eiscue", "Eiscue (Ice Face)")
+        .replace("Eiscue (Ice Face) Noice", "Eiscue (No Ice Face)")
+        .replace("Indeedee", "Indeedee (Male)")
+        .replace("Indeedee (Male) Female", "Indeedee (Female)")
+        .replace("Morpeko", "Morpeko (Full Belly)")
+        .replace("Morpeko (Full Belly) Hangry", "Morpeko (Hangry)")
+        .replace("Zacian Crowned Sword", "Zacian (Crowned Sword)")
+        .replace("Zacian Hero", "Zacian (Hero of Many Battles)")
+        .replace("Zamazenta Crowned Shield", "Zamazenta (Crowned Shield)")
+        .replace("Zamazenta Hero", "Zamazenta (Hero of Many Battles)")
+        .replace("Eternatus Eternamax", "Eternatus (Eternamax)")
+        .replace("Urshifu Single Strike", "Urshifu (Single Strike)")
+        .replace("Urshifu Rapid Strike", "Urshifu (Rapid Strike)")
+        .replace("Calyrex Ice Rider", "Calyrex (Ice Rider)")
+        .replace("Calyrex Shadow Rider", "Calyrex (Shadow Rider)")
+        .replace("Enamorus", "Enamorus (Incarnate)")
+        .replace("Enamorus Therian", "Enamorus (Therian)")
+        .replace("Oinkologne", "Oinkologne (Male)")
+        .replace("Oinkologne (Male) Female", "Oinkologne (Female)")
+        .replace("Greattusk", "Great Tusk")
+        .replace("Screamtail", "Scream Tail")
+        .replace("Brutebonnet", "Brute Bonnet")
+        .replace("Fluttermane", "Flutter Mane")
+        .replace("Slitherwing", "Slither Wing")
+        .replace("Sandyshocks", "Sandy Shocks")
+        .replace("Irontreads", "Iron Treads")
+        .replace("Ironbundle", "Iron Bundle")
+        .replace("Ironhands", "Iron Hands")
+        .replace("Ironjugulis", "Iron Jugulis")
+        .replace("Ironmoth", "Iron Moth")
+        .replace("Ironthorns", "Iron Thorns")
+        .replace("Wochien", "Wo-Chein")
+        .replace("Chienpao", "Chien-Pao")
+        .replace("Tinglu", "Ting-Lu")
+        .replace("Chiyu", "Chi-Yu")
+        .replace("Roaringmoon", "Roaring Moon")
+        .replace("Ironvaliant", "Iron Valiant")
+    )
+
+    return final_string
 
 
 def get_pokemon_showdown_id(original_id):
@@ -576,8 +744,8 @@ def update():
     # remove "HIDDEN_POWER_FAST"
     hidden_power = moves_json.pop("HIDDEN_POWER_FAST")
     uuid = 600
-    hidden_power_types =  ["BUG", "DARK", "DRAGON", "ELECTRIC", "FIGHTING", "FIRE", "FLYING", "GHOST", "GRASS",
-                           "GROUND", "ICE", "POISON", "PSYCHIC", "ROCK", "STEEL", "WATER"]
+    hidden_power_types = ["BUG", "DARK", "DRAGON", "ELECTRIC", "FIGHTING", "FIRE", "FLYING", "GHOST", "GRASS",
+                          "GROUND", "ICE", "POISON", "PSYCHIC", "ROCK", "STEEL", "WATER"]
     for pokemon_type in hidden_power_types:
         new_move = hidden_power.copy()
         new_move["uniqueId"] = f"HIDDEN_POWER_{pokemon_type}"
@@ -601,5 +769,14 @@ def update():
         json.dump(pokemon_json, f, indent=4)
 
 
+def print_pokemon():
+    with open("pokemon.json", "r") as f:
+        data = json.load(f)
+
+    for pokemon in data:
+        if "_" in pokemon and "MEGA" not in pokemon and "ALOLA" not in pokemon and "GALARIAN" not in pokemon:
+            print(f"{pokemon} ({data[pokemon]['display_name']})")
+
 if __name__ == "__main__":
     update()
+    # print_pokemon()
