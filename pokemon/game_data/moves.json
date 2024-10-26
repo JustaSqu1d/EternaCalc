@@ -3266,6 +3266,20 @@
         "displayName": "Sparkling Aria",
         "usageType": "charge"
     },
+    "RAGE_FIST": {
+        "uniqueId": "RAGE_FIST",
+        "type": "POKEMON_TYPE_GHOST",
+        "power": 50.0,
+        "energyDelta": 35,
+        "buffs": {
+            "attackerAttackStatStageChange": 1,
+            "buffActivationChance": 1.0
+        },
+        "turns": 0,
+        "uuid": 464,
+        "displayName": "Rage Fist",
+        "usageType": "charge"
+    },
     "HIDDEN_POWER_BUG": {
         "uniqueId": "HIDDEN_POWER_BUG",
         "type": "POKEMON_TYPE_BUG",
