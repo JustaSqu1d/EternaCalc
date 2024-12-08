@@ -132,7 +132,7 @@
     "ICE_PUNCH": {
         "uniqueId": "ICE_PUNCH",
         "type": "POKEMON_TYPE_ICE",
-        "power": 55.0,
+        "power": 60.0,
         "energyDelta": 40,
         "turns": 0,
         "uuid": 33,
@@ -496,7 +496,7 @@
     "THUNDER_PUNCH": {
         "uniqueId": "THUNDER_PUNCH",
         "type": "POKEMON_TYPE_ELECTRIC",
-        "power": 55.0,
+        "power": 60.0,
         "energyDelta": 40,
         "turns": 0,
         "uuid": 77,
@@ -664,8 +664,12 @@
     "BULLDOZE": {
         "uniqueId": "BULLDOZE",
         "type": "POKEMON_TYPE_GROUND",
-        "power": 80.0,
-        "energyDelta": 60,
+        "power": 45.0,
+        "energyDelta": 45,
+        "buffs": {
+            "targetDefenseStatStageChange": -1,
+            "buffActivationChance": 0.5
+        },
         "turns": 0,
         "uuid": 95,
         "displayName": "Bulldoze",
@@ -835,7 +839,7 @@
     "FIRE_PUNCH": {
         "uniqueId": "FIRE_PUNCH",
         "type": "POKEMON_TYPE_FIRE",
-        "power": 55.0,
+        "power": 60.0,
         "energyDelta": 40,
         "turns": 0,
         "uuid": 115,
@@ -1069,7 +1073,7 @@
     "THUNDER_SHOCK_FAST": {
         "uniqueId": "THUNDER_SHOCK_FAST",
         "type": "POKEMON_TYPE_ELECTRIC",
-        "power": 3.0,
+        "power": 4.0,
         "energyDelta": 9,
         "turns": 2,
         "uuid": 205,
@@ -1420,7 +1424,7 @@
         "uniqueId": "FIRE_FANG_FAST",
         "type": "POKEMON_TYPE_FIRE",
         "power": 8.0,
-        "energyDelta": 5,
+        "energyDelta": 6,
         "turns": 2,
         "uuid": 240,
         "displayName": "Fire Fang",
@@ -2356,7 +2360,7 @@
         "uniqueId": "THUNDER_FANG_FAST",
         "type": "POKEMON_TYPE_ELECTRIC",
         "power": 8.0,
-        "energyDelta": 5,
+        "energyDelta": 6,
         "turns": 2,
         "uuid": 326,
         "displayName": "Thunder Fang",
@@ -2366,7 +2370,7 @@
         "uniqueId": "ICE_FANG_FAST",
         "type": "POKEMON_TYPE_ICE",
         "power": 8.0,
-        "energyDelta": 5,
+        "energyDelta": 6,
         "turns": 2,
         "uuid": 327,
         "displayName": "Ice Fang",

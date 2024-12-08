@@ -2379,7 +2379,8 @@
             "CROSS_CHOP",
             "ICE_PUNCH",
             "LOW_SWEEP",
-            "NIGHT_SLASH"
+            "NIGHT_SLASH",
+            "RAGE_FIST"
         ],
         "pokedex_number": 57,
         "form_number": 0,
@@ -4889,6 +4890,7 @@
         "base_defense": 184,
         "base_hp": 155,
         "fast_move_pool": [
+            "PSYWAVE_FAST",
             "TACKLE_FAST",
             "WATER_GUN_FAST",
             "HIDDEN_POWER_BUG",
@@ -4914,6 +4916,7 @@
             "POWER_GEM",
             "PSYBEAM",
             "PSYCHIC",
+            "SURF",
             "THUNDER"
         ],
         "pokedex_number": 121,
@@ -14399,6 +14402,7 @@
         "base_defense": 119,
         "base_hp": 188,
         "fast_move_pool": [
+            "ROLLOUT_FAST",
             "TAKE_DOWN_FAST",
             "WATER_GUN_FAST"
         ],
@@ -16725,6 +16729,7 @@
         "base_hp": 181,
         "fast_move_pool": [
             "FURY_CUTTER_FAST",
+            "SAND_ATTACK_FAST",
             "WING_ATTACK_FAST"
         ],
         "charged_move_pool": [
@@ -16845,6 +16850,36 @@
         "pokemon_category": [
             "POKEMON_CLASS_REGULAR",
             "POKEMON_CLASS_SHADOW_ELIGIBLE"
+        ]
+    },
+    "MEGA_GALLADE": {
+        "name": "MEGA_GALLADE",
+        "species": "GALLADE",
+        "display_name": "Mega Gallade",
+        "showdown_id": "mega-gallade",
+        "types": [
+            "POKEMON_TYPE_PSYCHIC",
+            "POKEMON_TYPE_FIGHTING"
+        ],
+        "base_attack": 326,
+        "base_defense": 230,
+        "base_hp": 169,
+        "fast_move_pool": [
+            "CHARM_FAST",
+            "CONFUSION_FAST",
+            "LOW_KICK_FAST",
+            "PSYCHO_CUT_FAST"
+        ],
+        "charged_move_pool": [
+            "CLOSE_COMBAT",
+            "LEAF_BLADE",
+            "PSYCHIC",
+            "SYNCHRONOISE"
+        ],
+        "pokedex_number": 475,
+        "form_number": 1,
+        "pokemon_category": [
+            "POKEMON_CLASS_MEGA"
         ]
     },
     "PROBOPASS": {
@@ -24283,6 +24318,7 @@
         ],
         "charged_move_pool": [
             "AQUA_TAIL",
+            "FOCUS_BLAST",
             "GUNK_SHOT",
             "HYDRO_PUMP",
             "OUTRAGE"
@@ -33658,6 +33694,7 @@
             "ICE_PUNCH",
             "LOW_SWEEP",
             "NIGHT_SLASH",
+            "RAGE_FIST",
             "SHADOW_BALL"
         ],
         "pokedex_number": 979,
